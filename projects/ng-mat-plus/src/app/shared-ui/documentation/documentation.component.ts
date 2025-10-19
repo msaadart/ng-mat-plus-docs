@@ -30,11 +30,11 @@ import { ExampleComponent } from './example/example.component';
             {{ displayDate }}
           </span>
           <span class="w-1 h-1 bg-gray-500 rounded-full inline-block"></span>
-          <a
-            href="https://ihhn-library-50c77.web.app/"
+         <!-- <a
+            href=""
             target="_blank"
             class="text-blue-400 hover:underline flex items-center"
-          >
+          ></a> -->
             <img
               src="/images/verified-badge.svg"
               alt="verified-badge"
@@ -42,7 +42,7 @@ import { ExampleComponent } from './example/example.component';
               [ngClass]="{'filter invert': $themeService.isDarkTheme()}"
             />
             ng-mat-plus
-          </a>
+          
         </p>
       </div>
       <div class="flex flex-col items-start justify-between">

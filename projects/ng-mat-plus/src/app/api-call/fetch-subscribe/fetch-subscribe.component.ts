@@ -6,7 +6,6 @@ import {
   signal,
   WritableSignal,
 } from '@angular/core';
-import { LibStatePermissionsService } from 'ng-mat-plus/permissions';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import {
@@ -475,7 +474,6 @@ export class FetchSubscribeComponent {
   // Region: Dependency Injection
   private $httpService = inject(LibHttpService);
   private $encryptDecrypt = inject(LibEncryptDecryptService);
-  readonly $permission = inject(LibStatePermissionsService);
 
   // Region: Signals
   readonly status = this.$httpService.status;
