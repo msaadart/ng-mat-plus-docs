@@ -794,7 +794,7 @@ export class FetchSubscribeDocComponent {
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
   fetchSubscribeComponent = FetchSubscribeComponent;
-  publishedDate = '2025-06-05';
+  publishedDate = '2025-11-08';
   title = 'Fetch & Subscribe API Management Component';
 
   htmlCode = `

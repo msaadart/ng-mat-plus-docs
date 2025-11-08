@@ -242,7 +242,7 @@ export class NumberInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   numberComponent = NumberInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Number Input Component';
 
   htmlCode = `

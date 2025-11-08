@@ -239,7 +239,7 @@ export class MonthPickerDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   monthPickerComponent = MonthInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Month Picker Component';
 
   htmlCode = `

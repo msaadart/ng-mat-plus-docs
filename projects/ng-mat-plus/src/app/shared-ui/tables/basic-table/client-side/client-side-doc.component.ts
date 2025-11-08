@@ -14,7 +14,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   imports: [DocumentationComponent, CodeViewerComponent],
   template: `
   <app-documentation 
-  [publishedDate]="'2025-05-21'" 
+  [publishedDate]="'2025-11-08'" 
   [title]="title"
   [htmlCode]="htmlCode"
   [component]="clientSideTableComponent" 
@@ -229,7 +229,7 @@ export class ClientSideDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   clientSideTableComponent = ClientSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Basic Table (Client-Side)';
 
   htmlCode = `

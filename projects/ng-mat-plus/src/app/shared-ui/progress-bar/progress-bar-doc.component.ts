@@ -241,7 +241,7 @@ export class ProgressBarDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   progressBarComponent = ProgressBarComponent;
-  publishedDate = '2025-06-03';
+  publishedDate = '2025-11-08';
   title = 'Progress Bar Component';
 
   htmlCode = `

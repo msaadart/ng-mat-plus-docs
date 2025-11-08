@@ -235,7 +235,7 @@ export class SelectInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   selectComponent = SelectInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Select Input Component';
 
   htmlCode = `

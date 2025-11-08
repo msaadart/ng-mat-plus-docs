@@ -222,7 +222,7 @@ export class DatePickerDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   datePickerComponent = DatePickerInputComponent;
-  publishedDate = '2025-05-21';
+publishedDate = '2025-11-08';
   title = 'Date Picker Input Component';
 
   htmlCode = `

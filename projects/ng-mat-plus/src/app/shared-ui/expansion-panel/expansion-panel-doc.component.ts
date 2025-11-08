@@ -235,7 +235,7 @@ export class ExpansionPanelDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   expansionPanelComponent = ExpansionPanelStoryComponent;
-  publishedDate = '2025-07-18';
+publishedDate = '2025-11-08';
   title = 'Expansion Panel Component';
 
   htmlCode = `

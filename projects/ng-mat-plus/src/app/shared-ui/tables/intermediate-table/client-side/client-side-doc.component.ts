@@ -234,7 +234,7 @@ editRow(row: User) {
 }`;
 
   clientSideTableComponent = ClientSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Intermediate Table (Client-Side)';
 
   htmlCode = `

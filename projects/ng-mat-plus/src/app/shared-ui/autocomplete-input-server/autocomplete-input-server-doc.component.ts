@@ -771,7 +771,7 @@ export class AutocompleteServerInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   autocompleteServerComponent = AutocompleteServerInputComponent;
-  publishedDate = '2025-05-21';
+ publishedDate = '2025-11-08';
   title = 'Server-Side Autocomplete Component';
 
   htmlCode = `

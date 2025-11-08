@@ -237,7 +237,7 @@ export class MultiSelectInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   multiSelectComponent = MultiSelectInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Multi-Select Input Component';
 
   htmlCode = `

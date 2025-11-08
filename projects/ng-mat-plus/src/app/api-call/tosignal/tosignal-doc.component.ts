@@ -505,7 +505,7 @@ export class ToSignalDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   toSignalComponent = ToSignalComponent;
-  publishedDate = '2025-06-05';
+  publishedDate = '2025-11-08';
   title = 'ToSignal API Management Component';
 
   htmlCode = `

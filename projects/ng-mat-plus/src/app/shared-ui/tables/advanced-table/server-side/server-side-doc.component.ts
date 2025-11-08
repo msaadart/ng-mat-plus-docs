@@ -212,7 +212,7 @@ export class ServerSideDocComponent {
   useCasesContent!: TemplateRef<any>;
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   serverSideTableComponent = ServerSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Advanced Table (Server Side)';
   htmlCode = `
     <div class="rounded-xl shadow border border-gray-200 bg-white p-4">

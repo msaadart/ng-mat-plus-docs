@@ -246,7 +246,7 @@ export class SearchInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   searchInputComponent = SearchInputComponent;
-  publishedDate = '2025-06-03';
+  publishedDate = '2025-11-08';
   title = 'Search Input Component';
 
   htmlCode = `

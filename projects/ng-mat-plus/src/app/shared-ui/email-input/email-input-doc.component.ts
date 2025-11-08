@@ -225,7 +225,7 @@ export class EmailInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   emailInputComponent = EmailInputComponent;
-  publishedDate = '2025-05-21';
+publishedDate = '2025-11-08';
   title = 'Email Input Component';
 
   htmlCode = `

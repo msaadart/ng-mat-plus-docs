@@ -237,7 +237,7 @@ export class ArrayFormDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   arrayFormComponent = ArrayFormComponent;
-  publishedDate = '2025-06-03';
+ publishedDate = '2025-11-08';
   title = 'Dynamic Array Form Component';
 
   htmlCode = `

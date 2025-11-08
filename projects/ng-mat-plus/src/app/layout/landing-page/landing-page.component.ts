@@ -61,7 +61,7 @@ import { MatCardModule } from '@angular/material/card';
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
               </span>
-              <span>v2.0 Now Available</span>
+              <span>v0.0.2 Now Available</span>
               <mat-icon class="text-base animate-bounce-horizontal">arrow_forward</mat-icon>
             </div>
           </div>
@@ -123,7 +123,7 @@ import { MatCardModule } from '@angular/material/card';
           </div>
 
           <!-- Stats with Animated Cards -->
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-4xl mx-auto animate-fade-in-up animation-delay-500">
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto animate-fade-in-up animation-delay-500">
             <div class="stat-card group">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">widgets</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="50">50+</div>
@@ -142,11 +142,11 @@ import { MatCardModule } from '@angular/material/card';
               <div class="text-white/80 text-xs md:text-sm font-medium">Performance</div>
             </div>
             
-            <div class="stat-card group animation-delay-300">
+            <!-- <div class="stat-card group animation-delay-300">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">cloud_download</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="10">10k+</div>
               <div class="text-white/80 text-xs md:text-sm font-medium">Downloads</div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -463,7 +463,7 @@ import { MatCardModule } from '@angular/material/card';
                       <mat-icon class="text-base text-gray-400">code</mat-icon>
                     </h3>
                     <p class="text-sm text-gray-600 mb-3">Import components directly in your Angular modules or standalone components</p>
-                    <div class="bg-white rounded-xl border-2 border-gray-200 overflow-hidden shadow-sm hover:border-indigo-300 transition-colors">
+                    <div >
                       <app-code-viewer [code]="exampleUsageCode"></app-code-viewer>
                     </div>
                   </div>
@@ -513,10 +513,10 @@ import { MatCardModule } from '@angular/material/card';
                   <li>
                     <a href="#" class="text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group/link">
                       <mat-icon class="text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</mat-icon>
-                      <span class="group-hover/link:underline">API Documentation</span>
+                      <span class="group-hover/link:underline">Documentation</span>
                     </a>
                   </li>
-                  <li>
+                  <!-- <li>
                     <a href="#" class="text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group/link">
                       <mat-icon class="text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</mat-icon>
                       <span class="group-hover/link:underline">Example Projects</span>
@@ -527,7 +527,7 @@ import { MatCardModule } from '@angular/material/card';
                       <mat-icon class="text-sm group-hover/link:translate-x-1 transition-transform">arrow_forward</mat-icon>
                       <span class="group-hover/link:underline">GitHub Repository</span>
                     </a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
 
@@ -536,7 +536,7 @@ import { MatCardModule } from '@angular/material/card';
                   <span class="text-sm opacity-75">Current Version</span>
                   <mat-icon class="text-green-400 animate-pulse">verified</mat-icon>
                 </div>
-                <div class="text-3xl font-bold">v2.0.0</div>
+                <div class="text-3xl font-bold">v0.0.2</div>
                 <div class="text-xs opacity-75 mt-1">Latest stable release</div>
               </div>
             </aside>
@@ -1005,7 +1005,8 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Material form fields with validation, hints and reactive form support.',
             category: 'Forms',
             icon: 'text_fields',
-            link: ['/components/form-field'],
+            link: ['/components/form-fields/text-field'],
+            
         },
         {
             title: 'Buttons',
@@ -1013,7 +1014,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Raised, flat, stroked and FAB buttons with ripple and color variants.',
             category: 'Actions',
             icon: 'smart_button',
-            link: ['/components/button'],
+            link: ['/components/all-buttons'],
         },
         {
             title: 'Loader',
@@ -1021,7 +1022,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Circular and linear loaders for async operations and visual feedback.',
             category: 'Feedback',
             icon: 'autorenew',
-            link: ['/components/progress-spinner'],
+            link: ['/components/loader'],
         },
         {
             title: 'Paginator',
@@ -1037,7 +1038,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Responsive modal dialogs with animations and flexible configurations.',
             category: 'Overlay',
             icon: 'open_in_new',
-            link: ['/components/dialog'],
+            link: ['/components/modals'],
         },
         {
             title: 'Tooltip',
@@ -1053,7 +1054,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Expandable panels to show and hide related content efficiently.',
             category: 'Layout',
             icon: 'unfold_more',
-            link: ['/components/expansion'],
+            link: ['/components/expansion-panel'],
         },
         {
             title: 'Search',
@@ -1069,7 +1070,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Switch between content views using accessible tab navigation.',
             category: 'Navigation',
             icon: 'tab',
-            link: ['/components/tabs'],
+            link: ['/components/tab/first'],
         },
         {
             title: 'Theming & Variables',
@@ -1077,7 +1078,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Customize palettes, dark mode, and typography using tokens and variables.',
             category: 'Styling',
             icon: 'palette',
-            link: ['/guides/theming'],
+            link: ['/theming/typography-color'],
         },
         {
             title: 'Card List',
@@ -1087,14 +1088,14 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             icon: 'view_module',
             link: ['/components/card'],
         },
-        {
-            title: 'Layouts',
-            short: 'Flexible containers',
-            description: 'Responsive grid and flex utilities for adaptive layouts.',
-            category: 'Structure',
-            icon: 'dashboard_customize',
-            link: ['/components/grid-list'],
-        },
+        // {
+        //     title: 'Layouts',
+        //     short: 'Flexible containers',
+        //     description: 'Responsive grid and flex utilities for adaptive layouts.',
+        //     category: 'Structure',
+        //     icon: 'dashboard_customize',
+        //     link: ['/components/grid-list'],
+        // },
         {
             title: 'Service Classes',
             short: 'Reusable logic layers',
@@ -1109,7 +1110,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Interactive WYSIWYG editor with formatting, images, and markdown support.',
             category: 'Input',
             icon: 'edit_note',
-            link: ['/components/editor'],
+            link: ['/components/content-editor'],
         },
         {
             title: 'Side Menu',
@@ -1117,7 +1118,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
             description: 'Collapsible side menu for app-wide navigation with nested items.',
             category: 'Navigation',
             icon: 'menu_open',
-            link: ['/components/sidenav'],
+            link: ['/components/sidepanel'],
         },
     ];
 

@@ -119,6 +119,7 @@
       { "label": "Card", "route": "components/list/card", "icon": "cards_star" }
     ]
   },
+  
   {
     "icon": "hourglass_top",
     "label": "Loader",

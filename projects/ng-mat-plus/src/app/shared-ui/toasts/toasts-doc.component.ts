@@ -229,7 +229,7 @@ export class ToastsDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   toastsComponent = ToastsComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Toast Notifications Service';
 
   htmlCode = `

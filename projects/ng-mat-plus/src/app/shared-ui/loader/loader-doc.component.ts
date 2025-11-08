@@ -231,7 +231,7 @@ export class LoaderDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   loaderComponent = LoaderComponent;
-  publishedDate = '2025-06-03';
+publishedDate = '2025-11-08';
   title = 'Loader Component';
 
   htmlCode = `
