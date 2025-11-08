@@ -487,6 +487,23 @@ import { MatCardModule } from '@angular/material/card';
                   </div>
                 </div>
               </div>
+              <div class="group">
+                <div class="flex items-start gap-4">
+                  <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-transform">
+                    3
+                  </div>
+                  <div class="flex-1">
+                    <h3 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
+                      Add Styles
+                      <mat-icon class="text-base text-gray-400">integration_instructions</mat-icon>
+                    </h3>
+                    <p class="text-sm text-gray-600 mb-3">Include styles.scss in your angular.json</p>
+                    <div class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
+                      <code class="whitespace-pre">projects/ng-mat-plus/src/styles.scss</code>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <aside class="space-y-4">
