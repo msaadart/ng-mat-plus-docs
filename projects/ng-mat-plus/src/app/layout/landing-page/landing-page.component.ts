@@ -304,7 +304,7 @@ import { MatCardModule } from '@angular/material/card';
       </div>
 
       <div class="relative max-w-7xl mx-auto">
-        <div class="overflow-hidden pb-4">
+        <div class="overflow-hidden pb-4 pt-4">
           <div class="transition-all duration-500 ease-in-out"
                [style.transform]="'translateX(' + (-currentIndex * 100) + '%)'">
             <div class="flex">
