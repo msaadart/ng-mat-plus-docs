@@ -66,7 +66,7 @@ import { ExampleComponent } from './example/example.component';
 
   <!-- Meta Info -->
   <div class="flex flex-wrap items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-    <!-- Published Date -->
+    <!-- Published Date 
     <div
       class="flex items-center gap-2 px-3 py-1 rounded-md border transition-colors duration-200"
       [ngClass]="{
@@ -87,11 +87,11 @@ import { ExampleComponent } from './example/example.component';
         }"
       >
         {{ displayDate }}
-      </span>
-    </div>
+      </span> 
+    </div> -->
 
-    <!-- Divider -->
-    <div class="w-1 h-1 rounded-full bg-gray-400 dark:bg-gray-600"></div>
+    <!-- Divider 
+    <div class="w-1 h-1 rounded-full bg-gray-400 dark:bg-gray-600"></div>-->
 
     <!-- Verified Badge -->
     <div

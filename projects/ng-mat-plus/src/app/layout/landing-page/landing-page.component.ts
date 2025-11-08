@@ -123,18 +123,18 @@ import { MatCardModule } from '@angular/material/card';
           </div>
 
           <!-- Stats with Animated Cards -->
-          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto animate-fade-in-up animation-delay-500">
+          <div class="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto animate-fade-in-up animation-delay-500">
             <div class="stat-card group">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">widgets</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="50">50+</div>
               <div class="text-white/80 text-xs md:text-sm font-medium">Components</div>
             </div>
             
-            <div class="stat-card group animation-delay-100">
+           <!-- <div class="stat-card group animation-delay-100">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">accessibility</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="100">100%</div>
               <div class="text-white/80 text-xs md:text-sm font-medium">Accessible</div>
-            </div>
+            </div> -->
             
             <div class="stat-card group animation-delay-200">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">speed</mat-icon>
@@ -490,7 +490,7 @@ import { MatCardModule } from '@angular/material/card';
               <div class="group">
                 <div class="flex items-start gap-4">
                   <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-transform">
-                    3
+                    4
                   </div>
                   <div class="flex-1">
                     <h3 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
@@ -504,6 +504,30 @@ import { MatCardModule } from '@angular/material/card';
                   </div>
                 </div>
               </div>
+              <div class="flex items-start gap-4">
+    <div
+      class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-transform">
+      5
+    </div>
+    <div class="flex-1">
+      <h3 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
+        Add Peer Dependencies
+        <mat-icon class="text-base text-gray-400">library_add_check</mat-icon>
+      </h3>
+      <p class="text-sm text-gray-600 mb-3">Add the following dependencies to your <code>package.json</code> under
+        <code>peerDependencies</code>.</p>
+      <div
+        class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
+        <code class="whitespace-pre">
+"peerDependencies":
+  "@angular/common": "^20.2.0",
+  "@angular/core": "^20.2.0",
+  "@angular/material": "^20.2.0"
+
+        </code>
+      </div>
+    </div>
+  </div>
             </div>
 
             <aside class="space-y-4">
