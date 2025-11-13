@@ -231,7 +231,7 @@ export class UrlDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   urlComponent = UrlInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'URL Input Component';
 
   htmlCode = `

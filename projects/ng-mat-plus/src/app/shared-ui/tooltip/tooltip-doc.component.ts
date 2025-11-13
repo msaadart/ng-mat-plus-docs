@@ -233,7 +233,7 @@ export class TooltipDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   tooltipComponent = TooltipComponent;
-  publishedDate = '2025-07-18';
+ publishedDate = '2025-11-08';
   title = 'Tooltip Component';
 
   htmlCode = `

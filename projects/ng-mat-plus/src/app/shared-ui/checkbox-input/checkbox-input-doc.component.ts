@@ -221,7 +221,7 @@ export class CheckboxInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   checkboxComponent = CheckboxInputComponent;
-  publishedDate = '2025-05-21';
+publishedDate = '2025-11-08';
   title = 'Checkbox Component';
 
   htmlCode = `

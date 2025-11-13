@@ -13,7 +13,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   imports: [DocumentationComponent, CodeViewerComponent],
   template:`
   <app-documentation 
-  [publishedDate]="'2025-05-21'" 
+  [publishedDate]="'2025-11-08'" 
   [title]="'Basic Table (Server-Side)'"
   [htmlCode]="htmlCode"
   [component]="serverSideTableComponent" 
@@ -216,7 +216,7 @@ export class ServerSideDocComponent {
   useCasesContent!: TemplateRef<any>;
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   serverSideTableComponent = ServerSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Basic Table (Server Side)';
   htmlCode = `
     <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>

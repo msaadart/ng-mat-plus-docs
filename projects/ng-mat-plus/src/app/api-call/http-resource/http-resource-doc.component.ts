@@ -493,7 +493,7 @@ export class ResourceDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   resourseComponent = ResourseComponent;
-  publishedDate = '2025-06-05';
+  publishedDate = '2025-11-08';
   title = 'HTTP Resource Management Component';
 
   htmlCode = `

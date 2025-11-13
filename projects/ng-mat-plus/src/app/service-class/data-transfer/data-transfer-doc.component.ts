@@ -252,7 +252,7 @@ export class DataTransferDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   dataTransferComponent = DataTransferComponent;
-  publishedDate = '2025-06-03';
+  publishedDate = '2025-11-08';
   title = 'Data Transfer Service';
 
   htmlCode = `

@@ -269,7 +269,7 @@ export class DynamicObjectFormDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   dynamicFormComponent = DynamicObjectFormComponent;
-  publishedDate = '2025-06-03';
+ publishedDate = '2025-11-08';
   title = 'Dynamic Object Form Component';
 
   htmlCode = `

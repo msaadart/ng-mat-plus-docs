@@ -106,7 +106,7 @@ export class CardDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   cardComponent = CardComponent;
-  publishedDate = '2023-11-20';
+ publishedDate = '2025-11-08';
   title = 'Card Component';
 
   htmlCode = `

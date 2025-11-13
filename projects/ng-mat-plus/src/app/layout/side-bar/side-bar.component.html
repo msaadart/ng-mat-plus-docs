@@ -1,122 +1,181 @@
 <aside
-  class="h-screen flex flex-col transition-all duration-300 border-r select-none w-[240px] data-[collapsed=true]:w-[60px]"
-  [ngClass]="{'bg-slate-900 text-slate-100 border-slate-700': $themeService.isDarkTheme(), 'bg-white text-gray-800 border-gray-100': !$themeService.isDarkTheme()}"
+  class="h-screen flex flex-col transition-all duration-300 select-none w-[240px] data-[collapsed=true]:w-[60px] relative"
+  [ngClass]="{'bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-slate-100': $themeService.isDarkTheme(), 'bg-gradient-to-br from-white via-purple-50/20 to-white text-gray-800': !$themeService.isDarkTheme()}"
   [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen" (click)="handleSidebarClick($event)">
+  
+  <!-- Subtle gradient border -->
+  <div class="absolute top-0 right-0 bottom-0 w-[1px] bg-gradient-to-b from-transparent via-purple-500/30 to-transparent"></div>
+  
   <!-- Header -->
   <div
-  class="flex items-center justify-center border-b py-3 data-[collapsed=true]:p-2"
-  [ngClass]="{
-    'border-gray-700': $themeService.isDarkTheme(),
-    'border-gray-100': !$themeService.isDarkTheme()
-  }"
->
-  <div class="flex items-center gap-3 transition-all duration-300 relative">
-    <a
-      [routerLink]="['/']"
-      class="absolute inset-0 focus:outline-none"
-      tabindex="-1"
-    ></a>
+    class="flex items-center justify-center border-b py-3 data-[collapsed=true]:p-2 backdrop-blur-sm relative z-10"
+    [ngClass]="{
+      'border-purple-800/30': $themeService.isDarkTheme(),
+      'border-purple-200/30': !$themeService.isDarkTheme()
+    }"
+  >
+    <div class="flex items-center gap-3 transition-all duration-300 relative">
+      <a
+        [routerLink]="['/']"
+        class="absolute inset-0 focus:outline-none"
+        tabindex="-1"
+      ></a>
 
-    <!-- Logo -->
-    <img
-      src="/images/ng-mat-plus.png"
-      alt="ng-mat-plus Logo"
-      class="w-[40px] max-w-[60px] data-[collapsed=true]:w-[30px] data-[collapsed=true]:max-w-[40px] select-none"
-      [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
-    />
+      <!-- Logo -->
+      <img
+        src="/images/ng-mat-plus.png"
+        alt="ng-mat-plus Logo"
+        class="w-[40px] max-w-[60px] data-[collapsed=true]:w-[30px] data-[collapsed=true]:max-w-[40px] select-none transition-all duration-300 relative z-10"
+        [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
+      />
 
-    <!-- Text (shown only when sidebar open or mobile) -->
-    @if (isSidebarOpen || isMobileScreen) {
-      <span
-        class="font-medium text-[16px] whitespace-nowrap"
-        [ngClass]="{
-          'text-red-300': $themeService.isDarkTheme(),
-          'text-red-700': !$themeService.isDarkTheme()
-        }"
-      >
-        ng-mat-plus
-      </span>
-    }
+      <!-- Text -->
+      @if (isSidebarOpen || isMobileScreen) {
+        <span
+          class="font-semibold text-[16px] whitespace-nowrap bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent"
+        >
+          ng-mat-plus
+        </span>
+      }
+    </div>
   </div>
-</div>
 
   <!-- Menu Items -->
-  <nav class="flex-1 overflow-y-auto py-2 scrollbar-thin">
+  <nav class="flex-1 overflow-y-auto py-2 px-2 scrollbar-thin relative z-10">
     <ul class="space-y-1 overflow-x-hidden">
       @for (item of menuItems; track item.label; let i = $index) {
       <ng-container>
         <li class="relative" (mouseenter)="!isMobileScreen && setHoveredItem(item.label, i)"
           (mouseleave)="!isMobileScreen && setHoveredItem(null, i)"
           (click)="isMobileScreen && handleMobileClick(item, i, $event)" [attr.data-item]="item.label + '-' + i">
-          <a [routerLink]="item.route" [ngClass]="{
-               'bg-gray-800 font-medium text-white': $themeService.isDarkTheme() && router.isActive(item.route ?? '', false),
-               'bg-blue-50 font-medium text-blue-700': !$themeService.isDarkTheme() && router.isActive(item.route ?? '', false),
-               'border-l-4 border-blue-500': router.isActive(item.route ?? '', false),
-               'hover:bg-slate-800 hover:text-white': $themeService.isDarkTheme(),
-               'hover:bg-blue-50 hover:text-blue-700': !$themeService.isDarkTheme()
-             }" class="flex items-center px-3 py-2 text-sm transition-colors duration-200"
-            [class.justify-center]="!isSidebarOpen && !isMobileScreen" (click)="handleItemClick(item, $event)">
-            <span class="material-icons" [style.color]="item.color || ($themeService.isDarkTheme() ? '#93c5fd' : '#1d4ed8')">{{ item.icon
-              || 'dashboard' }}</span>
+          
+          <a [routerLink]="item.route" 
+            class="flex items-center px-3 py-2 text-sm rounded-lg relative"
+            [class.justify-center]="!isSidebarOpen && !isMobileScreen"
+            [ngClass]="{
+              'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-md font-medium': item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'}),
+              'text-purple-200': $themeService.isDarkTheme() && !(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'})),
+              'text-gray-700': !$themeService.isDarkTheme() && !(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'}))
+            }" 
+            (click)="handleItemClick(item, $event)"
+            routerLinkActive="active-link">
+            
+            <!-- Icon -->
+                          <span class="material-icons text-[20px]" 
+              [style.color]="(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'})) ? '#ffffff' : (item.color || ($themeService.isDarkTheme() ? '#c084fc' : '#a855f7'))">
+              {{ item.icon || 'dashboard' }}
+            </span>
+            
             @if (isSidebarOpen || isMobileScreen) {
-            <span class="ml-3 text-sm whitespace-nowrap overflow-hidden text-ellipsis">{{ item.label }}</span>
+              <span class="ml-3 text-sm whitespace-nowrap overflow-hidden text-ellipsis">{{ item.label }}</span>
             }
+            
             @if ((item.hasSubMenu && isSidebarOpen) || (item.hasSubMenu && isMobileScreen)) {
-            <span class="material-icons text-xs ml-auto"
-              [ngClass]="{'text-gray-300': $themeService.isDarkTheme(), 'text-gray-400': !$themeService.isDarkTheme()}">chevron_right</span>
+              <span class="material-icons text-sm ml-auto"
+                [ngClass]="{'text-white': item.route && router.isActive(item.route, {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'}), 'text-purple-400': $themeService.isDarkTheme() && !(item.route && router.isActive(item.route, {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'})), 'text-purple-600': !$themeService.isDarkTheme() && !(item.route && router.isActive(item.route, {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'}))}">
+                chevron_right
+              </span>
+            }
+            
+            <!-- Active indicator -->
+            @if (item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'})) {
+              <div class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-6 bg-gradient-to-b from-white via-pink-300 to-white rounded-r-full"></div>
             }
           </a>
 
           <!-- Submenu for desktop -->
           @if (item.hasSubMenu && hoveredItem === item.label + '-' + i && !isMobileScreen) {
-          <div class="fixed w-56 shadow-lg z-50 py-1 border select-none rounded-md" [ngClass]="{
-              'bg-gray-800 border-gray-700': $themeService.isDarkTheme(),
-              'bg-white border-gray-100': !$themeService.isDarkTheme(),
+          <div class="fixed w-56 shadow-xl z-50 py-1 border select-none rounded-xl backdrop-blur-lg"
+            (mouseenter)="setHoveredItem(item.label, i)"
+            (mouseleave)="setHoveredItem(null, i)"
+            [ngClass]="{
+              'bg-slate-900/98 border-purple-700/40': $themeService.isDarkTheme(),
+              'bg-white/98 border-purple-200/50': !$themeService.isDarkTheme(),
               'left-[240px]': isSidebarOpen,
               'left-[60px]': !isSidebarOpen
-            }" [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
-            <h5 class="border-b px-4 py-2 font-medium"
-              [ngClass]="{'text-white border-gray-700': $themeService.isDarkTheme(), 'text-blue-700 border-gray-100': !$themeService.isDarkTheme()}">{{
-              item.label }}</h5>
-            <ul class="space-y-1 overflow-y-auto max-h-[60dvh]">
+            }" 
+            [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
+            
+            <!-- Submenu header -->
+            <div class="px-4 py-2 mb-1 flex items-center gap-2 border-b"
+              [ngClass]="{'border-purple-800/30': $themeService.isDarkTheme(), 'border-purple-200/30': !$themeService.isDarkTheme()}">
+              <span class="material-icons text-base"
+                [style.color]="item.color || ($themeService.isDarkTheme() ? '#c084fc' : '#9333ea')">
+                {{ item.icon || 'dashboard' }}
+              </span>
+              <h5 class="font-medium text-sm"
+                [ngClass]="{'text-purple-200': $themeService.isDarkTheme(), 'text-purple-800': !$themeService.isDarkTheme()}">
+                {{ item.label }}
+              </h5>
+            </div>
+            
+            <ul class="space-y-0.5 overflow-y-auto max-h-[60dvh] px-2">
               @for (subItem of item.subMenu; track subItem.label; let j = $index) {
               <ng-container>
-                <li class="group">
-                  <div class="flex items-center" [ngClass]="{
-                    'hover:bg-slate-800 hover:text-white': $themeService.isDarkTheme() && !subItem.hasSubMenu,
-                    'hover:bg-blue-50 hover:text-blue-700': !$themeService.isDarkTheme() && !subItem.hasSubMenu
-                  }">
-                    <a [routerLink]="subItem.route" [ngClass]="{
-                         'bg-gray-700 text-white font-medium': $themeService.isDarkTheme() && router.isActive(subItem.route ?? '', true),
-                         'bg-blue-50 text-blue-700 font-medium': !$themeService.isDarkTheme() && router.isActive(subItem.route ?? '', true),
-                         'group-hover:bg-gray-700 group-hover:text-white': $themeService.isDarkTheme() && subItem.route,
-                         'group-hover:bg-blue-50 group-hover:text-blue-700': !$themeService.isDarkTheme() && subItem.route
-                       }" class="flex-1 flex justify-between ps-4 pe-2 py-2 text-sm" [class.text-gray-300]="$themeService.isDarkTheme()"
-                      [class.text-gray-700]="!$themeService.isDarkTheme()" [class.cursor-default]="!subItem.route"
-                      (click)="toggleSubMenu(subItem.label, i, $event)">
-                      {{ subItem.label }}
+                <li>
+                  <div class="flex items-center rounded-lg">
+                    <a [routerLink]="subItem.route"
+                      class="flex-1 flex justify-between items-center px-3 py-2 text-sm rounded-lg"
+                      [ngClass]="{
+                        'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(subItem.route ?? '', true),
+                        'text-purple-200': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
+                        'text-gray-700': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
+                      }"
+                      [class.cursor-default]="!subItem.route"
+                      (click)="toggleSubMenu(subItem.label, i, $event)"
+                      routerLinkActive="active-link">
+                      
+                      <span class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full"
+                          [ngClass]="{
+                            'bg-white': router.isActive(subItem.route ?? '', true),
+                            'bg-purple-400': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
+                            'bg-purple-500': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
+                          }"></span>
+                        {{ subItem.label }}
+                      </span>
+                      
                       @if (subItem.hasSubMenu) {
-                        <span class="material-icons cursor-pointer"
-                          [ngClass]="{'text-gray-300': $themeService.isDarkTheme(), 'text-gray-400': !$themeService.isDarkTheme()}"
+                        <span class="material-icons text-sm cursor-pointer transition-transform duration-200"
+                          [ngClass]="{
+                            'text-white': router.isActive(subItem.route ?? '', true),
+                            'text-purple-300': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
+                            'text-purple-500': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
+                            'rotate-90': isSubMenuOpen(subItem.label, i)
+                          }"
                           (click)="toggleSubMenu(subItem.label, i, $event)">
-                          {{ isSubMenuOpen(subItem.label, i) ? 'expand_less' : 'expand_more' }}
+                          chevron_right
                         </span>
                       }
                     </a>
                   </div>
+                  
                   @if (subItem.hasSubMenu && isSubMenuOpen(subItem.label, i)) {
-                  <ul [ngClass]="{'bg-gray-700': $themeService.isDarkTheme(), 'bg-blue-50': !$themeService.isDarkTheme()}">
+                  <ul class="mt-1 ml-3 space-y-0.5 border-l-2 pl-2 rounded-lg"
+                    [ngClass]="{
+                      'border-purple-700/30': $themeService.isDarkTheme(),
+                      'border-purple-300/50': !$themeService.isDarkTheme()
+                    }">
                     @for (nestedSubItem of subItem.subMenu; track nestedSubItem.label) {
                     <li>
-                      <a [routerLink]="nestedSubItem.route" [ngClass]="{
-                           'bg-gray-600 text-white font-medium': $themeService.isDarkTheme() && router.isActive(nestedSubItem.route ?? '', true),
-                           'bg-blue-100 text-blue-700 font-medium': !$themeService.isDarkTheme() && router.isActive(nestedSubItem.route ?? '', true),
-                           'hover:bg-gray-600 hover:text-white': $themeService.isDarkTheme(),
-                           'hover:bg-blue-100 hover:text-blue-700': !$themeService.isDarkTheme()
-                         }" class="block px-4 py-2 text-sm transition-colors duration-300"
-                        [class.text-gray-300]="$themeService.isDarkTheme()" [class.text-gray-700]="!$themeService.isDarkTheme()"
-                        (click)="handleNestedItemClick($event)">
-                        {{ nestedSubItem.label }}
+                      <a [routerLink]="nestedSubItem.route"
+                        class="block px-3 py-1.5 text-sm rounded-md"
+                        [ngClass]="{
+                          'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(nestedSubItem.route ?? '', true),
+                          'text-purple-300': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
+                          'text-gray-600': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
+                        }"
+                        (click)="handleNestedItemClick($event)"
+                        routerLinkActive="active-link">
+                        <span class="flex items-center gap-2">
+                          <span class="w-1 h-1 rounded-full"
+                            [ngClass]="{
+                              'bg-white': router.isActive(nestedSubItem.route ?? '', true),
+                              'bg-purple-400': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
+                              'bg-purple-500': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
+                            }"></span>
+                          {{ nestedSubItem.label }}
+                        </span>
                       </a>
                     </li>
                     }
@@ -131,46 +190,64 @@
 
           <!-- Submenu for mobile -->
           @if (item.hasSubMenu && activeMobileItem === i && isMobileScreen) {
-          <div class="w-full shadow-lg z-50 py-1 border select-none rounded-md"
-            [ngClass]="{'bg-gray-800 border-gray-700': $themeService.isDarkTheme(), 'bg-white border-gray-100': !$themeService.isDarkTheme()}">
-            <ul class="space-y-1 overflow-y-auto max-h-[28dvh]">
+          <div class="w-full shadow-lg z-50 py-1 mt-1 border select-none rounded-lg backdrop-blur-sm"
+            [ngClass]="{'bg-purple-900/40 border-purple-800/40': $themeService.isDarkTheme(), 'bg-white/90 border-purple-200/50': !$themeService.isDarkTheme()}">
+            <ul class="space-y-0.5 overflow-y-auto max-h-[28dvh] px-2">
               @for (subItem of item.subMenu; track subItem.label; let j = $index) {
               <ng-container>
-                <li class="group">
-                  <div class="flex items-center" [ngClass]="{
-                    'hover:bg-slate-800 hover:text-white': $themeService.isDarkTheme() && !subItem.hasSubMenu,
-                    'hover:bg-blue-50 hover:text-blue-700': !$themeService.isDarkTheme() && !subItem.hasSubMenu
-                  }">
-                    <a [routerLink]="subItem.route" [ngClass]="{
-                         'bg-gray-700 text-white font-medium': $themeService.isDarkTheme() && router.isActive(subItem.route ?? '', true),
-                         'bg-blue-50 text-blue-700 font-medium': !$themeService.isDarkTheme() && router.isActive(subItem.route ?? '', true),
-                         'group-hover:bg-gray-700 group-hover:text-white': $themeService.isDarkTheme() && subItem.route,
-                         'group-hover:bg-blue-50 group-hover:text-blue-700': !$themeService.isDarkTheme() && subItem.route
-                       }" class="flex-1 flex justify-between ps-4 pe-2 py-2 text-sm" [class.text-gray-300]="$themeService.isDarkTheme()"
-                      [class.text-gray-700]="!$themeService.isDarkTheme()" [class.cursor-default]="!subItem.route"
-                      (click)="handleSubItemClick(subItem, $event); toggleSubMenu(subItem.label, i, $event);">
-                      {{ subItem.label }}
+                <li>
+                  <div class="flex items-center rounded-lg">
+                    <a [routerLink]="subItem.route"
+                      class="flex-1 flex justify-between items-center px-3 py-2 text-sm rounded-lg"
+                      [ngClass]="{
+                        'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(subItem.route ?? '', true),
+                        'text-purple-200': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
+                        'text-gray-700': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
+                      }"
+                      [class.cursor-default]="!subItem.route"
+                      (click)="handleSubItemClick(subItem, $event); toggleSubMenu(subItem.label, i, $event);"
+                      routerLinkActive="active-link">
+                      
+                      <span class="flex items-center gap-2">
+                        <span class="w-1.5 h-1.5 rounded-full"
+                          [ngClass]="{
+                            'bg-white': router.isActive(subItem.route ?? '', true),
+                            'bg-purple-400': !router.isActive(subItem.route ?? '', true)
+                          }"></span>
+                        {{ subItem.label }}
+                      </span>
+                      
                       @if (subItem.hasSubMenu) {
-                        <span class="material-icons cursor-pointer"
-                          [ngClass]="{'text-gray-300': $themeService.isDarkTheme(), 'text-gray-400': !$themeService.isDarkTheme()}"
+                        <span class="material-icons text-sm cursor-pointer"
+                          [ngClass]="{
+                            'text-white': router.isActive(subItem.route ?? '', true),
+                            'text-purple-300': $themeService.isDarkTheme(),
+                            'text-purple-500': !$themeService.isDarkTheme()
+                          }"
                           (click)="toggleSubMenu(subItem.label, i, $event)">
                           {{ isSubMenuOpen(subItem.label, i) ? 'expand_less' : 'expand_more' }}
                         </span>
                       }
                     </a>
                   </div>
+                  
                   @if (subItem.hasSubMenu && isSubMenuOpen(subItem.label, i)) {
-                  <ul [ngClass]="{'bg-gray-700': $themeService.isDarkTheme(), 'bg-blue-50': !$themeService.isDarkTheme()}">
+                  <ul class="mt-1 ml-3 space-y-0.5 border-l-2 pl-2"
+                    [ngClass]="{
+                      'border-purple-700/30': $themeService.isDarkTheme(),
+                      'border-purple-300/50': !$themeService.isDarkTheme()
+                    }">
                     @for (nestedSubItem of subItem.subMenu; track nestedSubItem.label) {
                     <li>
-                      <a [routerLink]="nestedSubItem.route" [ngClass]="{
-                           'bg-gray-600 text-white font-medium': $themeService.isDarkTheme() && router.isActive(nestedSubItem.route ?? '', true),
-                           'bg-blue-100 text-blue-700 font-medium': !$themeService.isDarkTheme() && router.isActive(nestedSubItem.route ?? '', true),
-                           'hover:bg-gray-600 hover:text-white': $themeService.isDarkTheme(),
-                           'hover:bg-blue-100 hover:text-blue-700': !$themeService.isDarkTheme()
-                         }" class="block px-4 py-2 text-sm transition-colors duration-300"
-                        [class.text-gray-300]="$themeService.isDarkTheme()" [class.text-gray-700]="!$themeService.isDarkTheme()"
-                        (click)="handleNestedItemClick($event)">
+                      <a [routerLink]="nestedSubItem.route"
+                        class="block px-3 py-1.5 text-sm rounded-md"
+                        [ngClass]="{
+                          'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(nestedSubItem.route ?? '', true),
+                          'text-purple-300': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
+                          'text-gray-600': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
+                        }"
+                        (click)="handleNestedItemClick($event)"
+                        routerLinkActive="active-link">
                         {{ nestedSubItem.label }}
                       </a>
                     </li>
@@ -184,16 +261,30 @@
           </div>
           }
 
+          <!-- Tooltip for collapsed sidebar -->
           @if (!isSidebarOpen && !isMobileScreen && hoveredItem === item.label + '-' + i && !item.hasSubMenu) {
-            <div class="fixed max-w-56 shadow-lg z-50 py-1 border select-none rounded-md" [ngClass]="{
-              'bg-gray-800 border-gray-700': $themeService.isDarkTheme(),
-              'bg-white border-gray-100': !$themeService.isDarkTheme(),
-              'left-[240px]': isSidebarOpen,
-              'left-[60px]': !isSidebarOpen
-            }" [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
-              <h5 class="px-4 py-1"
-              [ngClass]="{'text-white border-gray-700': $themeService.isDarkTheme(), 'text-blue-700 border-gray-100': !$themeService.isDarkTheme()}">{{
-              item.label }}</h5>
+            <div class="fixed max-w-56 shadow-xl z-50 py-1 px-3 border select-none rounded-lg backdrop-blur-lg"
+              (mouseenter)="setHoveredItem(item.label, i)"
+              (mouseleave)="setHoveredItem(null, i)"
+              [ngClass]="{
+                'bg-slate-900/98 border-purple-700/40': $themeService.isDarkTheme(),
+                'bg-white/98 border-purple-200/50': !$themeService.isDarkTheme(),
+                'left-[60px]': !isSidebarOpen
+              }" 
+              [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
+              <div class="flex items-center gap-2">
+                <span class="material-icons text-base"
+                  [style.color]="item.color || ($themeService.isDarkTheme() ? '#c084fc' : '#9333ea')">
+                  {{ item.icon || 'dashboard' }}
+                </span>
+                <h5 class="text-sm font-medium"
+                  [ngClass]="{
+                    'text-purple-200': $themeService.isDarkTheme(),
+                    'text-purple-800': !$themeService.isDarkTheme()
+                  }">
+                  {{ item.label }}
+                </h5>
+              </div>
             </div>
           }
         </li>
@@ -203,17 +294,24 @@
   </nav>
 
   <!-- Footer -->
- <div class="border-t py-1 px-3"
-    [ngClass]="{'bg-gray-900 border-gray-700': $themeService.isDarkTheme(), 'bg-white border-gray-100': !$themeService.isDarkTheme()}">
+  <div class="border-t py-2 px-3 backdrop-blur-sm relative z-10"
+    [ngClass]="{
+      'bg-slate-900/50 border-purple-800/30': $themeService.isDarkTheme(),
+      'bg-white/50 border-purple-200/30': !$themeService.isDarkTheme()
+    }">
     <div class="flex items-center"
       [ngClass]="{'flex-col space-y-3': !isSidebarOpen && !isMobileScreen, 'justify-between': isSidebarOpen || isMobileScreen}">
       @if (!isMobileScreen) {
-      <lib-mat-icon-button 
-        (click)="toggleSidebar()" 
-        [source]="isSidebarOpen ? 'chevron_left' : 'chevron_right'"
-        [ngClass]="{'text-blue-400 hover:text-blue-300': $themeService.isDarkTheme(), 'text-blue-600 hover:text-blue-700': !$themeService.isDarkTheme()}">
-      </lib-mat-icon-button>
+      <button
+        (click)="toggleSidebar()"
+        class="flex items-center justify-center w-9 h-9 rounded-lg transition-all duration-300 shadow-md"
+        [ngClass]="{
+          'bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:shadow-lg': $themeService.isDarkTheme(),
+          'bg-gradient-to-r from-purple-500 to-pink-500 text-white hover:shadow-lg': !$themeService.isDarkTheme()
+        }">
+        <span class="material-icons text-lg cursor-pointer">{{ isSidebarOpen ? 'chevron_left' : 'chevron_right' }}</span>
+      </button>
       }
     </div>
-</div>
+  </div>
 </aside>

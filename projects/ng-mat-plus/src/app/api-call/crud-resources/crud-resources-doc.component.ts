@@ -569,7 +569,7 @@ export class CrudResourceDocComponent {
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
   crudResourceComponent = CrudResourceComponent;
-  publishedDate = '2025-06-05';
+  publishedDate = '2025-11-08';
   title = 'CRUD Resource Management Component';
 
   htmlCode = `

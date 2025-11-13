@@ -459,7 +459,7 @@ export class SidePanelDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   sidePanelComponent = SidePanelComponent;
-  publishedDate = '2025-05-21';
+ publishedDate = '2025-11-08';
   title = 'Side Panel Component';
 
   htmlCode = `

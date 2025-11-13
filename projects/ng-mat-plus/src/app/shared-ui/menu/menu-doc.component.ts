@@ -245,7 +245,7 @@ export class MenuDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   menuComponent = MenuComponent;
-  publishedDate = '2025-07-22';
+ publishedDate = '2025-11-08';
   title = 'Menu Component';
 
   htmlCode = `

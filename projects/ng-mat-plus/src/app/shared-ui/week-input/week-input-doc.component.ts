@@ -225,7 +225,7 @@ export class WeekDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   weekComponent = WeekInputComponent;
-  publishedDate = '2025-06-03';
+publishedDate = '2025-11-08';
   title = 'Week Input Component';
 
   htmlCode = `

@@ -209,7 +209,7 @@ export class DebouncingServiceDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   debouncingComponent = DebouncingServiceComponent;
-  publishedDate = '2025-05-21';
+publishedDate = '2025-11-08';
   title = 'Debouncing Service';
 
   htmlCode = `

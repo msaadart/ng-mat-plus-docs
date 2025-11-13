@@ -386,7 +386,7 @@ export class ModalsDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   modalsComponent = ModalsComponent;
-  publishedDate = '2025-07-24';
+  publishedDate = '2025-11-08';
   title = 'Lib Dialog Service Documentation';
 
   tsCode = `

@@ -219,7 +219,7 @@ export class ClientSideDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   clientSideTableComponent = ClientSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Advanced Table (Client-Side)';
 
   htmlCode = `

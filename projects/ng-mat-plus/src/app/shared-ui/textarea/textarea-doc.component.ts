@@ -230,7 +230,7 @@ export class TextareaDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   textareaComponent = TextareaComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Textarea Component';
 
   htmlCode = `

@@ -231,7 +231,7 @@ export class PhoneInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   phoneComponent = PhoneInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Phone Input Component';
 
   htmlCode = `

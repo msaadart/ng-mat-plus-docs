@@ -260,7 +260,7 @@ export class TypographyColorDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   typographyColorComponent = TypographyColorComponent;
-  publishedDate = '2025-06-03';
+  publishedDate = '2025-11-08';
   title = 'Design System Reference';
 
   htmlCode = `

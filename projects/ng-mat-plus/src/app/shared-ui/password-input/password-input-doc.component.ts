@@ -231,7 +231,7 @@ export class PasswordInputDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   passwordComponent = PasswordInputComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Password Input Component';
 
   htmlCode = `

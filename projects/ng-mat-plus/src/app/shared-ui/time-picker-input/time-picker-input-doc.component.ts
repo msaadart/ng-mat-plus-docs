@@ -237,7 +237,7 @@ export class TimePickerDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   timePickerComponent = TimePickerInputComponent;
-  publishedDate = '2025-06-03';
+ publishedDate = '2025-11-08';
   title = 'Time Picker Component';
 
   htmlCode = `

@@ -235,7 +235,7 @@ export class WidgetDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   widgetComponent = WidgetComponent;
-  publishedDate = '2025-06-10';
+publishedDate = '2025-11-08';
   title = 'Widget Component';
 
   htmlCode = `
