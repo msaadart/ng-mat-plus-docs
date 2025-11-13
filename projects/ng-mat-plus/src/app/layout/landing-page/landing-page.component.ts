@@ -1,11 +1,11 @@
 import {
-    Component,
-    ChangeDetectionStrategy,
-    ViewChild,
-    ElementRef,
-    AfterViewInit,
-    Renderer2,
-    OnInit,
+  Component,
+  ChangeDetectionStrategy,
+  ViewChild,
+  ElementRef,
+  AfterViewInit,
+  Renderer2,
+  OnInit,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -15,18 +15,18 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-    selector: 'app-landing-page',
-    standalone: true,
-    imports: [
-        CommonModule,
-        RouterModule,
-        CodeViewerComponent,
-        MatButtonModule,
-        MatIconModule,
-        MatCardModule,
-    ],
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    template: `
+  selector: 'app-landing-page',
+  standalone: true,
+  imports: [
+    CommonModule,
+    RouterModule,
+    CodeViewerComponent,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule,
+  ],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `
   <!-- HERO -->
 <header class="relative overflow-hidden bg-gradient-to-br from-indigo-700 via-violet-600 to-rose-500">
       <!-- Animated Background Elements -->
@@ -508,7 +508,7 @@ import { MatCardModule } from '@angular/material/card';
   <div class="flex items-start gap-4">
     <div
       class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-transform">
-      4
+      5
     </div>
     <div class="flex-1">
       <h3 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
@@ -604,7 +604,7 @@ import { MatCardModule } from '@angular/material/card';
     </div>
   </footer>
   `,
-    styles: [`
+  styles: [`
     /* Grid Pattern */
     .bg-grid-pattern {
       background-image: 
@@ -1026,249 +1026,249 @@ import { MatCardModule } from '@angular/material/card';
   `],
 })
 export class LandingPageComponent implements AfterViewInit, OnInit {
-    @ViewChild('carousel', { static: false }) carousel?: ElementRef<HTMLDivElement>;
+  @ViewChild('carousel', { static: false }) carousel?: ElementRef<HTMLDivElement>;
 
-    categoryColors: Record<string, { bg: string; text: string }> = {
-        Forms: { bg: 'from-indigo-50 to-indigo-100', text: 'text-indigo-600' },
-        Actions: { bg: 'from-pink-50 to-pink-100', text: 'text-pink-600' },
-        Feedback: { bg: 'from-green-50 to-green-100', text: 'text-green-600' },
-        Navigation: { bg: 'from-amber-50 to-amber-100', text: 'text-amber-600' },
-        Overlay: { bg: 'from-purple-50 to-purple-100', text: 'text-purple-600' },
-        Layout: { bg: 'from-cyan-50 to-cyan-100', text: 'text-cyan-600' },
-        Utility: { bg: 'from-teal-50 to-teal-100', text: 'text-teal-600' },
-        Styling: { bg: 'from-rose-50 to-rose-100', text: 'text-rose-600' },
-        Display: { bg: 'from-blue-50 to-blue-100', text: 'text-blue-600' },
-        Structure: { bg: 'from-lime-50 to-lime-100', text: 'text-lime-600' },
-        Core: { bg: 'from-gray-50 to-gray-100', text: 'text-gray-700' },
-        Input: { bg: 'from-violet-50 to-violet-100', text: 'text-violet-600' },
+  categoryColors: Record<string, { bg: string; text: string }> = {
+    Forms: { bg: 'from-indigo-50 to-indigo-100', text: 'text-indigo-600' },
+    Actions: { bg: 'from-pink-50 to-pink-100', text: 'text-pink-600' },
+    Feedback: { bg: 'from-green-50 to-green-100', text: 'text-green-600' },
+    Navigation: { bg: 'from-amber-50 to-amber-100', text: 'text-amber-600' },
+    Overlay: { bg: 'from-purple-50 to-purple-100', text: 'text-purple-600' },
+    Layout: { bg: 'from-cyan-50 to-cyan-100', text: 'text-cyan-600' },
+    Utility: { bg: 'from-teal-50 to-teal-100', text: 'text-teal-600' },
+    Styling: { bg: 'from-rose-50 to-rose-100', text: 'text-rose-600' },
+    Display: { bg: 'from-blue-50 to-blue-100', text: 'text-blue-600' },
+    Structure: { bg: 'from-lime-50 to-lime-100', text: 'text-lime-600' },
+    Core: { bg: 'from-gray-50 to-gray-100', text: 'text-gray-700' },
+    Input: { bg: 'from-violet-50 to-violet-100', text: 'text-violet-600' },
+  };
+
+  featuredComponents = [
+    {
+      title: 'Form Fields',
+      short: 'Smart input controls',
+      description: 'Material form fields with validation, hints and reactive form support.',
+      category: 'Forms',
+      icon: 'text_fields',
+      link: ['/components/form-fields/text-field'],
+
+    },
+    {
+      title: 'Buttons',
+      short: 'Action buttons',
+      description: 'Raised, flat, stroked and FAB buttons with ripple and color variants.',
+      category: 'Actions',
+      icon: 'smart_button',
+      link: ['/components/all-buttons'],
+    },
+    {
+      title: 'Loader',
+      short: 'Progress indicators',
+      description: 'Circular and linear loaders for async operations and visual feedback.',
+      category: 'Feedback',
+      icon: 'autorenew',
+      link: ['/components/loader'],
+    },
+    {
+      title: 'Paginator',
+      short: 'Page navigation',
+      description: 'Handle large lists and tables efficiently with pagination controls.',
+      category: 'Navigation',
+      icon: 'last_page',
+      link: ['/components/paginator'],
+    },
+    {
+      title: 'Modals',
+      short: 'Dialogs & overlays',
+      description: 'Responsive modal dialogs with animations and flexible configurations.',
+      category: 'Overlay',
+      icon: 'open_in_new',
+      link: ['/components/modals'],
+    },
+    {
+      title: 'Tooltip',
+      short: 'Informative hints',
+      description: 'Compact hints that appear on hover, focus, or tap interactions.',
+      category: 'Feedback',
+      icon: 'info',
+      link: ['/components/tooltip'],
+    },
+    {
+      title: 'Expansion Panel',
+      short: 'Collapsible sections',
+      description: 'Expandable panels to show and hide related content efficiently.',
+      category: 'Layout',
+      icon: 'unfold_more',
+      link: ['/components/expansion-panel'],
+    },
+    {
+      title: 'Search',
+      short: 'Instant lookup',
+      description: 'Interactive search field with debounce, filters and quick results.',
+      category: 'Utility',
+      icon: 'search',
+      link: ['/components/search'],
+    },
+    {
+      title: 'Tabs',
+      short: 'Organize content',
+      description: 'Switch between content views using accessible tab navigation.',
+      category: 'Navigation',
+      icon: 'tab',
+      link: ['/components/tab/first'],
+    },
+    {
+      title: 'Theming & Variables',
+      short: 'Dynamic color system',
+      description: 'Customize palettes, dark mode, and typography using tokens and variables.',
+      category: 'Styling',
+      icon: 'palette',
+      link: ['/theming/typography-color'],
+    },
+    {
+      title: 'Card List',
+      short: 'Structured display',
+      description: 'Display data elegantly using card layouts and grids.',
+      category: 'Display',
+      icon: 'view_module',
+      link: ['/components/card'],
+    },
+    // {
+    //     title: 'Layouts',
+    //     short: 'Flexible containers',
+    //     description: 'Responsive grid and flex utilities for adaptive layouts.',
+    //     category: 'Structure',
+    //     icon: 'dashboard_customize',
+    //     link: ['/components/grid-list'],
+    // },
+    {
+      title: 'Service Classes',
+      short: 'Reusable logic layers',
+      description: 'Shared business logic and helpers for better modular design.',
+      category: 'Core',
+      icon: 'build_circle',
+      link: ['/services'],
+    },
+    {
+      title: 'Content Editor',
+      short: 'Rich text editor',
+      description: 'Interactive WYSIWYG editor with formatting, images, and markdown support.',
+      category: 'Input',
+      icon: 'edit_note',
+      link: ['/components/content-editor'],
+    },
+    {
+      title: 'Side Menu',
+      short: 'Navigation drawer',
+      description: 'Collapsible side menu for app-wide navigation with nested items.',
+      category: 'Navigation',
+      icon: 'menu_open',
+      link: ['/components/sidepanel'],
+    },
+  ];
+
+  getCategoryColor(cat: string, type: 'bg' | 'text'): string {
+    const color = this.categoryColors[cat] || this.categoryColors['Core'];
+    return color[type];
+  }
+
+  getCategoryGradient(cat: string): string {
+    const gradients: Record<string, string> = {
+      Forms: 'from-indigo-400 to-indigo-600',
+      Actions: 'from-pink-400 to-pink-600',
+      Feedback: 'from-green-400 to-green-600',
+      Navigation: 'from-amber-400 to-amber-600',
+      Overlay: 'from-purple-400 to-purple-600',
+      Layout: 'from-cyan-400 to-cyan-600',
+      Utility: 'from-teal-400 to-teal-600',
+      Styling: 'from-rose-400 to-rose-600',
+      Display: 'from-blue-400 to-blue-600',
+      Structure: 'from-lime-400 to-lime-600',
+      Core: 'from-gray-400 to-gray-600',
+      Input: 'from-violet-400 to-violet-600',
     };
+    return gradients[cat] || gradients['Core'];
+  }
 
-    featuredComponents = [
-        {
-            title: 'Form Fields',
-            short: 'Smart input controls',
-            description: 'Material form fields with validation, hints and reactive form support.',
-            category: 'Forms',
-            icon: 'text_fields',
-            link: ['/components/form-fields/text-field'],
-            
-        },
-        {
-            title: 'Buttons',
-            short: 'Action buttons',
-            description: 'Raised, flat, stroked and FAB buttons with ripple and color variants.',
-            category: 'Actions',
-            icon: 'smart_button',
-            link: ['/components/all-buttons'],
-        },
-        {
-            title: 'Loader',
-            short: 'Progress indicators',
-            description: 'Circular and linear loaders for async operations and visual feedback.',
-            category: 'Feedback',
-            icon: 'autorenew',
-            link: ['/components/loader'],
-        },
-        {
-            title: 'Paginator',
-            short: 'Page navigation',
-            description: 'Handle large lists and tables efficiently with pagination controls.',
-            category: 'Navigation',
-            icon: 'last_page',
-            link: ['/components/paginator'],
-        },
-        {
-            title: 'Modals',
-            short: 'Dialogs & overlays',
-            description: 'Responsive modal dialogs with animations and flexible configurations.',
-            category: 'Overlay',
-            icon: 'open_in_new',
-            link: ['/components/modals'],
-        },
-        {
-            title: 'Tooltip',
-            short: 'Informative hints',
-            description: 'Compact hints that appear on hover, focus, or tap interactions.',
-            category: 'Feedback',
-            icon: 'info',
-            link: ['/components/tooltip'],
-        },
-        {
-            title: 'Expansion Panel',
-            short: 'Collapsible sections',
-            description: 'Expandable panels to show and hide related content efficiently.',
-            category: 'Layout',
-            icon: 'unfold_more',
-            link: ['/components/expansion-panel'],
-        },
-        {
-            title: 'Search',
-            short: 'Instant lookup',
-            description: 'Interactive search field with debounce, filters and quick results.',
-            category: 'Utility',
-            icon: 'search',
-            link: ['/components/search'],
-        },
-        {
-            title: 'Tabs',
-            short: 'Organize content',
-            description: 'Switch between content views using accessible tab navigation.',
-            category: 'Navigation',
-            icon: 'tab',
-            link: ['/components/tab/first'],
-        },
-        {
-            title: 'Theming & Variables',
-            short: 'Dynamic color system',
-            description: 'Customize palettes, dark mode, and typography using tokens and variables.',
-            category: 'Styling',
-            icon: 'palette',
-            link: ['/theming/typography-color'],
-        },
-        {
-            title: 'Card List',
-            short: 'Structured display',
-            description: 'Display data elegantly using card layouts and grids.',
-            category: 'Display',
-            icon: 'view_module',
-            link: ['/components/card'],
-        },
-        // {
-        //     title: 'Layouts',
-        //     short: 'Flexible containers',
-        //     description: 'Responsive grid and flex utilities for adaptive layouts.',
-        //     category: 'Structure',
-        //     icon: 'dashboard_customize',
-        //     link: ['/components/grid-list'],
-        // },
-        {
-            title: 'Service Classes',
-            short: 'Reusable logic layers',
-            description: 'Shared business logic and helpers for better modular design.',
-            category: 'Core',
-            icon: 'build_circle',
-            link: ['/services'],
-        },
-        {
-            title: 'Content Editor',
-            short: 'Rich text editor',
-            description: 'Interactive WYSIWYG editor with formatting, images, and markdown support.',
-            category: 'Input',
-            icon: 'edit_note',
-            link: ['/components/content-editor'],
-        },
-        {
-            title: 'Side Menu',
-            short: 'Navigation drawer',
-            description: 'Collapsible side menu for app-wide navigation with nested items.',
-            category: 'Navigation',
-            icon: 'menu_open',
-            link: ['/components/sidepanel'],
-        },
-    ];
+  getCategoryBadge(cat: string): string {
+    const badges: Record<string, string> = {
+      Forms: 'bg-indigo-100 text-indigo-700',
+      Actions: 'bg-pink-100 text-pink-700',
+      Feedback: 'bg-green-100 text-green-700',
+      Navigation: 'bg-amber-100 text-amber-700',
+      Overlay: 'bg-purple-100 text-purple-700',
+      Layout: 'bg-cyan-100 text-cyan-700',
+      Utility: 'bg-teal-100 text-teal-700',
+      Styling: 'bg-rose-100 text-rose-700',
+      Display: 'bg-blue-100 text-blue-700',
+      Structure: 'bg-lime-100 text-lime-700',
+      Core: 'bg-gray-100 text-gray-700',
+      Input: 'bg-violet-100 text-violet-700',
+    };
+    return badges[cat] || badges['Core'];
+  }
 
-    getCategoryColor(cat: string, type: 'bg' | 'text'): string {
-        const color = this.categoryColors[cat] || this.categoryColors['Core'];
-        return color[type];
+  currentIndex = 0;
+  cardsPerPage = 8;
+
+  get pages() {
+    const pages = [];
+    for (let i = 0; i < this.featuredComponents.length; i += this.cardsPerPage) {
+      pages.push(this.featuredComponents.slice(i, i + this.cardsPerPage));
     }
+    return pages;
+  }
 
-    getCategoryGradient(cat: string): string {
-        const gradients: Record<string, string> = {
-            Forms: 'from-indigo-400 to-indigo-600',
-            Actions: 'from-pink-400 to-pink-600',
-            Feedback: 'from-green-400 to-green-600',
-            Navigation: 'from-amber-400 to-amber-600',
-            Overlay: 'from-purple-400 to-purple-600',
-            Layout: 'from-cyan-400 to-cyan-600',
-            Utility: 'from-teal-400 to-teal-600',
-            Styling: 'from-rose-400 to-rose-600',
-            Display: 'from-blue-400 to-blue-600',
-            Structure: 'from-lime-400 to-lime-600',
-            Core: 'from-gray-400 to-gray-600',
-            Input: 'from-violet-400 to-violet-600',
-        };
-        return gradients[cat] || gradients['Core'];
-    }
+  get totalPages() {
+    return this.pages.length;
+  }
 
-    getCategoryBadge(cat: string): string {
-        const badges: Record<string, string> = {
-            Forms: 'bg-indigo-100 text-indigo-700',
-            Actions: 'bg-pink-100 text-pink-700',
-            Feedback: 'bg-green-100 text-green-700',
-            Navigation: 'bg-amber-100 text-amber-700',
-            Overlay: 'bg-purple-100 text-purple-700',
-            Layout: 'bg-cyan-100 text-cyan-700',
-            Utility: 'bg-teal-100 text-teal-700',
-            Styling: 'bg-rose-100 text-rose-700',
-            Display: 'bg-blue-100 text-blue-700',
-            Structure: 'bg-lime-100 text-lime-700',
-            Core: 'bg-gray-100 text-gray-700',
-            Input: 'bg-violet-100 text-violet-700',
-        };
-        return badges[cat] || badges['Core'];
-    }
+  get paginationDots() {
+    return Array(this.totalPages);
+  }
 
-    currentIndex = 0;
-    cardsPerPage = 8;
-    
-    get pages() {
-        const pages = [];
-        for (let i = 0; i < this.featuredComponents.length; i += this.cardsPerPage) {
-            pages.push(this.featuredComponents.slice(i, i + this.cardsPerPage));
+  constructor(private renderer: Renderer2) { }
+
+  ngOnInit(): void {
+    this.setupScrollAnimation();
+  }
+
+  ngAfterViewInit(): void {
+    setTimeout(() => this.goToPage(0), 50);
+  }
+
+  setupScrollAnimation(): void {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
         }
-        return pages;
-    }
-    
-    get totalPages() {
-        return this.pages.length;
-    }
-    
-    get paginationDots() {
-        return Array(this.totalPages);
-    }
+      });
+    }, { threshold: 0.1 });
 
-    constructor(private renderer: Renderer2) { }
+    setTimeout(() => {
+      const elements = document.querySelectorAll('.animate-on-scroll');
+      elements.forEach(el => observer.observe(el));
+    }, 100);
+  }
 
-    ngOnInit(): void {
-        this.setupScrollAnimation();
+  goToPage(pageIndex: number) {
+    this.currentIndex = Math.max(0, Math.min(pageIndex, this.totalPages - 1));
+  }
+
+  prev() {
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
     }
+  }
 
-    ngAfterViewInit(): void {
-        setTimeout(() => this.goToPage(0), 50);
+  next() {
+    if (this.currentIndex < this.totalPages - 1) {
+      this.currentIndex++;
     }
+  }
 
-    setupScrollAnimation(): void {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.1 });
-
-        setTimeout(() => {
-            const elements = document.querySelectorAll('.animate-on-scroll');
-            elements.forEach(el => observer.observe(el));
-        }, 100);
-    }
-
-    goToPage(pageIndex: number) {
-        this.currentIndex = Math.max(0, Math.min(pageIndex, this.totalPages - 1));
-    }
-
-    prev() {
-        if (this.currentIndex > 0) {
-            this.currentIndex--;
-        }
-    }
-
-    next() {
-        if (this.currentIndex < this.totalPages - 1) {
-            this.currentIndex++;
-        }
-    }
-
-    exampleUsageCode: string = `
+  exampleUsageCode: string = `
     import { Component } from '@angular/core';
     import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
     @Component({
