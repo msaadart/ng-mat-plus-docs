@@ -123,18 +123,18 @@ import { MatCardModule } from '@angular/material/card';
           </div>
 
           <!-- Stats with Animated Cards -->
-          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-3xl mx-auto animate-fade-in-up animation-delay-500">
+          <div class="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto animate-fade-in-up animation-delay-500">
             <div class="stat-card group">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">widgets</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="50">50+</div>
               <div class="text-white/80 text-xs md:text-sm font-medium">Components</div>
             </div>
             
-            <div class="stat-card group animation-delay-100">
+           <!-- <div class="stat-card group animation-delay-100">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">accessibility</mat-icon>
               <div class="text-3xl md:text-5xl font-bold text-white mb-1 counter" data-target="100">100%</div>
               <div class="text-white/80 text-xs md:text-sm font-medium">Accessible</div>
-            </div>
+            </div> -->
             
             <div class="stat-card group animation-delay-200">
               <mat-icon class="text-3xl text-white/80 mb-2 group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300">speed</mat-icon>
@@ -172,7 +172,7 @@ import { MatCardModule } from '@angular/material/card';
         <p class="text-gray-600 max-w-2xl mx-auto">Everything you need to build beautiful, accessible, and performant applications</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="relative group animate-on-scroll">
           <div class="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
           <div class="relative bg-white rounded-2xl shadow-lg border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
@@ -181,7 +181,7 @@ import { MatCardModule } from '@angular/material/card';
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Fast & Performant</h3>
             <p class="text-gray-600 leading-relaxed mb-4">
-              Optimized rendering and minimized bundle sizes ensure smooth, production-ready performance at scale.
+              Optimized rendering and minimized bundle sizes ensure smooth performance.
             </p>
             <div class="flex items-center gap-2 text-sm text-indigo-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <span>Explore performance</span>
@@ -207,7 +207,7 @@ import { MatCardModule } from '@angular/material/card';
           </div>
         </div>
 
-        <div class="relative group animate-on-scroll animation-delay-200">
+        <!--<div class="relative group animate-on-scroll animation-delay-200">
           <div class="absolute inset-0 bg-gradient-to-br from-green-400 to-emerald-500 rounded-2xl blur-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
           <div class="relative bg-white rounded-2xl shadow-lg border border-gray-100 p-8 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
             <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
@@ -222,7 +222,7 @@ import { MatCardModule } from '@angular/material/card';
               <mat-icon class="text-base group-hover:translate-x-2 transition-transform">arrow_forward</mat-icon>
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </section>
 
@@ -490,7 +490,7 @@ import { MatCardModule } from '@angular/material/card';
               <div class="group">
                 <div class="flex items-start gap-4">
                   <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-500 to-rose-600 rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-transform">
-                    3
+                    4
                   </div>
                   <div class="flex-1">
                     <h3 class="font-bold text-lg text-gray-900 mb-2 flex items-center gap-2">
