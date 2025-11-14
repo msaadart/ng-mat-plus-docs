@@ -13,6 +13,7 @@ import { Router, RouterModule } from '@angular/router';
 import { LibThemeDarkLightService } from 'ng-mat-plus/services';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import menus from './side-bar-menus-list.json';
+import { LibMatSlideToggleComponent } from 'ng-mat-plus/lib-buttons';
 
 // Interface for submenu items
 interface SubMenuItem {
@@ -41,7 +42,8 @@ interface MenuItem {
     CommonModule,
     RouterModule,
     MatSlideToggleModule,
-    MatTooltipModule
+    MatTooltipModule,
+    LibMatSlideToggleComponent
   ],
   templateUrl: './side-bar.component.html',
   styles: [`

@@ -11,8 +11,7 @@ import { MatCardModule } from '@angular/material/card';
   template: `
   <div class="summary-container"> 
   <div class="header">
-    <mat-card class="summary-card">
-      <mat-card-content>
+
    
         <div class="flex flex-grow">
           <div class="size-100">
@@ -158,8 +157,7 @@ import { MatCardModule } from '@angular/material/card';
             </ul>
           </div>
       
-      </mat-card-content>
-    </mat-card>
+      
   </div>
 </div>
     
