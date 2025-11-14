@@ -301,6 +301,18 @@
     }">
     <div class="flex items-center"
       [ngClass]="{'flex-col space-y-3': !isSidebarOpen && !isMobileScreen, 'justify-between': isSidebarOpen || isMobileScreen}">
+       @if (isSidebarOpen || isMobileScreen) {
+        <lib-mat-slide-toggle 
+          [checked]="$themeService.isDarkTheme()" 
+          (toggleChange)="toggleTheme()" 
+          color="primary" 
+          class="flex items-center"
+          [ngClass]="{'justify-center': !isSidebarOpen && !isMobileScreen}"
+          [label]="(isSidebarOpen || isMobileScreen) ? ($themeService.isDarkTheme() ? 'Dark Mode' : 'Light Mode') : null"
+          [icon]="$themeService.isDarkTheme() ? 'dark_mode' : 'light_mode'"
+          [iconColor]="'#fcfcfc'">
+        </lib-mat-slide-toggle>
+      }
       @if (!isMobileScreen) {
       <button
         (click)="toggleSidebar()"
