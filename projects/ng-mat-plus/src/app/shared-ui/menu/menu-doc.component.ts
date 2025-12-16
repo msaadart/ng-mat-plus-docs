@@ -24,10 +24,10 @@ import { MenuComponent } from './menu.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-menu&gt;</code> component provides a customizable dropdown menu with various animation effects and flexible content projection. It integrates with Angular CDK for positioning and overlay management.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-menu&gt;</code> component provides a customizable dropdown menu with various animation effects and flexible content projection. It integrates with Angular CDK for positioning and overlay management.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -63,38 +63,38 @@ import { MenuComponent } from './menu.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Menu</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Menu</h3>
             <p class="mt-2 text-gray-600">
               Standard menu with default settings and simple content.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicMenuExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Menu with Sections</h3>
+            <h3 class="text-lg font-medium text-gray-600">Menu with Sections</h3>
             <p class="mt-2 text-gray-600">
               Menu with header, body and footer sections for organized content.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="sectionedMenuExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Animation</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Animation</h3>
             <p class="mt-2 text-gray-600">
               Menu with custom animation type and arrow position.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="animatedMenuExample"></app-code-viewer>
           </div>
         </div>
@@ -157,42 +157,42 @@ import { MenuComponent } from './menu.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Programmatic Control</h3>
+            <h3 class="text-lg font-medium text-gray-600">Programmatic Control</h3>
             <p class="mt-2 text-gray-600">
               Controlling the menu programmatically with component methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="programmaticControlExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">animationType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">animationType</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'fade' | 'scale' | 'bounce' | 'slide-down' | 'flip' | 'pull-down'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The animation type for menu appearance (default: 'pull-down')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">arrowPosition</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">arrowPosition</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'top-right' | 'top-left'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Position of the menu arrow (default: 'top-left')</td>
                 </tr>
@@ -201,32 +201,32 @@ import { MenuComponent } from './menu.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Content Projection</h3>
+            <h3 class="text-lg font-medium text-gray-600">Content Projection</h3>
             <p class="mt-2 text-gray-600">
               Available content projection slots.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Selector</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">[menuHeader]</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuHeader]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu header section</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">[menuBody]</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuBody]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu body section</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">[menuFooter]</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuFooter]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu footer section</td>
                 </tr>
               </tbody>

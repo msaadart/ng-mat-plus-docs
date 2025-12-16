@@ -24,7 +24,7 @@ import { LibCardComponent } from 'ng-mat-plus/lib-lists';
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo ac 
           sapien consequat fermentum. Pellentesque habitant morbi tristique senectus 
           et netus et malesuada fames ac turpis egestas.
-          <span class="absolute bg-white pl-1 text-[10px] text-blue-600 hover:underline"
+          <span class="absolute  pl-1 text-[10px] text-blue-600 hover:underline"
             (click)="toggleExpand(small)">
             See More
           </span>

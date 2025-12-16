@@ -33,7 +33,7 @@ import { ToSignalComponent } from './tosignal.component';
           The <strong>ToSignal</strong> demonstrates a modern Angular pattern for converting observables to signals using the <code>toSignal()</code> utility. This approach combines the power of RxJS observables with the simplicity and reactivity of Angular signals, providing an elegant solution for managing asynchronous data streams in a reactive manner.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Architecture Highlights</h3>
@@ -52,7 +52,7 @@ import { ToSignalComponent } from './tosignal.component';
 
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Signal Conversion</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Automatic observable to signal transformation</li>
@@ -62,7 +62,7 @@ import { ToSignalComponent } from './tosignal.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Performance Benefits</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Granular change detection with signals</li>
@@ -72,7 +72,7 @@ import { ToSignalComponent } from './tosignal.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Developer Experience</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simplified async operations</li>
@@ -82,7 +82,7 @@ import { ToSignalComponent } from './tosignal.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Integration Patterns</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Seamless RxJS integration</li>
@@ -94,10 +94,10 @@ import { ToSignalComponent } from './tosignal.component';
         </div>
 
         <h3 class="text-xl font-semibold mt-6">Technical Architecture</h3>
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="  p-4 rounded-lg">
           <div class="flex items-center justify-center mb-4">
             <div class="text-center">
-              <div class="bg-white p-3 rounded-lg shadow-sm mb-2">
+              <div class=" p-3 rounded-lg shadow-sm mb-2">
                 <span class="font-medium text-purple-600">ToSignal</span>
               </div>
               <div class="flex justify-center space-x-8 mt-2">
@@ -145,9 +145,9 @@ import { ToSignalComponent } from './tosignal.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Basic Data Fetching</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Basic Data Fetching</h3>
             <p class="mt-2 text-gray-600">
               Simple API data fetching with automatic observable to signal conversion.
             </p>
@@ -169,9 +169,9 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Error Handling Pattern</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Error Handling Pattern</h3>
             <p class="mt-2 text-gray-600">
               Implementing error handling with the toSignal() pattern.
             </p>
@@ -200,9 +200,9 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Template Integration</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Template Integration</h3>
             <p class="mt-2 text-gray-600">
               Using converted signals directly in Angular templates.
             </p>
@@ -214,7 +214,7 @@ refreshAllData(): void {
 <!-- Direct signal usage in template -->
 <div class="max-h-[1350px] overflow-y-auto space-y-3">
   @for(user of usersResource()?.users || []; track user.id) {
-  <div class="bg-gray-50 p-3 rounded-md border border-gray-200">
+  <div class="  p-3 rounded-md border border-gray-200">
     <div class="flex items-center space-x-3">
       <img src="user.image" alt="" 
            class="w-10 h-10 rounded-full object-cover" />
@@ -233,9 +233,9 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Reactive Updates</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Reactive Updates</h3>
             <p class="mt-2 text-gray-600">
               Automatically updating UI when underlying data changes.
             </p>
@@ -273,7 +273,7 @@ refreshAllData(): void {
           </div>
         </div>
         
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+        <div class="  border-l-4 border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Performance Considerations</h3>
@@ -327,9 +327,9 @@ refreshAllData(): void {
       <div class="space-y-8">
         <h2 class="text-2xl font-bold text-gray-800">Advanced Patterns & Comparison</h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Advanced toSignal() Patterns</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Advanced toSignal() Patterns</h3>
             <p class="mt-2 text-gray-600">
               Advanced usage patterns for the toSignal() utility function.
             </p>
@@ -363,9 +363,9 @@ const userData = toSignal(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Comparison: toSignal() vs Manual Subscription</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Comparison: toSignal() vs Manual Subscription</h3>
             <p class="mt-2 text-gray-600">
               Understanding the differences between toSignal() pattern and traditional manual subscriptions.
             </p>
@@ -373,36 +373,36 @@ const userData = toSignal(
           <div class="p-5">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Aspect</th>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">toSignal() Pattern</th>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Manual Subscription</th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Boilerplate Code</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Boilerplate Code</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Low - Minimal setup required</td>
                     <td class="px-6 py-4 text-sm text-gray-500">High - More code for setup and cleanup</td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Memory Management</td>
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Memory Management</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Automatic - No manual cleanup needed</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Manual - Requires ngOnDestroy implementation</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Reactivity</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Reactivity</td>
                     <td class="px-6 py-4 text-sm text-gray-500">High - Built-in reactive updates</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Manual - Need to trigger change detection</td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Learning Curve</td>
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Learning Curve</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Low - Simple API</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Medium - Need to understand subscription lifecycle</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Use Case</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Use Case</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Simple data fetching, template binding</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Complex scenarios, custom error handling</td>
                   </tr>
@@ -412,9 +412,9 @@ const userData = toSignal(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Migration Guide</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Migration Guide</h3>
             <p class="mt-2 text-gray-600">
               How to migrate from manual subscriptions to the toSignal() pattern.
             </p>
@@ -465,16 +465,16 @@ export class NewComponent {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Best Practices</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Best Practices</h3>
             <p class="mt-2 text-gray-600">
               Recommended practices for using the toSignal() pattern effectively.
             </p>
           </div>
           <div class="p-5">
             <div class="space-y-4">
-              <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="  p-3 rounded-lg">
                 <h4 class="font-medium text-blue-800">Use Initial Values</h4>
                 <p class="text-sm text-blue-700">Always provide initial values to avoid undefined signals</p>
               </div>
@@ -510,7 +510,7 @@ export class ToSignalDocComponent {
 
   htmlCode = `
 <!-- Main container with background -->
-<div class="min-h-screen p-4 bg-gray-50">
+<div class="min-h-screen p-4    ">
   <div class="container mx-auto">
     <!-- Header section -->
     <div class="text-center mb-8">
@@ -547,7 +547,7 @@ export class ToSignalDocComponent {
           <div class="max-h-[1350px] overflow-y-auto space-y-3">
             <!-- Signal-based user iteration -->
             @for(user of usersResource()?.users || []; track user.id) {
-            <div class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer">
+            <div class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer">
               <div class="flex items-center space-x-3">
                 <img
                   [src]="user.image"

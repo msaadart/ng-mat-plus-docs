@@ -159,7 +159,7 @@ export const routes: Routes = [
                 loadComponent: () =>
                   import('./shared-ui/autocomplete-input/autocomplete-input-doc.component').then((m) => m.AutocompleteInputDocComponent),
               },
-    {
+              {
                 path: 'autocomplete-server',
                 title: 'ng-mat-plus - Form Fields / Autocomplete Server Input',
                 data: { breadcrumb: 'Autocomplete' },
@@ -203,14 +203,14 @@ export const routes: Routes = [
             loadComponent: () =>
               import('./shared-ui/progress-bar/progress-bar-doc.component').then((m) => m.ProgressBarDocComponent),
           },
-           {
+          {
             path: 'tooltip',
             title: 'ng-mat-plus - Components / Tooltip',
             data: { breadcrumb: 'Tooltip' },
             loadComponent: () =>
               import('./shared-ui/tooltip/tooltip-doc.component').then((m) => m.TooltipDocComponent),
           },
-           {
+          {
             path: 'expansion-panel',
             title: 'ng-mat-plus - Components / Expansion-Panel',
             data: { breadcrumb: 'Expansion-Panel' },
@@ -419,6 +419,13 @@ export const routes: Routes = [
             data: { breadcrumb: 'Breadcrumb Service' },
             loadComponent: () =>
               import('./service-class/data-transfer/breadcrumb-doc.component').then((m) => m.BreadcrumbDocComponent),
+          },
+          {
+            path: 'theme-service',
+            title: 'ng-mat-plus - Services / Dark Light Theme Service',
+            data: { breadcrumb: 'Dark Light Theme Service' },
+            loadComponent: () =>
+              import('./service-class/data-transfer/theme-dark-light-doc.component').then((m) => m.ThemeDarkLightDocComponent),
           },
           {
             path: 'encrypt-decrypt',

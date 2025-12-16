@@ -25,7 +25,7 @@ import { ExampleComponent } from './example/example.component';
       class="relative w-full rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl group"
       [ngClass]="{
         'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white shadow-slate-900/50': $themeService.isDarkTheme(),
-        'bg-gradient-to-br from-white via-gray-50 to-white text-gray-900 shadow-xl': !$themeService.isDarkTheme()
+        'bg-gradient-to-br from-white via-gray-50 to-white text-gray-600 shadow-xl': !$themeService.isDarkTheme()
       }"
     >
       <!-- Animated Background Pattern -->
@@ -45,7 +45,7 @@ import { ExampleComponent } from './example/example.component';
         class="relative p-8 border-b backdrop-blur-sm"
         [ngClass]="{
           'border-slate-700/50 bg-slate-800/30': $themeService.isDarkTheme(),
-          'border-gray-200/50 bg-white/50': !$themeService.isDarkTheme()
+          'border-gray-200/50 /50': !$themeService.isDarkTheme()
         }"
       >
         <div class="flex flex-col gap-4">
@@ -71,7 +71,7 @@ import { ExampleComponent } from './example/example.component';
       class="flex items-center gap-2 px-3 py-1 rounded-md border transition-colors duration-200"
       [ngClass]="{
         'border-slate-700 bg-slate-800/40 hover:bg-slate-800/60': $themeService.isDarkTheme(),
-        'border-gray-200 bg-gray-100 hover:bg-gray-200': !$themeService.isDarkTheme()
+        'border-gray-200      hover:bg-gray-200': !$themeService.isDarkTheme()
       }"
     >
       <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@ import { ExampleComponent } from './example/example.component';
       class="flex items-center gap-2 px-3 py-1 rounded-md border transition-colors duration-200"
       [ngClass]="{
         'border-blue-700/50 bg-blue-900/30 hover:bg-blue-900/50': $themeService.isDarkTheme(),
-        'border-blue-200 bg-blue-50 hover:bg-blue-100': !$themeService.isDarkTheme()
+        'border-blue-200   hover:bg-blue-100': !$themeService.isDarkTheme()
       }"
     >
       <svg class="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 20 20">

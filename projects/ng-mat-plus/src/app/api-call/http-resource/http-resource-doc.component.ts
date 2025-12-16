@@ -33,7 +33,7 @@ import { ResourseComponent } from './http-resource.component';
           The <strong>Resource Component</strong> demonstrates modern Angular patterns for managing HTTP resources using service-based approaches. This component showcases how to efficiently handle API data fetching, loading states, and error handling with both <code>getResource()</code> and <code>httpResource()</code> methods.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Architecture Highlights</h3>
@@ -52,7 +52,7 @@ import { ResourseComponent } from './http-resource.component';
 
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">getResource()</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simple static URL endpoints</li>
@@ -62,7 +62,7 @@ import { ResourseComponent } from './http-resource.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">httpResource()</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Dynamic URL generation</li>
@@ -72,7 +72,7 @@ import { ResourseComponent } from './http-resource.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Performance Benefits</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Efficient change detection with OnPush strategy</li>
@@ -82,7 +82,7 @@ import { ResourseComponent } from './http-resource.component';
             </ul>
           </div>
           
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Developer Experience</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simplified API integration</li>
@@ -94,10 +94,10 @@ import { ResourseComponent } from './http-resource.component';
         </div>
 
         <h3 class="text-xl font-semibold mt-6">Technical Architecture</h3>
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="  p-4 rounded-lg">
           <div class="flex items-center justify-center mb-4">
             <div class="text-center">
-              <div class="bg-white p-3 rounded-lg shadow-sm mb-2">
+              <div class=" p-3 rounded-lg shadow-sm mb-2">
                 <span class="font-medium text-purple-600">Resource Component</span>
               </div>
               <div class="flex justify-center space-x-6 mt-2">
@@ -150,9 +150,9 @@ import { ResourseComponent } from './http-resource.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Basic Data Fetching with getResource()</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Basic Data Fetching with getResource()</h3>
             <p class="mt-2 text-gray-600">
               Simple API data fetching with automatic state management using static URLs.
             </p>
@@ -170,9 +170,9 @@ users = this.$httpService.getResource<DummyUsersResponse>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Data Fetching with httpResource()</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Dynamic Data Fetching with httpResource()</h3>
             <p class="mt-2 text-gray-600">
               Advanced API data fetching with dynamic URLs and configuration options.
             </p>
@@ -210,9 +210,9 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Template Integration</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Template Integration</h3>
             <p class="mt-2 text-gray-600">
               Using resource states directly in Angular templates for both patterns.
             </p>
@@ -225,9 +225,9 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Data Refresh Pattern</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Data Refresh Pattern</h3>
             <p class="mt-2 text-gray-600">
               Implementing data refresh functionality for both resource types.
             </p>
@@ -277,7 +277,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
         
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+        <div class="  border-l-4 border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Performance Considerations</h3>
@@ -331,9 +331,9 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
       <div class="space-y-8">
         <h2 class="text-2xl font-bold text-gray-800">Advanced Patterns & Comparison</h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Advanced Resource Patterns</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Advanced Resource Patterns</h3>
             <p class="mt-2 text-gray-600">
               Advanced usage patterns for both resource management approaches.
             </p>
@@ -385,9 +385,9 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Comparison: getResource() vs httpResource()</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Comparison: getResource() vs httpResource()</h3>
             <p class="mt-2 text-gray-600">
               Understanding the differences between the two resource patterns.
             </p>
@@ -395,36 +395,36 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
           <div class="p-5">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Aspect</th>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">getResource()</th>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">httpResource()</th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">URL Type</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">URL Type</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Static - Fixed string</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Dynamic - Function that returns string</td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Configuration</td>
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Configuration</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Basic - URL only</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Advanced - Options object with callbacks</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Use Case</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Use Case</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Fixed endpoints, list data</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Parameterized endpoints, detail views</td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Data Transformation</td>
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Data Transformation</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Limited - Manual in component</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Built-in - Parse function in options</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">Complexity</td>
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Complexity</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Simple - Easy to implement</td>
                     <td class="px-6 py-4 text-sm text-gray-500">Advanced - More control and options</td>
                   </tr>
@@ -434,16 +434,16 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Best Practices</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Best Practices</h3>
             <p class="mt-2 text-gray-600">
               Recommended practices for using both resource patterns effectively.
             </p>
           </div>
           <div class="p-5">
             <div class="space-y-4">
-              <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="  p-3 rounded-lg">
                 <h4 class="font-medium text-blue-800">Choose the Right Pattern</h4>
                 <p class="text-sm text-blue-700">Use getResource() for static endpoints and httpResource() for dynamic ones</p>
               </div>
@@ -467,9 +467,9 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">Real-World Example</h3>
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">Real-World Example</h3>
             <p class="mt-2 text-gray-600">
               Complete example showing both patterns working together.
             </p>
@@ -497,7 +497,7 @@ export class ResourceDocComponent {
   title = 'HTTP Resource Management Component';
 
   htmlCode = `
-    <div class="min-h-screen p-4 bg-gray-50">
+    <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <div class="text-center mb-8">
           <h1 class="text-3xl font-semibold text-gray-800 mb-2">
@@ -549,7 +549,7 @@ export class ResourceDocComponent {
               <div class="max-h-[400px] overflow-y-auto space-y-3">
                 @for(user of users.data()?.users || []; track user.id) {
                 <div
-                  class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
+                  class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
                 >
                   <div class="flex items-center space-x-3">
                     <img
@@ -635,7 +635,7 @@ export class ResourceDocComponent {
 
               <!-- Data state -->
               @if(singleUserResource.value()) {
-              <div class="bg-white p-4 rounded-lg border border-gray-200">
+              <div class=" p-4 rounded-lg border border-gray-200">
                 <div class="flex items-center space-x-4 mb-4">
                   <img
                     [src]="singleUserResource.value()?.image"
@@ -671,7 +671,7 @@ export class ResourceDocComponent {
                   </div>
                 </div>
                 @if (singleUserResource.value()?.address) {
-                <div class="mt-4 p-3 bg-gray-50 rounded-md">
+                <div class="mt-4 p-3   rounded-md">
                   <h5 class="font-medium text-gray-700 mb-2">Address:</h5>
                   <p class="text-gray-600 text-sm">
                     {{ singleUserResource.value()?.address?.address }},<br />
@@ -875,7 +875,7 @@ export class ResourseComponent {
 <!-- Data state -->
 <div *ngIf="users.data()?.users" class="space-y-3">
   @for (user of users.data()?.users || []; track user.id) {
-    <div class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md">
+    <div class="  p-3 rounded-md border border-gray-200 hover:shadow-md">
       <div class="flex items-center space-x-3">
         <img [src]="user.image" [alt]="user.firstName" 
              class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm" />
@@ -893,7 +893,7 @@ export class ResourseComponent {
 </div>
 
 <!-- httpResource specific template -->
-<div *ngIf="singleUserResource.data()" class="bg-white p-4 rounded-lg border border-gray-200">
+<div *ngIf="singleUserResource.data()" class=" p-4 rounded-lg border border-gray-200">
   <div class="flex items-center space-x-4 mb-4">
     <img
       [src]="singleUserResource.data()?.image"

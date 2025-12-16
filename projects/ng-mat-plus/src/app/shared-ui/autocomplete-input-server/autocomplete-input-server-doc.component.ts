@@ -26,7 +26,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded text-gray-800"
             >LibAutocompleteServerComponent</code
           >
           is a powerful server-side autocomplete component that fetches options
@@ -34,7 +34,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           error handling.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -118,9 +118,9 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Basic Server Autocomplete
             </h3>
             <p class="mt-2 text-gray-600">
@@ -128,42 +128,42 @@ import { DocumentationComponent } from "../documentation/documentation.component
               parameters.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Custom Query Parameters
             </h3>
             <p class="mt-2 text-gray-600">
               Configuring custom query parameters for API requests.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customParamsExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Response Data Mapping
             </h3>
             <p class="mt-2 text-gray-600">
               Using JSON paths to extract data from complex API responses.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="responseMappingExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Custom Display Function
             </h3>
             <p class="mt-2 text-gray-600">
@@ -171,7 +171,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
               dropdown.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="displayFunctionExample"></app-code-viewer>
           </div>
         </div>
@@ -301,19 +301,19 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Configuration Options</h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Input Properties Reference
             </h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties with descriptions.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th
                       class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -337,10 +337,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
                     </th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       apiEndpoint
                     </td>
@@ -360,7 +360,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       apiParams
                     </td>
@@ -380,7 +380,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       searchQueryParam
                     </td>
@@ -400,7 +400,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       pageQueryParam
                     </td>
@@ -420,7 +420,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       limitQueryParam
                     </td>
@@ -440,7 +440,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       minChars
                     </td>
@@ -460,7 +460,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       pageSize
                     </td>
@@ -480,7 +480,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       debounceTime
                     </td>
@@ -500,7 +500,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       responseDataPath
                     </td>
@@ -521,7 +521,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       responseHasMorePath
                     </td>
@@ -542,7 +542,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       noOptionsText
                     </td>
@@ -562,7 +562,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       loadingOptionsText
                     </td>
@@ -582,7 +582,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       displayFn
                     </td>
@@ -607,19 +607,19 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Output Events Reference
             </h3>
             <p class="mt-2 text-gray-600">
               Complete list of available output events.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th
                       class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -638,10 +638,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
                     </th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       optionSelected
                     </td>
@@ -656,7 +656,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       blur
                     </td>
@@ -671,7 +671,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                     >
                       focus
                     </td>
@@ -691,9 +691,9 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
       </div>
-      <div class="bg-white shadow rounded-lg overflow-hidden mt-6">
+      <div class=" shadow rounded-lg overflow-hidden mt-6">
         <div class="p-5">
-          <h3 class="text-lg font-medium text-gray-900">
+          <h3 class="text-lg font-medium text-gray-600">
             Public Methods Reference
           </h3>
           <p class="mt-2 text-gray-600">
@@ -701,10 +701,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
             can be called programmatically using <code>ViewChild</code>.
           </p>
         </div>
-        <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+        <div class="  px-5 py-3 border-t border-gray-200">
           <div class="overflow-x-auto">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th
                     class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
@@ -723,10 +723,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
                   <td
-                    class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                    class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
                   >
                     triggerSearch
                   </td>

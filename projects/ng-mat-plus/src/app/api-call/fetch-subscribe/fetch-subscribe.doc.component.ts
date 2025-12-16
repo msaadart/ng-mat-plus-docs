@@ -37,7 +37,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           custom data handling logic.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -73,7 +73,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Manual API Operations</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Explicit HTTP GET, POST, PUT, DELETE calls</li>
@@ -83,7 +83,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Observable Patterns</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Subscribe/unsubscribe lifecycle management</li>
@@ -93,7 +93,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">State Control</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Manual signal updates</li>
@@ -103,7 +103,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Advanced Features</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Custom validation logic</li>
@@ -115,10 +115,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         </div>
 
         <h3 class="text-xl font-semibold mt-6">Technical Architecture</h3>
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="  p-4 rounded-lg">
           <div class="flex items-center justify-center mb-4">
             <div class="text-center">
-              <div class="bg-white p-3 rounded-lg shadow-sm mb-2">
+              <div class=" p-3 rounded-lg shadow-sm mb-2">
                 <span class="font-medium text-purple-600"
                   >FetchSubscribeComponent</span
                 >
@@ -193,9 +193,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Custom API Integration
             </h3>
             <p class="mt-2 text-gray-600">
@@ -245,9 +245,9 @@ createNewUser(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Data Transformation Pipeline
             </h3>
             <p class="mt-2 text-gray-600">
@@ -299,9 +299,9 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Conditional API Operations
             </h3>
             <p class="mt-2 text-gray-600">
@@ -317,7 +317,7 @@ refreshAllData(): void {
                   Verify user permissions before API calls
                 </p>
               </div>
-              <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="  p-3 rounded-lg">
                 <h4 class="font-medium text-blue-800 mb-1">Data Validation</h4>
                 <p class="text-sm text-blue-700">
                   Client-side validation before server requests
@@ -339,9 +339,9 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Advanced Error Handling
             </h3>
             <p class="mt-2 text-gray-600">
@@ -477,7 +477,7 @@ deleteUser(): void {
           </div>
         </div>
 
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+        <div class="  border-l-4 border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -586,9 +586,9 @@ deleteUser(): void {
           Advanced Implementation Patterns
         </h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Subscription Management Pattern
             </h3>
             <p class="mt-2 text-gray-600">
@@ -659,9 +659,9 @@ export class FetchSubscribeComponent implements OnDestroy {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Custom HTTP Interceptors
             </h3>
             <p class="mt-2 text-gray-600">
@@ -705,9 +705,9 @@ export class AuthInterceptor implements HttpInterceptor {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Comparison: Fetch/Subscribe vs Resource Pattern
             </h3>
             <p class="mt-2 text-gray-600">
@@ -718,7 +718,7 @@ export class AuthInterceptor implements HttpInterceptor {
           <div class="p-5">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                       Aspect
@@ -731,9 +731,9 @@ export class AuthInterceptor implements HttpInterceptor {
                     </th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
                       Control Level
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-500">
@@ -743,8 +743,8 @@ export class AuthInterceptor implements HttpInterceptor {
                       Medium - Automated with configuration
                     </td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
                       Code Complexity
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-500">
@@ -755,7 +755,7 @@ export class AuthInterceptor implements HttpInterceptor {
                     </td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
                       Error Handling
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-500">
@@ -765,8 +765,8 @@ export class AuthInterceptor implements HttpInterceptor {
                       Unified error handling
                     </td>
                   </tr>
-                  <tr class="bg-gray-50">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  <tr class="   ">
+                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
                       Use Case
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-500">
@@ -799,7 +799,7 @@ export class FetchSubscribeDocComponent {
 
   htmlCode = `
 <!-- Main container with background -->
-<div class="min-h-screen p-4 bg-gray-50">
+<div class="min-h-screen p-4    ">
   <div class="container mx-auto">
     <!-- Header section -->
     <div class="text-center mb-8">
@@ -895,7 +895,7 @@ export class FetchSubscribeDocComponent {
           <!-- Users list with manual observable subscription -->
           <div class="max-h-96 overflow-y-auto space-y-3">
             @for(user of usersResource()?.users || []; track user.id) {
-              <div class="bg-gray-50 p-3 rounded-md border hover:shadow-md cursor-pointer"
+              <div class="  p-3 rounded-md border hover:shadow-md cursor-pointer"
                    (click)="prefillUpdateUser(user.id)">
                 <div class="flex items-center space-x-3">
                   <img [src]="user.image" [alt]="user.firstName" 

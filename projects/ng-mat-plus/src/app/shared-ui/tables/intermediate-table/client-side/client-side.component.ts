@@ -17,7 +17,7 @@ import { LibTextFieldComponent, LibNumberComponent, LibDatePickerComponent } fro
   selector: 'app-client-side-table',
   imports: [ReactiveFormsModule, LibTextFieldComponent, LibNumberComponent, LibDatePickerComponent, LibMatFlatButtonComponent, LibIntermediateClientTableComponent],
   template: `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
+    <div class="rounded-xl shadow border border-gray-200  p-4">
       <form [formGroup]="tableForm" class="flex items-center gap-2">
         <div class="w-40 p-2">
           <lib-text-field

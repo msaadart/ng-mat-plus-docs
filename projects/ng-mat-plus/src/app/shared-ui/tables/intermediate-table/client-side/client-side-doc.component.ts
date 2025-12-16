@@ -28,12 +28,12 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-intermediate-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component  builds upon the basic table with enhanced inline editing capabilities, 
+      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-intermediate-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component  builds upon the basic table with enhanced inline editing capabilities, 
       form validation, and more sophisticated input handling. It supports all basic table features while 
       adding direct cell editing with various input types.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="  border-l-4 border-blue-500 p-4 my-4">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -70,38 +70,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Editing Applications</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Editing Applications</h3>
         <p class="mt-2 text-gray-600">
           Perfect for applications requiring frequent inline editing with validation, such as admin panels or data management systems.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="editingExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Form-heavy Interfaces</h3>
+        <h3 class="text-lg font-medium text-gray-600">Form-heavy Interfaces</h3>
         <p class="mt-2 text-gray-600">
           Ideal for scenarios where table cells need to function as form inputs with validation rules.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="formExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Complex Data Grids</h3>
+        <h3 class="text-lg font-medium text-gray-600">Complex Data Grids</h3>
         <p class="mt-2 text-gray-600">
           Suitable for grids requiring a mix of display and editable cells with different input types.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="gridExample"></app-code-viewer>
       </div>
     </div>
@@ -158,50 +158,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">
     <h2 class="text-2xl font-bold text-on-surface">Implementation Details</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Setup</h3>
+        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
         <p class="mt-2 text-gray-600">
           Basic implementation requires importing the intermediate table component and configuring columns with input specifications.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Column Configuration</h3>
+        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
         <p class="mt-2 text-gray-600">
           Columns are defined with input type specifications and validation rules.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="columnConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Input Types</h3>
+        <h3 class="text-lg font-medium text-gray-600">Input Types</h3>
         <p class="mt-2 text-gray-600">
           Various input types can be specified for editable columns.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="inputTypesExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
         <p class="mt-2 text-gray-600">
           The component works with signals for reactive data updates and provides edit/delete examples.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>

@@ -24,10 +24,10 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-gray-700">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-expansion-panel&gt;</code> component provides an expandable container that can show/hide content with a smooth animation. It's useful for organizing content into collapsible sections.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-expansion-panel&gt;</code> component provides an expandable container that can show/hide content with a smooth animation. It's useful for organizing content into collapsible sections.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -65,38 +65,38 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Expansion Panel</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Expansion Panel</h3>
             <p class="mt-2 text-gray-600">
               Simple panel with title and content.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Panel with Actions</h3>
+            <h3 class="text-lg font-medium text-gray-600">Panel with Actions</h3>
             <p class="mt-2 text-gray-600">
               Expansion panel with action buttons in the footer.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="actionsExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Disabled Panel</h3>
+            <h3 class="text-lg font-medium text-gray-600">Disabled Panel</h3>
             <p class="mt-2 text-gray-600">
               Panel in disabled state with explanation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="disabledExample"></app-code-viewer>
           </div>
         </div>
@@ -159,28 +159,28 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Accordion Implementation</h3>
+            <h3 class="text-lg font-medium text-gray-600">Accordion Implementation</h3>
             <p class="mt-2 text-gray-600">
               Creating an accordion where only one panel can be open at a time.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="accordionExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of expansion panel properties and events.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
@@ -188,33 +188,33 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">title</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">title</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'Panel Title'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Header text for the panel</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">description</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">description</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">''</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Subheader text</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">icon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">icon</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">''</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Material icon name</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">expanded</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">expanded</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">false</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Initial expanded state</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">false</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether panel is disabled</td>

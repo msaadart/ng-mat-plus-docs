@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-checkbox&gt;</code> component provides a customizable checkbox input with label support and seamless integration with Angular's reactive forms.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-checkbox&gt;</code> component provides a customizable checkbox input with label support and seamless integration with Angular's reactive forms.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -67,38 +67,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Checkbox</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Checkbox</h3>
             <p class="mt-2 text-gray-600">
               Simple checkbox with default label and FormControl binding.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">FormGroup Integration</h3>
+            <h3 class="text-lg font-medium text-gray-600">FormGroup Integration</h3>
             <p class="mt-2 text-gray-600">
               Using the checkbox within a FormGroup with validation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="formGroupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Disabled State</h3>
+            <h3 class="text-lg font-medium text-gray-600">Disabled State</h3>
             <p class="mt-2 text-gray-600">
               Showing how to use the checkbox in a disabled state.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="disabledExample"></app-code-viewer>
           </div>
         </div>
@@ -161,47 +161,47 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Checkbox Array</h3>
+            <h3 class="text-lg font-medium text-gray-600">Checkbox Array</h3>
             <p class="mt-2 text-gray-600">
               Implementing multiple checkboxes bound to an array of values.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="checkboxArrayExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The label text for the checkbox (default: 'Check me!')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">control</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">control</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormControl</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The FormControl instance for this checkbox</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether the checkbox is disabled (default: false)</td>
                 </tr>

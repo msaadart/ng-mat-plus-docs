@@ -32,7 +32,7 @@ import { TBasicTableColumn, BasicTableColumnTypeEnum, IBasicTableRowConfig } fro
   selector: 'app-client-side-table',
   imports: [LibBasicClientTableComponent],
   template: `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
+    <div class="rounded-xl shadow border border-gray-200  p-4">
       <lib-basic-client-table
         [tableData]="allData()"
         [columns]="columnsConfig"

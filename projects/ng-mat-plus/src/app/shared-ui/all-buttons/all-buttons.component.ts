@@ -124,7 +124,7 @@ import { MatCardModule } from '@angular/material/card';
   Click Me
 &lt;/lib-button&gt;<br />imports: <br />LibButtonComponent</code></pre>
             <ul class="list">
-              <li><lib-button className="bg-blue-500 text-white p-2 rounded">Click Me</lib-button></li>
+              <li><lib-button className=" 0 text-white p-2 rounded">Click Me</lib-button></li>
               <li><lib-button className="bg-cyan-500 text-white p-2 rounded"  (matClick)="onButtonClick()">Home</lib-button></li>
               <li><lib-button className="bg-pink-500 text-white p-2 rounded"  [disabled]="true" >Disabled</lib-button></li>
               <li><lib-button className="bg-indigo-500 text-white p-2 rounded">Star</lib-button></li>

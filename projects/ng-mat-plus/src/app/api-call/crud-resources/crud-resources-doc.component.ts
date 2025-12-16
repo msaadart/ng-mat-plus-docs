@@ -36,7 +36,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           user data through RESTful API interactions.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -73,7 +73,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">CRUD Operations</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Create new user records with validation</li>
@@ -83,7 +83,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">State Management</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Signal-based reactive state</li>
@@ -93,7 +93,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">Security Features</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Authentication integration</li>
@@ -103,7 +103,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </ul>
           </div>
 
-          <div class="bg-white p-4 rounded-lg border border-gray-200">
+          <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium text-gray-800 mb-2">UI/UX Features</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Responsive grid layout</li>
@@ -115,10 +115,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         </div>
 
         <h3 class="text-xl font-semibold mt-6">Technical Architecture</h3>
-        <div class="bg-gray-50 p-4 rounded-lg">
+        <div class="  p-4 rounded-lg">
           <div class="flex items-center justify-center mb-4">
             <div class="text-center">
-              <div class="bg-white p-3 rounded-lg shadow-sm mb-2">
+              <div class=" p-3 rounded-lg shadow-sm mb-2">
                 <span class="font-medium text-blue-600"
                   >CrudResourceComponent</span
                 >
@@ -159,9 +159,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               User Management Dashboard
             </h3>
             <p class="mt-2 text-gray-600">
@@ -183,9 +183,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Real-time Data Synchronization
             </h3>
             <p class="mt-2 text-gray-600">
@@ -193,7 +193,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </p>
           </div>
           <div class="p-5">
-            <div class="bg-blue-50 p-4 rounded-lg">
+            <div class="  p-4 rounded-lg">
               <h4 class="font-medium text-blue-800 mb-2">Key Features:</h4>
               <ul class="list-disc pl-5 text-blue-700 space-y-1">
                 <li>Automatic UI updates on data changes</li>
@@ -205,9 +205,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Secure Data Handling
             </h3>
             <p class="mt-2 text-gray-600">
@@ -244,9 +244,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Advanced Configuration
             </h3>
             <p class="mt-2 text-gray-600">
@@ -314,7 +314,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
+        <div class="  border-l-4 border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -458,9 +458,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           API Reference & Integration Guide
         </h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Customization Guide
             </h3>
             <p class="mt-2 text-gray-600">
@@ -511,9 +511,9 @@ isUpdateFormValid(): boolean {
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <div class="p-5 bg-gray-50 border-b">
-            <h3 class="text-lg font-medium text-gray-900">
+        <div class=" shadow rounded-lg overflow-hidden">
+          <div class="p-5   border-b">
+            <h3 class="text-lg font-medium text-gray-600">
               Troubleshooting Common Issues
             </h3>
             <p class="mt-2 text-gray-600">
@@ -538,7 +538,7 @@ isUpdateFormValid(): boolean {
                   requests.
                 </p>
               </div>
-              <div class="bg-blue-50 p-3 rounded-lg">
+              <div class="  p-3 rounded-lg">
                 <h4 class="font-medium text-blue-800">Performance Issues</h4>
                 <p class="text-sm text-blue-700">
                   For large datasets, implement pagination or virtual scrolling.
@@ -574,7 +574,7 @@ export class CrudResourceDocComponent {
 
   htmlCode = `
 <!-- Main container with background -->
-<div class="min-h-screen p-4 bg-gray-50">
+<div class="min-h-screen p-4    ">
   <div class="container mx-auto">
     <!-- Header section -->
     <div class="text-center mb-8">

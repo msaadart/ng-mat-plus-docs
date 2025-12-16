@@ -23,11 +23,11 @@ import { CardComponent } from './card.component';
     <ng-template #overviewContent>
       <div class="space-y-4 text-on-surface">
         <p>
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code>
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code>
           component is a lightweight, reusable container that provides a consistent structure 
           for displaying content in a card layout.
         </p>
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <h3 class="text-sm font-medium text-blue-800">Structure</h3>
           <ul class="list-disc pl-5 mt-2 text-sm text-blue-700 space-y-1">
             <li><strong>Header</strong> – Place titles, actions, or metadata.</li>
@@ -41,9 +41,9 @@ import { CardComponent } from './card.component';
     <!-- Use Cases -->
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Common Scenarios</h3>
+            <h3 class="text-lg font-medium text-gray-600">Common Scenarios</h3>
             <p class="mt-2 text-gray-600">
               Examples where <code>&lt;lib-card&gt;</code> is useful:
             </p>
@@ -55,9 +55,9 @@ import { CardComponent } from './card.component';
             </ul>
             <p class="mt-4 text-sm text-gray-600">
               It also emits 
-              <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">(cardClick)</code> 
+              <code class="     px-1 py-0.5 rounded text-gray-800">(cardClick)</code> 
               and 
-              <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">(cardDblClick)</code> 
+              <code class="     px-1 py-0.5 rounded text-gray-800">(cardDblClick)</code> 
               events for interactive use.
             </p>
           </div>
@@ -84,9 +84,9 @@ import { CardComponent } from './card.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Theming & Extensibility</h3>
+            <h3 class="text-lg font-medium text-gray-600">Theming & Extensibility</h3>
             <p class="mt-2 text-gray-600">
               You can extend <code>&lt;lib-card&gt;</code> to include media sections 
               (images/videos) or theme it with CSS variables for colors, spacing, 
@@ -126,7 +126,7 @@ export class CardDocComponent {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo ac 
           sapien consequat fermentum. Pellentesque habitant morbi tristique senectus 
           et netus et malesuada fames ac turpis egestas.
-          <span class="absolute bg-white pl-1 text-[10px] text-blue-600 hover:underline"
+          <span class="absolute  pl-1 text-[10px] text-blue-600 hover:underline"
             (click)="toggleExpand(small)">
             See More
           </span>

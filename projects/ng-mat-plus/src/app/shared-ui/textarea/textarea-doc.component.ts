@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-textarea&gt;</code> component provides a multi-line text input field with all the features of the text field component plus additional textarea-specific functionality.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-textarea&gt;</code> component provides a multi-line text input field with all the features of the text field component plus additional textarea-specific functionality.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -66,38 +66,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Textarea</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Textarea</h3>
             <p class="mt-2 text-gray-600">
               Standard textarea with default 3 rows and vertical resize.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Fixed Size Textarea</h3>
+            <h3 class="text-lg font-medium text-gray-600">Fixed Size Textarea</h3>
             <p class="mt-2 text-gray-600">
               Textarea with fixed dimensions and disabled resize.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="fixedSizeExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Character Count</h3>
+            <h3 class="text-lg font-medium text-gray-600">Character Count</h3>
             <p class="mt-2 text-gray-600">
               Textarea with character count indicator and max length validation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="characterCountExample"></app-code-viewer>
           </div>
         </div>
@@ -160,57 +160,57 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Height</h3>
+            <h3 class="text-lg font-medium text-gray-600">Dynamic Height</h3>
             <p class="mt-2 text-gray-600">
               Textarea that grows with content up to a maximum height.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dynamicHeightExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The label text for the textarea</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">rows</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">rows</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Number of visible text rows (default: 3)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">resize</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">resize</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Resize behavior (none, both, vertical, horizontal)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">minHeight</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">minHeight</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Minimum height of the textarea</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">hint</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">hint</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether to show character count hint</td>
                 </tr>

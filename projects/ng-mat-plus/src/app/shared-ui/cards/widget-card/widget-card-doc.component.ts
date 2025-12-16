@@ -24,10 +24,10 @@ import { WidgetComponent } from './widget-card.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-widget&gt;</code> component provides a flexible container for building dashboard widgets with customizable headers and content sections.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-widget&gt;</code> component provides a flexible container for building dashboard widgets with customizable headers and content sections.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -64,38 +64,38 @@ import { WidgetComponent } from './widget-card.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Widget</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Widget</h3>
             <p class="mt-2 text-gray-600">
               Simple widget with title and icon.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicWidgetExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Widget with Action Buttons</h3>
+            <h3 class="text-lg font-medium text-gray-600">Widget with Action Buttons</h3>
             <p class="mt-2 text-gray-600">
               Widget with configured action buttons in header.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="widgetWithActionsExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Header Content</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Header Content</h3>
             <p class="mt-2 text-gray-600">
               Widget with custom content in header middle section.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customHeaderExample"></app-code-viewer>
           </div>
         </div>
@@ -158,52 +158,52 @@ import { WidgetComponent } from './widget-card.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Button Configuration</h3>
+            <h3 class="text-lg font-medium text-gray-600">Dynamic Button Configuration</h3>
             <p class="mt-2 text-gray-600">
               Configuring buttons dynamically based on application state.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dynamicButtonsExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">title</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">title</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The title displayed in the widget header (default: 'title')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">iconSource</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">iconSource</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Image path or Material icon name (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">iconSourceType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">iconSourceType</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'image' | 'icon'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Determines how iconSource is rendered (default: 'image')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerButtons</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">headerButtons</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">IWidgetHeaderIconButtonConfig[]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Array of button configurations for header (default: [])</td>
                 </tr>
@@ -212,14 +212,14 @@ import { WidgetComponent } from './widget-card.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Button Configuration Interface</h3>
+            <h3 class="text-lg font-medium text-gray-600">Button Configuration Interface</h3>
             <p class="mt-2 text-gray-600">
               Details of the IWidgetHeaderIconButtonConfig interface.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="buttonInterfaceExample"></app-code-viewer>
           </div>
         </div>

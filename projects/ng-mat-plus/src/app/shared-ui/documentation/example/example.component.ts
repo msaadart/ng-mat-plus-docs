@@ -22,7 +22,7 @@ import { CodeViewerComponent } from '../code-viewer/code-viewer.component';
       <header class="relative px-6 py-5 backdrop-blur-sm"
               [ngClass]="{
                 'bg-slate-800/50 border-b border-slate-700/50': $themeService.isDarkTheme(),
-                'bg-white/80 border-b border-gray-200': !$themeService.isDarkTheme()
+                '/80 border-b border-gray-200': !$themeService.isDarkTheme()
               }">
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-3">
@@ -41,7 +41,7 @@ import { CodeViewerComponent } from '../code-viewer/code-viewer.component';
               <h3 class="text-xl font-bold tracking-tight" 
                   [ngClass]="{
                     'text-slate-100': $themeService.isDarkTheme(),
-                    'text-gray-900': !$themeService.isDarkTheme()
+                    'text-gray-600': !$themeService.isDarkTheme()
                   }">
                 {{title()}}
               </h3>
@@ -94,7 +94,7 @@ import { CodeViewerComponent } from '../code-viewer/code-viewer.component';
             <div class="view-section min-h-[300px] rounded-xl p-8 transition-all duration-500 animate-fadeIn"
                  [ngClass]="{
                    'bg-slate-800/30 border border-slate-700/30': $themeService.isDarkTheme(),
-                   'bg-gray-50 border border-gray-200': !$themeService.isDarkTheme()
+                   '  border border-gray-200': !$themeService.isDarkTheme()
                  }">
               @if (component()) {
                 <ng-template *ngComponentOutlet="component() ?? null"></ng-template>

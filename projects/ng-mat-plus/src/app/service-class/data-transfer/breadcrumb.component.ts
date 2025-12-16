@@ -87,10 +87,10 @@ export class LibBreadcrumbService {
   imports: [CommonModule, RouterModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <nav class="p-4 border rounded-md bg-white">
+    <nav class="p-4 border rounded-md ">
       <div class="flex items-center flex-wrap gap-2">
         @for (bc of breadcrumbService.breadcrumbs(); track bc.url) {
-          <a class="px-2 py-1 rounded-md bg-gray-100 text-blue-700 hover:bg-gray-200" [routerLink]="bc.url">{{ bc.label }}</a>
+          <a class="px-2 py-1 rounded-md      text-blue-700 hover:bg-gray-200" [routerLink]="bc.url">{{ bc.label }}</a>
           <span class="text-gray-400">›</span>
         }
       </div>

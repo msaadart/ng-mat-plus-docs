@@ -16,7 +16,7 @@ import { LibTextFieldComponent } from 'ng-mat-plus/lib-forms';
       <div class="space-y-2">
         <h3 class="text-lg font-semibold text-on-surface">🖱️ Scroll Example</h3>
         <div
-          class="h-[200px] overflow-y-scroll border border-blue-300 rounded p-2 bg-white"
+          class="h-[200px] overflow-y-scroll border border-blue-300 rounded p-2 "
           (scroll)="onScroll($event)"
         >
           <div

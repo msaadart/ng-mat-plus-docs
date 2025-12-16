@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-password&gt;</code> component is a secure password input field with built-in validation and masking capabilities. It provides a user-friendly way to handle password inputs while maintaining security best practices.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-password&gt;</code> component is a secure password input field with built-in validation and masking capabilities. It provides a user-friendly way to handle password inputs while maintaining security best practices.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -67,38 +67,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Password Input</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Password Input</h3>
             <p class="mt-2 text-gray-600">
               Standard password input field with label and placeholder in a form context.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">FormGroup Integration</h3>
+            <h3 class="text-lg font-medium text-gray-600">FormGroup Integration</h3>
             <p class="mt-2 text-gray-600">
               Using the password field within a FormGroup with validation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="formControlExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Password Confirmation</h3>
+            <h3 class="text-lg font-medium text-gray-600">Password Confirmation</h3>
             <p class="mt-2 text-gray-600">
               Implementing password confirmation with matching validation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="confirmationExample"></app-code-viewer>
           </div>
         </div>
@@ -161,57 +161,57 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Password Strength Meter</h3>
+            <h3 class="text-lg font-medium text-gray-600">Password Strength Meter</h3>
             <p class="mt-2 text-gray-600">
               Implementing a visual password strength indicator.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="strengthMeterExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The label text for the password field (default: 'Password')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">placeholder</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">placeholder</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Placeholder text displayed when the input is empty (default: 'Enter your password')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">control</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">control</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormControl</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The FormControl instance for this input</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether the input is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">showStrengthMeter</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">showStrengthMeter</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether to show password strength meter (default: false)</td>
                 </tr>

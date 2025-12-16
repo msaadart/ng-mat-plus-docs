@@ -138,7 +138,7 @@ interface DummyUsersResponse {
     `,
   ],
   template: `
-    <div class="min-h-screen p-4 bg-gray-50">
+    <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <!-- Header -->
         <div class="text-center mb-8">
@@ -182,7 +182,7 @@ interface DummyUsersResponse {
                 @for(user of usersSignal()?.users || [];
                 track user.id) {
                 <div
-                  class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer">
+                  class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer">
                   <div class="flex items-center space-x-3">
                     <img
                       [src]="user.image"

@@ -90,7 +90,7 @@
             (mouseleave)="setHoveredItem(null, i)"
             [ngClass]="{
               'bg-slate-900/98 border-purple-700/40': $themeService.isDarkTheme(),
-              'bg-white/98 border-purple-200/50': !$themeService.isDarkTheme(),
+              '/98 border-purple-200/50': !$themeService.isDarkTheme(),
               'left-[240px]': isSidebarOpen,
               'left-[60px]': !isSidebarOpen
             }" 
@@ -128,7 +128,7 @@
                       <span class="flex items-center gap-2">
                         <span class="w-1.5 h-1.5 rounded-full"
                           [ngClass]="{
-                            'bg-white': router.isActive(subItem.route ?? '', true),
+                            '': router.isActive(subItem.route ?? '', true),
                             'bg-purple-400': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
                             'bg-purple-500': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
                           }"></span>
@@ -170,7 +170,7 @@
                         <span class="flex items-center gap-2">
                           <span class="w-1 h-1 rounded-full"
                             [ngClass]="{
-                              'bg-white': router.isActive(nestedSubItem.route ?? '', true),
+                              '': router.isActive(nestedSubItem.route ?? '', true),
                               'bg-purple-400': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
                               'bg-purple-500': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
                             }"></span>
@@ -191,7 +191,7 @@
           <!-- Submenu for mobile -->
           @if (item.hasSubMenu && activeMobileItem === i && isMobileScreen) {
           <div class="w-full shadow-lg z-50 py-1 mt-1 border select-none rounded-lg backdrop-blur-sm"
-            [ngClass]="{'bg-purple-900/40 border-purple-800/40': $themeService.isDarkTheme(), 'bg-white/90 border-purple-200/50': !$themeService.isDarkTheme()}">
+            [ngClass]="{'bg-purple-900/40 border-purple-800/40': $themeService.isDarkTheme(), '/90 border-purple-200/50': !$themeService.isDarkTheme()}">
             <ul class="space-y-0.5 overflow-y-auto max-h-[28dvh] px-2">
               @for (subItem of item.subMenu; track subItem.label; let j = $index) {
               <ng-container>
@@ -211,7 +211,7 @@
                       <span class="flex items-center gap-2">
                         <span class="w-1.5 h-1.5 rounded-full"
                           [ngClass]="{
-                            'bg-white': router.isActive(subItem.route ?? '', true),
+                            '': router.isActive(subItem.route ?? '', true),
                             'bg-purple-400': !router.isActive(subItem.route ?? '', true)
                           }"></span>
                         {{ subItem.label }}
@@ -268,7 +268,7 @@
               (mouseleave)="setHoveredItem(null, i)"
               [ngClass]="{
                 'bg-slate-900/98 border-purple-700/40': $themeService.isDarkTheme(),
-                'bg-white/98 border-purple-200/50': !$themeService.isDarkTheme(),
+                '/98 border-purple-200/50': !$themeService.isDarkTheme(),
                 'left-[60px]': !isSidebarOpen
               }" 
               [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
@@ -297,7 +297,7 @@
   <div class="border-t py-2 px-3 backdrop-blur-sm relative z-10"
     [ngClass]="{
       'bg-slate-900/50 border-purple-800/30': $themeService.isDarkTheme(),
-      'bg-white/50 border-purple-200/30': !$themeService.isDarkTheme()
+      '/50 border-purple-200/30': !$themeService.isDarkTheme()
     }">
     <div class="flex items-center"
       [ngClass]="{'flex-col space-y-3': !isSidebarOpen && !isMobileScreen, 'justify-between': isSidebarOpen || isMobileScreen}">

@@ -28,10 +28,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong>, is an advanced Angular table component designed for client-side data management. It extends the functionality of the basic table with features like inline editing via dialogs, sorting, custom column rendering, conditional row styling, and action buttons with dynamic visibility.
+      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong>, is an advanced Angular table component designed for client-side data management. It extends the functionality of the basic table with features like inline editing via dialogs, sorting, custom column rendering, conditional row styling, and action buttons with dynamic visibility.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="  border-l-4 border-blue-500 p-4 my-4">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -69,38 +69,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Interactive Data Grids</h3>
+        <h3 class="text-lg font-medium text-gray-600">Interactive Data Grids</h3>
         <p class="mt-2 text-gray-600">
           Ideal for applications requiring interactive tables with sorting, inline editing, and action buttons, such as user management dashboards.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="interactiveGridExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Client-Side Data Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">Client-Side Data Management</h3>
         <p class="mt-2 text-gray-600">
           Perfect for scenarios where small to medium datasets (up to 100 records) need to be managed client-side with reactive updates.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="clientSideExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Customizable Admin Panels</h3>
+        <h3 class="text-lg font-medium text-gray-600">Customizable Admin Panels</h3>
         <p class="mt-2 text-gray-600">
           Suitable for admin interfaces requiring custom row styling, action buttons, and dialog-based editing.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="adminPanelExample"></app-code-viewer>
       </div>
     </div>
@@ -157,50 +157,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">
     <h2 class="text-2xl font-bold text-on-surface">Implementation Details</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Setup</h3>
+        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
         <p class="mt-2 text-gray-600">
           Requires importing the <code>LibAdvancedClientTableComponent</code> and configuring columns, row settings, and data signals.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Column Configuration</h3>
+        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
         <p class="mt-2 text-gray-600">
           Columns support multiple types (text, number, date, checkbox) with validation and action buttons.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="columnConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Row Interactions</h3>
+        <h3 class="text-lg font-medium text-gray-600">Row Interactions</h3>
         <p class="mt-2 text-gray-600">
           Supports click, double-click, and conditional styling for rows, with serial number rendering.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="rowConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
         <p class="mt-2 text-gray-600">
           Uses signals for reactive updates and supports dialog-based editing and row deletion.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>
@@ -467,7 +467,7 @@ export class ClientSideDocComponent {
 
   interactiveGridExample = `
     <!-- Example: Using ClientSideTableComponent in an interactive grid -->
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
+    <div class="rounded-xl shadow border border-gray-200  p-4">
       <lib-advanced-client-table
         [tableData]="usersData()"
         [columns]="columnsConfig"
@@ -579,7 +579,7 @@ export class ClientSideDocComponent {
 
   adminPanelExample = `
     <!-- Example: Admin panel with action buttons and dialog editing -->
-    <div class="p-6 bg-gray-100">
+    <div class="p-6     ">
       <lib-advanced-client-table
         [tableData]="adminData()"
         [columns]="columnsConfig"

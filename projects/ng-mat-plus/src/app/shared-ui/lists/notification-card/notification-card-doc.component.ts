@@ -25,9 +25,9 @@ import { NotificationPreviewComponent } from './notification-card.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code> component provides a notification-style card with sender information, timestamps, and interactive capabilities.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code> component provides a notification-style card with sender information, timestamps, and interactive capabilities.
         </p>
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -63,9 +63,9 @@ import { NotificationPreviewComponent } from './notification-card.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Notification Card</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Notification Card</h3>
             <p class="mt-2 text-gray-600">
               Standard notification card with sender, timestamp and source.
             </p>
@@ -77,14 +77,14 @@ import { NotificationPreviewComponent } from './notification-card.component';
               </lib-notification-card>
             </div>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicCardExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Interactive Card</h3>
+            <h3 class="text-lg font-medium text-gray-600">Interactive Card</h3>
             <p class="mt-2 text-gray-600">
               Card with click handlers and additional content.
             </p>
@@ -103,7 +103,7 @@ import { NotificationPreviewComponent } from './notification-card.component';
               </lib-notification-card>
             </div>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="interactiveCardExample"></app-code-viewer>
           </div>
         </div>
@@ -165,35 +165,35 @@ import { NotificationPreviewComponent } from './notification-card.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">sender</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">sender</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The name/identifier of the notification sender (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">createdDate</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">createdDate</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Date</td>
                   <td class="px-6 py-4 text-sm text-gray-500">When the notification was created (default: current date)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">sourceType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">sourceType</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Notification source/type (default: '')</td>
                 </tr>
@@ -202,28 +202,28 @@ import { NotificationPreviewComponent } from './notification-card.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Output Events</h3>
+            <h3 class="text-lg font-medium text-gray-600">Output Events</h3>
             <p class="mt-2 text-gray-600">
               Available event outputs.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Event</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">onClick</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onClick</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Emitted when card is clicked</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">onDblClick</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onDblClick</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Emitted when card is double-clicked</td>
                 </tr>
               </tbody>

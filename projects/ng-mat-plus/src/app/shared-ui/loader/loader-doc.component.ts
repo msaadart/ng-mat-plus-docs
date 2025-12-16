@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -67,38 +67,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Spinner Loader</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Spinner Loader</h3>
             <p class="mt-2 text-gray-600">
               Simple implementation of a spinner loader with default settings.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSpinnerExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Image Loader</h3>
+            <h3 class="text-lg font-medium text-gray-600">Image Loader</h3>
             <p class="mt-2 text-gray-600">
               Using a custom image as a loading indicator.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="imageLoaderExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Determinate Loader</h3>
+            <h3 class="text-lg font-medium text-gray-600">Determinate Loader</h3>
             <p class="mt-2 text-gray-600">
               Showing progress with a determinate spinner.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="determinateExample"></app-code-viewer>
           </div>
         </div>
@@ -161,57 +161,57 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Full Page Loader</h3>
+            <h3 class="text-lg font-medium text-gray-600">Full Page Loader</h3>
             <p class="mt-2 text-gray-600">
               Implementing a full-page loading overlay.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="fullPageLoaderExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">imageSrc</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">imageSrc</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">URL of an image to use as loader (optional)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">color</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">color</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Color theme ('primary', 'accent', 'warn')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">diameter</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">diameter</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Size of the spinner in pixels</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">mode</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">mode</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">'determinate' or 'indeterminate'</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">value</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">value</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Progress value (0-100) for determinate mode</td>
                 </tr>

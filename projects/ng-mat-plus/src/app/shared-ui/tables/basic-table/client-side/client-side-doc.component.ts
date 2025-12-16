@@ -28,12 +28,12 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-basic-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component designed to handle large datasets (up to 50,000 records) 
+      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-basic-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component designed to handle large datasets (up to 50,000 records) 
       with smooth client-side operations. It provides a rich set of features including sorting, pagination, custom rendering, 
       and row interactions while maintaining optimal performance.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="  border-l-4 border-blue-500 p-4 my-4">
         <div class="flex">
             <div class="flex-shrink-0">
                 <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -75,38 +75,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management Applications</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Management Applications</h3>
         <p class="mt-2 text-gray-600">
           Ideal for admin dashboards where users need to view, sort, and edit large datasets without server roundtrips.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Reporting Interfaces</h3>
+        <h3 class="text-lg font-medium text-gray-600">Reporting Interfaces</h3>
         <p class="mt-2 text-gray-600">
           Perfect for displaying report data with client-side sorting and custom formatting capabilities.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="reportingExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">CRUD Operations</h3>
+        <h3 class="text-lg font-medium text-gray-600">CRUD Operations</h3>
         <p class="mt-2 text-gray-600">
           Supports full CRUD operations with inline editing and row deletion capabilities.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="crudExample"></app-code-viewer>
       </div>
     </div>
@@ -169,50 +169,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">
     <h2 class="text-2xl font-bold">Implementation Details</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Setup</h3>
+        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
         <p class="mt-2 text-gray-600">
           Basic implementation requires importing the table component and configuring the columns and data.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Column Configuration</h3>
+        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
         <p class="mt-2 text-gray-600">
           Columns are defined with type-specific configurations for formatting and behavior.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="columnConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Row Configuration</h3>
+        <h3 class="text-lg font-medium text-gray-600">Row Configuration</h3>
         <p class="mt-2 text-gray-600">
           Row-level behaviors and styling can be customized through the row configuration object.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="rowConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
         <p class="mt-2 text-gray-600">
           The component works with signals for reactive data updates and provides edit/delete examples.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>
@@ -564,7 +564,7 @@ export class ClientSideDocComponent {
     rowConfig: IBasicTableRowConfig<any> = {
       onClick: (row) => this.selectRow(row),
       onDblClick: (row) => this.openDetail(row),
-      getClass: (row) => row.isActive ? 'bg-blue-50' : '',
+      getClass: (row) => row.isActive ? ' ' : '',
       isSerialNo: true,
       serialNoLabel: '#'
   };`;

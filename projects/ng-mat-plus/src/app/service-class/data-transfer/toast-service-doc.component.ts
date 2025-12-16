@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibToastService</code> provides a simple way to display toast notifications with different severity levels.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">LibToastService</code> provides a simple way to display toast notifications with different severity levels.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -66,38 +66,38 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Usage</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Usage</h3>
             <p class="mt-2 text-gray-600">
               Showing different types of toast notifications.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicUsageExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Service Integration</h3>
+            <h3 class="text-lg font-medium text-gray-600">Service Integration</h3>
             <p class="mt-2 text-gray-600">
               Using the toast service within another service or component.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="serviceIntegrationExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Error Handling</h3>
+            <h3 class="text-lg font-medium text-gray-600">Error Handling</h3>
             <p class="mt-2 text-gray-600">
               Using toast notifications for error feedback.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="errorHandlingExample"></app-code-viewer>
           </div>
         </div>
@@ -163,48 +163,48 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Customizing Toast Duration</h3>
+            <h3 class="text-lg font-medium text-gray-600">Customizing Toast Duration</h3>
             <p class="mt-2 text-gray-600">
               Adjusting how long toasts remain visible.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customDurationExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Service API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Service API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">success(message: string)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">success(message: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Shows a success toast with green styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">info(message: string)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">info(message: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Shows an info toast with blue styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">warning(message: string)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">warning(message: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Shows a warning toast with yellow styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">error(message: string)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">error(message: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Shows an error toast with red styling</td>
                 </tr>
               </tbody>

@@ -24,10 +24,10 @@ import { EncryptDecryptComponent } from './encrypt-decrypt.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibEncryptDecryptService</code> provides secure encryption and decryption capabilities for sensitive data in Angular applications.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">LibEncryptDecryptService</code> provides secure encryption and decryption capabilities for sensitive data in Angular applications.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -68,38 +68,38 @@ import { EncryptDecryptComponent } from './encrypt-decrypt.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Encryption/Decryption</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Encryption/Decryption</h3>
             <p class="mt-2 text-gray-600">
               Encrypt and decrypt sensitive data with automatic key management.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Secure Storage with Auto-Clear</h3>
+            <h3 class="text-lg font-medium text-gray-600">Secure Storage with Auto-Clear</h3>
             <p class="mt-2 text-gray-600">
               Store encrypted data with automatic clearing after a timeout.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="autoClearExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Complete Data Cleanup</h3>
+            <h3 class="text-lg font-medium text-gray-600">Complete Data Cleanup</h3>
             <p class="mt-2 text-gray-600">
               Securely clear all client-side storage when needed.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dataCleanupExample"></app-code-viewer>
           </div>
         </div>
@@ -164,45 +164,45 @@ import { EncryptDecryptComponent } from './encrypt-decrypt.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Service API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Service API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Parameters</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">initializeKey</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">initializeKey</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">()</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Initializes the encryption key if not already set</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">encrypt</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">encrypt</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(data: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Encrypts the provided data (returns Promise&lt;string&gt;)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">decrypt</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">decrypt</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(encryptedData: string)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Decrypts the provided encrypted data (returns Promise&lt;string&gt;)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">autoClearData</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">autoClearData</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(timeout?: number)</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Automatically clears all stored data after timeout (default: 9 hours)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">clearAllData</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearAllData</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">()</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Immediately clears all client-side storage</td>
                 </tr>

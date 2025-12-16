@@ -28,7 +28,7 @@ import { AllButtonsComponent } from './all-buttons.component';
           They include standard buttons, raised buttons, flat buttons, stroked buttons, FAB buttons, icon buttons, and mini FAB buttons.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class=" border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -56,52 +56,52 @@ import { AllButtonsComponent } from './all-buttons.component';
         
         <h3 class="text-xl font-semibold mt-6">Available Button Types</h3>
         <ul class="list-disc pl-5 space-y-2 text-on-surface">
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-button</code> - Standard Material button</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-raised-button</code> - Raised button with elevation</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-flat-button</code> - Flat button without elevation</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-stroked-button</code> - Stroked button with border</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-fab-button</code> - Floating Action Button (FAB)</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-mini-fab-button</code> - Mini FAB button</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-mat-icon-button</code> - Icon-only button</li>
-          <li><code class="bg-gray-100 px-1 py-0.5 rounded">lib-button</code> - Basic customizable button</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-button</code> - Standard Material button</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-raised-button</code> - Raised button with elevation</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-flat-button</code> - Flat button without elevation</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-stroked-button</code> - Stroked button with border</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-fab-button</code> - Floating Action Button (FAB)</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-mini-fab-button</code> - Mini FAB button</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-mat-icon-button</code> - Icon-only button</li>
+          <li><code class=" px-1 py-0.5 rounded">lib-button</code> - Basic customizable button</li>
         </ul>
       </div>
     </ng-template>
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Button Usage</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Button Usage</h3>
             <p class="mt-2 text-gray-600">
               Standard button with click handler and different color variants.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicButtonExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Button with Icon</h3>
+            <h3 class="text-lg font-medium text-gray-600">Button with Icon</h3>
             <p class="mt-2 text-gray-600">
               Buttons with Material Icons and badge indicators.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="iconButtonExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">FAB Buttons</h3>
+            <h3 class="text-lg font-medium text-gray-600">FAB Buttons</h3>
             <p class="mt-2 text-gray-600">
               Floating Action Buttons and mini FABs with different states.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="fabButtonExample"></app-code-viewer>
           </div>
         </div>
@@ -166,62 +166,62 @@ import { AllButtonsComponent } from './all-buttons.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Button Group</h3>
+            <h3 class="text-lg font-medium text-gray-600">Button Group</h3>
             <p class="mt-2 text-gray-600">
               Creating a button group with different button types.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="buttonGroupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties for all button types.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">color</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">color</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'primary' | 'accent' | 'warn'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Button color scheme (default: 'primary')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether the button is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">type</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">type</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'button' | 'submit' | 'reset'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Button type attribute (default: 'button')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">icon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">icon</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Material icon name</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">className</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">className</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Custom CSS class names</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">matBadge</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">matBadge</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Badge text to display on the button</td>
                 </tr>
@@ -230,24 +230,24 @@ import { AllButtonsComponent } from './all-buttons.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Output Events</h3>
+            <h3 class="text-lg font-medium text-gray-600">Output Events</h3>
             <p class="mt-2 text-gray-600">
               Available output events for all button types.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Event</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">matClick</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">matClick</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Emitted when the button is clicked</td>
                 </tr>
               </tbody>

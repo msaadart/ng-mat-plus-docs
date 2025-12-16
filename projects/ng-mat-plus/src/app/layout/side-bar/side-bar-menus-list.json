@@ -40,7 +40,8 @@
       { "label": "Toast Service", "route": "services/toast-service", "icon": "notifications" },
       { "label": "Debounce Service", "route": "services/debouncing-service", "icon": "timer" },
       { "label": "Throttling Service", "route": "services/throttling-service", "icon": "speed" },
-      { "label": "Breadcrumb Service", "route": "services/breadcrumb-service", "icon": "speed" }
+      { "label": "Breadcrumb Service", "route": "services/breadcrumb-service", "icon": "speed" },
+      { "label": "Theme Service", "route": "services/theme-service", "icon": "speed" }
     ]
   },
   {

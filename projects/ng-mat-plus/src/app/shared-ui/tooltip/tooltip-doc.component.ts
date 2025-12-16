@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-gray-700">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-tooltip&gt;</code> component provides a flexible way to add tooltips to any element with various customization options. It wraps Angular Material's tooltip with additional features.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-tooltip&gt;</code> component provides a flexible way to add tooltips to any element with various customization options. It wraps Angular Material's tooltip with additional features.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -64,38 +64,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Tooltip</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Tooltip</h3>
             <p class="mt-2 text-gray-600">
               Simple tooltip attached to a button element.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Tooltip with Icon</h3>
+            <h3 class="text-lg font-medium text-gray-600">Tooltip with Icon</h3>
             <p class="mt-2 text-gray-600">
               Tooltip attached to an information icon.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="iconExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Position</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Position</h3>
             <p class="mt-2 text-gray-600">
               Tooltip with custom positioning and delay settings.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="positionExample"></app-code-viewer>
           </div>
         </div>
@@ -158,62 +158,62 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Delays</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Delays</h3>
             <p class="mt-2 text-gray-600">
               Implementing custom show/hide delays for better UX.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="delayExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">message</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">message</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The text message to display in the tooltip</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">position</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">position</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'left' | 'right' | 'above' | 'below' | 'before' | 'after'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Position relative to the element (default: 'below')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether the tooltip is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">showDelay</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">showDelay</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Delay in ms before showing the tooltip (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">hideDelay</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">hideDelay</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Delay in ms before hiding the tooltip (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">touchGestures</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">touchGestures</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'auto' | 'on' | 'off'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">How touch gestures should be handled (default: 'auto')</td>
                 </tr>

@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">ArrayFormComponent</code> demonstrates a dynamic form array implementation using Angular Reactive Forms. It allows users to add multiple field sets with various form controls and submit them all at once.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">ArrayFormComponent</code> demonstrates a dynamic form array implementation using Angular Reactive Forms. It allows users to add multiple field sets with various form controls and submit them all at once.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -68,38 +68,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Array Form Setup</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Array Form Setup</h3>
             <p class="mt-2 text-gray-600">
               Basic implementation of a dynamic form array with add/remove functionality.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">FormArray with Validation</h3>
+            <h3 class="text-lg font-medium text-gray-600">FormArray with Validation</h3>
             <p class="mt-2 text-gray-600">
               Implementing validation for each field in the dynamic form array.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="validationExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Form Controls</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Form Controls</h3>
             <p class="mt-2 text-gray-600">
               Integrating custom form controls in the dynamic form array.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customControlsExample"></app-code-viewer>
           </div>
         </div>
@@ -162,62 +162,62 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Nested Form Arrays</h3>
+            <h3 class="text-lg font-medium text-gray-600">Nested Form Arrays</h3>
             <p class="mt-2 text-gray-600">
               Implementing nested form arrays for complex data structures.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="nestedArraysExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available properties and methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property/Method</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">form</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">form</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormGroup</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The main form group containing the FormArray</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">fields</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">fields</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormArray</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Getter for the form array containing all field groups</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">addFieldSet()</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">addFieldSet()</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Method</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Adds a new field group to the form array</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">removeFieldSet(index)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">removeFieldSet(index)</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Method</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Removes a field group at the specified index</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">onSubmitAll()</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onSubmitAll()</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Method</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Submits all form groups and disables them</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">onEditAll()</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onEditAll()</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Method</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Enables all form groups for editing</td>
                 </tr>

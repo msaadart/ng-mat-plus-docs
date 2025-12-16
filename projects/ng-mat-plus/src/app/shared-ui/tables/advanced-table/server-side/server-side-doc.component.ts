@@ -27,10 +27,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-server-table&gt;</code> component provides server-side data management with two distinct pagination modes: traditional paginator and infinite scroll.
+      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-server-table&gt;</code> component provides server-side data management with two distinct pagination modes: traditional paginator and infinite scroll.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="  border-l-4 border-blue-500 p-4 my-4">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -64,38 +64,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Large Dataset Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">Large Dataset Management</h3>
         <p class="mt-2 text-gray-600">
           Ideal for applications dealing with thousands of records where client-side processing would be inefficient.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="largeDatasetExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Enterprise Applications</h3>
+        <h3 class="text-lg font-medium text-gray-600">Enterprise Applications</h3>
         <p class="mt-2 text-gray-600">
           Perfect for enterprise dashboards requiring server-side sorting and pagination with complex business logic.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="enterpriseExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Mobile-Friendly Lists</h3>
+        <h3 class="text-lg font-medium text-gray-600">Mobile-Friendly Lists</h3>
         <p class="mt-2 text-gray-600">
           Infinite scroll mode provides better UX for mobile applications and long lists.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="mobileExample"></app-code-viewer>
       </div>
     </div>
@@ -152,50 +152,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">
     <h2 class="text-2xl font-bold text-on-surface">Implementation Guide</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Setup</h3>
+        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
         <p class="mt-2 text-gray-600">
           Basic configuration with required imports and template setup.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">State Management</h3>
+        <h3 class="text-lg font-medium text-gray-600">State Management</h3>
         <p class="mt-2 text-gray-600">
           Managing pagination state and data signals for both modes.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="stateManagementExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Fetching</h3>
+        <h3 class="text-lg font-medium text-gray-600">Data Fetching</h3>
         <p class="mt-2 text-gray-600">
           Implementing server requests with pagination parameters.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataFetchingExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Event Handlers</h3>
+        <h3 class="text-lg font-medium text-gray-600">Event Handlers</h3>
         <p class="mt-2 text-gray-600">
           Handling pagination changes, sorting, and infinite scroll events.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="eventHandlersExample"></app-code-viewer>
       </div>
     </div>
@@ -215,7 +215,7 @@ export class ServerSideDocComponent {
   publishedDate = '2025-11-08';
   title = 'Advanced Table (Server Side)';
   htmlCode = `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
+    <div class="rounded-xl shadow border border-gray-200  p-4">
       <lib-advanced-client-table
         [tableData]="allData"
         [columns]="columnsConfig"

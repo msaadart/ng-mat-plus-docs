@@ -24,10 +24,10 @@ import { EmailInputComponent } from './email-input.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-email&gt;</code> component is a specialized input field designed specifically for email addresses. It includes built-in email validation and formatting features.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-email&gt;</code> component is a specialized input field designed specifically for email addresses. It includes built-in email validation and formatting features.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -66,38 +66,38 @@ import { EmailInputComponent } from './email-input.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Email Input</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Email Input</h3>
             <p class="mt-2 text-gray-600">
               Standard email input field with built-in validation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Registration Form</h3>
+            <h3 class="text-lg font-medium text-gray-600">Registration Form</h3>
             <p class="mt-2 text-gray-600">
               Using the email field in a user registration form.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="registrationFormExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Validation</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Validation</h3>
             <p class="mt-2 text-gray-600">
               Adding custom validation rules for business emails.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customValidationExample"></app-code-viewer>
           </div>
         </div>
@@ -160,52 +160,52 @@ import { EmailInputComponent } from './email-input.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Email Features</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Domain Suggestions</h3>
+            <h3 class="text-lg font-medium text-gray-600">Domain Suggestions</h3>
             <p class="mt-2 text-gray-600">
               Implementing domain auto-completion for email inputs.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="domainSuggestionsExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of email-specific input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">enableDomainSuggestions</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">enableDomainSuggestions</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether to show domain suggestions (default: true)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">allowedDomains</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">allowedDomains</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string[]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whitelist of allowed email domains</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">blockedDomains</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">blockedDomains</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string[]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Blacklist of blocked email domains</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">enableInternational</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">enableInternational</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Support for international email addresses (default: true)</td>
                 </tr>

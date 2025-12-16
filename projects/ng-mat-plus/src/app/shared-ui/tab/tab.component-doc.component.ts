@@ -24,10 +24,10 @@ import { TabComponent } from './tab.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-tab&gt;</code> component provides a flexible tab system with support for both routed tabs and dynamic component loading.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-tab&gt;</code> component provides a flexible tab system with support for both routed tabs and dynamic component loading.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -69,38 +69,38 @@ import { TabComponent } from './tab.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Tab Setup</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Tab Setup</h3>
             <p class="mt-2 text-gray-600">
               Simple tab component with both route and component tabs.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component Tabs with Inputs/Outputs</h3>
+            <h3 class="text-lg font-medium text-gray-600">Component Tabs with Inputs/Outputs</h3>
             <p class="mt-2 text-gray-600">
               Passing data to and from tab components.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="componentWithIOExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Tab Configuration</h3>
+            <h3 class="text-lg font-medium text-gray-600">Dynamic Tab Configuration</h3>
             <p class="mt-2 text-gray-600">
               Creating tabs dynamically from an array.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dynamicTabsExample"></app-code-viewer>
           </div>
         </div>
@@ -164,77 +164,77 @@ import { TabComponent } from './tab.component';
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Disabled Tabs</h3>
+            <h3 class="text-lg font-medium text-gray-600">Disabled Tabs</h3>
             <p class="mt-2 text-gray-600">
               Implementing disabled state for tabs.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="disabledTabExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Input Properties</h3>
+            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available input properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">tabConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">tabConfig</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">TabConfig[]</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Array of tab configurations (required)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">selectedIndex</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">selectedIndex</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Index of the initially selected tab (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">initialRoute</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">initialRoute</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Base route for component tabs (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">stretchTabs</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">stretchTabs</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether tabs stretch to fill space (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">animationDuration</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">animationDuration</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Tab animation duration in ms (default: 300)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerPosition</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">headerPosition</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'above' | 'below'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Position of tab header (default: 'below')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">dynamicHeight</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">dynamicHeight</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether tab height adjusts to content (default: true)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">alignTabs</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">alignTabs</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'start' | 'center' | 'end'</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Tab alignment (default: 'start')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disableRipple</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disableRipple</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Whether to disable ripple effects (default: false)</td>
                 </tr>

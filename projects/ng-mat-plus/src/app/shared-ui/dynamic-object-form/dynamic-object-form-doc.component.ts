@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">DynamicObjectFormComponent</code> is a highly flexible form component that dynamically generates form fields based on a configuration object. It supports various field types and can be easily customized for different use cases.
+          The <code class="     px-1 py-0.5 rounded text-gray-800">DynamicObjectFormComponent</code> is a highly flexible form component that dynamically generates form fields based on a configuration object. It supports various field types and can be easily customized for different use cases.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -68,38 +68,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Dynamic Form</h3>
+            <h3 class="text-lg font-medium text-gray-600">Basic Dynamic Form</h3>
             <p class="mt-2 text-gray-600">
               Basic implementation using default configuration.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Configuration</h3>
+            <h3 class="text-lg font-medium text-gray-600">Custom Configuration</h3>
             <p class="mt-2 text-gray-600">
               Creating a form with custom field configuration.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customConfigExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Validation Setup</h3>
+            <h3 class="text-lg font-medium text-gray-600">Validation Setup</h3>
             <p class="mt-2 text-gray-600">
               Adding validation to dynamic form fields.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="validationExample"></app-code-viewer>
           </div>
         </div>
@@ -163,45 +163,45 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <h2 class="text-2xl font-bold">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Field Types</h3>
+            <h3 class="text-lg font-medium text-gray-600">Dynamic Field Types</h3>
             <p class="mt-2 text-gray-600">
               Supported field types and their configurations.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Component</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Required Properties</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">email</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">email</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibEmailComponent</td>
                   <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">password</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">password</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibPasswordComponent</td>
                   <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">phone</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">phone</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibPhoneComponent</td>
                   <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">date</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">date</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibDatePickerComponent</td>
                   <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">dateRange</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">dateRange</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibDateRangePickerComponent</td>
                   <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
                 </tr>
@@ -211,45 +211,45 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
+            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
             <p class="mt-2 text-gray-600">
               Complete list of available properties and methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property/Method</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
                   <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">formConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">formConfig</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Input</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Array of field configuration objects</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">form</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">form</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormGroup</td>
                   <td class="px-6 py-4 text-sm text-gray-500">The generated form group</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">showConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">showConfig</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Controls visibility of configuration preview</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">componentMap</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">componentMap</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Record</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Maps field types to components</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">defaultConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">defaultConfig</td>
                   <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Array</td>
                   <td class="px-6 py-4 text-sm text-gray-500">Default field configurations</td>
                 </tr>

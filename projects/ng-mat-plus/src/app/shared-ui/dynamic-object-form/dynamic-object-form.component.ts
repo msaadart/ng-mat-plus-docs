@@ -41,7 +41,7 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
       </lib-mat-button>
     </div>
 
-    <div *ngIf="showConfig" class="p-4 bg-gray-100 rounded shadow-md overflow-auto">
+    <div *ngIf="showConfig" class="p-4      rounded shadow-md overflow-auto">
       <pre class="text-sm text-gray-800">{{ formConfig | json }}</pre>
     </div>
   `,

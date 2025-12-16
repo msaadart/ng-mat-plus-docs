@@ -65,7 +65,7 @@ interface SingleUserResponse {
   imports: [LibMatFlatButtonComponent, FormsModule, CommonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="min-h-screen p-4 bg-gray-50">
+    <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <div class="text-center mb-8">
           <h1 class="text-3xl font-semibold text-gray-800 mb-2">
@@ -117,7 +117,7 @@ interface SingleUserResponse {
               <div class="max-h-[400px] overflow-y-auto space-y-3">
                 @for(user of users.data()?.users || []; track user.id) {
                 <div
-                  class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
+                  class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
                 >
                   <div class="flex items-center space-x-3">
                     <img
@@ -203,7 +203,7 @@ interface SingleUserResponse {
 
               <!-- Data state -->
               @if(singleUserResource.value()) {
-              <div class="bg-white p-4 rounded-lg border border-gray-200">
+              <div class=" p-4 rounded-lg border border-gray-200">
                 <div class="flex items-center space-x-4 mb-4">
                   <img
                     [src]="singleUserResource.value()?.image"
@@ -239,7 +239,7 @@ interface SingleUserResponse {
                   </div>
                 </div>
                 @if (singleUserResource.value()?.address) {
-                <div class="mt-4 p-3 bg-gray-50 rounded-md">
+                <div class="mt-4 p-3   rounded-md">
                   <h5 class="font-medium text-gray-700 mb-2">Address:</h5>
                   <p class="text-gray-600 text-sm">
                     {{ singleUserResource.value()?.address?.address }},<br />

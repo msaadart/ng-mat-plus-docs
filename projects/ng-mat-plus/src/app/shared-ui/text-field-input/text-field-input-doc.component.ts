@@ -28,7 +28,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           <div class="absolute -left-1 top-0 bottom-0 w-1 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-full"></div>
           <div class="pl-6">
             <p class="text-lg text-gray-800 leading-relaxed mb-4">
-              The <code class="inline-flex items-center gap-1 bg-white px-3 py-1.5 rounded-lg text-indigo-700 font-mono text-sm font-bold shadow-sm ring-1 ring-indigo-200">&lt;lib-text-field&gt;</code> component is a versatile form input component that provides a styled text input field with various customization options.
+              The <code class="inline-flex items-center gap-1  px-3 py-1.5 rounded-lg text-indigo-700 font-mono text-sm font-bold shadow-sm ring-1 ring-indigo-200">&lt;lib-text-field&gt;</code> component is a versatile form input component that provides a styled text input field with various customization options.
             </p>
             <p class="text-base text-gray-600 leading-relaxed">
               It integrates seamlessly with Angular's Reactive Forms and Template-driven Forms, providing a consistent and accessible user experience.
@@ -37,11 +37,11 @@ import { DocumentationComponent } from "../documentation/documentation.component
         </div>
         
         <!-- Form Integration Info - Modern Card Layout -->
-        <div class="bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
+        <div class=" rounded-2xl shadow-lg border border-gray-200 overflow-hidden">
           <!-- Header -->
           <div class="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-4">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 bg-white/20 backdrop-blur-sm rounded-lg flex items-center justify-center">
+              <div class="w-10 h-10 /20 backdrop-blur-sm rounded-lg flex items-center justify-center">
                 <svg class="h-5 w-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
                 </svg>
@@ -73,7 +73,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
               
               <div class="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-200">
                 <div class="flex-shrink-0">
-                  <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center shadow-sm">
+                  <div class="w-8 h-8  0 rounded-lg flex items-center justify-center shadow-sm">
                     <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -101,60 +101,60 @@ import { DocumentationComponent } from "../documentation/documentation.component
         </div>
         
         <div>
-          <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-3">
+          <h3 class="text-2xl font-bold text-gray-600 mb-6 flex items-center gap-3">
             <span class="w-1.5 h-8 bg-gradient-to-b from-indigo-500 to-purple-600 rounded-full"></span>
             Key Features
           </h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">Customizable Design</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">Customizable Design</h4>
                 <p class="text-sm text-gray-600">Label and placeholder text customization</p>
               </div>
             </div>
 
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-purple-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-purple-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">State Management</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">State Management</h4>
                 <p class="text-sm text-gray-600">Disabled state support with visual feedback</p>
               </div>
             </div>
 
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-blue-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">Form Validation</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">Form Validation</h4>
                 <p class="text-sm text-gray-600">FormControl integration with error handling</p>
               </div>
             </div>
 
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-pink-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-pink-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-pink-100 to-pink-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path>
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">Responsive Layout</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">Responsive Layout</h4>
                 <p class="text-sm text-gray-600">Adapts to all screen sizes seamlessly</p>
               </div>
             </div>
 
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-green-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-green-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-green-100 to-green-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -162,19 +162,19 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">Accessibility</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">Accessibility</h4>
                 <p class="text-sm text-gray-600">ARIA attributes and keyboard navigation</p>
               </div>
             </div>
 
-            <div class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-200 shadow-sm hover:shadow-md hover:border-red-300 transition-all duration-300 hover:-translate-y-1">
+            <div class="group flex items-start gap-4 p-4 rounded-xl  border border-gray-200 shadow-sm hover:shadow-md hover:border-red-300 transition-all duration-300 hover:-translate-y-1">
               <div class="flex-shrink-0 w-10 h-10 bg-gradient-to-br from-red-100 to-red-200 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
                 <svg class="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
                 </svg>
               </div>
               <div class="flex-1">
-                <h4 class="font-semibold text-gray-900 mb-1">Error Visualization</h4>
+                <h4 class="font-semibold text-gray-600 mb-1">Error Visualization</h4>
                 <p class="text-sm text-gray-600">Clear error state indicators and messages</p>
               </div>
             </div>
@@ -185,7 +185,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-8">    
-        <div class="group relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-indigo-300">
+        <div class="group relative overflow-hidden  rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-indigo-300">
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
           <div class="p-8">
             <div class="flex items-start gap-4 mb-4">
@@ -195,7 +195,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Basic Form Input</h3>
+                <h3 class="text-2xl font-bold text-gray-600 mb-2">Basic Form Input</h3>
                 <p class="text-gray-600 leading-relaxed">
                   Standard text input field with label and placeholder in a form context.
                 </p>
@@ -207,7 +207,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="group relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-purple-300">
+        <div class="group relative overflow-hidden  rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-purple-300">
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500"></div>
           <div class="p-8">
             <div class="flex items-start gap-4 mb-4">
@@ -217,7 +217,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">FormGroup Integration</h3>
+                <h3 class="text-2xl font-bold text-gray-600 mb-2">FormGroup Integration</h3>
                 <p class="text-gray-600 leading-relaxed">
                   Using the text field within a FormGroup with multiple controls.
                 </p>
@@ -229,7 +229,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="group relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-blue-300">
+        <div class="group relative overflow-hidden  rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-blue-300">
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-500"></div>
           <div class="p-8">
             <div class="flex items-start gap-4 mb-4">
@@ -239,7 +239,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Validation Examples</h3>
+                <h3 class="text-2xl font-bold text-gray-600 mb-2">Validation Examples</h3>
                 <p class="text-gray-600 leading-relaxed">
                   Implementing custom validation with error messages.
                 </p>
@@ -336,7 +336,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600">Advanced Usage</h2>
         </div>
         
-        <div class="group relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-indigo-300">
+        <div class="group relative overflow-hidden  rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl hover:border-indigo-300">
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500"></div>
           <div class="p-8">
             <div class="flex items-start gap-4 mb-4">
@@ -346,7 +346,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Dynamic Fields</h3>
+                <h3 class="text-2xl font-bold text-gray-600 mb-2">Dynamic Fields</h3>
                 <p class="text-gray-600 leading-relaxed">
                   Creating text fields dynamically based on data.
                 </p>
@@ -358,7 +358,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="group relative overflow-hidden bg-white rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl">
+        <div class="group relative overflow-hidden  rounded-2xl shadow-lg border border-gray-200 transition-all duration-500 hover:shadow-2xl">
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500"></div>
           <div class="p-8">
             <div class="flex items-start gap-4 mb-6">
@@ -368,7 +368,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Input Properties</h3>
+                <h3 class="text-2xl font-bold text-gray-600 mb-2">Input Properties</h3>
                 <p class="text-gray-600 leading-relaxed">
                   Complete list of available input properties.
                 </p>
@@ -385,13 +385,13 @@ import { DocumentationComponent } from "../documentation/documentation.component
                     <th class="px-6 py-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider">Description</th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr class="hover:bg-indigo-50/50 transition-colors duration-200">
                     <td class="px-6 py-4 whitespace-nowrap">
                       <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-indigo-100 text-indigo-800">label</span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono bg-gray-100 text-gray-700">string</span>
+                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono      text-gray-700">string</span>
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-600">The label text for the input field</td>
                   </tr>
@@ -400,16 +400,16 @@ import { DocumentationComponent } from "../documentation/documentation.component
                       <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-purple-100 text-purple-800">placeholder</span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono bg-gray-100 text-gray-700">string</span>
+                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono      text-gray-700">string</span>
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-600">Placeholder text displayed when the input is empty</td>
                   </tr>
-                  <tr class="hover:bg-blue-50/50 transition-colors duration-200">
+                  <tr class="hover: /50 transition-colors duration-200">
                     <td class="px-6 py-4 whitespace-nowrap">
                       <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-blue-100 text-blue-800">control</span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono bg-gray-100 text-gray-700">FormControl</span>
+                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono      text-gray-700">FormControl</span>
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-600">The FormControl instance for this input</td>
                   </tr>
@@ -418,7 +418,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                       <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-pink-100 text-pink-800">disabled</span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono bg-gray-100 text-gray-700">boolean</span>
+                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono      text-gray-700">boolean</span>
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-600">Whether the input is disabled (default: false)</td>
                   </tr>

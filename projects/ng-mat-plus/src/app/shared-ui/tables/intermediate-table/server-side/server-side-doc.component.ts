@@ -29,7 +29,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded text-gray-800"
             >&lt;lib-intermediate-server-table&gt;</code
           >
           component is designed for server-side data management using the
@@ -38,7 +38,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           datasets.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="  border-l-4 border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -124,9 +124,9 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Real User Data Management
             </h3>
             <p class="mt-2 text-gray-600">
@@ -135,14 +135,14 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               demographic information.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="realUserDataExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               API-Driven Infinite Scroll
             </h3>
             <p class="mt-2 text-gray-600">
@@ -150,16 +150,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               with real API data loading and proper pagination.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer
               [code]="apiInfiniteScrollExample"
             ></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Production-Ready User Interfaces
             </h3>
             <p class="mt-2 text-gray-600">
@@ -167,7 +167,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               complete CRUD operations and professional UI components.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="productionReadyExample"></app-code-viewer>
           </div>
         </div>
@@ -260,9 +260,9 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           DummyJSON API Implementation
         </h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               API Integration Setup
             </h3>
             <p class="mt-2 text-gray-600">
@@ -270,14 +270,14 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               requiring GET requests with query parameters.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="apiIntegrationExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Data Transformation
             </h3>
             <p class="mt-2 text-gray-600">
@@ -285,16 +285,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               interface, including type conversions.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer
               [code]="dataTransformationExample"
             ></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-gray-600">
               Pagination Implementation
             </h3>
             <p class="mt-2 text-gray-600">
@@ -302,20 +302,20 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               skip/limit parameters for efficient data loading.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="paginationExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Error Handling</h3>
+            <h3 class="text-lg font-medium text-gray-600">Error Handling</h3>
             <p class="mt-2 text-gray-600">
               Comprehensive error handling for API failures with user feedback
               and proper state management.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="errorHandlingExample"></app-code-viewer>
           </div>
         </div>
@@ -336,8 +336,8 @@ export class ServerSideDocComponent {
   title = 'Intermediate Table (Server Side with DummyJSON API)';
 
   htmlCode = `
-<div class="rounded-xl shadow border border-gray-200 bg-white p-4">
-  <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>
+<div class="rounded-xl shadow border border-gray-200  p-4">
+  <h2 class="text-gray-600 font-semibold mb-4">Paginator Base</h2>
   <lib-intermediate-server-table
     [tableData]="pageData()"
     [columns]="columnsConfig()"
@@ -350,8 +350,8 @@ export class ServerSideDocComponent {
   >
   </lib-intermediate-server-table>
 </div>
-<div class="rounded-xl shadow border border-gray-200 bg-white p-4 mt-5">
-  <h2 class="text-gray-900 font-semibold mb-4">Scroll Base</h2>
+<div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
+  <h2 class="text-gray-600 font-semibold mb-4">Scroll Base</h2>
   <lib-intermediate-server-table
     [tableData]="scrollData()"
     [columns]="columnsConfig()"
