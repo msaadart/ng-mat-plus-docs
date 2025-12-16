@@ -39,7 +39,8 @@
       { "label": "Encrypt & Decrypt", "route": "services/encrypt-decrypt", "icon": "vpn_key" },
       { "label": "Toast Service", "route": "services/toast-service", "icon": "notifications" },
       { "label": "Debounce Service", "route": "services/debouncing-service", "icon": "timer" },
-      { "label": "Throttling Service", "route": "services/throttling-service", "icon": "speed" }
+      { "label": "Throttling Service", "route": "services/throttling-service", "icon": "speed" },
+      { "label": "Breadcrumb Service", "route": "services/breadcrumb-service", "icon": "speed" }
     ]
   },
   {

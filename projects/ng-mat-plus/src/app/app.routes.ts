@@ -413,13 +413,13 @@ export const routes: Routes = [
             loadComponent: () =>
               import('./service-class/data-transfer/data-transfer-doc.component').then((m) => m.DataTransferDocComponent),
           },
-          // {
-          //   path: 'breadcrumb-service',
-          //   title: 'ng-mat-plus - Services / Breadcrumb Service',
-          //   data: { breadcrumb: 'Breadcrumb Service' },
-          //   loadComponent: () =>
-          //     import('./service-class/data-transfer/breadcrumb-service.component').then((m) => m.BreadcrumbServiceComponent),
-          // },
+          {
+            path: 'breadcrumb-service',
+            title: 'ng-mat-plus - Services / Breadcrumb Service',
+            data: { breadcrumb: 'Breadcrumb Service' },
+            loadComponent: () =>
+              import('./service-class/data-transfer/breadcrumb-doc.component').then((m) => m.BreadcrumbDocComponent),
+          },
           {
             path: 'encrypt-decrypt',
             title: 'ng-mat-plus - Services / Encrypt & Decrypt',
