@@ -13,7 +13,7 @@ import {
   LibWeekComponent,
   LibTextFieldComponent,
   LibCheckboxComponent,
-  LibRadioBtnComponent,
+  LibRadioGroupComponent,
   LibNumberComponent
 } from 'ng-mat-plus/lib-forms';
 import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons'; 
@@ -66,7 +66,7 @@ export class DynamicObjectFormComponent implements OnInit, AfterViewInit {
     week: LibWeekComponent,
     text: LibTextFieldComponent,
     checkbox: LibCheckboxComponent,
-    radio: LibRadioBtnComponent,
+    radio: LibRadioGroupComponent,
     number: LibNumberComponent
   };
 
