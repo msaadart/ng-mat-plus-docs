@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
+          The <code class="     px-1 py-0.5 rounded ">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

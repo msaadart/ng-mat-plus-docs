@@ -24,7 +24,7 @@ import { MenuComponent } from './menu.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-menu&gt;</code> component provides a customizable dropdown menu with various animation effects and flexible content projection. It integrates with Angular CDK for positioning and overlay management.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-menu&gt;</code> component provides a customizable dropdown menu with various animation effects and flexible content projection. It integrates with Angular CDK for positioning and overlay management.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

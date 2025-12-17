@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-url&gt;</code> component is a specialized input field for website URLs with built-in validation and formatting. It provides a user-friendly way to handle URL inputs while ensuring proper formatting.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-url&gt;</code> component is a specialized input field for website URLs with built-in validation and formatting. It provides a user-friendly way to handle URL inputs while ensuring proper formatting.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

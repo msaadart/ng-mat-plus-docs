@@ -24,7 +24,7 @@ import { EmailInputComponent } from './email-input.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-email&gt;</code> component is a specialized input field designed specifically for email addresses. It includes built-in email validation and formatting features.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-email&gt;</code> component is a specialized input field designed specifically for email addresses. It includes built-in email validation and formatting features.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

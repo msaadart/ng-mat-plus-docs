@@ -28,7 +28,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong>, is an advanced Angular table component designed for client-side data management. It extends the functionality of the basic table with features like inline editing via dialogs, sorting, custom column rendering, conditional row styling, and action buttons with dynamic visibility.
+      The <code class="     px-1 py-0.5 rounded ">&lt;lib-advanced-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong>, is an advanced Angular table component designed for client-side data management. It extends the functionality of the basic table with features like inline editing via dialogs, sorting, custom column rendering, conditional row styling, and action buttons with dynamic visibility.
     </p>
     
     <div class="   border-blue-500 p-4 my-4">

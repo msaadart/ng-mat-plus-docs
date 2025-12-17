@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">ArrayFormComponent</code> demonstrates a dynamic form array implementation using Angular Reactive Forms. It allows users to add multiple field sets with various form controls and submit them all at once.
+          The <code class="     px-1 py-0.5 rounded ">ArrayFormComponent</code> demonstrates a dynamic form array implementation using Angular Reactive Forms. It allows users to add multiple field sets with various form controls and submit them all at once.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

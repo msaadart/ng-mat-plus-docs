@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-week&gt;</code> component is a specialized input field for selecting weeks with built-in validation. It provides a user-friendly way to handle week inputs in forms.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-week&gt;</code> component is a specialized input field for selecting weeks with built-in validation. It provides a user-friendly way to handle week inputs in forms.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

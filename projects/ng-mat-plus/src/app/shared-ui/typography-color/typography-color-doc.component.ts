@@ -23,7 +23,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">TypographyColorComponent</code> provides a comprehensive reference for the design system's color palette, typography scale, and elevation system.
+          The <code class="     px-1 py-0.5 rounded ">TypographyColorComponent</code> provides a comprehensive reference for the design system's color palette, typography scale, and elevation system.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

@@ -23,7 +23,7 @@ import { ModalsComponent } from './modals.component';
     <ng-template #overviewContent>
       <div class="space-y-6">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">LibDialogService</code> is a robust Angular service designed to manage Material Design dialogs with extensive customization options. It supports dynamic components, predefined modal types (warning, confirmation, delete, success, info), and flexible styling using Tailwind CSS.
+          The <code class="     px-1 py-0.5 rounded ">LibDialogService</code> is a robust Angular service designed to manage Material Design dialogs with extensive customization options. It supports dynamic components, predefined modal types (warning, confirmation, delete, success, info), and flexible styling using Tailwind CSS.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

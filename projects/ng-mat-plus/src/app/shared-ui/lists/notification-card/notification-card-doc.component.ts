@@ -25,7 +25,7 @@ import { NotificationPreviewComponent } from './notification-card.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code> component provides a notification-style card with sender information, timestamps, and interactive capabilities.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-card&gt;</code> component provides a notification-style card with sender information, timestamps, and interactive capabilities.
         </p>
         <div class="   border-blue-500 p-4 my-4">
           <div class="flex">

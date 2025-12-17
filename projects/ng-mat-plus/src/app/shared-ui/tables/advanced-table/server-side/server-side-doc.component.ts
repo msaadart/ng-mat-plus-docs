@@ -27,7 +27,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-advanced-server-table&gt;</code> component provides server-side data management with two distinct pagination modes: traditional paginator and infinite scroll.
+      The <code class="     px-1 py-0.5 rounded ">&lt;lib-advanced-server-table&gt;</code> component provides server-side data management with two distinct pagination modes: traditional paginator and infinite scroll.
     </p>
     
     <div class="   border-blue-500 p-4 my-4">

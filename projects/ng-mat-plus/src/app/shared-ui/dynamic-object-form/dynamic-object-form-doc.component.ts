@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">DynamicObjectFormComponent</code> is a highly flexible form component that dynamically generates form fields based on a configuration object. It supports various field types and can be easily customized for different use cases.
+          The <code class="     px-1 py-0.5 rounded ">DynamicObjectFormComponent</code> is a highly flexible form component that dynamically generates form fields based on a configuration object. It supports various field types and can be easily customized for different use cases.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

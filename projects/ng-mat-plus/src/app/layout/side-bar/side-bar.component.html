@@ -1,6 +1,6 @@
 <aside
   class="h-screen flex flex-col transition-all duration-300 select-none w-[240px] data-[collapsed=true]:w-[60px] relative"
-  [ngClass]="{'bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-slate-100': $themeService.isDarkTheme(), 'bg-gradient-to-br from-white via-purple-50/20 to-white text-gray-800': !$themeService.isDarkTheme()}"
+  [ngClass]="{'bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950 text-slate-100': $themeService.isDarkTheme(), 'bg-gradient-to-br from-white via-purple-50/20 to-white ': !$themeService.isDarkTheme()}"
   [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen" (click)="handleSidebarClick($event)">
   
   <!-- Subtle gradient border -->

@@ -68,7 +68,7 @@ interface SingleUserResponse {
     <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 class="text-3xl font-semibold  mb-2">
             Resource API Demo
           </h1>
           <p class="text-gray-600">
@@ -79,13 +79,13 @@ interface SingleUserResponse {
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Column 1: Standard getResource -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Standard getResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">Users List</h3>
+                <h3 class="text-lg font-medium ">Users List</h3>
                 <div class="flow items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(status())">
                     {{ status() }}
@@ -126,7 +126,7 @@ interface SingleUserResponse {
                       class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                     />
                     <div class="flex-1 min-w-0">
-                      <p class="font-medium text-sm text-gray-800 truncate">
+                      <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
                       <p class="text-gray-500 text-xs truncate">
@@ -149,13 +149,13 @@ interface SingleUserResponse {
 
           <!-- Column 2: httpResource with dynamic URL -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Dynamic httpResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">User Details</h3>
+                <h3 class="text-lg font-medium ">User Details</h3>
                 <div class="flow items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(singleUserStatus())">
                     {{ singleUserStatus() }}
@@ -211,7 +211,7 @@ interface SingleUserResponse {
                     class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm"
                   />
                   <div>
-                    <h4 class="font-semibold text-gray-800">
+                    <h4 class="font-semibold ">
                       {{ singleUserResource.value()?.firstName }}
                       {{ singleUserResource.value()?.lastName }}
                     </h4>

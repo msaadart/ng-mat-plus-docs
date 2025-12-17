@@ -25,7 +25,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-autocomplete&gt;</code> component provides a customizable autocomplete input with dropdown support and seamless integration with Angular's reactive forms.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-autocomplete&gt;</code> component provides a customizable autocomplete input with dropdown support and seamless integration with Angular's reactive forms.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

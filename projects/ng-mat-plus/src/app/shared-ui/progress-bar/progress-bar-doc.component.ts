@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">LibProgressBarComponent</code> provides flexible progress indicators with support for multiple modes. It's designed to give users visual feedback during operations with known or unknown duration.
+          The <code class="px-1 py-0.5 rounded">LibProgressBarComponent</code> provides flexible progress indicators with support for multiple modes. It's designed to give users visual feedback during operations with known or unknown duration.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

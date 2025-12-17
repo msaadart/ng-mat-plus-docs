@@ -24,7 +24,7 @@ import { TabComponent } from './tab.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-tab&gt;</code> component provides a flexible tab system with support for both routed tabs and dynamic component loading.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-tab&gt;</code> component provides a flexible tab system with support for both routed tabs and dynamic component loading.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

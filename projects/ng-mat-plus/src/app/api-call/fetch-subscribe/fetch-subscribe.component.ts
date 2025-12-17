@@ -140,7 +140,7 @@ interface DummyUsersResponse {
       <div class="container mx-auto">
         <!-- Header -->
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 class="text-3xl font-semibold  mb-2">
             Fetch & Subscribe API Demo
           </h1>
           <p class="text-gray-600">
@@ -151,13 +151,13 @@ interface DummyUsersResponse {
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
           <!-- Column 1: CRUD Operations -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               CRUD Operations
             </h2>
 
             <!-- Create User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Create User
               </h3>
 
@@ -256,7 +256,7 @@ interface DummyUsersResponse {
 
             <!-- Update User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Update User
               </h3>
 
@@ -369,7 +369,7 @@ interface DummyUsersResponse {
 
             <!-- Delete User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Delete User
               </h3>
 
@@ -411,13 +411,13 @@ interface DummyUsersResponse {
 
           <!-- Column 2: Data Resources -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               List Resource
             </h2>
 
             <div class="card p-5 max-h-full">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">Users</h3>
+                <h3 class="text-lg font-medium ">Users</h3>
                 <div class="flex items-center space-x-2">
                   <lib-mat-flat-button
                     (matClick)="refreshAllData()"
@@ -442,7 +442,7 @@ interface DummyUsersResponse {
                       class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                     />
                     <div class="flex-1 min-w-0">
-                      <p class="font-medium text-sm text-gray-800 truncate">
+                      <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
                       <p class="text-gray-500 text-xs truncate">

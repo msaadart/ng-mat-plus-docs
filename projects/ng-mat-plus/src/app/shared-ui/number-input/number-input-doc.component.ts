@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-number&gt;</code> component is a numeric input field with built-in validation and step controls. It provides a user-friendly way to handle numeric inputs with proper type enforcement and formatting.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-number&gt;</code> component is a numeric input field with built-in validation and step controls. It provides a user-friendly way to handle numeric inputs with proper type enforcement and formatting.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

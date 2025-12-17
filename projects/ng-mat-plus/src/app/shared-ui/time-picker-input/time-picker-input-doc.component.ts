@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-time-picker&gt;</code> component provides a user-friendly interface for time selection with flexible formatting options and built-in validation.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-time-picker&gt;</code> component provides a user-friendly interface for time selection with flexible formatting options and built-in validation.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

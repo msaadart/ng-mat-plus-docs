@@ -72,7 +72,7 @@ interface ModalParam {
 
       @if (lastResult() !== undefined) {
       <div class="mt-6 p-4   rounded-lg border border-gray-200" >
-        <h3 class="text-lg font-medium text-gray-800 mb-2">
+        <h3 class="text-lg font-medium  mb-2">
           Last Modal Result
         </h3>
         <p

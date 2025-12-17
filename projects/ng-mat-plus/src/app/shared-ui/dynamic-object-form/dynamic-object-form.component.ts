@@ -42,7 +42,7 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
     </div>
 
     <div *ngIf="showConfig" class="p-4      rounded shadow-md overflow-auto">
-      <pre class="text-sm text-gray-800">{{ formConfig | json }}</pre>
+      <pre class="text-sm ">{{ formConfig | json }}</pre>
     </div>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
