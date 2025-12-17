@@ -120,12 +120,10 @@ import {ThemeDarkLightComponent} from './theme-dark-light.component'
               <tbody class=" divide-y divide-gray-200">
                 <tr>
                   <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">currentTheme</td>
-                  <td class="px-6 py-4 text-sm text-on-surface">computed: TTheme</td>
                   <td class="px-6 py-4 text-sm text-on-surface">Current theme value ('dark' or 'light')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">isDarkTheme</td>
-                  <td class="px-6 py-4 text-sm text-on-surface">computed: boolean</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">isDarkTheme: boolean</td>
                   <td class="px-6 py-4 text-sm text-on-surface">True if current theme is dark</td>
                 </tr>
                 <tr>
@@ -153,29 +151,20 @@ export class ThemeDarkLightDocComponent {
   title = 'Theme Dark/Light Component';
 
   htmlCode = `
-    <div>
-      <p>Current theme: {{ currentTheme() }}</p>
-      <button (click)="toggleTheme()">Toggle Theme</button>
-    </div>
+    <p>Current theme: <strong>{{ $themeService.isDarkTheme() ? 'dark' : 'light' }}</strong></p>
+      <button (click)="$themeService.toggleTheme()" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+        Toggle Theme
+      </button>
   `;
 
   tsCode = `
     import { Component, computed, inject, signal } from '@angular/core';
-    type TTheme = 'dark' | 'light';
+    import { LibThemeDarkLightService } from 'ng-mat-plus/services';
 
     @Component({...})
     export class ThemeDarkLightComponent {
-      private _document = inject(DOCUMENT);
-      private _currentTheme = signal<TTheme>(localStorage.getItem('preferred-theme') as TTheme || 'light');
-      readonly isDarkTheme = computed(() => this._currentTheme() === 'dark');
-      readonly currentTheme = computed(() => this._currentTheme());
-
-      toggleTheme() {
-        const theme: TTheme = this._currentTheme() === 'light' ? 'dark' : 'light';
-        this._currentTheme.set(theme);
-        this._document.documentElement.classList.toggle('dark', theme === 'dark');
-        localStorage.setItem('preferred-theme', theme);
-      }
+      protected $themeService = inject(LibThemeDarkLightService);
+      
     }
   `;
 
@@ -184,6 +173,15 @@ export class ThemeDarkLightDocComponent {
   `;
 
   toggleExample = `
-    <button (click)="toggleTheme()">Toggle Theme</button>
+     <lib-mat-slide-toggle 
+          [checked]="$themeService.isDarkTheme()" 
+          (toggleChange)="toggleTheme()" 
+          color="primary" 
+          class="flex items-center"
+          [ngClass]="{'justify-center': !isSidebarOpen && !isMobileScreen}"
+          [label]="(isSidebarOpen || isMobileScreen) ? ($themeService.isDarkTheme() ? 'Dark Mode' : 'Light Mode') : null"
+          [icon]="$themeService.isDarkTheme() ? 'dark_mode' : 'light_mode'"
+          [iconColor]="'#fcfcfc'">
+        </lib-mat-slide-toggle>
   `;
 }
