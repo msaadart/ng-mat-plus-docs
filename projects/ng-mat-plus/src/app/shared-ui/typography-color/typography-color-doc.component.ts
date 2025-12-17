@@ -34,8 +34,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Design System Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Design System Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component showcases the complete design system:
                 </p>
@@ -68,8 +68,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Color System Implementation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Color System Implementation</h3>
+            <p class="mt-2 text-on-surface">
               How to use the color system variables in your components.
             </p>
           </div>
@@ -80,8 +80,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Typography Implementation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Typography Implementation</h3>
+            <p class="mt-2 text-on-surface">
               Applying typography styles using CSS variables.
             </p>
           </div>
@@ -92,8 +92,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Elevation Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Elevation Usage</h3>
+            <p class="mt-2 text-on-surface">
               Applying elevation shadows to components.
             </p>
           </div>
@@ -159,12 +159,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Design Token Reference</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Design Token Reference</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Color Variables</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Color Variables</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available color variables.
             </p>
           </div>
@@ -172,28 +172,28 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Variables</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Category</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Variables</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Primary</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Primary</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-primary, --mat-sys-on-primary,<br>
                     --mat-sys-primary-container, --mat-sys-on-primary-container
                   </td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Secondary</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Secondary</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-secondary, --mat-sys-on-secondary,<br>
                     --mat-sys-secondary-container, --mat-sys-on-secondary-container
                   </td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Surface</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Surface</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-surface, --mat-sys-on-surface,<br>
                     --mat-sys-surface-dim, --mat-sys-surface-bright,<br>
                     --mat-sys-surface-container-lowest to --mat-sys-surface-container-highest
@@ -206,8 +206,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Typography Variables</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Typography Variables</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of typography style variables.
             </p>
           </div>
@@ -215,32 +215,32 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Variables</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Category</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Variables</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Body</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Body</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-body-small, --mat-sys-body-medium, --mat-sys-body-large
                   </td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Label</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Label</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-label-small, --mat-sys-label-medium, --mat-sys-label-large
                   </td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Title</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Title</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-title-small, --mat-sys-title-medium, --mat-sys-title-large
                   </td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">Display</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">Display</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     --mat-sys-display-small, --mat-sys-display-medium, --mat-sys-display-large
                   </td>
                 </tr>

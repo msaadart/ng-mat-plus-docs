@@ -34,7 +34,7 @@ import { CommonModule } from '@angular/common';
           </div>
 
           <!-- Content -->
-          <div class="relative px-6 py-5 text-gray-700 dark:text-slate-300 leading-relaxed">
+          <div class="relative px-6 py-5  dark:text-slate-300 leading-relaxed">
             <ng-template *ngTemplateOutlet="overviewContent() ?? null"></ng-template>
           </div>
         </div>
@@ -57,7 +57,7 @@ import { CommonModule } from '@angular/common';
             </h3>
           </div>
 
-          <div class="relative px-6 py-5 text-gray-700 dark:text-slate-300 leading-relaxed">
+          <div class="relative px-6 py-5  dark:text-slate-300 leading-relaxed">
             <ng-template *ngTemplateOutlet="useCasesContent() ?? null"></ng-template>
           </div>
         </div>
@@ -70,7 +70,7 @@ import { CommonModule } from '@angular/common';
             bg-white dark:bg-slate-900">
 
   <div class="relative px-6 py-5
-              text-gray-700 dark:text-slate-300
+               dark:text-slate-300
               leading-relaxed">
     <ng-template *ngTemplateOutlet="otherContent() ?? null"></ng-template>
   </div>
@@ -89,7 +89,7 @@ import { CommonModule } from '@angular/common';
     <!-- Content -->
     <div class="flex-1 text-sm">
       <div
-        class="text-gray-600 
+        class="text-on-surface 
                leading-relaxed mt-1">
         <ng-template *ngTemplateOutlet="noteContent() ?? null"></ng-template>
       </div>

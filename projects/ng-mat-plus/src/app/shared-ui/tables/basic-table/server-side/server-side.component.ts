@@ -33,7 +33,7 @@ import { Sort } from '@angular/material/sort';
   imports: [LibBasicServerTableComponent],
   template: `
     <div class="rounded-xl shadow border border-gray-200  p-4">
-      <h2 class="text-gray-600 font-semibold mb-4">Paginator Base</h2>
+      <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-basic-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -47,7 +47,7 @@ import { Sort } from '@angular/material/sort';
       </lib-basic-server-table>
     </div>
     <div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
-      <h2 class="text-gray-600 font-semibold mb-4">Scroll Base</h2>
+      <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-basic-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"
@@ -196,7 +196,7 @@ export class ServerSideTableComponent {
           },
           isVisible: (row) => row.age > 24,
           isDisabled: (row) => row.age == 25,
-          class: 'text-blue-500 hover:text-blue-700',
+          class: 'text-blue-500 hover:text-on-primary-container',
           onClick: (row) => this.openEditForm(row),
         },
         {

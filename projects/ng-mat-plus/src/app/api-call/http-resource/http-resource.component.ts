@@ -71,7 +71,7 @@ interface SingleUserResponse {
           <h1 class="text-3xl font-semibold  mb-2">
             Resource API Demo
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -129,13 +129,13 @@ interface SingleUserResponse {
                       <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>
                     <button
                       (click)="selectUser(user.id)"
-                      class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded hover:bg-blue-200 cursor-pointer"
+                      class="px-2 py-1 bg-blue-100 text-on-primary-container text-xs rounded hover:bg-blue-200 cursor-pointer"
                     >
                       View
                     </button>
@@ -173,7 +173,7 @@ interface SingleUserResponse {
 
               <!-- User selection -->
               <div class="mb-4">
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium  mb-2">
                   Select User ID:
                 </label>
                 <input
@@ -215,10 +215,10 @@ interface SingleUserResponse {
                       {{ singleUserResource.value()?.firstName }}
                       {{ singleUserResource.value()?.lastName }}
                     </h4>
-                    <p class="text-gray-600 text-sm">
+                    <p class="text-on-surface text-sm">
                       {{ singleUserResource.value()?.email }}
                     </p>
-                    <p class="text-gray-500 text-xs">
+                    <p class="text-on-surface text-xs">
                       {{ singleUserResource.value()?.username }}
                     </p>
                   </div>
@@ -226,22 +226,22 @@ interface SingleUserResponse {
 
                 <div class="grid grid-cols-2 gap-4 text-sm">
                   <div>
-                    <span class="font-medium text-gray-700">Gender:</span>
-                    <span class="text-gray-600 capitalize">
+                    <span class="font-medium ">Gender:</span>
+                    <span class="text-on-surface capitalize">
                       {{ singleUserResource.value()?.gender }}</span
                     >
                   </div>
                   <div>
-                    <span class="font-medium text-gray-700">ID:</span>
-                    <span class="text-gray-600">
+                    <span class="font-medium ">ID:</span>
+                    <span class="text-on-surface">
                       {{ singleUserResource.value()?.id }}</span
                     >
                   </div>
                 </div>
                 @if (singleUserResource.value()?.address) {
                 <div class="mt-4 p-3   rounded-md">
-                  <h5 class="font-medium text-gray-700 mb-2">Address:</h5>
-                  <p class="text-gray-600 text-sm">
+                  <h5 class="font-medium  mb-2">Address:</h5>
+                  <p class="text-on-surface text-sm">
                     {{ singleUserResource.value()?.address?.address }},<br />
                     {{ singleUserResource.value()?.address?.city }},<br />
                     {{ singleUserResource.value()?.address?.state }},
@@ -255,7 +255,7 @@ interface SingleUserResponse {
               <!-- No selection message -->
                @if (!selectedUserId()) {
                  <div
-                   class="text-center text-gray-500 py-8"
+                   class="text-center text-on-surface py-8"
                  >
                    <p>Select a user ID to view details</p>
                  </div>

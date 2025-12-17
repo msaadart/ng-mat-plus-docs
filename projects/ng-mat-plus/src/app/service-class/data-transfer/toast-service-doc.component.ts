@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Toast Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Toast Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This service includes several notification features:
                 </p>
@@ -68,8 +68,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Usage</h3>
+            <p class="mt-2 text-on-surface">
               Showing different types of toast notifications.
             </p>
           </div>
@@ -80,8 +80,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Service Integration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service Integration</h3>
+            <p class="mt-2 text-on-surface">
               Using the toast service within another service or component.
             </p>
           </div>
@@ -92,8 +92,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Error Handling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Error Handling</h3>
+            <p class="mt-2 text-on-surface">
               Using toast notifications for error feedback.
             </p>
           </div>
@@ -161,12 +161,12 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Customizing Toast Duration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Customizing Toast Duration</h3>
+            <p class="mt-2 text-on-surface">
               Adjusting how long toasts remain visible.
             </p>
           </div>
@@ -177,8 +177,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Service API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available methods.
             </p>
           </div>
@@ -186,26 +186,26 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">success(message: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a success toast with green styling</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">success(message: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a success toast with green styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">info(message: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an info toast with blue styling</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">info(message: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an info toast with blue styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">warning(message: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a warning toast with yellow styling</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">warning(message: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a warning toast with yellow styling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">error(message: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an error toast with red styling</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">error(message: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an error toast with red styling</td>
                 </tr>
               </tbody>
             </table>

@@ -28,7 +28,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
     </app-documentation>
     <ng-template #overviewContent>
       <div class="space-y-6">
-        <p class="text-gray-700">
+        <p class="">
           The <strong>FetchSubscribeComponent</strong> demonstrates manual API
           data management using explicit HTTP calls with Angular's observable
           pattern. Unlike the resource-based approach, this component provides
@@ -40,10 +40,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Architecture Highlights
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Manual HTTP Management</strong>: Direct control over
@@ -75,7 +75,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Manual API Operations</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Explicit HTTP GET, POST, PUT, DELETE calls</li>
               <li>Custom request headers and parameters</li>
               <li>Individual operation tracking</li>
@@ -85,7 +85,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Observable Patterns</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Subscribe/unsubscribe lifecycle management</li>
               <li>RxJS operators for data transformation</li>
               <li>Error handling with catchError</li>
@@ -95,7 +95,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">State Control</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Manual signal updates</li>
               <li>Custom loading state management</li>
               <li>Conditional UI updates</li>
@@ -105,7 +105,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Advanced Features</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Custom validation logic</li>
               <li>Conditional API calls</li>
               <li>Data transformation pipelines</li>
@@ -130,7 +130,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >HTTP Calls</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">
+                  <div class="text-xs text-on-surface mt-1">
                     Manual API Operations
                   </div>
                 </div>
@@ -140,7 +140,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >Observables</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">RxJS Streams</div>
+                  <div class="text-xs text-on-surface mt-1">RxJS Streams</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-pink-100 p-2 rounded-lg">
@@ -148,7 +148,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >Signals</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">Manual State</div>
+                  <div class="text-xs text-on-surface mt-1">Manual State</div>
                 </div>
               </div>
             </div>
@@ -195,10 +195,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Custom API Integration
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Integrating with APIs that require custom headers, authentication,
               or non-standard response handling.
             </p>
@@ -247,10 +247,10 @@ createNewUser(): void {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Data Transformation Pipeline
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Processing and transforming API responses before updating the UI
               state.
             </p>
@@ -301,10 +301,10 @@ refreshAllData(): void {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Conditional API Operations
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Making API calls based on complex business logic and user
               permissions.
             </p>
@@ -318,8 +318,8 @@ refreshAllData(): void {
                 </p>
               </div>
               <div class="  p-3 rounded-lg">
-                <h4 class="font-medium text-blue-800 mb-1">Data Validation</h4>
-                <p class="text-sm text-blue-700">
+                <h4 class="font-medium text-on-primary-container mb-1">Data Validation</h4>
+                <p class="text-sm text-on-primary-container">
                   Client-side validation before server requests
                 </p>
               </div>
@@ -341,10 +341,10 @@ refreshAllData(): void {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Advanced Error Handling
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Implementing sophisticated error handling strategies for different
               types of failures.
             </p>
@@ -480,10 +480,10 @@ deleteUser(): void {
         <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Debouncing</strong>: Implement debouncing for search
@@ -588,10 +588,10 @@ deleteUser(): void {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Subscription Management Pattern
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Implementing proper subscription lifecycle management to prevent
               memory leaks.
             </p>
@@ -661,10 +661,10 @@ export class FetchSubscribeComponent implements OnDestroy {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Custom HTTP Interceptors
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Implementing custom interceptors for authentication, logging, and
               error handling.
             </p>
@@ -707,10 +707,10 @@ export class AuthInterceptor implements HttpInterceptor {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Comparison: Fetch/Subscribe vs Resource Pattern
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Understanding when to use manual fetch/subscribe versus automated
               resource patterns.
             </p>
@@ -720,59 +720,59 @@ export class AuthInterceptor implements HttpInterceptor {
               <table class="min-w-full divide-y divide-gray-200">
                 <thead class="   ">
                   <tr>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">
                       Aspect
                     </th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">
                       Fetch/Subscribe
                     </th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">
                       Resource Pattern
                     </th>
                   </tr>
                 </thead>
                 <tbody class=" divide-y divide-gray-200">
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">
                       Control Level
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       High - Full control over each operation
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Medium - Automated with configuration
                     </td>
                   </tr>
                   <tr class="   ">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">
                       Code Complexity
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Higher - More boilerplate code
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Lower - Declarative configuration
                     </td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">
                       Error Handling
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Granular per operation
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Unified error handling
                     </td>
                   </tr>
                   <tr class="   ">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">
                       Use Case
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Complex business logic, custom flows
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Standard CRUD operations, rapid development
                     </td>
                   </tr>
@@ -806,7 +806,7 @@ export class FetchSubscribeDocComponent {
       <h1 class="text-3xl font-semibold  mb-2">
         Fetch & Subscribe API Demo
       </h1>
-      <p class="text-gray-600">
+      <p class="text-on-surface">
         Professional API Data Management Interface
       </p>
     </div>
@@ -904,7 +904,7 @@ export class FetchSubscribeDocComponent {
                     <p class="font-medium text-sm">
                       {{ user.firstName }} {{ user.lastName }}
                     </p>
-                    <p class="text-gray-500 text-xs">{{ user.email }}</p>
+                    <p class="text-on-surface text-xs">{{ user.email }}</p>
                   </div>
                 </div>
                 <button (click)="detailUser(user.id); $event.stopPropagation()"

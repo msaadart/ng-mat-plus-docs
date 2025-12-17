@@ -29,15 +29,15 @@ import { ResourseComponent } from './http-resource.component';
 
     <ng-template #overviewContent>
       <div class="space-y-6">        
-        <p class="text-gray-700">
+        <p class="">
           The <strong>Resource Component</strong> demonstrates modern Angular patterns for managing HTTP resources using service-based approaches. This component showcases how to efficiently handle API data fetching, loading states, and error handling with both <code>getResource()</code> and <code>httpResource()</code> methods.
         </p>
 
         <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Architecture Highlights</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Architecture Highlights</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Dual Resource Management</strong>: Supports both static and dynamic API endpoints</li>
                   <li><strong>Reactive State Management</strong>: Provides loading, error, and data states as signals</li>
@@ -54,7 +54,7 @@ import { ResourseComponent } from './http-resource.component';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">getResource()</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Simple static URL endpoints</li>
               <li>Automatic loading state tracking</li>
               <li>Built-in error handling</li>
@@ -64,7 +64,7 @@ import { ResourseComponent } from './http-resource.component';
           
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">httpResource()</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Dynamic URL generation</li>
               <li>Advanced configuration options</li>
               <li>Custom parsing and transformation</li>
@@ -74,7 +74,7 @@ import { ResourseComponent } from './http-resource.component';
           
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Performance Benefits</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Efficient change detection with OnPush strategy</li>
               <li>Optimized API calls with caching potential</li>
               <li>Reduced boilerplate code</li>
@@ -84,7 +84,7 @@ import { ResourseComponent } from './http-resource.component';
           
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Developer Experience</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Simplified API integration</li>
               <li>Consistent error handling patterns</li>
               <li>Better code organization</li>
@@ -103,27 +103,27 @@ import { ResourseComponent } from './http-resource.component';
               <div class="flex justify-center space-x-6 mt-2">
                 <div class="text-center">
                   <div class="bg-blue-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-blue-800">HTTP Service</span>
+                    <span class="text-sm font-medium text-on-primary-container">HTTP Service</span>
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">API Management</div>
+                  <div class="text-xs text-on-surface mt-1">API Management</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-green-100 p-2 rounded-lg">
                     <span class="text-sm font-medium ">getResource()</span>
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">Static URLs</div>
+                  <div class="text-xs text-on-surface mt-1">Static URLs</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-yellow-100 p-2 rounded-lg">
                     <span class="text-sm font-medium  ">httpResource()</span>
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">Dynamic URLs</div>
+                  <div class="text-xs text-on-surface mt-1">Dynamic URLs</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-red-100 p-2 rounded-lg">
                     <span class="text-sm font-medium text-red-800">Reactive States</span>
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">Data, Loading, Error</div>
+                  <div class="text-xs text-on-surface mt-1">Data, Loading, Error</div>
                 </div>
               </div>
             </div>
@@ -152,8 +152,8 @@ import { ResourseComponent } from './http-resource.component';
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Basic Data Fetching with getResource()</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Data Fetching with getResource()</h3>
+            <p class="mt-2 text-on-surface">
               Simple API data fetching with automatic state management using static URLs.
             </p>
           </div>
@@ -172,8 +172,8 @@ users = this.$httpService.getResource<DummyUsersResponse>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Data Fetching with httpResource()</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Data Fetching with httpResource()</h3>
+            <p class="mt-2 text-on-surface">
               Advanced API data fetching with dynamic URLs and configuration options.
             </p>
           </div>
@@ -212,8 +212,8 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Template Integration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Template Integration</h3>
+            <p class="mt-2 text-on-surface">
               Using resource states directly in Angular templates for both patterns.
             </p>
           </div>
@@ -227,8 +227,8 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Data Refresh Pattern</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Data Refresh Pattern</h3>
+            <p class="mt-2 text-on-surface">
               Implementing data refresh functionality for both resource types.
             </p>
           </div>
@@ -280,8 +280,8 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
         <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Performance Considerations</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Performance Considerations</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Efficient Updates</strong>: Only triggers updates when states actually change</li>
                   <li><strong>Change Detection</strong>: Works optimally with OnPush change detection strategy</li>
@@ -333,8 +333,8 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Advanced Resource Patterns</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Advanced Resource Patterns</h3>
+            <p class="mt-2 text-on-surface">
               Advanced usage patterns for both resource management approaches.
             </p>
           </div>
@@ -387,8 +387,8 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Comparison: getResource() vs httpResource()</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Comparison: getResource() vs httpResource()</h3>
+            <p class="mt-2 text-on-surface">
               Understanding the differences between the two resource patterns.
             </p>
           </div>
@@ -397,36 +397,36 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
               <table class="min-w-full divide-y divide-gray-200">
                 <thead class="   ">
                   <tr>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Aspect</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">getResource()</th>
-                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">httpResource()</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">Aspect</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">getResource()</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase">httpResource()</th>
                   </tr>
                 </thead>
                 <tbody class=" divide-y divide-gray-200">
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">URL Type</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Static - Fixed string</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Dynamic - Function that returns string</td>
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">URL Type</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Static - Fixed string</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Dynamic - Function that returns string</td>
                   </tr>
                   <tr class="   ">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Configuration</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Basic - URL only</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Advanced - Options object with callbacks</td>
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">Configuration</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Basic - URL only</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Advanced - Options object with callbacks</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Use Case</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Fixed endpoints, list data</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Parameterized endpoints, detail views</td>
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">Use Case</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Fixed endpoints, list data</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Parameterized endpoints, detail views</td>
                   </tr>
                   <tr class="   ">
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Data Transformation</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Limited - Manual in component</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Built-in - Parse function in options</td>
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">Data Transformation</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Limited - Manual in component</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Built-in - Parse function in options</td>
                   </tr>
                   <tr>
-                    <td class="px-6 py-4 text-sm font-medium text-gray-600">Complexity</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Simple - Easy to implement</td>
-                    <td class="px-6 py-4 text-sm text-gray-500">Advanced - More control and options</td>
+                    <td class="px-6 py-4 text-sm font-medium text-on-surface">Complexity</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Simple - Easy to implement</td>
+                    <td class="px-6 py-4 text-sm text-on-surface">Advanced - More control and options</td>
                   </tr>
                 </tbody>
               </table>
@@ -436,16 +436,16 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Best Practices</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Best Practices</h3>
+            <p class="mt-2 text-on-surface">
               Recommended practices for using both resource patterns effectively.
             </p>
           </div>
           <div class="p-5">
             <div class="space-y-4">
               <div class="  p-3 rounded-lg">
-                <h4 class="font-medium text-blue-800">Choose the Right Pattern</h4>
-                <p class="text-sm text-blue-700">Use getResource() for static endpoints and httpResource() for dynamic ones</p>
+                <h4 class="font-medium text-on-primary-container">Choose the Right Pattern</h4>
+                <p class="text-sm text-on-primary-container">Use getResource() for static endpoints and httpResource() for dynamic ones</p>
               </div>
               <div class="p-3 rounded-lg">
                 <h4 class="font-medium ">Use Type Interfaces</h4>
@@ -469,8 +469,8 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">Real-World Example</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Real-World Example</h3>
+            <p class="mt-2 text-on-surface">
               Complete example showing both patterns working together.
             </p>
           </div>
@@ -503,7 +503,7 @@ export class ResourceDocComponent {
           <h1 class="text-3xl font-semibold  mb-2">
             Resource API Demo
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -561,13 +561,13 @@ export class ResourceDocComponent {
                       <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>
                     <button
                       (click)="selectUser(user.id)"
-                      class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded hover:bg-blue-200"
+                      class="px-2 py-1 bg-blue-100 text-on-primary-container text-xs rounded hover:bg-blue-200"
                     >
                       View
                     </button>
@@ -605,7 +605,7 @@ export class ResourceDocComponent {
 
               <!-- User selection -->
               <div class="mb-4">
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium  mb-2">
                   Select User ID:
                 </label>
                 <input
@@ -647,10 +647,10 @@ export class ResourceDocComponent {
                       {{ singleUserResource.value()?.firstName }}
                       {{ singleUserResource.value()?.lastName }}
                     </h4>
-                    <p class="text-gray-600 text-sm">
+                    <p class="text-on-surface text-sm">
                       {{ singleUserResource.value()?.email }}
                     </p>
-                    <p class="text-gray-500 text-xs">
+                    <p class="text-on-surface text-xs">
                       @{{ singleUserResource.value()?.username }}
                     </p>
                   </div>
@@ -658,22 +658,22 @@ export class ResourceDocComponent {
 
                 <div class="grid grid-cols-2 gap-4 text-sm">
                   <div>
-                    <span class="font-medium text-gray-700">Gender:</span>
-                    <span class="text-gray-600 capitalize">
+                    <span class="font-medium ">Gender:</span>
+                    <span class="text-on-surface capitalize">
                       {{ singleUserResource.value()?.gender }}</span
                     >
                   </div>
                   <div>
-                    <span class="font-medium text-gray-700">ID:</span>
-                    <span class="text-gray-600">
+                    <span class="font-medium ">ID:</span>
+                    <span class="text-on-surface">
                       {{ singleUserResource.value()?.id }}</span
                     >
                   </div>
                 </div>
                 @if (singleUserResource.value()?.address) {
                 <div class="mt-4 p-3   rounded-md">
-                  <h5 class="font-medium text-gray-700 mb-2">Address:</h5>
-                  <p class="text-gray-600 text-sm">
+                  <h5 class="font-medium  mb-2">Address:</h5>
+                  <p class="text-on-surface text-sm">
                     {{ singleUserResource.value()?.address?.address }},<br />
                     {{ singleUserResource.value()?.address?.city }},<br />
                     {{ singleUserResource.value()?.address?.state }},
@@ -687,7 +687,7 @@ export class ResourceDocComponent {
               <!-- No selection message -->
                @if (!selectedUserId()) {
                  <div
-                   class="text-center text-gray-500 py-8"
+                   class="text-center text-on-surface py-8"
                  >
                    <p>Select a user ID to view details</p>
                  </div>
@@ -883,7 +883,7 @@ export class ResourseComponent {
           <p class="font-medium text-sm  truncate">
             {{ user.firstName }} {{ user.lastName }}
           </p>
-          <p class="text-gray-500 text-xs truncate">
+          <p class="text-on-surface text-xs truncate">
             {{ user.email }}
           </p>
         </div>
@@ -904,7 +904,7 @@ export class ResourseComponent {
       <h4 class="font-semibold ">
         {{ singleUserResource.data()?.firstName }} {{ singleUserResource.data()?.lastName }}
       </h4>
-      <p class="text-gray-600 text-sm">{{ singleUserResource.data()?.email }}</p>
+      <p class="text-on-surface text-sm">{{ singleUserResource.data()?.email }}</p>
     </div>
   </div>
 </div>

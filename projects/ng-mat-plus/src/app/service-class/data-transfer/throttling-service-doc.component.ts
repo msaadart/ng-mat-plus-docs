@@ -35,8 +35,8 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Multiple independent throttled streams</li>
                   <li>Configurable delay for each stream</li>
@@ -65,8 +65,8 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Scroll Event Throttling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Scroll Event Throttling</h3>
+            <p class="mt-2 text-on-surface">
               Throttling scroll events to prevent excessive updates.
             </p>
           </div>
@@ -77,8 +77,8 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Search Input Throttling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Search Input Throttling</h3>
+            <p class="mt-2 text-on-surface">
               Preventing excessive API calls during search input.
             </p>
           </div>
@@ -89,8 +89,8 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Window Resize Throttling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Window Resize Throttling</h3>
+            <p class="mt-2 text-on-surface">
               Optimizing resize event handling.
             </p>
           </div>
@@ -157,12 +157,12 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Multiple Streams</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Multiple Streams</h3>
+            <p class="mt-2 text-on-surface">
               Managing multiple independent throttled streams.
             </p>
           </div>
@@ -173,8 +173,8 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Service API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available service methods.
             </p>
           </div>
@@ -182,31 +182,31 @@ import { ThrottlingServiceComponent } from './throttling-service.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Parameters</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Parameters</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">emitValue</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(streamName: string, value: T, delayMs: number)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emits a value to the specified stream with throttling</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">emitValue</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(streamName: string, value: T, delayMs: number)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emits a value to the specified stream with throttling</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onValue</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(streamName: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Returns a signal that emits throttled values from the specified stream</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">onValue</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(streamName: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Returns a signal that emits throttled values from the specified stream</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearStream</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(streamName: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Clears and disposes of the specified stream</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearStream</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(streamName: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Clears and disposes of the specified stream</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearAll</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">none</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Clears and disposes of all active streams</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearAll</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">none</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Clears and disposes of all active streams</td>
                 </tr>
               </tbody>
             </table>

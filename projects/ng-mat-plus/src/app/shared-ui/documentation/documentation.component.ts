@@ -25,7 +25,7 @@ import { ExampleComponent } from './example/example.component';
       class="relative w-full rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl group"
       [ngClass]="{
         'bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white shadow-slate-900/50': $themeService.isDarkTheme(),
-        'bg-gradient-to-br from-white via-gray-50 to-white text-gray-600 shadow-xl': !$themeService.isDarkTheme()
+        'bg-gradient-to-br from-white via-gray-50 to-white text-on-surface shadow-xl': !$themeService.isDarkTheme()
       }"
     >
       <!-- Animated Background Pattern -->
@@ -61,11 +61,11 @@ import { ExampleComponent } from './example/example.component';
       'from-blue-400 via-purple-400 to-pink-400': $themeService.isDarkTheme()
     }"
   >
-    {{ title() }} <span class="text-gray-400 dark:text-gray-500 font-normal">Documentation</span>
+    {{ title() }} <span class="text-gray-400 dark:text-on-surface font-normal">Documentation</span>
   </h1>
 
   <!-- Meta Info -->
-  <div class="flex flex-wrap items-center gap-3 text-sm text-gray-500 dark:text-gray-400">
+  <div class="flex flex-wrap items-center gap-3 text-sm text-on-surface dark:text-gray-400">
     <!-- Published Date 
     <div
       class="flex items-center gap-2 px-3 py-1 rounded-md border transition-colors duration-200"
@@ -83,7 +83,7 @@ import { ExampleComponent } from './example/example.component';
         class="font-medium"
         [ngClass]="{
           'text-slate-200': $themeService.isDarkTheme(),
-          'text-gray-700': !$themeService.isDarkTheme()
+          '': !$themeService.isDarkTheme()
         }"
       >
         {{ displayDate }}

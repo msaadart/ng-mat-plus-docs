@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Data Transfer Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Data Transfer Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component showcases two powerful data transfer methods:
                 </p>
@@ -69,8 +69,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Observable-based Data Transfer</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Observable-based Data Transfer</h3>
+            <p class="mt-2 text-on-surface">
               Traditional RxJS implementation with BehaviorSubject.
             </p>
           </div>
@@ -81,8 +81,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Signal-based Data Transfer</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Signal-based Data Transfer</h3>
+            <p class="mt-2 text-on-surface">
               Modern Angular Signals implementation.
             </p>
           </div>
@@ -93,8 +93,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Cross-Component Communication</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Cross-Component Communication</h3>
+            <p class="mt-2 text-on-surface">
               Sharing data between unrelated components.
             </p>
           </div>
@@ -161,12 +161,12 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">API Reference</h2>
+        <h2 class="text-2xl font-bold text-on-surface">API Reference</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">LibDataTransferService (Observable)</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">LibDataTransferService (Observable)</h3>
+            <p class="mt-2 text-on-surface">
               Methods available in the Observable-based service.
             </p>
           </div>
@@ -174,30 +174,30 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">getDataObservable(key)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Returns Observable for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">getDataObservable(key)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Returns Observable for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">setData(key, data)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Sets data for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">setData(key, data)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Sets data for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearData(key)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Clears data for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearData(key)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Clears data for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">removeData(key)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Removes the BehaviorSubject for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">removeData(key)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Removes the BehaviorSubject for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">cleanup()</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Cleans up all BehaviorSubjects</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">cleanup()</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Cleans up all BehaviorSubjects</td>
                 </tr>
               </tbody>
             </table>
@@ -206,8 +206,8 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">LibDataTransferSignalService (Signal)</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">LibDataTransferSignalService (Signal)</h3>
+            <p class="mt-2 text-on-surface">
               Methods available in the Signal-based service.
             </p>
           </div>
@@ -215,26 +215,26 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">getDataSignal(key)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Returns Signal for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">getDataSignal(key)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Returns Signal for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">addItem(key, item)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Adds item to the array for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">addItem(key, item)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Adds item to the array for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">updateItem(key, index, item)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Updates item at index for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">updateItem(key, index, item)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Updates item at index for the given key</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">removeItem(key, index)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Removes item at index for the given key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">removeItem(key, index)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Removes item at index for the given key</td>
                 </tr>
               </tbody>
             </table>

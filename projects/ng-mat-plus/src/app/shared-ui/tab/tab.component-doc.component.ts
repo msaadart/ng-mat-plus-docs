@@ -35,8 +35,8 @@ import { TabComponent } from './tab.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Tab Component Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Tab Component Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several powerful features:
                 </p>
@@ -71,8 +71,8 @@ import { TabComponent } from './tab.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Tab Setup</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Tab Setup</h3>
+            <p class="mt-2 text-on-surface">
               Simple tab component with both route and component tabs.
             </p>
           </div>
@@ -83,8 +83,8 @@ import { TabComponent } from './tab.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Component Tabs with Inputs/Outputs</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Component Tabs with Inputs/Outputs</h3>
+            <p class="mt-2 text-on-surface">
               Passing data to and from tab components.
             </p>
           </div>
@@ -95,8 +95,8 @@ import { TabComponent } from './tab.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Tab Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Tab Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Creating tabs dynamically from an array.
             </p>
           </div>
@@ -162,12 +162,12 @@ import { TabComponent } from './tab.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Disabled Tabs</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Disabled Tabs</h3>
+            <p class="mt-2 text-on-surface">
               Implementing disabled state for tabs.
             </p>
           </div>
@@ -178,8 +178,8 @@ import { TabComponent } from './tab.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -187,56 +187,56 @@ import { TabComponent } from './tab.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">tabConfig</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">TabConfig[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of tab configurations (required)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">tabConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">TabConfig[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of tab configurations (required)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">selectedIndex</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Index of the initially selected tab (default: 0)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">selectedIndex</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Index of the initially selected tab (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">initialRoute</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Base route for component tabs (default: '')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">initialRoute</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Base route for component tabs (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">stretchTabs</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether tabs stretch to fill space (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">stretchTabs</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether tabs stretch to fill space (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">animationDuration</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Tab animation duration in ms (default: 300)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">animationDuration</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Tab animation duration in ms (default: 300)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">headerPosition</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'above' | 'below'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Position of tab header (default: 'below')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerPosition</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'above' | 'below'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Position of tab header (default: 'below')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">dynamicHeight</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether tab height adjusts to content (default: true)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">dynamicHeight</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether tab height adjusts to content (default: true)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">alignTabs</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'start' | 'center' | 'end'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Tab alignment (default: 'start')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">alignTabs</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'start' | 'center' | 'end'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Tab alignment (default: 'start')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disableRipple</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether to disable ripple effects (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disableRipple</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether to disable ripple effects (default: false)</td>
                 </tr>
               </tbody>
             </table>

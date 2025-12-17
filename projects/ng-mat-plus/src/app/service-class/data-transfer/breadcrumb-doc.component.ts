@@ -37,8 +37,8 @@ import { BreadcrumbComponent } from './breadcrumb.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-700 dark:text-blue-300">Features</h3>
-              <div class="mt-2 text-sm text-gray-700 dark:text-slate-300">
+              <h3 class="text-sm font-medium text-on-primary-container dark:text-blue-300">Features</h3>
+              <div class="mt-2 text-sm  dark:text-slate-300">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Reactive breadcrumbs using Angular Signals</li>
                   <li>Static <code>data.breadcrumb</code> support</li>
@@ -56,8 +56,8 @@ import { BreadcrumbComponent } from './breadcrumb.component';
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Usage</h3>
+            <p class="mt-2 text-on-surface">
               Render a breadcrumb trail from router data.
             </p>
           </div>
@@ -68,8 +68,8 @@ import { BreadcrumbComponent } from './breadcrumb.component';
  
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Label Override</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Label Override</h3>
+            <p class="mt-2 text-on-surface">
               Set a custom label for <code>:id</code> (e.g., Item 123 → John Doe).
             </p>
           </div>
@@ -106,36 +106,36 @@ import { BreadcrumbComponent } from './breadcrumb.component';
  
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Service API</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Service API</h2>
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Methods</h3>
-            <p class="mt-2 text-gray-600">Available public methods of the service.</p>
+            <h3 class="text-lg font-medium text-on-surface">Methods</h3>
+            <p class="mt-2 text-on-surface">Available public methods of the service.</p>
           </div>
           <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Signature</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Signature</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">breadcrumbs</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">computed: Breadcrumb[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Current breadcrumb trail</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">breadcrumbs</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">computed: Breadcrumb[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Current breadcrumb trail</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">setCustomLabel</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(id: string, label: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Override label for dynamic id</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">setCustomLabel</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(id: string, label: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Override label for dynamic id</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">resetCustomLabel</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(id: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Remove custom override</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">resetCustomLabel</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(id: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Remove custom override</td>
                 </tr>
               </tbody>
             </table>
@@ -162,7 +162,7 @@ export class BreadcrumbDocComponent {
       <div class="flex items-center flex-wrap gap-2">
         @for (bc of breadcrumbService.breadcrumbs(); track bc.url) {
           <a class="text-blue-600 hover:underline" [routerLink]="bc.url">{{ bc.label }}</a>
-          <span class="text-gray-500">›</span>
+          <span class="text-on-surface">›</span>
         }
       </div>
     </nav>

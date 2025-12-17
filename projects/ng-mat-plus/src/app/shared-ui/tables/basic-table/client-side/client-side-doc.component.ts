@@ -43,8 +43,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
                 </svg>
             </div>
             <div class="ml-3">
-                <h3 class="text-sm font-medium text-blue-800">Performance Note</h3>
-                <div class="mt-2 text-sm text-blue-700">
+                <h3 class="text-sm font-medium text-on-primary-container">Performance Note</h3>
+                <div class="mt-2 text-sm text-on-primary-container">
                     <p>
                         This component efficiently handles up to 50,000 records client-side when using pagination.
                         For optimal performance:
@@ -77,8 +77,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">    
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Management Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management Applications</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for admin dashboards where users need to view, sort, and edit large datasets without server roundtrips.
         </p>
       </div>
@@ -89,8 +89,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Reporting Interfaces</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Reporting Interfaces</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for displaying report data with client-side sorting and custom formatting capabilities.
         </p>
       </div>
@@ -101,8 +101,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">CRUD Operations</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">CRUD Operations</h3>
+        <p class="mt-2 text-on-surface">
           Supports full CRUD operations with inline editing and row deletion capabilities.
         </p>
       </div>
@@ -167,12 +167,12 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #otherContent>
   <div class="space-y-6">
-    <h2 class="text-2xl font-bold">Implementation Details</h2>
+    <h2 class="text-2xl font-bold text-on-surface">Implementation Details</h2>
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Setup</h3>
+        <p class="mt-2 text-on-surface">
           Basic implementation requires importing the table component and configuring the columns and data.
         </p>
       </div>
@@ -183,8 +183,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Columns are defined with type-specific configurations for formatting and behavior.
         </p>
       </div>
@@ -195,8 +195,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Row Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Row Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Row-level behaviors and styling can be customized through the row configuration object.
         </p>
       </div>
@@ -207,8 +207,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management</h3>
+        <p class="mt-2 text-on-surface">
           The component works with signals for reactive data updates and provides edit/delete examples.
         </p>
       </div>
@@ -361,7 +361,7 @@ export class ClientSideDocComponent {
             },
             isVisible: (row) => row.age > 24,
             isDisabled: (row) => row.age == 25,
-            class: 'text-blue-500 hover:text-blue-700',
+            class: 'text-blue-500 hover:text-on-primary-container',
             onClick: (row) => this.openEditForm(row),
           },
           {

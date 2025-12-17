@@ -36,8 +36,8 @@ import { AllButtonsComponent } from './all-buttons.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Button Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Button Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   These components include several button-specific features:
                 </p>
@@ -72,8 +72,8 @@ import { AllButtonsComponent } from './all-buttons.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Button Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Button Usage</h3>
+            <p class="mt-2 text-on-surface">
               Standard button with click handler and different color variants.
             </p>
           </div>
@@ -84,8 +84,8 @@ import { AllButtonsComponent } from './all-buttons.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Button with Icon</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Button with Icon</h3>
+            <p class="mt-2 text-on-surface">
               Buttons with Material Icons and badge indicators.
             </p>
           </div>
@@ -96,8 +96,8 @@ import { AllButtonsComponent } from './all-buttons.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">FAB Buttons</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">FAB Buttons</h3>
+            <p class="mt-2 text-on-surface">
               Floating Action Buttons and mini FABs with different states.
             </p>
           </div>
@@ -160,12 +160,12 @@ import { AllButtonsComponent } from './all-buttons.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Button Group</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Button Group</h3>
+            <p class="mt-2 text-on-surface">
               Creating a button group with different button types.
             </p>
           </div>
@@ -176,8 +176,8 @@ import { AllButtonsComponent } from './all-buttons.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties for all button types.
             </p>
           </div>
@@ -185,41 +185,41 @@ import { AllButtonsComponent } from './all-buttons.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">color</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'primary' | 'accent' | 'warn'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Button color scheme (default: 'primary')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">color</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'primary' | 'accent' | 'warn'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Button color scheme (default: 'primary')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether the button is disabled (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether the button is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">type</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'button' | 'submit' | 'reset'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Button type attribute (default: 'button')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">type</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'button' | 'submit' | 'reset'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Button type attribute (default: 'button')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">icon</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Material icon name</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">icon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Material icon name</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">className</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Custom CSS class names</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">className</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Custom CSS class names</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">matBadge</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Badge text to display on the button</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">matBadge</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Badge text to display on the button</td>
                 </tr>
               </tbody>
             </table>
@@ -228,8 +228,8 @@ import { AllButtonsComponent } from './all-buttons.component';
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Output Events</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Output Events</h3>
+            <p class="mt-2 text-on-surface">
               Available output events for all button types.
             </p>
           </div>
@@ -237,14 +237,14 @@ import { AllButtonsComponent } from './all-buttons.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Event</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Event</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">matClick</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emitted when the button is clicked</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">matClick</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emitted when the button is clicked</td>
                 </tr>
               </tbody>
             </table>

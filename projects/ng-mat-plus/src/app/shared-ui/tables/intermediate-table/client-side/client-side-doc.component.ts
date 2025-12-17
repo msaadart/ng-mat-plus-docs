@@ -41,8 +41,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-blue-800">Key Differentiators</h3>
-          <div class="mt-2 text-sm text-blue-700">
+          <h3 class="text-sm font-medium text-on-primary-container">Key Differentiators</h3>
+          <div class="mt-2 text-sm text-on-primary-container">
             <p>
               This table extends basic functionality with:
             </p>
@@ -72,8 +72,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">    
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Editing Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Editing Applications</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for applications requiring frequent inline editing with validation, such as admin panels or data management systems.
         </p>
       </div>
@@ -84,8 +84,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Form-heavy Interfaces</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Form-heavy Interfaces</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for scenarios where table cells need to function as form inputs with validation rules.
         </p>
       </div>
@@ -96,8 +96,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Complex Data Grids</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Complex Data Grids</h3>
+        <p class="mt-2 text-on-surface">
           Suitable for grids requiring a mix of display and editable cells with different input types.
         </p>
       </div>
@@ -160,8 +160,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Setup</h3>
+        <p class="mt-2 text-on-surface">
           Basic implementation requires importing the intermediate table component and configuring columns with input specifications.
         </p>
       </div>
@@ -172,8 +172,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Columns are defined with input type specifications and validation rules.
         </p>
       </div>
@@ -184,8 +184,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Input Types</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Input Types</h3>
+        <p class="mt-2 text-on-surface">
           Various input types can be specified for editable columns.
         </p>
       </div>
@@ -196,8 +196,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management</h3>
+        <p class="mt-2 text-on-surface">
           The component works with signals for reactive data updates and provides edit/delete examples.
         </p>
       </div>

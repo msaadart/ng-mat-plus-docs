@@ -36,7 +36,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
     </div>
     
     <ng-template #nameTemplate let-row>
-      <span (click)="openEditForm(row)" class="text-blue-600 hover:text-blue-800 cursor-pointer">
+      <span (click)="openEditForm(row)" class="text-blue-600 hover:text-on-primary-container cursor-pointer">
         {{ row?.firstName }} {{ row?.lastName }}
       </span>
     </ng-template>

@@ -35,8 +35,8 @@ import { ToastsComponent } from './toasts.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Four severity levels: success, info, warning, and error</li>
                   <li>Auto-dismiss after configurable timeout</li>
@@ -65,8 +65,8 @@ import { ToastsComponent } from './toasts.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Usage</h3>
+            <p class="mt-2 text-on-surface">
               Showing different types of toast notifications.
             </p>
           </div>
@@ -77,8 +77,8 @@ import { ToastsComponent } from './toasts.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Duration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Duration</h3>
+            <p class="mt-2 text-on-surface">
               Controlling how long a toast remains visible.
             </p>
           </div>
@@ -89,8 +89,8 @@ import { ToastsComponent } from './toasts.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Position Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Position Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Changing where toasts appear on screen.
             </p>
           </div>
@@ -157,12 +157,12 @@ import { ToastsComponent } from './toasts.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Global Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Global Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Setting default options for all toasts in your application.
             </p>
           </div>
@@ -173,8 +173,8 @@ import { ToastsComponent } from './toasts.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Service Methods</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service Methods</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available service methods.
             </p>
           </div>
@@ -182,36 +182,36 @@ import { ToastsComponent } from './toasts.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Parameters</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Parameters</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">success</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a success toast (green)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">success</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a success toast (green)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">info</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an info toast (blue)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">info</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an info toast (blue)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">warning</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a warning toast (orange)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">warning</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a warning toast (orange)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">error</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an error toast (red)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">error</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an error toast (red)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearAll</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">none</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dismisses all currently visible toasts</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearAll</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">none</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dismisses all currently visible toasts</td>
                 </tr>
               </tbody>
             </table>

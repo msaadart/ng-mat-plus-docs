@@ -41,14 +41,14 @@ import { CodeViewerComponent } from '../code-viewer/code-viewer.component';
               <h3 class="text-xl font-bold tracking-tight" 
                   [ngClass]="{
                     'text-slate-100': $themeService.isDarkTheme(),
-                    'text-gray-600': !$themeService.isDarkTheme()
+                    'text-on-surface': !$themeService.isDarkTheme()
                   }">
                 {{title()}}
               </h3>
               <p class="text-xs mt-0.5" 
                  [ngClass]="{
                    'text-slate-400': $themeService.isDarkTheme(),
-                   'text-gray-500': !$themeService.isDarkTheme()
+                   'text-on-surface': !$themeService.isDarkTheme()
                  }">
                 {{showCode() ? 'Live Preview' : 'Source Code'}}
               </p>

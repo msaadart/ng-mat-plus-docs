@@ -35,7 +35,7 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
 
             <mat-divider></mat-divider>
 
-            <lib-mat-button color="primary" (matClick)="startSpinner()">
+            <lib-mat-button color="primary mr-2" (matClick)="startSpinner()">
               Start Spinner Loader
             </lib-mat-button>
 

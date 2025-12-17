@@ -23,7 +23,7 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
 
     <ng-template #overviewContent>
       <div class="space-y-4">
-        <p class="text-gray-700">
+        <p class="">
           The <code class="     px-1 py-0.5 rounded ">&lt;lib-expansion-panel&gt;</code> component provides an expandable container that can show/hide content with a smooth animation. It's useful for organizing content into collapsible sections.
         </p>
         
@@ -35,8 +35,8 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes special features for expansion panels:
                 </p>
@@ -53,7 +53,7 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
         </div>
         
         <h3 class="text-xl font-semibold mt-6">When to Use</h3>
-        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+        <ul class="list-disc pl-5 space-y-2 ">
           <li>To organize content into logical sections</li>
           <li>When you need to hide secondary content initially</li>
           <li>For forms with multiple sections</li>
@@ -67,8 +67,8 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Expansion Panel</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Expansion Panel</h3>
+            <p class="mt-2 text-on-surface">
               Simple panel with title and content.
             </p>
           </div>
@@ -79,8 +79,8 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Panel with Actions</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Panel with Actions</h3>
+            <p class="mt-2 text-on-surface">
               Expansion panel with action buttons in the footer.
             </p>
           </div>
@@ -91,8 +91,8 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Disabled Panel</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Disabled Panel</h3>
+            <p class="mt-2 text-on-surface">
               Panel in disabled state with explanation.
             </p>
           </div>
@@ -157,12 +157,12 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Accordion Implementation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Accordion Implementation</h3>
+            <p class="mt-2 text-on-surface">
               Creating an accordion where only one panel can be open at a time.
             </p>
           </div>
@@ -173,8 +173,8 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Component API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of expansion panel properties and events.
             </p>
           </div>
@@ -182,42 +182,42 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Default</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Default</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">title</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'Panel Title'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Header text for the panel</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">title</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'Panel Title'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Header text for the panel</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">description</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">''</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Subheader text</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">description</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">''</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Subheader text</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">icon</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">''</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Material icon name</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">icon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">''</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Material icon name</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">expanded</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">false</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Initial expanded state</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">expanded</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">false</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Initial expanded state</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">false</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether panel is disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">false</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether panel is disabled</td>
                 </tr>
               </tbody>
             </table>

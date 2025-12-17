@@ -37,8 +37,8 @@ import {ThemeDarkLightComponent} from './theme-dark-light.component'
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-700 dark:text-blue-300">Features</h3>
-              <div class="mt-2 text-sm text-gray-700 dark:text-slate-300">
+              <h3 class="text-sm font-medium text-on-primary-container dark:text-blue-300">Features</h3>
+              <div class="mt-2 text-sm  dark:text-slate-300">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Reactive theme switching using Angular signals</li>
                   <li>Persists preference in <code>localStorage</code></li>
@@ -56,8 +56,8 @@ import {ThemeDarkLightComponent} from './theme-dark-light.component'
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Usage</h3>
-            <p class="mt-2 text-gray-600">Render a theme toggle component with reactive dark/light switching.</p>
+            <h3 class="text-lg font-medium text-on-surface">Basic Usage</h3>
+            <p class="mt-2 text-on-surface">Render a theme toggle component with reactive dark/light switching.</p>
           </div>
           <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicUsageExample"></app-code-viewer>
@@ -66,8 +66,8 @@ import {ThemeDarkLightComponent} from './theme-dark-light.component'
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Toggle Theme</h3>
-            <p class="mt-2 text-gray-600">Click the button to switch between light and dark modes.</p>
+            <h3 class="text-lg font-medium text-on-surface">Toggle Theme</h3>
+            <p class="mt-2 text-on-surface">Click the button to switch between light and dark modes.</p>
           </div>
           <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="toggleExample"></app-code-viewer>
@@ -102,36 +102,36 @@ import {ThemeDarkLightComponent} from './theme-dark-light.component'
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Component API</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Component API</h2>
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Properties & Methods</h3>
-            <p class="mt-2 text-gray-600">Public signals and methods available in the component.</p>
+            <h3 class="text-lg font-medium text-on-surface">Properties & Methods</h3>
+            <p class="mt-2 text-on-surface">Public signals and methods available in the component.</p>
           </div>
           <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property/Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property/Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">currentTheme</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">computed: TTheme</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Current theme value ('dark' or 'light')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">currentTheme</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">computed: TTheme</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Current theme value ('dark' or 'light')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">isDarkTheme</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">computed: boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">True if current theme is dark</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">isDarkTheme</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">computed: boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">True if current theme is dark</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">toggleTheme()</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">method</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Switches between light and dark themes</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">toggleTheme()</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">method</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Switches between light and dark themes</td>
                 </tr>
               </tbody>
             </table>

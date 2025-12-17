@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Radio Button Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Radio Button Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several useful features:
                 </p>
@@ -71,8 +71,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Radio Button Group</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Radio Button Group</h3>
+            <p class="mt-2 text-on-surface">
               Simple radio button group with two options and FormControl binding.
             </p>
           </div>
@@ -83,8 +83,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">FormGroup Integration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">FormGroup Integration</h3>
+            <p class="mt-2 text-on-surface">
               Using radio buttons within a FormGroup with validation.
             </p>
           </div>
@@ -95,8 +95,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Options</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Options</h3>
+            <p class="mt-2 text-on-surface">
               Creating radio buttons dynamically from an array of options.
             </p>
           </div>
@@ -162,12 +162,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Disabled State</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Disabled State</h3>
+            <p class="mt-2 text-on-surface">
               Implementing disabled state for radio buttons.
             </p>
           </div>
@@ -178,8 +178,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -187,31 +187,31 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">value</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">any</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The value associated with this radio button</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">value</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">any</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The value associated with this radio button</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The text label for the radio button</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The text label for the radio button</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">control</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormControl</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The FormControl instance for the radio group</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">control</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">FormControl</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The FormControl instance for the radio group</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether the radio button is disabled (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether the radio button is disabled (default: false)</td>
                 </tr>
               </tbody>
             </table>

@@ -66,3 +66,21 @@ html.dark {
       ),
       density: 0));
 }
+
+*:focus{
+  outline: none;
+}
+
+.lib-mat-row:hover .lib-mat-cell {
+  background-color: var(--mat-sys-surface-bright) !important;
+  color: var(--mat-sys-on-surface) !important;
+}
+
+.mat-mdc-paginator, html.dark .lib-mat-header-row, html.dark .lib-mat-header-row .lib-mat-header-cell{
+  background-color: var(--mat-sys-surface-bright) !important;
+  color: var(--mat-sys-on-surface) !important;
+}
+
+.to-green-50 , .to-indigo-50, .to-pink-50{
+  color: #000 !important;
+}

@@ -28,7 +28,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
     </app-documentation>
     <ng-template #overviewContent>
       <div class="space-y-6">
-        <p class="text-gray-700">
+        <p class="">
           The <strong>CrudResourceComponent</strong> is a comprehensive Angular
           component that demonstrates professional API data management patterns
           using Angular Signals, reactive forms, and HTTP services. It provides
@@ -39,10 +39,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Architecture Highlights
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Reactive State Management</strong>: Uses Angular
@@ -75,7 +75,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">CRUD Operations</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Create new user records with validation</li>
               <li>Update existing user information</li>
               <li>Delete users with confirmation</li>
@@ -85,7 +85,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">State Management</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Signal-based reactive state</li>
               <li>Form state management</li>
               <li>API status tracking</li>
@@ -95,7 +95,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">Security Features</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Authentication integration</li>
               <li>Data encryption/decryption</li>
               <li>Permission-based access control</li>
@@ -105,7 +105,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
           <div class=" p-4 rounded-lg border border-gray-200">
             <h4 class="font-medium  mb-2">UI/UX Features</h4>
-            <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
+            <ul class="list-disc pl-5 text-sm text-on-surface space-y-1">
               <li>Responsive grid layout</li>
               <li>Professional card-based design</li>
               <li>Status indicators and feedback</li>
@@ -130,7 +130,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >Services</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">
+                  <div class="text-xs text-on-surface mt-1">
                     HTTP, Auth, Encryption
                   </div>
                 </div>
@@ -140,7 +140,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >Signals</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">State Management</div>
+                  <div class="text-xs text-on-surface mt-1">State Management</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-yellow-100 p-2 rounded-lg">
@@ -148,7 +148,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                       >Templates</span
                     >
                   </div>
-                  <div class="text-xs text-gray-600 mt-1">Reactive UI</div>
+                  <div class="text-xs text-on-surface mt-1">Reactive UI</div>
                 </div>
               </div>
             </div>
@@ -161,10 +161,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               User Management Dashboard
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Complete user management system with create, read, update, and
               delete functionality.
             </p>
@@ -173,7 +173,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             <h4 class="font-medium  mb-3">
               Implementation Steps:
             </h4>
-            <ol class="list-decimal pl-5 space-y-2 text-gray-700">
+            <ol class="list-decimal pl-5 space-y-2 ">
               <li>Configure the HTTP resource with appropriate endpoints</li>
               <li>Set up form models for data input</li>
               <li>Implement validation logic for forms</li>
@@ -185,17 +185,17 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Real-time Data Synchronization
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Keep UI in sync with backend data changes using reactive patterns.
             </p>
           </div>
           <div class="p-5">
             <div class="  p-4 rounded-lg">
-              <h4 class="font-medium text-blue-800 mb-2">Key Features:</h4>
-              <ul class="list-disc pl-5 text-blue-700 space-y-1">
+              <h4 class="font-medium text-on-primary-container mb-2">Key Features:</h4>
+              <ul class="list-disc pl-5 text-on-primary-container space-y-1">
                 <li>Automatic UI updates on data changes</li>
                 <li>Loading states during API calls</li>
                 <li>Error handling with user feedback</li>
@@ -207,10 +207,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Secure Data Handling
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Implement security best practices for data management.
             </p>
           </div>
@@ -234,9 +234,9 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                   Role-based access control integration
                 </p>
               </div>
-              <div class="bg-red-50 p-3 rounded-lg">
-                <h4 class="font-medium text-red-800 mb-1">Data Cleanup</h4>
-                <p class="text-sm text-red-700">
+              <div class=" p-3 rounded-lg">
+                <h4 class="font-medium  mb-1">Data Cleanup</h4>
+                <p class="text-sm ">
                   Secure data removal on logout
                 </p>
               </div>
@@ -246,10 +246,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Advanced Configuration
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Customizing the component for specific use cases.
             </p>
           </div>
@@ -317,10 +317,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Performance Optimization
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Change Detection</strong>: Use OnPush strategy for
@@ -460,10 +460,10 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Customization Guide
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               How to customize the component for specific requirements.
             </p>
           </div>
@@ -513,18 +513,18 @@ isUpdateFormValid(): boolean {
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Troubleshooting Common Issues
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Solutions for common problems when using this component.
             </p>
           </div>
           <div class="p-5">
             <div class="space-y-4">
-              <div class="bg-red-50 p-3 rounded-lg">
-                <h4 class="font-medium text-red-800">CORS Issues</h4>
-                <p class="text-sm text-red-700">
+              <div class="  p-3 rounded-lg">
+                <h4 class="font-medium text-on-tertiary-container">CORS Issues</h4>
+                <p class="text-sm text-on-tertiary-container">
                   Ensure your API server includes proper CORS headers for
                   cross-origin requests.
                 </p>
@@ -539,8 +539,8 @@ isUpdateFormValid(): boolean {
                 </p>
               </div>
               <div class="  p-3 rounded-lg">
-                <h4 class="font-medium text-blue-800">Performance Issues</h4>
-                <p class="text-sm text-blue-700">
+                <h4 class="font-medium text-on-primary-container">Performance Issues</h4>
+                <p class="text-sm text-on-primary-container">
                   For large datasets, implement pagination or virtual scrolling.
                 </p>
               </div>
@@ -581,7 +581,7 @@ export class CrudResourceDocComponent {
       <h1 class="text-3xl font-semibold  mb-2">
         CRUD Resource Management Dashboard
       </h1>
-      <p class="text-gray-600">
+      <p class="text-on-surface">
         Professional API Data Management Interface
       </p>
     </div>

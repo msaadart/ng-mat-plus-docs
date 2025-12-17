@@ -35,8 +35,8 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Debouncing Service Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Debouncing Service Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This service includes several useful features:
                 </p>
@@ -68,8 +68,8 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Debouncing</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Debouncing</h3>
+            <p class="mt-2 text-on-surface">
               Simple debouncing of user input with a 3-second delay.
             </p>
           </div>
@@ -80,8 +80,8 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Multiple Debounce Keys</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Multiple Debounce Keys</h3>
+            <p class="mt-2 text-on-surface">
               Using different debounce keys for multiple inputs.
             </p>
           </div>
@@ -92,8 +92,8 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Debounce Times</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Debounce Times</h3>
+            <p class="mt-2 text-on-surface">
               Using different debounce times for different use cases.
             </p>
           </div>
@@ -159,12 +159,12 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Service API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available methods.
             </p>
           </div>
@@ -172,26 +172,26 @@ import { DebouncingServiceComponent } from './debouncing-service.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Parameters</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Parameters</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">emitValue</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(key: string, value: any, delay?: number)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emits a value that will be debounced with the specified delay</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">emitValue</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(key: string, value: any, delay?: number)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emits a value that will be debounced with the specified delay</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onValue</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(key: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Returns a signal that updates with debounced values</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">onValue</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(key: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Returns a signal that updates with debounced values</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">clearKey</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">(key: string)</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Clears the debounced value for the specified key</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearKey</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">(key: string)</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Clears the debounced value for the specified key</td>
                 </tr>
               </tbody>
             </table>

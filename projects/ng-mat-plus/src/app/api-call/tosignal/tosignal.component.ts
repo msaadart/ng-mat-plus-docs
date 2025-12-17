@@ -145,7 +145,7 @@ interface DummyUsersResponse {
           <h1 class="text-3xl font-semibold  mb-2">
             To Signal API Demo
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -193,7 +193,7 @@ interface DummyUsersResponse {
                       <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>

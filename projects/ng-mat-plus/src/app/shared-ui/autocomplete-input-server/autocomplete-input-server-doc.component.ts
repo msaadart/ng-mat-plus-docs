@@ -50,10 +50,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Server-Side Autocomplete Features
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>This component includes several advanced features:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Server-side data fetching with API integration</li>
@@ -120,10 +120,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Basic Server Autocomplete
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Simple server autocomplete with API endpoint and default
               parameters.
             </p>
@@ -135,10 +135,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Custom Query Parameters
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Configuring custom query parameters for API requests.
             </p>
           </div>
@@ -149,10 +149,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Response Data Mapping
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Using JSON paths to extract data from complex API responses.
             </p>
           </div>
@@ -163,10 +163,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Custom Display Function
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Using a custom function to display complex objects in the
               dropdown.
             </p>
@@ -299,14 +299,14 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Configuration Options</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Configuration Options</h2>
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Input Properties Reference
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties with descriptions.
             </p>
           </div>
@@ -316,22 +316,22 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 <thead class="   ">
                   <tr>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Property
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Type
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Default
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Description
                     </th>
@@ -340,264 +340,264 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       apiEndpoint
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       -
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Required. The API endpoint URL to fetch data from
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       apiParams
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       Record&lt;string, any&gt;
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       {{ '{}' }}
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Additional parameters to include in API requests
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       searchQueryParam
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'search'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Query parameter name for the search term
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       pageQueryParam
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'skip'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Query parameter name for pagination offset
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       limitQueryParam
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'take'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Query parameter name for pagination limit
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       minChars
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       number
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       3
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Minimum characters required before making API requests
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       pageSize
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       number
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       10
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Number of items to fetch per API request
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       debounceTime
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       number
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       500
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Debounce time in milliseconds for search input
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       responseDataPath
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       ''
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       JSON path to extract data from API response (e.g.,
                       'data.results')
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       responseHasMorePath
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       ''
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       JSON path to determine if more data is available (e.g.,
                       'data.hasMore')
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       noOptionsText
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'No options available'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Text to display when no options are found
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       loadingOptionsText
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'Loading more options...'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Text to display while loading options
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       displayFn
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       (option: any) => string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       (option) => typeof option === 'string' ? option :
                       JSON.stringify(option)
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Function to display the selected option in the input
                     </td>
                   </tr>
@@ -609,10 +609,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Output Events Reference
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Complete list of available output events.
             </p>
           </div>
@@ -622,17 +622,17 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 <thead class="   ">
                   <tr>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Event
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Payload
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Description
                     </th>
@@ -641,46 +641,46 @@ import { DocumentationComponent } from "../documentation/documentation.component
                 <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       optionSelected
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       MatAutocompleteSelectedEvent
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Emitted when an option is selected from the dropdown
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       blur
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       FocusEvent
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Emitted when the input loses focus
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       focus
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       FocusEvent
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Emitted when the input gains focus
                     </td>
                   </tr>
@@ -693,10 +693,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
       </div>
       <div class=" shadow rounded-lg overflow-hidden mt-6">
         <div class="p-5">
-          <h3 class="text-lg font-medium text-gray-600">
+          <h3 class="text-lg font-medium text-on-surface">
             Public Methods Reference
           </h3>
-          <p class="mt-2 text-gray-600">
+          <p class="mt-2 text-on-surface">
             Methods exposed by <code>LibAutocompleteServerComponent</code> that
             can be called programmatically using <code>ViewChild</code>.
           </p>
@@ -707,17 +707,17 @@ import { DocumentationComponent } from "../documentation/documentation.component
               <thead class="   ">
                 <tr>
                   <th
-                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                   >
                     Method
                   </th>
                   <th
-                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                   >
                     Parameters
                   </th>
                   <th
-                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                    class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                   >
                     Description
                   </th>
@@ -726,15 +726,15 @@ import { DocumentationComponent } from "../documentation/documentation.component
               <tbody class=" divide-y divide-gray-200">
                 <tr>
                   <td
-                    class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600"
+                    class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                   >
                     triggerSearch
                   </td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">
                     term?: string, opts?: {{'{'}} ignoreMinChars?: boolean;
                     isNewSearch?: boolean {{'}'}}
                   </td>
-                  <td class="px-6 py-4 text-sm text-gray-500">
+                  <td class="px-6 py-4 text-sm text-on-surface">
                     Programmatically triggers a search request.
                     <ul class="list-disc pl-4 mt-1 space-y-1">
                       <li>
