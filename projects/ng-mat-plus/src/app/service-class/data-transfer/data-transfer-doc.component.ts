@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../../shared-ui/documentation/documentat
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">DataTransferComponent</code> demonstrates two approaches for data transfer between components: traditional Observable-based and modern Signal-based.
+          The <code class="     px-1 py-0.5 rounded ">DataTransferComponent</code> demonstrates two approaches for data transfer between components: traditional Observable-based and modern Signal-based.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

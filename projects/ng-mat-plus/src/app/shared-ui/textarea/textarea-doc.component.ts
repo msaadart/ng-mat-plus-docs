@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-textarea&gt;</code> component provides a multi-line text input field with all the features of the text field component plus additional textarea-specific functionality.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-textarea&gt;</code> component provides a multi-line text input field with all the features of the text field component plus additional textarea-specific functionality.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

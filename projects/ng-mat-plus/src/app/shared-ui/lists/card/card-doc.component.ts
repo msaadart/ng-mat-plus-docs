@@ -23,7 +23,7 @@ import { CardComponent } from './card.component';
     <ng-template #overviewContent>
       <div class="space-y-4 text-on-surface">
         <p>
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code>
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-card&gt;</code>
           component is a lightweight, reusable container that provides a consistent structure 
           for displaying content in a card layout.
         </p>
@@ -55,9 +55,9 @@ import { CardComponent } from './card.component';
             </ul>
             <p class="mt-4 text-sm text-gray-600">
               It also emits 
-              <code class="     px-1 py-0.5 rounded text-gray-800">(cardClick)</code> 
+              <code class="     px-1 py-0.5 rounded ">(cardClick)</code> 
               and 
-              <code class="     px-1 py-0.5 rounded text-gray-800">(cardDblClick)</code> 
+              <code class="     px-1 py-0.5 rounded ">(cardDblClick)</code> 
               events for interactive use.
             </p>
           </div>
@@ -122,7 +122,7 @@ export class CardDocComponent {
 
       <!-- Body -->
       <div class="relative">
-        <small #small class="relative text-gray-800 transition-all duration-300 line-clamp-4">
+        <small #small class="relative  transition-all duration-300 line-clamp-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo ac 
           sapien consequat fermentum. Pellentesque habitant morbi tristique senectus 
           et netus et malesuada fames ac turpis egestas.

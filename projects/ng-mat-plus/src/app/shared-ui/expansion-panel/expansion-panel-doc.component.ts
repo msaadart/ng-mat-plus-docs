@@ -24,7 +24,7 @@ import { ExpansionPanelStoryComponent } from './expansion-panel.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-gray-700">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-expansion-panel&gt;</code> component provides an expandable container that can show/hide content with a smooth animation. It's useful for organizing content into collapsible sections.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-expansion-panel&gt;</code> component provides an expandable container that can show/hide content with a smooth animation. It's useful for organizing content into collapsible sections.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

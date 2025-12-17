@@ -24,7 +24,7 @@ import { CommonModule } from '@angular/common';
           <!-- Icon & Title -->
           <div class="relative flex items-center gap-3 px-6 py-4 border-b border-gray-200 dark:border-slate-700 backdrop-blur-sm">
             <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 dark:from-blue-600 dark:to-blue-700 shadow-lg group-hover:scale-110 transition-transform duration-300">
-              <svg class="w-5 h-5 text-gray-800 dark:text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-5 h-5  dark:text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
             </div>
@@ -48,7 +48,7 @@ import { CommonModule } from '@angular/common';
           
           <div class="relative flex items-center gap-3 px-6 py-4 border-b border-gray-200 dark:border-slate-700 backdrop-blur-sm">
             <div class="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-emerald-500 to-teal-600 dark:from-emerald-600 dark:to-teal-700 shadow-lg group-hover:scale-110 transition-transform duration-300">
-              <svg class="w-5 h-5 text-gray-800 dark:text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-5 h-5  dark:text-gray-100" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
               </svg>
             </div>

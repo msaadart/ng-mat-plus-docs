@@ -20,7 +20,7 @@ import {
   LibNumberComponent,
   LibTimePickerComponent,
   LibTextFieldComponent,
-  LibRadioBtnComponent,
+  LibRadioGroupComponent,
   LibCheckboxComponent
 } from 'ng-mat-plus/lib-forms';
 import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
@@ -42,7 +42,7 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
     LibTimePickerComponent,
     LibMatButtonComponent,
     LibTextFieldComponent,
-    LibRadioBtnComponent,
+    LibRadioGroupComponent,
     LibCheckboxComponent
   ],
   template: `
@@ -132,10 +132,10 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
                 Security Question: Are you a robot?
               </label>
               <div *ngFor="let option of securityOptions[i]" class="flex items-center space-x-2">
-                <lib-radio-btn [control]="getFormControl(fieldGroup.get('security'))"
+                <lib-radio-group [control]="getFormControl(fieldGroup.get('security'))"
                                [value]="option.value"
                                [label]="option.label">
-                </lib-radio-btn>
+                </lib-radio-group>
               </div>
             </div>
 

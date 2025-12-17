@@ -27,7 +27,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
         <div class="relative">
           <div class="absolute -left-1 top-0 bottom-0 w-1 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-full"></div>
           <div class="pl-6">
-            <p class="text-lg text-gray-800 leading-relaxed mb-4">
+            <p class="text-lg  leading-relaxed mb-4">
               The <code class="inline-flex items-center gap-1  px-3 py-1.5 rounded-lg text-indigo-700 font-mono text-sm font-bold shadow-sm ring-1 ring-indigo-200">&lt;lib-text-field&gt;</code> component is a versatile form input component that provides a styled text input field with various customization options.
             </p>
             <p class="text-base text-gray-600 leading-relaxed">
@@ -67,7 +67,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </div>
                 </div>
                 <div class="flex-1">
-                  <p class="text-gray-800 font-medium">Supports both Reactive Forms and Template-driven Forms</p>
+                  <p class=" font-medium">Supports both Reactive Forms and Template-driven Forms</p>
                 </div>
               </div>
               
@@ -80,7 +80,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </div>
                 </div>
                 <div class="flex-1">
-                  <p class="text-gray-800 font-medium">Automatically shows validation errors with clear messaging</p>
+                  <p class=" font-medium">Automatically shows validation errors with clear messaging</p>
                 </div>
               </div>
               
@@ -93,7 +93,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                   </div>
                 </div>
                 <div class="flex-1">
-                  <p class="text-gray-800 font-medium">Maintains consistent styling with other form controls</p>
+                  <p class=" font-medium">Maintains consistent styling with other form controls</p>
                 </div>
               </div>
             </div>

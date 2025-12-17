@@ -28,7 +28,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-intermediate-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component  builds upon the basic table with enhanced inline editing capabilities, 
+      The <code class="     px-1 py-0.5 rounded ">&lt;lib-intermediate-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component  builds upon the basic table with enhanced inline editing capabilities, 
       form validation, and more sophisticated input handling. It supports all basic table features while 
       adding direct cell editing with various input types.
     </p>

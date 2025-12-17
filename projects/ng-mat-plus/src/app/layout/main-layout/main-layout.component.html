@@ -6,6 +6,7 @@
     <app-side-bar (sidebarToggled)="onSidebarToggled($event)"></app-side-bar>
   </mat-drawer>
   <mat-drawer-content [style.margin-left]="isMobileScreen ? '0' : (isSidebarOpen ? '240px' : '60px')">
+    <app-header (toggleDrawer)="toggleDrawer()"></app-header>
     <main class="p-4">
       <router-outlet></router-outlet>
     </main>

@@ -26,7 +26,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="     px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded "
             >LibAutocompleteServerComponent</code
           >
           is a powerful server-side autocomplete component that fetches options

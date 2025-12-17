@@ -53,7 +53,7 @@ import { ToSignalComponent } from './tosignal.component';
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Signal Conversion</h4>
+            <h4 class="font-medium  mb-2">Signal Conversion</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Automatic observable to signal transformation</li>
               <li>Reactive data binding without subscriptions</li>
@@ -63,7 +63,7 @@ import { ToSignalComponent } from './tosignal.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Performance Benefits</h4>
+            <h4 class="font-medium  mb-2">Performance Benefits</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Granular change detection with signals</li>
               <li>Efficient UI updates</li>
@@ -73,7 +73,7 @@ import { ToSignalComponent } from './tosignal.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Developer Experience</h4>
+            <h4 class="font-medium  mb-2">Developer Experience</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simplified async operations</li>
               <li>Reduced cognitive overhead</li>
@@ -83,7 +83,7 @@ import { ToSignalComponent } from './tosignal.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Integration Patterns</h4>
+            <h4 class="font-medium  mb-2">Integration Patterns</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Seamless RxJS integration</li>
               <li>Composable reactive patterns</li>
@@ -153,7 +153,7 @@ import { ToSignalComponent } from './tosignal.component';
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Implementation Example:</h4>
+            <h4 class="font-medium  mb-3">Implementation Example:</h4>
             <app-code-viewer
               code="
 // Basic data fetching with toSignal()
@@ -177,7 +177,7 @@ refreshAllData(): void {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Implementation Example:</h4>
+            <h4 class="font-medium  mb-3">Implementation Example:</h4>
             <app-code-viewer
               code="
 // Error handling with toSignal()
@@ -208,7 +208,7 @@ refreshAllData(): void {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Template Usage:</h4>
+            <h4 class="font-medium  mb-3">Template Usage:</h4>
             <app-code-viewer
               code='
 <!-- Direct signal usage in template -->
@@ -219,7 +219,7 @@ refreshAllData(): void {
       <img src="user.image" alt="" 
            class="w-10 h-10 rounded-full object-cover" />
       <div class="flex-1 min-w-0">
-        <p class="font-medium text-sm text-gray-800 truncate">
+        <p class="font-medium text-sm  truncate">
  
         </p>
         <p class="text-gray-500 text-xs truncate">
@@ -325,7 +325,7 @@ refreshAllData(): void {
 
     <ng-template #otherContent>
       <div class="space-y-8">
-        <h2 class="text-2xl font-bold text-gray-800">Advanced Patterns & Comparison</h2>
+        <h2 class="text-2xl font-bold ">Advanced Patterns & Comparison</h2>
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
@@ -335,7 +335,7 @@ refreshAllData(): void {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">With Initial Value:</h4>
+            <h4 class="font-medium  mb-3">With Initial Value:</h4>
             <app-code-viewer
               code="
 // Using toSignal() with initial value
@@ -345,7 +345,7 @@ const userData = toSignal(userObservable$, {
               "
             ></app-code-viewer>
             
-            <h4 class="font-medium text-gray-800 mt-6 mb-3">With Error Handling:</h4>
+            <h4 class="font-medium  mt-6 mb-3">With Error Handling:</h4>
             <app-code-viewer
               code="
 // Comprehensive error handling
@@ -420,7 +420,7 @@ const userData = toSignal(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Before (Manual Subscription):</h4>
+            <h4 class="font-medium  mb-3">Before (Manual Subscription):</h4>
             <app-code-viewer
               code="
 // Old pattern with manual subscription
@@ -446,7 +446,7 @@ export class OldComponent implements OnDestroy {
               "
             ></app-code-viewer>
             
-            <h4 class="font-medium text-gray-800 mt-6 mb-3">After (toSignal Pattern):</h4>
+            <h4 class="font-medium  mt-6 mb-3">After (toSignal Pattern):</h4>
             <app-code-viewer
               code="
 // New pattern with toSignal()
@@ -514,7 +514,7 @@ export class ToSignalDocComponent {
   <div class="container mx-auto">
     <!-- Header section -->
     <div class="text-center mb-8">
-      <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+      <h1 class="text-3xl font-semibold  mb-2">
         To Signal API Demo
       </h1>
     </div>
@@ -523,14 +523,14 @@ export class ToSignalDocComponent {
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
       <!-- Data Display Column -->
       <div class="space-y-6">
-        <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+        <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
           List To Signal
         </h2>
 
         <!-- Users list card -->
         <div class="card p-5 max-h-full">
           <div class="flex items-center justify-between mb-4">
-            <h3 class="text-lg font-medium text-gray-800">Users</h3>
+            <h3 class="text-lg font-medium ">Users</h3>
             <div class="flex items-center space-x-2">
               <!-- Refresh button -->
               <lib-mat-flat-button
@@ -555,7 +555,7 @@ export class ToSignalDocComponent {
                   class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                 />
                 <div class="flex-1 min-w-0">
-                  <p class="font-medium text-sm text-gray-800 truncate">
+                  <p class="font-medium text-sm  truncate">
                     {{ user.firstName }} {{ user.lastName }}
                   </p>
                   <p class="text-gray-500 text-xs truncate">

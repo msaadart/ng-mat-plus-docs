@@ -74,7 +74,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Manual API Operations</h4>
+            <h4 class="font-medium  mb-2">Manual API Operations</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Explicit HTTP GET, POST, PUT, DELETE calls</li>
               <li>Custom request headers and parameters</li>
@@ -84,7 +84,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
 
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Observable Patterns</h4>
+            <h4 class="font-medium  mb-2">Observable Patterns</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Subscribe/unsubscribe lifecycle management</li>
               <li>RxJS operators for data transformation</li>
@@ -94,7 +94,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
 
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">State Control</h4>
+            <h4 class="font-medium  mb-2">State Control</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Manual signal updates</li>
               <li>Custom loading state management</li>
@@ -104,7 +104,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
 
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Advanced Features</h4>
+            <h4 class="font-medium  mb-2">Advanced Features</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Custom validation logic</li>
               <li>Conditional API calls</li>
@@ -204,7 +204,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">
+            <h4 class="font-medium  mb-3">
               Implementation Example:
             </h4>
             <app-code-viewer
@@ -265,7 +265,7 @@ createNewUser(): void {
                 <li>Filtering and sorting operations</li>
               </ul>
             </div>
-            <h4 class="font-medium text-gray-800 mt-6 mb-3">
+            <h4 class="font-medium  mt-6 mb-3">
               Example Implementation:
             </h4>
             <app-code-viewer
@@ -350,7 +350,7 @@ refreshAllData(): void {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">
+            <h4 class="font-medium  mb-3">
               Error Handling Strategy:
             </h4>
             <app-code-viewer
@@ -582,7 +582,7 @@ deleteUser(): void {
 
     <ng-template #otherContent>
       <div class="space-y-8">
-        <h2 class="text-2xl font-bold text-gray-800">
+        <h2 class="text-2xl font-bold ">
           Advanced Implementation Patterns
         </h2>
 
@@ -597,7 +597,7 @@ deleteUser(): void {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">
+            <h4 class="font-medium  mb-3">
               DestroyRef Pattern (Angular 16+):
             </h4>
             <app-code-viewer
@@ -626,7 +626,7 @@ export class FetchSubscribeComponent {
               "
             ></app-code-viewer>
             
-            <h4 class="font-medium text-gray-800 mt-6 mb-3">
+            <h4 class="font-medium  mt-6 mb-3">
               Subject-Based Cleanup Pattern:
             </h4>
             <app-code-viewer
@@ -670,7 +670,7 @@ export class FetchSubscribeComponent implements OnDestroy {
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">
+            <h4 class="font-medium  mb-3">
               Authentication Interceptor:
             </h4>
             <app-code-viewer
@@ -803,7 +803,7 @@ export class FetchSubscribeDocComponent {
   <div class="container mx-auto">
     <!-- Header section -->
     <div class="text-center mb-8">
-      <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+      <h1 class="text-3xl font-semibold  mb-2">
         Fetch & Subscribe API Demo
       </h1>
       <p class="text-gray-600">
@@ -815,13 +815,13 @@ export class FetchSubscribeDocComponent {
     <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
       <!-- Left column: CRUD Operations -->
       <div class="space-y-6">
-        <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+        <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
           CRUD Operations
         </h2>
 
         <!-- Create User Card -->
         <div class="card p-5">
-          <h3 class="text-lg font-medium text-gray-800 mb-4">
+          <h3 class="text-lg font-medium  mb-4">
             Create User
           </h3>
           <!-- Form fields with two-way binding -->
@@ -849,7 +849,7 @@ export class FetchSubscribeDocComponent {
 
         <!-- Update User Card -->
         <div class="card p-5">
-          <h3 class="text-lg font-medium text-gray-800 mb-4">
+          <h3 class="text-lg font-medium  mb-4">
             Update User
           </h3>
           <!-- Similar form structure for updates -->
@@ -857,7 +857,7 @@ export class FetchSubscribeDocComponent {
 
         <!-- Delete User Card -->
         <div class="card p-5">
-          <h3 class="text-lg font-medium text-gray-800 mb-4">
+          <h3 class="text-lg font-medium  mb-4">
             Delete User
           </h3>
           <input 
@@ -877,14 +877,14 @@ export class FetchSubscribeDocComponent {
 
       <!-- Right column: Data Display -->
       <div class="space-y-6">
-        <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+        <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
           Users List
         </h2>
 
         <!-- Users list card -->
         <div class="card p-5">
           <div class="flex justify-between items-center mb-4">
-            <h3 class="text-lg font-medium text-gray-800">Users</h3>
+            <h3 class="text-lg font-medium ">Users</h3>
             <button 
               (click)="refreshAllData()"
               class="px-3 py-1 bg-green-600 text-white rounded text-sm">

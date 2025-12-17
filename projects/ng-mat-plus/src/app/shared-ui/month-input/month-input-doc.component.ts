@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-month-picker&gt;</code> component provides a specialized input for selecting months and years, with built-in validation and formatting. It's ideal for forms requiring month/year inputs like credit card expiration dates or reporting periods.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-month-picker&gt;</code> component provides a specialized input for selecting months and years, with built-in validation and formatting. It's ideal for forms requiring month/year inputs like credit card expiration dates or reporting periods.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

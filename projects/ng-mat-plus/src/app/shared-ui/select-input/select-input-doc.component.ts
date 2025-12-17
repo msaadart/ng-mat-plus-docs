@@ -25,7 +25,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-select&gt;</code> component provides a customizable select input with label support, placeholder text, and seamless integration with Angular's reactive forms.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-select&gt;</code> component provides a customizable select input with label support, placeholder text, and seamless integration with Angular's reactive forms.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

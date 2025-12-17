@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">LibSearchComponent</code> provides a powerful search input with debouncing capabilities, designed to enhance user experience during data filtering operations.
+          The <code class="     px-1 py-0.5 rounded ">LibSearchComponent</code> provides a powerful search input with debouncing capabilities, designed to enhance user experience during data filtering operations.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">

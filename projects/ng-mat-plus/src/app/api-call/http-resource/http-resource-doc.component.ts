@@ -53,7 +53,7 @@ import { ResourseComponent } from './http-resource.component';
         <h3 class="text-xl font-semibold mt-6">Key Features</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">getResource()</h4>
+            <h4 class="font-medium  mb-2">getResource()</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simple static URL endpoints</li>
               <li>Automatic loading state tracking</li>
@@ -63,7 +63,7 @@ import { ResourseComponent } from './http-resource.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">httpResource()</h4>
+            <h4 class="font-medium  mb-2">httpResource()</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Dynamic URL generation</li>
               <li>Advanced configuration options</li>
@@ -73,7 +73,7 @@ import { ResourseComponent } from './http-resource.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Performance Benefits</h4>
+            <h4 class="font-medium  mb-2">Performance Benefits</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Efficient change detection with OnPush strategy</li>
               <li>Optimized API calls with caching potential</li>
@@ -83,7 +83,7 @@ import { ResourseComponent } from './http-resource.component';
           </div>
           
           <div class=" p-4 rounded-lg border border-gray-200">
-            <h4 class="font-medium text-gray-800 mb-2">Developer Experience</h4>
+            <h4 class="font-medium  mb-2">Developer Experience</h4>
             <ul class="list-disc pl-5 text-sm text-gray-600 space-y-1">
               <li>Simplified API integration</li>
               <li>Consistent error handling patterns</li>
@@ -158,7 +158,7 @@ import { ResourseComponent } from './http-resource.component';
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Implementation Example:</h4>
+            <h4 class="font-medium  mb-3">Implementation Example:</h4>
             <app-code-viewer
               code="
 // Basic data fetching with getResource()
@@ -178,7 +178,7 @@ users = this.$httpService.getResource<DummyUsersResponse>(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Implementation Example:</h4>
+            <h4 class="font-medium  mb-3">Implementation Example:</h4>
             <app-code-viewer
               code="
 // Dynamic data fetching with httpResource()
@@ -218,7 +218,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Template Usage:</h4>
+            <h4 class="font-medium  mb-3">Template Usage:</h4>
             <app-code-viewer
               [code]="templateCode"
             ></app-code-viewer>
@@ -233,7 +233,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Implementation Example:</h4>
+            <h4 class="font-medium  mb-3">Implementation Example:</h4>
             <app-code-viewer
               code='
 <!-- Refresh buttons in template -->
@@ -329,7 +329,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
 
     <ng-template #otherContent>
       <div class="space-y-8">
-        <h2 class="text-2xl font-bold text-gray-800">Advanced Patterns & Comparison</h2>
+        <h2 class="text-2xl font-bold ">Advanced Patterns & Comparison</h2>
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5   border-b">
@@ -339,7 +339,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Multiple Resources with Different Patterns:</h4>
+            <h4 class="font-medium  mb-3">Multiple Resources with Different Patterns:</h4>
             <app-code-viewer
               code="
 // Using both patterns in the same component
@@ -361,7 +361,7 @@ userPosts = this.$httpService.httpResource<PostsResponse>(
               "
             ></app-code-viewer>
             
-            <h4 class="font-medium text-gray-800 mt-6 mb-3">Custom Parsing with httpResource():</h4>
+            <h4 class="font-medium  mt-6 mb-3">Custom Parsing with httpResource():</h4>
             <app-code-viewer
               code="
 // Advanced data transformation
@@ -475,7 +475,7 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
             </p>
           </div>
           <div class="p-5">
-            <h4 class="font-medium text-gray-800 mb-3">Component Implementation:</h4>
+            <h4 class="font-medium  mb-3">Component Implementation:</h4>
             <app-code-viewer
               [code]="completeExample"
             ></app-code-viewer>
@@ -500,7 +500,7 @@ export class ResourceDocComponent {
     <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 class="text-3xl font-semibold  mb-2">
             Resource API Demo
           </h1>
           <p class="text-gray-600">
@@ -511,13 +511,13 @@ export class ResourceDocComponent {
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Column 1: Standard getResource -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Standard getResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">Users List</h3>
+                <h3 class="text-lg font-medium ">Users List</h3>
                 <div class="flex items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(status())">
                     {{ status() }}
@@ -558,7 +558,7 @@ export class ResourceDocComponent {
                       class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                     />
                     <div class="flex-1 min-w-0">
-                      <p class="font-medium text-sm text-gray-800 truncate">
+                      <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
                       <p class="text-gray-500 text-xs truncate">
@@ -581,13 +581,13 @@ export class ResourceDocComponent {
 
           <!-- Column 2: httpResource with dynamic URL -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Dynamic httpResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">User Details</h3>
+                <h3 class="text-lg font-medium ">User Details</h3>
                 <div class="flex items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(singleUserStatus())">
                     {{ singleUserStatus() }}
@@ -643,7 +643,7 @@ export class ResourceDocComponent {
                     class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm"
                   />
                   <div>
-                    <h4 class="font-semibold text-gray-800">
+                    <h4 class="font-semibold ">
                       {{ singleUserResource.value()?.firstName }}
                       {{ singleUserResource.value()?.lastName }}
                     </h4>
@@ -880,7 +880,7 @@ export class ResourseComponent {
         <img [src]="user.image" [alt]="user.firstName" 
              class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm" />
         <div class="flex-1 min-w-0">
-          <p class="font-medium text-sm text-gray-800 truncate">
+          <p class="font-medium text-sm  truncate">
             {{ user.firstName }} {{ user.lastName }}
           </p>
           <p class="text-gray-500 text-xs truncate">
@@ -901,7 +901,7 @@ export class ResourseComponent {
       class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm"
     />
     <div>
-      <h4 class="font-semibold text-gray-800">
+      <h4 class="font-semibold ">
         {{ singleUserResource.data()?.firstName }} {{ singleUserResource.data()?.lastName }}
       </h4>
       <p class="text-gray-600 text-sm">{{ singleUserResource.data()?.email }}</p>

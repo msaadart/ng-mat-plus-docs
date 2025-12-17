@@ -29,7 +29,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="     px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded "
             >&lt;lib-intermediate-server-table&gt;</code
           >
           component is designed for server-side data management using the

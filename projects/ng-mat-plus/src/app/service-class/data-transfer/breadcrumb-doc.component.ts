@@ -24,7 +24,7 @@ import { BreadcrumbComponent } from './breadcrumb.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          <code class="     dark:bg-slate-800 px-1 py-0.5 rounded text-gray-800 dark:text-slate-200">LibBreadcrumbService</code>
+          <code class="     dark:bg-slate-800 px-1 py-0.5 rounded  dark:text-slate-200">LibBreadcrumbService</code>
           builds breadcrumbs from route data. It supports static labels (<code>data.breadcrumb</code>) and dynamic
           params (<code>:id</code>). Labels can be overridden at runtime.
         </p>

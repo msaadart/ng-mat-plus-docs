@@ -24,7 +24,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="     px-1 py-0.5 rounded text-gray-800">&lt;lib-password&gt;</code> component is a secure password input field with built-in validation and masking capabilities. It provides a user-friendly way to handle password inputs while maintaining security best practices.
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-password&gt;</code> component is a secure password input field with built-in validation and masking capabilities. It provides a user-friendly way to handle password inputs while maintaining security best practices.
         </p>
         
         <div class="   border-blue-500 p-4 my-4">
