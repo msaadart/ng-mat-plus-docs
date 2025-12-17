@@ -33,7 +33,7 @@ import { ToSignalComponent } from './tosignal.component';
           The <strong>ToSignal</strong> demonstrates a modern Angular pattern for converting observables to signals using the <code>toSignal()</code> utility. This approach combines the power of RxJS observables with the simplicity and reactivity of Angular signals, providing an elegant solution for managing asynchronous data streams in a reactive manner.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Architecture Highlights</h3>
@@ -109,13 +109,13 @@ import { ToSignalComponent } from './tosignal.component';
                 </div>
                 <div class="text-center">
                   <div class="bg-green-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-green-800">toSignal()</span>
+                    <span class="text-sm font-medium ">toSignal()</span>
                   </div>
                   <div class="text-xs text-gray-600 mt-1">Conversion</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-yellow-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-yellow-800">Signals</span>
+                    <span class="text-sm font-medium  ">Signals</span>
                   </div>
                   <div class="text-xs text-gray-600 mt-1">Reactive State</div>
                 </div>
@@ -124,11 +124,11 @@ import { ToSignalComponent } from './tosignal.component';
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">When to Use toSignal() Pattern</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">When to Use toSignal() Pattern</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Simple Data Fetching</strong>: When you need to display async data without complex transformations</li>
                   <li><strong>Template Integration</strong>: When you want to use async data directly in templates</li>
@@ -241,9 +241,9 @@ refreshAllData(): void {
             </p>
           </div>
           <div class="p-5">
-            <div class="bg-purple-50 p-4 rounded-lg">
-              <h4 class="font-medium text-purple-800 mb-2">Reactive Benefits:</h4>
-              <ul class="list-disc pl-5 text-purple-700 space-y-1">
+            <div class=" p-4 rounded-lg">
+              <h4 class="font-medium  mb-2">Reactive Benefits:</h4>
+              <ul class="list-disc pl-5  space-y-1">
                 <li>Automatic UI updates on data changes</li>
                 <li>No manual change detection required</li>
                 <li>Efficient rendering with OnPush strategy</li>
@@ -257,11 +257,11 @@ refreshAllData(): void {
 
     <ng-template #noteContent>
       <div class="space-y-6">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Memory Management</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Memory Management</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Automatic Cleanup</strong>: toSignal() automatically manages subscriptions</li>
                   <li><strong>Component Destruction</strong>: No need for manual unsubscribe in ngOnDestroy</li>
@@ -273,7 +273,7 @@ refreshAllData(): void {
           </div>
         </div>
         
-        <div class="  border-l-4 border-blue-400 p-4">
+        <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Performance Considerations</h3>
@@ -289,11 +289,11 @@ refreshAllData(): void {
           </div>
         </div>
         
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">Error Handling Strategies</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">Error Handling Strategies</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Catch Errors Early</strong>: Handle errors in the observable pipeline</li>
                   <li><strong>Fallback Values</strong>: Provide default values for error cases</li>
@@ -305,11 +305,11 @@ refreshAllData(): void {
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">Testing Strategies</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">Testing Strategies</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Signal Testing</strong>: Test signal values and updates</li>
                   <li><strong>Observable Mocking</strong>: Mock HTTP responses as observables</li>
@@ -478,17 +478,17 @@ export class NewComponent {
                 <h4 class="font-medium text-blue-800">Use Initial Values</h4>
                 <p class="text-sm text-blue-700">Always provide initial values to avoid undefined signals</p>
               </div>
-              <div class="bg-green-50 p-3 rounded-lg">
-                <h4 class="font-medium text-green-800">Handle Errors in Observables</h4>
-                <p class="text-sm text-green-700">Catch errors in the observable pipeline before conversion</p>
+              <div class="p-3 rounded-lg">
+                <h4 class="font-medium ">Handle Errors in Observables</h4>
+                <p class="text-sm ">Catch errors in the observable pipeline before conversion</p>
               </div>
-              <div class="bg-yellow-50 p-3 rounded-lg">
-                <h4 class="font-medium text-yellow-800">Keep Observables Pure</h4>
-                <p class="text-sm text-yellow-700">Use RxJS operators for data transformation before toSignal()</p>
+              <div class="    p-3 rounded-lg">
+                <h4 class="font-medium  ">Keep Observables Pure</h4>
+                <p class="text-sm ">Use RxJS operators for data transformation before toSignal()</p>
               </div>
-              <div class="bg-purple-50 p-3 rounded-lg">
-                <h4 class="font-medium text-purple-800">Use with OnPush Strategy</h4>
-                <p class="text-sm text-purple-700">Combine with ChangeDetectionStrategy.OnPush for best performance</p>
+              <div class=" p-3 rounded-lg">
+                <h4 class="font-medium ">Use with OnPush Strategy</h4>
+                <p class="text-sm ">Combine with ChangeDetectionStrategy.OnPush for best performance</p>
               </div>
             </div>
           </div>

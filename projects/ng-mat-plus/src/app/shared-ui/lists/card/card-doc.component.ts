@@ -27,7 +27,7 @@ import { CardComponent } from './card.component';
           component is a lightweight, reusable container that provides a consistent structure 
           for displaying content in a card layout.
         </p>
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <h3 class="text-sm font-medium text-blue-800">Structure</h3>
           <ul class="list-disc pl-5 mt-2 text-sm text-blue-700 space-y-1">
             <li><strong>Header</strong> – Place titles, actions, or metadata.</li>
@@ -68,9 +68,9 @@ import { CardComponent } from './card.component';
     <!-- Notes -->
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
-          <h3 class="text-sm font-medium text-yellow-800">Important Notes</h3>
-          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm text-yellow-700">
+        <div class="          p-4">
+          <h3 class="text-sm font-medium  ">Important Notes</h3>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm ">
             <li>Responsive by default with max width <code>400px</code>.</li>
             <li>Header and footer are optional; you can use only the body.</li>
             <li>Default styling is minimal – extend with Tailwind or CSS variables.</li>

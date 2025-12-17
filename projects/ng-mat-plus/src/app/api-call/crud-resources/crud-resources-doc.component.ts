@@ -36,7 +36,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           user data through RESTful API interactions.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -126,7 +126,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
               <div class="flex justify-center space-x-8 mt-2">
                 <div class="text-center">
                   <div class="bg-green-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-green-800"
+                    <span class="text-sm font-medium "
                       >Services</span
                     >
                   </div>
@@ -136,7 +136,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                 </div>
                 <div class="text-center">
                   <div class="bg-purple-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-purple-800"
+                    <span class="text-sm font-medium "
                       >Signals</span
                     >
                   </div>
@@ -144,7 +144,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
                 </div>
                 <div class="text-center">
                   <div class="bg-yellow-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-yellow-800"
+                    <span class="text-sm font-medium  "
                       >Templates</span
                     >
                   </div>
@@ -216,21 +216,21 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
           <div class="p-5">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div class="bg-green-50 p-3 rounded-lg">
-                <h4 class="font-medium text-green-800 mb-1">Authentication</h4>
-                <p class="text-sm text-green-700">
+              <div class="p-3 rounded-lg">
+                <h4 class="font-medium  mb-1">Authentication</h4>
+                <p class="text-sm ">
                   Integration with auth service for user sessions
                 </p>
               </div>
-              <div class="bg-purple-50 p-3 rounded-lg">
-                <h4 class="font-medium text-purple-800 mb-1">Encryption</h4>
-                <p class="text-sm text-purple-700">
+              <div class=" p-3 rounded-lg">
+                <h4 class="font-medium  mb-1">Encryption</h4>
+                <p class="text-sm ">
                   Data encryption for sensitive information
                 </p>
               </div>
-              <div class="bg-yellow-50 p-3 rounded-lg">
-                <h4 class="font-medium text-yellow-800 mb-1">Permissions</h4>
-                <p class="text-sm text-yellow-700">
+              <div class="    p-3 rounded-lg">
+                <h4 class="font-medium   mb-1">Permissions</h4>
+                <p class="text-sm ">
                   Role-based access control integration
                 </p>
               </div>
@@ -280,13 +280,13 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 
     <ng-template #noteContent>
       <div class="space-y-6">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium  ">
                 Security Considerations
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Input Validation</strong>: Always validate user
@@ -314,7 +314,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="  border-l-4 border-blue-400 p-4">
+        <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -348,13 +348,13 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">
+              <h3 class="text-sm font-medium ">
                 Error Handling Strategies
               </h3>
-              <div class="mt-2 text-sm text-green-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>User Feedback</strong>: Provide clear error messages
@@ -382,13 +382,13 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Testing Recommendations
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Unit Tests</strong>: Test individual methods and
@@ -416,7 +416,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-red-50 border-l-4 border-red-400 p-4">
+        <div class="bg-red-50  border-red-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-red-800">
@@ -529,11 +529,11 @@ isUpdateFormValid(): boolean {
                   cross-origin requests.
                 </p>
               </div>
-              <div class="bg-yellow-50 p-3 rounded-lg">
-                <h4 class="font-medium text-yellow-800">
+              <div class="    p-3 rounded-lg">
+                <h4 class="font-medium  ">
                   Authentication Errors
                 </h4>
-                <p class="text-sm text-yellow-700">
+                <p class="text-sm ">
                   Check that authentication tokens are properly included in API
                   requests.
                 </p>
@@ -544,11 +544,11 @@ isUpdateFormValid(): boolean {
                   For large datasets, implement pagination or virtual scrolling.
                 </p>
               </div>
-              <div class="bg-green-50 p-3 rounded-lg">
-                <h4 class="font-medium text-green-800">
+              <div class="p-3 rounded-lg">
+                <h4 class="font-medium ">
                   State Synchronization
                 </h4>
-                <p class="text-sm text-green-700">
+                <p class="text-sm ">
                   Ensure manual reloads are called after mutations if
                   reloadAfter is disabled.
                 </p>

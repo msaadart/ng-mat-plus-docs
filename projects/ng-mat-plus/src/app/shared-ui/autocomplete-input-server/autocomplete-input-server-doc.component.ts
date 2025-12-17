@@ -34,7 +34,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
           error handling.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -180,11 +180,11 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #noteContent>
       <div class="space-y-4">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-yellow-500"
+                class="h-5 w-5  "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -196,10 +196,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium  ">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <p>When using this component:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -223,11 +223,11 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-purple-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -239,10 +239,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 API Integration Tips
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm ">
                 <p>For successful API integration:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -263,11 +263,11 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-green-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -279,8 +279,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">Best Practices</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">Best Practices</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Always provide a fallback for API failures</li>
                   <li>Use meaningful loading and no results messages</li>

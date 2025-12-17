@@ -65,34 +65,40 @@ import { CommonModule } from '@angular/common';
 
       <!-- Other Content Section -->
       @if (otherContent()) {
-        <div class="group relative overflow-hidden rounded-xl border transition-all duration-300 hover:shadow-xl
-           dark:bg-slate-900 border-gray-200 dark:border-slate-700">
-          <div class="relative px-6 py-5 text-gray-700 dark:text-slate-300 leading-relaxed">
-            <ng-template *ngTemplateOutlet="otherContent() ?? null"></ng-template>
-          </div>
-        </div>
-      }
+        <div class="relative overflow-hidden rounded-xl border
+            border-gray-200 dark:border-slate-700
+            bg-white dark:bg-slate-900">
 
+  <div class="relative px-6 py-5
+              text-gray-700 dark:text-slate-300
+              leading-relaxed">
+    <ng-template *ngTemplateOutlet="otherContent() ?? null"></ng-template>
+  </div>
+
+</div>
+
+      }
       <!-- Notes Section -->
       @if (noteContent()) {
-        <div class="group relative overflow-hidden rounded-xl border border-amber-300/50 dark:border-amber-700/50
-          bg-amber-50 dark:bg-amber-900/20 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/20">
-          <div class="absolute top-0 left-0 w-20 h-20 from-amber-400/20 to-orange-400/20 rounded-br-full transform -translate-x-10 -translate-y-10"></div>
-          <div class="relative px-6 py-4 flex items-start gap-4">
-            <div class="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-lg bg-amber-500 dark:bg-amber-700 shadow-lg group-hover:scale-110 transition-transform duration-300">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-              </svg>
-            </div>
-            <div class="flex-1 text-sm">
-              <span class="inline-flex items-center gap-1 font-bold text-amber-800 dark:text-amber-300 mb-1">Note:</span>
-              <div class="text-gray-700 dark:text-slate-300 leading-relaxed mt-1">
-                <ng-template *ngTemplateOutlet="noteContent() ?? null"></ng-template>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div
+  class="relative overflow-hidden rounded-xl border
+         border-gray-200 dark:border-slate-700
+         bg-white dark:bg-slate-900">
+  <!-- Decorative background shape -->
+  <div class="relative px-6 py-4 flex items-start gap-4">
+    <!-- Content -->
+    <div class="flex-1 text-sm">
+      <div
+        class="text-gray-600 
+               leading-relaxed mt-1">
+        <ng-template *ngTemplateOutlet="noteContent() ?? null"></ng-template>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
       }
     </div>
   `,

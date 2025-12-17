@@ -38,7 +38,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           datasets.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -93,13 +93,13 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           <li>Comprehensive error handling for API failures</li>
         </ul>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4 mt-4">
+        <div class="  p-4 mt-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">
+              <h3 class="text-sm font-medium ">
                 DummyJSON API Integration
               </h3>
-              <div class="mt-2 text-sm text-green-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Endpoint:</strong> https://dummyjson.com/users
@@ -176,11 +176,11 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
     <ng-template #noteContent>
       <div class="space-y-4">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-yellow-500"
+                class="h-5 w-5  "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -193,10 +193,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium  ">
                 API Integration Notes
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 space-y-1">
                   <li>
                     DummyJSON API provides read-only data - edits are local to
@@ -217,11 +217,11 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-purple-500"
+                class="h-5 w-5 "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -234,10 +234,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 space-y-1">
                   <li>
                     Network latency affects loading times - implement proper

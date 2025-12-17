@@ -33,7 +33,7 @@ import { SidePanelComponent } from './sidepanel.component';
           with smooth animations and customizable content.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -157,11 +157,11 @@ import { SidePanelComponent } from './sidepanel.component';
 
     <ng-template #noteContent>
       <div class="space-y-4">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-yellow-500"
+                class="h-5 w-5  "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -173,10 +173,10 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium ">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <p>When using this component:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -195,11 +195,11 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-purple-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -211,10 +211,10 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Accessibility Tips
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm">
                 <p>For accessibility compliance:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -233,11 +233,11 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-green-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -249,8 +249,8 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">Best Practices</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">Best Practices</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Use appropriate panel position for your use case</li>
                   <li>Set reasonable animation durations (200-500ms)</li>

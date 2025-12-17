@@ -44,7 +44,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
     <ng-template #statusTemplate let-row>
       <span class="px-2 py-1 rounded text-xs font-medium" 
             [class.bg-green-100]="row.active" 
-            [class.text-green-800]="row.active"
+            [class.]="row.active"
             [class.bg-red-100]="!row.active"
             [class.text-red-800]="!row.active">
         {{ row.active ? 'Active' : 'Inactive' }}

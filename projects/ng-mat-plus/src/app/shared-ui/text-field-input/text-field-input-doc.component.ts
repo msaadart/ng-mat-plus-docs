@@ -86,7 +86,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
               
               <div class="flex items-center gap-4 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl border border-purple-200">
                 <div class="flex-shrink-0">
-                  <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center shadow-sm">
+                  <div class="w-8 h-8 0 rounded-lg flex items-center justify-center shadow-sm">
                     <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path>
                     </svg>
@@ -309,7 +309,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <div class="flex-1">
               <h3 class="text-xl font-bold text-purple-900 mb-4">Customization Tips</h3>
               <div class="space-y-4">
-                <p class="text-purple-800 leading-relaxed">
+                <p class=" leading-relaxed">
                   You can customize the text field through:
                 </p>
                 <ul class="space-y-3">
@@ -319,7 +319,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </span>
-                    <span class="text-purple-800">Wrapper components for additional functionality</span>
+                    <span class="">Wrapper components for additional functionality</span>
                   </li>
                 </ul>
               </div>
@@ -395,9 +395,9 @@ import { DocumentationComponent } from "../documentation/documentation.component
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-600">The label text for the input field</td>
                   </tr>
-                  <tr class="hover:bg-purple-50/50 transition-colors duration-200">
+                  <tr class="hover:/50 transition-colors duration-200">
                     <td class="px-6 py-4 whitespace-nowrap">
-                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-purple-100 text-purple-800">placeholder</span>
+                      <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-semibold bg-purple-100 ">placeholder</span>
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap">
                       <span class="inline-flex items-center px-3 py-1 rounded-lg text-sm font-mono      text-gray-700">string</span>

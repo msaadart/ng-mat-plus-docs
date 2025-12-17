@@ -33,7 +33,7 @@ import { ResourseComponent } from './http-resource.component';
           The <strong>Resource Component</strong> demonstrates modern Angular patterns for managing HTTP resources using service-based approaches. This component showcases how to efficiently handle API data fetching, loading states, and error handling with both <code>getResource()</code> and <code>httpResource()</code> methods.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Architecture Highlights</h3>
@@ -109,13 +109,13 @@ import { ResourseComponent } from './http-resource.component';
                 </div>
                 <div class="text-center">
                   <div class="bg-green-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-green-800">getResource()</span>
+                    <span class="text-sm font-medium ">getResource()</span>
                   </div>
                   <div class="text-xs text-gray-600 mt-1">Static URLs</div>
                 </div>
                 <div class="text-center">
                   <div class="bg-yellow-100 p-2 rounded-lg">
-                    <span class="text-sm font-medium text-yellow-800">httpResource()</span>
+                    <span class="text-sm font-medium  ">httpResource()</span>
                   </div>
                   <div class="text-xs text-gray-600 mt-1">Dynamic URLs</div>
                 </div>
@@ -130,11 +130,11 @@ import { ResourseComponent } from './http-resource.component';
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">When to Use Each Pattern</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">When to Use Each Pattern</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>getResource()</strong>: Fixed endpoints, simple data fetching, list views</li>
                   <li><strong>httpResource()</strong>: Dynamic parameters, detailed views, complex transformations</li>
@@ -261,11 +261,11 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
 
     <ng-template #noteContent>
       <div class="space-y-6">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Memory Management</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Memory Management</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Automatic Cleanup</strong>: Both resource types are automatically managed</li>
                   <li><strong>Component Destruction</strong>: No need for manual cleanup in ngOnDestroy</li>
@@ -277,7 +277,7 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
         
-        <div class="  border-l-4 border-blue-400 p-4">
+        <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">Performance Considerations</h3>
@@ -293,11 +293,11 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
         
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">Error Handling Strategies</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">Error Handling Strategies</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>Built-in Error Handling</strong>: Automatic error state management for both patterns</li>
                   <li><strong>Custom Error Handling</strong>: httpResource() allows custom error callbacks</li>
@@ -309,11 +309,11 @@ singleUserResource = this.$httpService.httpResource<SingleUserResponse>(
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">Testing Strategies</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">Testing Strategies</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li><strong>State Testing</strong>: Test loading, error, and data states for both resource types</li>
                   <li><strong>Service Mocking</strong>: Mock HTTP service responses</li>
@@ -447,17 +447,17 @@ userWithStats = this.$httpService.httpResource<UserWithStats>(
                 <h4 class="font-medium text-blue-800">Choose the Right Pattern</h4>
                 <p class="text-sm text-blue-700">Use getResource() for static endpoints and httpResource() for dynamic ones</p>
               </div>
-              <div class="bg-green-50 p-3 rounded-lg">
-                <h4 class="font-medium text-green-800">Use Type Interfaces</h4>
-                <p class="text-sm text-green-700">Always define proper TypeScript interfaces for API responses</p>
+              <div class="p-3 rounded-lg">
+                <h4 class="font-medium ">Use Type Interfaces</h4>
+                <p class="text-sm ">Always define proper TypeScript interfaces for API responses</p>
               </div>
-              <div class="bg-yellow-50 p-3 rounded-lg">
-                <h4 class="font-medium text-yellow-800">Centralize API URLs</h4>
-                <p class="text-sm text-yellow-700">Keep API endpoints in a central configuration for easy maintenance</p>
+              <div class="    p-3 rounded-lg">
+                <h4 class="font-medium  ">Centralize API URLs</h4>
+                <p class="text-sm ">Keep API endpoints in a central configuration for easy maintenance</p>
               </div>
-              <div class="bg-purple-50 p-3 rounded-lg">
-                <h4 class="font-medium text-purple-800">Error Handling</h4>
-                <p class="text-sm text-purple-700">Use httpResource() callbacks for custom error handling when needed</p>
+              <div class=" p-3 rounded-lg">
+                <h4 class="font-medium ">Error Handling</h4>
+                <p class="text-sm ">Use httpResource() callbacks for custom error handling when needed</p>
               </div>
               <div class="bg-red-50 p-3 rounded-lg">
                 <h4 class="font-medium text-red-800">Performance</h4>

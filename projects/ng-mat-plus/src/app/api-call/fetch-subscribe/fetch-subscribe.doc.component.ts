@@ -37,7 +37,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           custom data handling logic.
         </p>
 
-        <div class="  border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -155,7 +155,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
           </div>
         </div>
 
-        <div class="bg-amber-50 border-l-4 border-amber-400 p-4">
+        <div class="bg-amber-50  border-amber-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-amber-800">
@@ -311,9 +311,9 @@ refreshAllData(): void {
           </div>
           <div class="p-5">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div class="bg-purple-50 p-3 rounded-lg">
-                <h4 class="font-medium text-purple-800 mb-1">Permission Checks</h4>
-                <p class="text-sm text-purple-700">
+              <div class=" p-3 rounded-lg">
+                <h4 class="font-medium  mb-1">Permission Checks</h4>
+                <p class="text-sm ">
                   Verify user permissions before API calls
                 </p>
               </div>
@@ -323,15 +323,15 @@ refreshAllData(): void {
                   Client-side validation before server requests
                 </p>
               </div>
-              <div class="bg-green-50 p-3 rounded-lg">
-                <h4 class="font-medium text-green-800 mb-1">State Checks</h4>
-                <p class="text-sm text-green-700">
+              <div class="p-3 rounded-lg">
+                <h4 class="font-medium  mb-1">State Checks</h4>
+                <p class="text-sm ">
                   Conditional calls based on application state
                 </p>
               </div>
-              <div class="bg-yellow-50 p-3 rounded-lg">
-                <h4 class="font-medium text-yellow-800 mb-1">Rate Limiting</h4>
-                <p class="text-sm text-yellow-700">
+              <div class="    p-3 rounded-lg">
+                <h4 class="font-medium   mb-1">Rate Limiting</h4>
+                <p class="text-sm ">
                   Throttling and debouncing API calls
                 </p>
               </div>
@@ -409,7 +409,7 @@ deleteUser(): void {
 
     <ng-template #noteContent>
       <div class="space-y-6">
-        <div class="bg-red-50 border-l-4 border-red-400 p-4">
+        <div class="bg-red-50  border-red-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-red-800">
@@ -443,7 +443,7 @@ deleteUser(): void {
           </div>
         </div>
 
-        <div class="bg-orange-50 border-l-4 border-orange-400 p-4">
+        <div class="bg-orange-50  border-orange-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-orange-800">
@@ -477,7 +477,7 @@ deleteUser(): void {
           </div>
         </div>
 
-        <div class="  border-l-4 border-blue-400 p-4">
+        <div class="   border-blue-400 p-4">
           <div class="flex">
             <div class="ml-3">
               <h3 class="text-sm font-medium text-blue-800">
@@ -510,13 +510,13 @@ deleteUser(): void {
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">
+              <h3 class="text-sm font-medium ">
                 Testing Strategies
               </h3>
-              <div class="mt-2 text-sm text-green-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Mock HTTP Calls</strong>: Use HttpClientTestingModule
@@ -544,13 +544,13 @@ deleteUser(): void {
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Security Best Practices
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Input Sanitization</strong>: Sanitize all user inputs
