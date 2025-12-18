@@ -20,6 +20,7 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json
@@ -42,5 +43,6 @@ testem.log
 Thumbs.db
 
 
-#development files
+# Firebase Hosting cache
 .firebase/
+.firebase/hosting.*.cache
