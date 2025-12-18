@@ -6,6 +6,7 @@ import {
   AfterViewInit,
   Renderer2,
   OnInit,
+  inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
@@ -13,6 +14,7 @@ import { CodeViewerComponent } from '../../shared-ui/documentation/code-viewer/c
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
+import { LibThemeDarkLightService } from 'ng-mat-plus/services';
 
 @Component({
   selector: 'app-landing-page',
@@ -107,7 +109,7 @@ import { MatCardModule } from '@angular/material/card';
           <!-- CTA Buttons with Hover Effects -->
           <div class="flex justify-center gap-4 flex-wrap mb-12 animate-fade-in-up animation-delay-400">
             <a routerLink="/components"
-               class="group inline-flex items-center gap-3 bg-white text-indigo-700 px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/30 hover:scale-110 transition-all duration-300 animate-float">
+               class="group inline-flex items-center gap-3 bg-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-white/30 hover:scale-110 transition-all duration-300 animate-float">
               <mat-icon class="text-2xl group-hover:rotate-[360deg] transition-transform duration-500">view_comfy_alt</mat-icon>
               <span>View Components</span>
               <div class="w-0 group-hover:w-6 transition-all duration-300 overflow-hidden">
@@ -152,7 +154,7 @@ import { MatCardModule } from '@angular/material/card';
       </div>
 
       <!-- Animated Wave Separator -->
-      <div class="relative h-16 md:h-24">
+      <div class="relative h-16 md:h-24 wave">
         <svg class="absolute bottom-0 w-full h-full animate-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M0,64L48,69.3C96,75,192,85,288,80C384,75,480,53,576,48C672,43,768,53,864,58.7C960,64,1056,64,1152,58.7C1248,53,1344,43,1392,37.3L1440,32L1440,120L1392,120C1344,120,1248,120,1152,120C1056,120,960,120,864,120C768,120,672,120,576,120C480,120,384,120,288,120C192,120,96,120,48,120L0,120Z" 
                 fill="white" 
@@ -239,7 +241,7 @@ import { MatCardModule } from '@angular/material/card';
             <div class="text-center mb-10">
               <div class="inline-flex items-center gap-2 px-4 py-2 bg-indigo-100 rounded-full mb-4 animate-bounce-subtle">
                 <mat-icon class="text-indigo-600">info</mat-icon>
-                <span class="text-sm font-semibold text-indigo-700">About the Library</span>
+                <span class="text-sm font-semibold">About the Library</span>
               </div>
               <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet ng-mat-plus</h2>
               <p class="text-lg  leading-relaxed">
@@ -254,7 +256,7 @@ import { MatCardModule } from '@angular/material/card';
                 <div class="w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center mb-4 animate-pulse-slow">
                   <mat-icon class="text-white">widgets</mat-icon>
                 </div>
-                <h4 class="text-lg font-bold text-gray-900 mb-2">50+ Components</h4>
+                <h1 class="text-lg font-bold text-gray-900 mb-2">50+ Components</h1>
                 <p class="text-sm text-on-surface leading-relaxed">
                   Buttons, inputs, date pickers, tables, dialogs, and more — all pre-styled and ready to use.
                 </p>
@@ -264,7 +266,7 @@ import { MatCardModule } from '@angular/material/card';
                 <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mb-4 animate-pulse-slow animation-delay-500">
                   <mat-icon class="text-white">auto_awesome</mat-icon>
                 </div>
-                <h4 class="text-lg font-bold text-gray-900 mb-2">Common Patterns</h4>
+                <h1 class="text-lg font-bold text-gray-900 mb-2">Common Patterns</h1>
                 <p class="text-sm text-on-surface leading-relaxed">
                   Proven patterns for forms, lists, dialogs, dashboards, and navigation that work out of the box.
                 </p>
@@ -274,7 +276,7 @@ import { MatCardModule } from '@angular/material/card';
                 <div class="w-12 h-12 bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl flex items-center justify-center mb-4 animate-pulse-slow animation-delay-1000">
                   <mat-icon class="text-white">menu_book</mat-icon>
                 </div>
-                <h4 class="text-lg font-bold text-gray-900 mb-2">Complete Docs</h4>
+                <h1 class="text-lg font-bold text-gray-900 mb-2">Complete Docs</h1>
                 <p class="text-sm text-on-surface leading-relaxed">
                   Comprehensive Storybook documentation and usage guides to help developers integrate quickly.
                 </p>
@@ -1026,6 +1028,8 @@ import { MatCardModule } from '@angular/material/card';
   `],
 })
 export class LandingPageComponent implements AfterViewInit, OnInit {
+   protected readonly $themeService = inject(LibThemeDarkLightService);
+
   @ViewChild('carousel', { static: false }) carousel?: ElementRef<HTMLDivElement>;
 
   categoryColors: Record<string, { bg: string; text: string }> = {

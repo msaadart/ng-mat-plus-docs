@@ -1,0 +1,6 @@
+# Allow all search engines to crawl the entire site
+user-agent: *
+disallow: /downloads/
+
+user-agent: magicsearchbot
+disallow: /uploads/
