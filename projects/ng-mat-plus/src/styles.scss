@@ -54,6 +54,8 @@ html {
       density: 0));
 }
  
+
+
 html.dark {
   color-scheme: dark;
   @include mat.theme((color: (primary: mat.$azure-palette,
@@ -67,6 +69,209 @@ html.dark {
         regular-weight: 300,
       ),
       density: 0));
+
+  // ============================================
+  // DARK THEME COLORS FOR LANDING PAGE
+  // ============================================
+
+  // Hero Section - Dark gradient background
+  header.bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #1e1b4b, #581c87, #831843) !important;
+  }
+
+  // Animated background elements - darker with blue/purple tones
+  .absolute.-top-40,
+  .absolute.top-60,
+  .absolute.bottom-20 {
+    &.bg-white\/10 { background-color: rgba(59, 130, 246, 0.1) !important; }
+    &.bg-purple-400\/10 { background-color: rgba(147, 51, 234, 0.15) !important; }
+    &.bg-pink-400\/10 { background-color: rgba(236, 72, 153, 0.1) !important; }
+  }
+
+  // Particles - lighter for visibility on dark
+  .particle {
+    background: rgba(147, 197, 253, 0.6) !important;
+  }
+
+  // Version badge
+  .bg-white\/20 {
+    background-color: rgba(30, 41, 59, 0.7) !important;
+    border-color: rgba(148, 163, 184, 0.3) !important;
+  }
+
+  // Main content background
+  main {
+    background-color: #0f172a !important;
+  }
+
+  // Text colors
+  .text-gray-900 {
+    color: #f1f5f9 !important;
+  }
+
+  .text-gray-800 {
+    color: #e2e8f0 !important;
+  }
+
+  .text-on-surface {
+    color: #cbd5e1 !important;
+  }
+
+  // Section backgrounds
+  section .bg-white {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+  }
+
+  // Feature cards
+  .bg-gradient-to-br.from-indigo-50 {
+    background: linear-gradient(to bottom right, #1e293b, #334155) !important;
+  }
+
+  // Stat cards - glassmorphism effect for dark
+  .stat-card {
+    background: rgba(30, 41, 59, 0.6) !important;
+    border-color: rgba(148, 163, 184, 0.2) !important;
+    backdrop-filter: blur(12px) !important;
+  }
+
+  .stat-card:hover {
+    background: rgba(30, 41, 59, 0.8) !important;
+    border-color: rgba(148, 163, 184, 0.3) !important;
+  }
+
+  // Featured components section
+  article.bg-white {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+
+    &:hover {
+      border-color: #475569 !important;
+    }
+  }
+
+  // Category gradient bars - keep vibrant
+  .h-2.bg-gradient-to-r {
+    opacity: 0.9;
+  }
+
+  // Category background colors - darker versions
+  .from-indigo-50 { background: linear-gradient(to bottom right, #1e3a8a, #312e81) !important; }
+  .from-pink-50 { background: linear-gradient(to bottom right, #831843, #701a75) !important; }
+  .from-green-50 { background: linear-gradient(to bottom right, #14532d, #166534) !important; }
+  .from-amber-50 { background: linear-gradient(to bottom right, #78350f, #92400e) !important; }
+  .from-purple-50 { background: linear-gradient(to bottom right, #581c87, #6b21a8) !important; }
+  .from-cyan-50 { background: linear-gradient(to bottom right, #164e63, #155e75) !important; }
+  .from-teal-50 { background: linear-gradient(to bottom right, #115e59, #134e4a) !important; }
+  .from-rose-50 { background: linear-gradient(to bottom right, #881337, #9f1239) !important; }
+  .from-blue-50 { background: linear-gradient(to bottom right, #1e3a8a, #1e40af) !important; }
+  .from-lime-50 { background: linear-gradient(to bottom right, #365314, #3f6212) !important; }
+  .from-violet-50 { background: linear-gradient(to bottom right, #4c1d95, #5b21b6) !important; }
+  .from-gray-50 { background: linear-gradient(to bottom right, #1f2937, #374151) !important; }
+
+  // Category badge backgrounds
+  .bg-indigo-100 { background-color: #1e3a8a !important; color: #93c5fd !important; }
+  .bg-pink-100 { background-color: #831843 !important; color: #fbcfe8 !important; }
+  .bg-green-100 { background-color: #14532d !important; color: #86efac !important; }
+  .bg-amber-100 { background-color: #78350f !important; color: #fcd34d !important; }
+  .bg-purple-100 { background-color: #581c87 !important; color: #d8b4fe !important; }
+  .bg-cyan-100 { background-color: #164e63 !important; color: #a5f3fc !important; }
+  .bg-teal-100 { background-color: #115e59 !important; color: #5eead4 !important; }
+  .bg-rose-100 { background-color: #881337 !important; color: #fda4af !important; }
+  .bg-blue-100 { background-color: #1e3a8a !important; color: #93c5fd !important; }
+  .bg-lime-100 { background-color: #365314 !important; color: #bef264 !important; }
+  .bg-violet-100 { background-color: #4c1d95 !important; color: #c4b5fd !important; }
+  .bg-gray-100 { background-color: #374151 !important; color: #d1d5db !important; }
+
+  // About section - glassmorphism
+  .bg-white\/60 {
+    background-color: rgba(30, 41, 59, 0.7) !important;
+    border-color: rgba(148, 163, 184, 0.2) !important;
+  }
+
+  // Installation section
+  .bg-gradient-to-br.from-indigo-50.via-purple-50 {
+    background: linear-gradient(to bottom right, #1e293b, #312e81, #701a75) !important;
+  }
+
+  // Code blocks - keep dark
+  .bg-gray-900 {
+    background-color: #0f172a !important;
+    border: 1px solid #334155;
+  }
+
+  // White background cards in installation
+  aside .bg-white {
+    background-color: #1e293b !important;
+    border-color: #334155 !important;
+  }
+
+  // Gradient icon backgrounds - keep vibrant but adjust
+  .bg-gradient-to-br.from-indigo-500 { 
+    background: linear-gradient(to bottom right, #3b82f6, #8b5cf6) !important; 
+  }
+  .bg-gradient-to-br.from-amber-500 { 
+    background: linear-gradient(to bottom right, #f59e0b, #ea580c) !important; 
+  }
+  .bg-gradient-to-br.from-purple-500 { 
+    background: linear-gradient(to bottom right, #a855f7, #ec4899) !important; 
+  }
+  .bg-gradient-to-br.from-pink-500 { 
+    background: linear-gradient(to bottom right, #ec4899, #f43f5e) !important; 
+  }
+  .bg-gradient-to-br.from-yellow-500 { 
+    background: linear-gradient(to bottom right, #eab308, #f59e0b) !important; 
+  }
+
+  // Pro tip boxes
+  .border-indigo-100 { border-color: #1e3a8a !important; }
+  .border-purple-100 { border-color: #581c87 !important; }
+  .bg-indigo-100:not(.text-indigo-700) { background-color: #1e3a8a !important; }
+  .bg-purple-100:not(.text-purple-600) { background-color: #581c87 !important; }
+
+  // Icon backgrounds in pro tips
+  .bg-indigo-100.rounded-lg { background-color: rgba(59, 130, 246, 0.2) !important; }
+  .bg-purple-100.rounded-lg { background-color: rgba(168, 85, 247, 0.2) !important; }
+
+  // Links
+  .text-indigo-600 {
+    color: #818cf8 !important;
+    &:hover {
+      color: #a5b4fc !important;
+    }
+  }
+
+  // Footer
+  footer.bg-gray-900 {
+    background-color: #0f172a !important;
+    border-top: 1px solid #1e293b;
+  }
+
+  .text-gray-300 {
+    color: #cbd5e1 !important;
+  }
+
+  // Wave separator - adjust for dark
+  svg path {
+    fill: #0f172a !important;
+  }
+
+  // Shadow adjustments for dark mode
+  .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3) !important; }
+  .shadow-xl { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3) !important; }
+  .shadow-2xl { box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6) !important; }
+
+  // Blur effects - stronger for dark
+  .backdrop-blur-sm {
+    backdrop-filter: blur(8px) !important;
+  }
+
+  // Grid pattern overlay
+  .bg-grid-pattern {
+    background-image: 
+      linear-gradient(rgba(148, 163, 184, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148, 163, 184, 0.03) 1px, transparent 1px);
+  }
 }
 
 *:focus{
