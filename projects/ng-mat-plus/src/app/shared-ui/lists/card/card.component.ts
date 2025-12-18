@@ -14,8 +14,8 @@ import { LibCardComponent } from 'ng-mat-plus/lib-lists';
     >
       <!-- Header -->
       <div card-header class="flex justify-between items-center w-full">
-        <span class="font-medium text-blue-700">John Doe</span>
-        <time class="text-blue-700">2025-09-08 10:30 AM</time>
+        <span class="font-medium text-on-primary-container">John Doe</span>
+        <time class="text-on-primary-container">2025-09-08 10:30 AM</time>
       </div>
 
       <!-- Body -->

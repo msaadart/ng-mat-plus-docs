@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Textarea Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Textarea Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   Additional features specific to textareas:
                 </p>
@@ -68,8 +68,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Textarea</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Textarea</h3>
+            <p class="mt-2 text-on-surface">
               Standard textarea with default 3 rows and vertical resize.
             </p>
           </div>
@@ -80,8 +80,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Fixed Size Textarea</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Fixed Size Textarea</h3>
+            <p class="mt-2 text-on-surface">
               Textarea with fixed dimensions and disabled resize.
             </p>
           </div>
@@ -92,8 +92,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Character Count</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Character Count</h3>
+            <p class="mt-2 text-on-surface">
               Textarea with character count indicator and max length validation.
             </p>
           </div>
@@ -158,12 +158,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Height</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Height</h3>
+            <p class="mt-2 text-on-surface">
               Textarea that grows with content up to a maximum height.
             </p>
           </div>
@@ -174,8 +174,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -183,36 +183,36 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The label text for the textarea</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The label text for the textarea</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">rows</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Number of visible text rows (default: 3)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">rows</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Number of visible text rows (default: 3)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">resize</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Resize behavior (none, both, vertical, horizontal)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">resize</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Resize behavior (none, both, vertical, horizontal)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">minHeight</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Minimum height of the textarea</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">minHeight</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Minimum height of the textarea</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">hint</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether to show character count hint</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">hint</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether to show character count hint</td>
                 </tr>
               </tbody>
             </table>

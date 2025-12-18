@@ -30,7 +30,7 @@ import {
     <form [formGroup]="form">
       <div class="max-w-[95vw] w-full">
         <!-- Form Fields -->
-        <div class="text-gray-600 dark:text-dark-300">
+        <div class="text-on-surface dark:text-dark-300">
           <!-- First Name Field -->
           <div class="my-2">
             <lib-text-field

@@ -22,12 +22,17 @@
       ></a>
 
       <!-- Logo -->
-      <img
-        src="/images/ng-mat-plus.png"
-        alt="ng-mat-plus Logo"
-        class="w-[40px] max-w-[60px] data-[collapsed=true]:w-[30px] data-[collapsed=true]:max-w-[40px] select-none transition-all duration-300 relative z-10"
-        [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
-      />
+     <img
+      ngSrc="/images/ng-mat-plus.svg"
+      alt="ng-mat-plus Logo"
+      width="40"
+      height="40"
+      class="w-[40px] max-w-[60px] 
+            data-[collapsed=true]:w-[30px] 
+            data-[collapsed=true]:max-w-[40px] 
+            select-none transition-all duration-300 relative z-10"
+      [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
+    />
 
       <!-- Text -->
       @if (isSidebarOpen || isMobileScreen) {
@@ -55,7 +60,7 @@
             [ngClass]="{
               'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-md font-medium': item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'}),
               'text-purple-200': $themeService.isDarkTheme() && !(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'})),
-              'text-gray-700': !$themeService.isDarkTheme() && !(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'}))
+              '': !$themeService.isDarkTheme() && !(item.route && router.isActive(item.route, item.hasSubMenu ? {paths: 'subset', queryParams: 'subset', fragment: 'ignored', matrixParams: 'ignored'} : {paths: 'exact', queryParams: 'exact', fragment: 'ignored', matrixParams: 'ignored'}))
             }" 
             (click)="handleItemClick(item, $event)"
             routerLinkActive="active-link">
@@ -91,8 +96,8 @@
             [ngClass]="{
               'bg-slate-900/98 border-purple-700/40': $themeService.isDarkTheme(),
               '/98 border-purple-200/50': !$themeService.isDarkTheme(),
-              'left-[240px]': isSidebarOpen,
-              'left-[60px]': !isSidebarOpen
+              'left-[230px]': isSidebarOpen,
+              'left-[50px]': !isSidebarOpen
             }" 
             [style.top.px]="getSubmenuTopPosition(item.label, i, item.subMenu?.length)">
             
@@ -119,7 +124,7 @@
                       [ngClass]="{
                         'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(subItem.route ?? '', true),
                         'text-purple-200': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
-                        'text-gray-700': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
+                        '': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
                       }"
                       [class.cursor-default]="!subItem.route"
                       (click)="toggleSubMenu(subItem.label, i, $event)"
@@ -163,7 +168,7 @@
                         [ngClass]="{
                           'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(nestedSubItem.route ?? '', true),
                           'text-purple-300': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
-                          'text-gray-600': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
+                          'text-on-surface': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
                         }"
                         (click)="handleNestedItemClick($event)"
                         routerLinkActive="active-link">
@@ -202,7 +207,7 @@
                       [ngClass]="{
                         'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(subItem.route ?? '', true),
                         'text-purple-200': $themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true),
-                        'text-gray-700': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
+                        '': !$themeService.isDarkTheme() && !router.isActive(subItem.route ?? '', true)
                       }"
                       [class.cursor-default]="!subItem.route"
                       (click)="handleSubItemClick(subItem, $event); toggleSubMenu(subItem.label, i, $event);"
@@ -244,7 +249,7 @@
                         [ngClass]="{
                           'bg-gradient-to-r from-purple-600 to-pink-600 text-white font-medium': router.isActive(nestedSubItem.route ?? '', true),
                           'text-purple-300': $themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true),
-                          'text-gray-600': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
+                          'text-on-surface': !$themeService.isDarkTheme() && !router.isActive(nestedSubItem.route ?? '', true)
                         }"
                         (click)="handleNestedItemClick($event)"
                         routerLinkActive="active-link">

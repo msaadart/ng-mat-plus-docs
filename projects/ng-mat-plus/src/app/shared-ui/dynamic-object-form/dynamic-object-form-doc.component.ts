@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Dynamic Form Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Dynamic Form Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several powerful features:
                 </p>
@@ -70,8 +70,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Dynamic Form</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Dynamic Form</h3>
+            <p class="mt-2 text-on-surface">
               Basic implementation using default configuration.
             </p>
           </div>
@@ -82,8 +82,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Creating a form with custom field configuration.
             </p>
           </div>
@@ -94,8 +94,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Validation Setup</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Validation Setup</h3>
+            <p class="mt-2 text-on-surface">
               Adding validation to dynamic form fields.
             </p>
           </div>
@@ -161,12 +161,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Field Types</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Field Types</h3>
+            <p class="mt-2 text-on-surface">
               Supported field types and their configurations.
             </p>
           </div>
@@ -174,36 +174,36 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Component</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Required Properties</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Component</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Required Properties</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">email</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibEmailComponent</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">email</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">LibEmailComponent</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">password</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibPasswordComponent</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">password</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">LibPasswordComponent</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">phone</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibPhoneComponent</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">phone</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">LibPhoneComponent</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">date</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibDatePickerComponent</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">date</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">LibDatePickerComponent</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">name, type, label</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">dateRange</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">LibDateRangePickerComponent</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">name, type, label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">dateRange</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">LibDateRangePickerComponent</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">name, type, label</td>
                 </tr>
                 <!-- More rows for other field types -->
               </tbody>
@@ -213,8 +213,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Component API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Component API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available properties and methods.
             </p>
           </div>
@@ -222,36 +222,36 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property/Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property/Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">formConfig</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Input</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of field configuration objects</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">formConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Input</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of field configuration objects</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">form</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormGroup</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The generated form group</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">form</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">FormGroup</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The generated form group</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">showConfig</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Controls visibility of configuration preview</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">showConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Controls visibility of configuration preview</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">componentMap</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Record</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Maps field types to components</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">componentMap</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Record</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Maps field types to components</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">defaultConfig</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Array</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Default field configurations</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">defaultConfig</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Array</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Default field configurations</td>
                 </tr>
               </tbody>
             </table>

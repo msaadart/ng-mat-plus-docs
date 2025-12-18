@@ -416,14 +416,14 @@ export const routes: Routes = [
           {
             path: 'breadcrumb-service',
             title: 'ng-mat-plus - Services / Breadcrumb Service',
-            data: { breadcrumb: 'Breadcrumb Service' },
+            data: { breadcrumb: 'Breadcrumb' },
             loadComponent: () =>
               import('./service-class/data-transfer/breadcrumb-doc.component').then((m) => m.BreadcrumbDocComponent),
           },
           {
             path: 'theme-service',
             title: 'ng-mat-plus - Services / Dark Light Theme Service',
-            data: { breadcrumb: 'Dark Light Theme Service' },
+            data: { breadcrumb: 'Dark Light Theme' },
             loadComponent: () =>
               import('./service-class/data-transfer/theme-dark-light-doc.component').then((m) => m.ThemeDarkLightDocComponent),
           },

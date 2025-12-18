@@ -55,8 +55,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     Dual pagination modes: traditional paginator and infinite
@@ -126,10 +126,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       <div class="space-y-6">
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Real User Data Management
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Ideal for applications that need to display realistic user
               information with complete profiles including contact details and
               demographic information.
@@ -142,10 +142,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               API-Driven Infinite Scroll
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Perfect for modern UIs requiring infinite scroll functionality
               with real API data loading and proper pagination.
             </p>
@@ -159,10 +159,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Production-Ready User Interfaces
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Suitable for production applications requiring real user data with
               complete CRUD operations and professional UI components.
             </p>
@@ -262,10 +262,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               API Integration Setup
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               The component now uses DummyJSON API instead of a local server,
               requiring GET requests with query parameters.
             </p>
@@ -277,10 +277,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Data Transformation
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               API responses are transformed to match the component's User
               interface, including type conversions.
             </p>
@@ -294,10 +294,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">
               Pagination Implementation
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Both paginator and infinite scroll modes use DummyJSON's
               skip/limit parameters for efficient data loading.
             </p>
@@ -309,8 +309,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Error Handling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Error Handling</h3>
+            <p class="mt-2 text-on-surface">
               Comprehensive error handling for API failures with user feedback
               and proper state management.
             </p>
@@ -337,7 +337,7 @@ export class ServerSideDocComponent {
 
   htmlCode = `
 <div class="rounded-xl shadow border border-gray-200  p-4">
-  <h2 class="text-gray-600 font-semibold mb-4">Paginator Base</h2>
+  <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
   <lib-intermediate-server-table
     [tableData]="pageData()"
     [columns]="columnsConfig()"
@@ -351,7 +351,7 @@ export class ServerSideDocComponent {
   </lib-intermediate-server-table>
 </div>
 <div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
-  <h2 class="text-gray-600 font-semibold mb-4">Scroll Base</h2>
+  <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
   <lib-intermediate-server-table
     [tableData]="scrollData()"
     [columns]="columnsConfig()"

@@ -35,8 +35,8 @@ import { WidgetComponent } from './widget-card.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Flexible header with icon/title and action buttons</li>
                   <li>Content projection slots for header and body</li>
@@ -66,8 +66,8 @@ import { WidgetComponent } from './widget-card.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Widget</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Widget</h3>
+            <p class="mt-2 text-on-surface">
               Simple widget with title and icon.
             </p>
           </div>
@@ -78,8 +78,8 @@ import { WidgetComponent } from './widget-card.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Widget with Action Buttons</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Widget with Action Buttons</h3>
+            <p class="mt-2 text-on-surface">
               Widget with configured action buttons in header.
             </p>
           </div>
@@ -90,8 +90,8 @@ import { WidgetComponent } from './widget-card.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Header Content</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Header Content</h3>
+            <p class="mt-2 text-on-surface">
               Widget with custom content in header middle section.
             </p>
           </div>
@@ -156,12 +156,12 @@ import { WidgetComponent } from './widget-card.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Button Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Button Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Configuring buttons dynamically based on application state.
             </p>
           </div>
@@ -172,8 +172,8 @@ import { WidgetComponent } from './widget-card.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -181,31 +181,31 @@ import { WidgetComponent } from './widget-card.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">title</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The title displayed in the widget header (default: 'title')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">title</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The title displayed in the widget header (default: 'title')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">iconSource</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Image path or Material icon name (default: '')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">iconSource</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Image path or Material icon name (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">iconSourceType</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'image' | 'icon'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Determines how iconSource is rendered (default: 'image')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">iconSourceType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'image' | 'icon'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Determines how iconSource is rendered (default: 'image')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">headerButtons</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">IWidgetHeaderIconButtonConfig[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of button configurations for header (default: [])</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerButtons</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">IWidgetHeaderIconButtonConfig[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of button configurations for header (default: [])</td>
                 </tr>
               </tbody>
             </table>
@@ -214,8 +214,8 @@ import { WidgetComponent } from './widget-card.component';
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Button Configuration Interface</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Button Configuration Interface</h3>
+            <p class="mt-2 text-on-surface">
               Details of the IWidgetHeaderIconButtonConfig interface.
             </p>
           </div>

@@ -17,7 +17,7 @@ import { LibAdvancedServerTableComponent } from 'ng-mat-plus/lib-tables';
   imports: [LibAdvancedServerTableComponent],
   template: `
     <div class="rounded-xl shadow border border-gray-200  p-4">
-      <h2 class="text-gray-600 font-semibold mb-4">Paginator Base</h2>
+      <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-advanced-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -31,7 +31,7 @@ import { LibAdvancedServerTableComponent } from 'ng-mat-plus/lib-tables';
       </lib-advanced-server-table>
     </div>
     <div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
-      <h2 class="text-gray-600 font-semibold mb-4">Scroll Base</h2>
+      <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-advanced-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"

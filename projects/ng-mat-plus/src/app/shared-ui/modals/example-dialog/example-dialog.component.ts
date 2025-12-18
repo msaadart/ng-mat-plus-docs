@@ -34,7 +34,7 @@ import { merge, startWith, map } from 'rxjs';
     <form [formGroup]="form">
       <div class="max-w-[95vw] w-full">
         <!-- Form Fields -->
-        <div class="mb-6 text-gray-600 dark:text-dark-300">
+        <div class="mb-6 text-on-surface dark:text-dark-300">
           <!-- Name Field -->
           <div class="my-4">
             <lib-text-field

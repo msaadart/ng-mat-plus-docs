@@ -61,7 +61,7 @@ import { MatCardModule } from '@angular/material/card';
                 <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                 <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
               </span>
-              <span>v0.0.2 Now Available</span>
+              <span>v1.0.0 Now Available</span>
               <mat-icon class="text-base animate-bounce-horizontal">arrow_forward</mat-icon>
             </div>
           </div>
@@ -169,7 +169,7 @@ import { MatCardModule } from '@angular/material/card';
       <div class="text-center mb-12 animate-on-scroll">
         <span class="inline-block px-4 py-1.5 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold mb-4 animate-bounce-subtle">Why Choose ng-mat-plus?</span>
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Built for Modern Angular Development</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">Everything you need to build beautiful, accessible, and performant applications</p>
+        <p class="text-on-surface max-w-2xl mx-auto">Everything you need to build beautiful, accessible, and performant applications</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -180,7 +180,7 @@ import { MatCardModule } from '@angular/material/card';
               <mat-icon class="text-white text-3xl">bolt</mat-icon>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Fast & Performant</h3>
-            <p class="text-gray-600 leading-relaxed mb-4">
+            <p class="text-on-surface leading-relaxed mb-4">
               Optimized rendering and minimized bundle sizes ensure smooth performance.
             </p>
             <div class="flex items-center gap-2 text-sm text-indigo-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -197,7 +197,7 @@ import { MatCardModule } from '@angular/material/card';
               <mat-icon class="text-white text-3xl">palette</mat-icon>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Theming & Customizable</h3>
-            <p class="text-gray-600 leading-relaxed mb-4">
+            <p class="text-on-surface leading-relaxed mb-4">
               Adapt colors, density, and typography seamlessly using design tokens and Material palettes.
             </p>
             <div class="flex items-center gap-2 text-sm text-amber-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -214,7 +214,7 @@ import { MatCardModule } from '@angular/material/card';
               <mat-icon class="text-white text-3xl">accessibility</mat-icon>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3">Accessible by Design</h3>
-            <p class="text-gray-600 leading-relaxed mb-4">
+            <p class="text-on-surface leading-relaxed mb-4">
               Every component supports ARIA roles, keyboard navigation, and WCAG 2.2 compliance out of the box.
             </p>
             <div class="flex items-center gap-2 text-sm text-green-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -242,7 +242,7 @@ import { MatCardModule } from '@angular/material/card';
                 <span class="text-sm font-semibold text-indigo-700">About the Library</span>
               </div>
               <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet ng-mat-plus</h2>
-              <p class="text-lg text-gray-700 leading-relaxed">
+              <p class="text-lg  leading-relaxed">
                 <code class="bg-indigo-100 text-indigo-700 px-3 py-1 rounded-lg font-semibold">ng-mat-plus</code> is a collection of opinionated Angular Material
                 components designed to reduce UI friction in enterprise applications. Each component follows Material Design guidelines,
                 supports standalone usage, and aims for predictable behavior across browsers and screen sizes.
@@ -255,7 +255,7 @@ import { MatCardModule } from '@angular/material/card';
                   <mat-icon class="text-white">widgets</mat-icon>
                 </div>
                 <h4 class="text-lg font-bold text-gray-900 mb-2">50+ Components</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
+                <p class="text-sm text-on-surface leading-relaxed">
                   Buttons, inputs, date pickers, tables, dialogs, and more — all pre-styled and ready to use.
                 </p>
               </div>
@@ -265,7 +265,7 @@ import { MatCardModule } from '@angular/material/card';
                   <mat-icon class="text-white">auto_awesome</mat-icon>
                 </div>
                 <h4 class="text-lg font-bold text-gray-900 mb-2">Common Patterns</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
+                <p class="text-sm text-on-surface leading-relaxed">
                   Proven patterns for forms, lists, dialogs, dashboards, and navigation that work out of the box.
                 </p>
               </div>
@@ -275,7 +275,7 @@ import { MatCardModule } from '@angular/material/card';
                   <mat-icon class="text-white">menu_book</mat-icon>
                 </div>
                 <h4 class="text-lg font-bold text-gray-900 mb-2">Complete Docs</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
+                <p class="text-sm text-on-surface leading-relaxed">
                   Comprehensive Storybook documentation and usage guides to help developers integrate quickly.
                 </p>
               </div>
@@ -286,7 +286,7 @@ import { MatCardModule } from '@angular/material/card';
                 <mat-icon>explore</mat-icon>
                 <span>Browse All Components</span>
               </a>
-              <a routerLink="/docs" class="inline-flex items-center gap-2 bg-white text-gray-700 px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all border border-gray-200">
+              <a routerLink="/docs" class="inline-flex items-center gap-2 bg-white  px-6 py-3 rounded-full font-semibold shadow-md hover:shadow-lg hover:scale-105 transition-all border border-gray-200">
                 <mat-icon>description</mat-icon>
                 <span>Read Documentation</span>
               </a>
@@ -300,7 +300,7 @@ import { MatCardModule } from '@angular/material/card';
     <section class="mb-16 animate-on-scroll">
       <div class="text-center mb-10">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-3">Featured Components</h2>
-        <p class="text-gray-600 max-w-2xl mx-auto">Discover our most popular and powerful components, carefully crafted for modern web applications</p>
+        <p class="text-on-surface max-w-2xl mx-auto">Discover our most popular and powerful components, carefully crafted for modern web applications</p>
       </div>
 
       <div class="relative max-w-7xl mx-auto">
@@ -336,11 +336,11 @@ import { MatCardModule } from '@angular/material/card';
                               <h3 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors line-clamp-1">
                                 {{ c.title }}
                               </h3>
-                              <p class="text-xs text-gray-500 font-medium mt-1">{{ c.short }}</p>
+                              <p class="text-xs text-on-surface font-medium mt-1">{{ c.short }}</p>
                             </div>
                           </div>
 
-                          <p class="text-sm text-gray-600 leading-relaxed mb-5 flex-grow line-clamp-3">
+                          <p class="text-sm text-on-surface leading-relaxed mb-5 flex-grow line-clamp-3">
                             {{ c.description }}
                           </p>
 
@@ -435,7 +435,7 @@ import { MatCardModule } from '@angular/material/card';
                       Install the Package
                       <mat-icon class="text-base text-gray-400">download</mat-icon>
                     </h3>
-                    <p class="text-sm text-gray-600 mb-3">Add ng-mat-plus to your project using npm or yarn</p>
+                    <p class="text-sm text-on-surface mb-3">Add ng-mat-plus to your project using npm or yarn</p>
                     <div class="bg-gray-900 rounded-xl p-4 font-mono text-sm text-green-400 shadow-inner relative group/code overflow-hidden">
                       <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-purple-500/10 opacity-0 group-hover/code:opacity-100 transition-opacity"></div>
                       <div class="relative flex items-center justify-between">
@@ -462,7 +462,7 @@ import { MatCardModule } from '@angular/material/card';
                       Import Components
                       <mat-icon class="text-base text-gray-400">code</mat-icon>
                     </h3>
-                    <p class="text-sm text-gray-600 mb-3">Import components directly in your Angular modules or standalone components</p>
+                    <p class="text-sm text-on-surface mb-3">Import components directly in your Angular modules or standalone components</p>
                     <div >
                       <app-code-viewer [code]="exampleUsageCode"></app-code-viewer>
                     </div>
@@ -480,7 +480,7 @@ import { MatCardModule } from '@angular/material/card';
                       Add Material Icons
                       <mat-icon class="text-base text-gray-400">font_download</mat-icon>
                     </h3>
-                    <p class="text-sm text-gray-600 mb-3">Include Material Icons font in your index.html</p>
+                    <p class="text-sm text-on-surface mb-3">Include Material Icons font in your index.html</p>
                     <div class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
                       <code class="whitespace-pre">&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;</code>
                     </div>
@@ -497,7 +497,7 @@ import { MatCardModule } from '@angular/material/card';
                       Add Styles
                       <mat-icon class="text-base text-gray-400">integration_instructions</mat-icon>
                     </h3>
-                    <p class="text-sm text-gray-600 mb-3">Include styles.scss in your angular.json</p>
+                    <p class="text-sm text-on-surface mb-3">Include styles.scss in your angular.json</p>
                     <div class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
                       <code class="whitespace-pre">projects/ng-mat-plus/src/styles.scss</code>
                     </div>
@@ -515,15 +515,15 @@ import { MatCardModule } from '@angular/material/card';
         Add Peer Dependencies
         <mat-icon class="text-base text-gray-400">library_add_check</mat-icon>
       </h3>
-      <p class="text-sm text-gray-600 mb-3">Add the following dependencies to your <code>package.json</code> under
+      <p class="text-sm text-on-surface mb-3">Add the following dependencies to your <code>package.json</code> under
         <code>peerDependencies</code>.</p>
       <div
         class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
         <code class="whitespace-pre">
 "peerDependencies":
-  "@angular/common": "^20.2.0",
-  "@angular/core": "^20.2.0",
-  "@angular/material": "^20.2.0"
+  "@angular/common": ">=20.0.0 < 21.0.0",
+  "@angular/core": ">=20.0.0 < 21.0.0",
+  "@angular/material": ">=20.0.0 < 21.0.0"
 
         </code>
       </div>
@@ -542,7 +542,7 @@ import { MatCardModule } from '@angular/material/card';
                   </div>
                   <h4 class="font-bold text-gray-900">Pro Tip</h4>
                 </div>
-                <p class="text-sm text-gray-600 leading-relaxed">
+                <p class="text-sm text-on-surface leading-relaxed">
                   Use standalone imports for tree-shakable bundles and faster load times in production builds.
                 </p>
               </div>
@@ -581,7 +581,7 @@ import { MatCardModule } from '@angular/material/card';
                   <span class="text-sm opacity-75">Current Version</span>
                   <mat-icon class="text-green-400 animate-pulse">verified</mat-icon>
                 </div>
-                <div class="text-3xl font-bold">v0.0.2</div>
+                <div class="text-3xl font-bold">v1.0.0</div>
                 <div class="text-xs opacity-75 mt-1">Latest stable release</div>
               </div>
             </aside>
@@ -1039,7 +1039,7 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
     Styling: { bg: 'from-rose-50 to-rose-100', text: 'text-rose-600' },
     Display: { bg: 'from-blue-50 to-blue-100', text: 'text-blue-600' },
     Structure: { bg: 'from-lime-50 to-lime-100', text: 'text-lime-600' },
-    Core: { bg: 'from-gray-50 to-gray-100', text: 'text-gray-700' },
+    Core: { bg: 'from-gray-50 to-gray-100', text: '' },
     Input: { bg: 'from-violet-50 to-violet-100', text: 'text-violet-600' },
   };
 
@@ -1200,9 +1200,9 @@ export class LandingPageComponent implements AfterViewInit, OnInit {
       Layout: 'bg-cyan-100 text-cyan-700',
       Utility: 'bg-teal-100 text-teal-700',
       Styling: 'bg-rose-100 text-rose-700',
-      Display: 'bg-blue-100 text-blue-700',
+      Display: 'bg-blue-100 text-on-primary-container',
       Structure: 'bg-lime-100 text-lime-700',
-      Core: 'bg-gray-100 text-gray-700',
+      Core: 'bg-gray-100 ',
       Input: 'bg-violet-100 text-violet-700',
     };
     return badges[cat] || badges['Core'];

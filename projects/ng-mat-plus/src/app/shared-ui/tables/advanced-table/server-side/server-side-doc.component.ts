@@ -38,8 +38,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-          <div class="mt-2 text-sm text-blue-700">
+          <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+          <div class="mt-2 text-sm text-on-primary-container">
             <ul class="list-disc pl-5 mt-1 space-y-1">
               <li>Dual pagination modes (paginator and infinite scroll)</li>
               <li>Server-side sorting and pagination</li>
@@ -66,8 +66,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">    
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Large Dataset Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Large Dataset Management</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for applications dealing with thousands of records where client-side processing would be inefficient.
         </p>
       </div>
@@ -78,8 +78,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Enterprise Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Enterprise Applications</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for enterprise dashboards requiring server-side sorting and pagination with complex business logic.
         </p>
       </div>
@@ -90,8 +90,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Mobile-Friendly Lists</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Mobile-Friendly Lists</h3>
+        <p class="mt-2 text-on-surface">
           Infinite scroll mode provides better UX for mobile applications and long lists.
         </p>
       </div>
@@ -154,8 +154,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Setup</h3>
+        <p class="mt-2 text-on-surface">
           Basic configuration with required imports and template setup.
         </p>
       </div>
@@ -166,8 +166,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">State Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">State Management</h3>
+        <p class="mt-2 text-on-surface">
           Managing pagination state and data signals for both modes.
         </p>
       </div>
@@ -178,8 +178,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Fetching</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Fetching</h3>
+        <p class="mt-2 text-on-surface">
           Implementing server requests with pagination parameters.
         </p>
       </div>
@@ -190,8 +190,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Event Handlers</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Event Handlers</h3>
+        <p class="mt-2 text-on-surface">
           Handling pagination changes, sorting, and infinite scroll events.
         </p>
       </div>

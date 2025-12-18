@@ -129,7 +129,7 @@ export class ClientSideTableComponent {
             },
             isVisible: (row) => row.age > 24,
             isDisabled: (row) => row.age == 25,
-            class: 'text-blue-500 hover:text-blue-700',
+            class: 'text-blue-500 hover:text-on-primary-container',
             onClick: (row) => this.openEditForm(row),
           },
           {

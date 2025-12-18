@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Multi-Select Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Multi-Select Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several useful features:
                 </p>
@@ -72,8 +72,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Multi-Select Input</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Multi-Select Input</h3>
+            <p class="mt-2 text-on-surface">
               Simple multi-select input with options and FormControl binding.
             </p>
           </div>
@@ -84,8 +84,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">FormGroup Integration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">FormGroup Integration</h3>
+            <p class="mt-2 text-on-surface">
               Using multi-select within a FormGroup with validation.
             </p>
           </div>
@@ -96,8 +96,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Dynamic Options</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Options</h3>
+            <p class="mt-2 text-on-surface">
               Creating multi-select options dynamically from an array.
             </p>
           </div>
@@ -165,12 +165,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Disabled State</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Disabled State</h3>
+            <p class="mt-2 text-on-surface">
               Implementing disabled state for multi-select input.
             </p>
           </div>
@@ -181,8 +181,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -190,36 +190,36 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The label for the multi-select field (default: 'Select')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The label for the multi-select field (default: 'Select')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">placeholder</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Placeholder text (default: 'Choose options')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">placeholder</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Placeholder text (default: 'Choose options')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">options</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Array&lt;{{ '{' }}value: any, label: string{{ '}' }}&gt;</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of options to display in the multi-select</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">options</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Array&lt;{{ '{' }}value: any, label: string{{ '}' }}&gt;</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of options to display in the multi-select</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">control</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormControl</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The FormControl instance for the multi-select field</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">control</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">FormControl</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The FormControl instance for the multi-select field</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether the multi-select is disabled (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether the multi-select is disabled (default: false)</td>
                 </tr>
               </tbody>
             </table>

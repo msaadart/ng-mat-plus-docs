@@ -39,8 +39,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-blue-800">Key Differentiators</h3>
-          <div class="mt-2 text-sm text-blue-700">
+          <h3 class="text-sm font-medium text-on-primary-container">Key Differentiators</h3>
+          <div class="mt-2 text-sm text-on-primary-container">
             <p>
               This table provides advanced functionality, including:
             </p>
@@ -71,8 +71,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">    
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Interactive Data Grids</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Interactive Data Grids</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for applications requiring interactive tables with sorting, inline editing, and action buttons, such as user management dashboards.
         </p>
       </div>
@@ -83,8 +83,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Client-Side Data Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Client-Side Data Management</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for scenarios where small to medium datasets (up to 100 records) need to be managed client-side with reactive updates.
         </p>
       </div>
@@ -95,8 +95,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Customizable Admin Panels</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Customizable Admin Panels</h3>
+        <p class="mt-2 text-on-surface">
           Suitable for admin interfaces requiring custom row styling, action buttons, and dialog-based editing.
         </p>
       </div>
@@ -159,8 +159,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Component Setup</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Setup</h3>
+        <p class="mt-2 text-on-surface">
           Requires importing the <code>LibAdvancedClientTableComponent</code> and configuring columns, row settings, and data signals.
         </p>
       </div>
@@ -171,8 +171,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Columns support multiple types (text, number, date, checkbox) with validation and action buttons.
         </p>
       </div>
@@ -183,8 +183,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Row Interactions</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Row Interactions</h3>
+        <p class="mt-2 text-on-surface">
           Supports click, double-click, and conditional styling for rows, with serial number rendering.
         </p>
       </div>
@@ -195,8 +195,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management</h3>
+        <p class="mt-2 text-on-surface">
           Uses signals for reactive updates and supports dialog-based editing and row deletion.
         </p>
       </div>

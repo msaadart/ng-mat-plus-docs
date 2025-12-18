@@ -23,7 +23,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #overviewContent>
       <div class="space-y-4">
-        <p class="text-gray-700">
+        <p class="">
           The <code class="     px-1 py-0.5 rounded ">&lt;lib-tooltip&gt;</code> component provides a flexible way to add tooltips to any element with various customization options. It wraps Angular Material's tooltip with additional features.
         </p>
         
@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several powerful features:
                 </p>
@@ -53,7 +53,7 @@ import { DocumentationComponent } from "../documentation/documentation.component
         </div>
         
         <h3 class="text-xl font-semibold mt-6">When to Use</h3>
-        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+        <ul class="list-disc pl-5 space-y-2 ">
           <li>To provide additional information about UI elements</li>
           <li>For form field descriptions</li>
           <li>To show help text for icons or buttons</li>
@@ -66,8 +66,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Tooltip</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Tooltip</h3>
+            <p class="mt-2 text-on-surface">
               Simple tooltip attached to a button element.
             </p>
           </div>
@@ -78,8 +78,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Tooltip with Icon</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Tooltip with Icon</h3>
+            <p class="mt-2 text-on-surface">
               Tooltip attached to an information icon.
             </p>
           </div>
@@ -90,8 +90,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Position</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Position</h3>
+            <p class="mt-2 text-on-surface">
               Tooltip with custom positioning and delay settings.
             </p>
           </div>
@@ -156,12 +156,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Delays</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Delays</h3>
+            <p class="mt-2 text-on-surface">
               Implementing custom show/hide delays for better UX.
             </p>
           </div>
@@ -172,8 +172,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -181,41 +181,41 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">message</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The text message to display in the tooltip</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">message</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The text message to display in the tooltip</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">position</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'left' | 'right' | 'above' | 'below' | 'before' | 'after'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Position relative to the element (default: 'below')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">position</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'left' | 'right' | 'above' | 'below' | 'before' | 'after'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Position relative to the element (default: 'below')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether the tooltip is disabled (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether the tooltip is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">showDelay</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Delay in ms before showing the tooltip (default: 0)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">showDelay</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Delay in ms before showing the tooltip (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">hideDelay</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Delay in ms before hiding the tooltip (default: 0)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">hideDelay</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Delay in ms before hiding the tooltip (default: 0)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">touchGestures</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'auto' | 'on' | 'off'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">How touch gestures should be handled (default: 'auto')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">touchGestures</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'auto' | 'on' | 'off'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">How touch gestures should be handled (default: 'auto')</td>
                 </tr>
               </tbody>
             </table>

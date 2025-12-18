@@ -143,7 +143,7 @@ interface DummyUsersResponse {
           <h1 class="text-3xl font-semibold  mb-2">
             Fetch & Subscribe API Demo
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -163,7 +163,7 @@ interface DummyUsersResponse {
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Username</label
                   >
                   <input
@@ -176,7 +176,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Email</label
                   >
                   <input
@@ -190,7 +190,7 @@ interface DummyUsersResponse {
 
                 <div class="grid grid-cols-2 gap-3">
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >First Name</label
                     >
                     <input
@@ -203,7 +203,7 @@ interface DummyUsersResponse {
                   </div>
 
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >Last Name</label
                     >
                     <input
@@ -217,7 +217,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Gender</label
                   >
                   <select
@@ -232,7 +232,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Profile Image URL</label
                   >
                   <input
@@ -262,7 +262,7 @@ interface DummyUsersResponse {
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >ID</label
                   >
                   <input
@@ -276,7 +276,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Username</label
                   >
                   <input
@@ -289,7 +289,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Email</label
                   >
                   <input
@@ -303,7 +303,7 @@ interface DummyUsersResponse {
 
                 <div class="grid grid-cols-2 gap-3">
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >First Name</label
                     >
                     <input
@@ -316,7 +316,7 @@ interface DummyUsersResponse {
                   </div>
 
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >Last Name</label
                     >
                     <input
@@ -330,7 +330,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Gender</label
                   >
                   <select
@@ -345,7 +345,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Profile Image URL</label
                   >
                   <input
@@ -375,7 +375,7 @@ interface DummyUsersResponse {
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >User ID</label
                   >
                   <input
@@ -445,7 +445,7 @@ interface DummyUsersResponse {
                       <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>

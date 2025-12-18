@@ -86,7 +86,7 @@ interface ModalParam {
       <div
         class="mt-10 p-6  rounded-lg shadow-md border border-gray-300"
       >
-        <h2 class="text-xl font-semibold text-gray-600 mb-4">
+        <h2 class="text-xl font-semibold text-on-surface mb-4">
           How to Use Modal Service
         </h2>
         <p class="text-on-surface">
@@ -124,7 +124,7 @@ interface ModalParam {
           </tbody>
         </table>
 
-        <div class="mt-4 text-sm text-gray-600">
+        <div class="mt-4 text-sm text-on-surface">
           * Conditional: Either <code>component</code>, <code>message</code>,
           or <code>icon</code> must be provided for the modal to have content.
         </div>

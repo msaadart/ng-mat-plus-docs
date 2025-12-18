@@ -28,8 +28,8 @@ import { CardComponent } from './card.component';
           for displaying content in a card layout.
         </p>
         <div class="   border-blue-500 p-4 my-4">
-          <h3 class="text-sm font-medium text-blue-800">Structure</h3>
-          <ul class="list-disc pl-5 mt-2 text-sm text-blue-700 space-y-1">
+          <h3 class="text-sm font-medium text-on-primary-container">Structure</h3>
+          <ul class="list-disc pl-5 mt-2 text-sm text-on-primary-container space-y-1">
             <li><strong>Header</strong> – Place titles, actions, or metadata.</li>
             <li><strong>Body</strong> – Main content area (text, forms, media, etc.).</li>
             <li><strong>Footer</strong> – Secondary actions such as buttons or links.</li>
@@ -43,17 +43,17 @@ import { CardComponent } from './card.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Common Scenarios</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Common Scenarios</h3>
+            <p class="mt-2 text-on-surface">
               Examples where <code>&lt;lib-card&gt;</code> is useful:
             </p>
-            <ul class="list-disc pl-5 mt-3 space-y-1 text-gray-700 text-sm">
+            <ul class="list-disc pl-5 mt-3 space-y-1  text-sm">
               <li>Notification previews</li>
               <li>Profile or user info cards</li>
               <li>Dashboard widgets</li>
               <li>Product or content previews</li>
             </ul>
-            <p class="mt-4 text-sm text-gray-600">
+            <p class="mt-4 text-sm text-on-surface">
               It also emits 
               <code class="     px-1 py-0.5 rounded ">(cardClick)</code> 
               and 
@@ -82,12 +82,12 @@ import { CardComponent } from './card.component';
     <!-- Other -->
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Theming & Extensibility</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Theming & Extensibility</h3>
+            <p class="mt-2 text-on-surface">
               You can extend <code>&lt;lib-card&gt;</code> to include media sections 
               (images/videos) or theme it with CSS variables for colors, spacing, 
               and shadows.
@@ -116,8 +116,8 @@ export class CardDocComponent {
     >
       <!-- Header -->
       <div card-header class="flex justify-between items-center pb-1 mb-2 border-b">
-        <span class="font-medium text-blue-700">John Doe</span>
-        <time class="text-xs text-gray-500">2025-09-08 10:30 AM</time>
+        <span class="font-medium text-on-primary-container">John Doe</span>
+        <time class="text-xs text-on-surface">2025-09-08 10:30 AM</time>
       </div>
 
       <!-- Body -->

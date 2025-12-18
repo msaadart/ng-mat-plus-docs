@@ -1,7 +1,7 @@
-import { CommonModule, DOCUMENT } from '@angular/common';
-import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { LibThemeDarkLightService } from 'ng-mat-plus/services';
 
-type TTheme = 'dark' | 'light';
 
 @Component({
   selector: 'app-theme-dark-light',
@@ -9,11 +9,16 @@ type TTheme = 'dark' | 'light';
   imports: [CommonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div [class.dark]="isDarkTheme()" class="p-4 flex flex-col items-center gap-4 transition-colors duration-300">
-      <p>Current theme: <strong>{{ currentTheme() }}</strong></p>
-      <button (click)="toggleTheme()" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
+    <div class="flex flex-col items-center p-4" [ngClass]="{
+    'bg-slate-900 text-slate-100 border-slate-700': $themeService.isDarkTheme(),
+    'bg-white text-gray-500 border-gray-100': !$themeService.isDarkTheme()
+  }">
+
+      <p class="mr-3">Current theme: <strong>{{ $themeService.isDarkTheme() ? 'dark' : 'light' }}</strong></p>
+      <button (click)="$themeService.toggleTheme()" class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
         Toggle Theme
       </button>
+   
     </div>
   `,
   styles: [`
@@ -24,36 +29,7 @@ type TTheme = 'dark' | 'light';
   `]
 })
 export class ThemeDarkLightComponent {
-  private _document = inject(DOCUMENT);
+  protected $themeService = inject(LibThemeDarkLightService);
 
-  /** Signal holding current theme */
-  private _currentTheme = signal<TTheme>(this.getThemeFromLocalStorage());
-
-  /** Computed signal to check if dark theme is active */
-  readonly isDarkTheme = computed(() => this._currentTheme() === 'dark');
-
-  /** Current theme string for template */
-  readonly currentTheme = computed(() => this._currentTheme());
-
-  constructor() {
-    this.applyTheme(this._currentTheme()); // Apply saved or default theme
-  }
-
-  /** Toggle between light and dark themes */
-  toggleTheme(): void {
-    const newTheme: TTheme = this._currentTheme() === 'light' ? 'dark' : 'light';
-    this.applyTheme(newTheme);
-  }
-
-  /** Apply theme and persist in localStorage */
-  private applyTheme(theme: TTheme): void {
-    this._currentTheme.set(theme);
-    this._document.documentElement.classList.toggle('dark', theme === 'dark');
-    localStorage.setItem('preferred-theme', theme);
-  }
-
-  /** Retrieve saved theme from localStorage */
-  private getThemeFromLocalStorage(): TTheme {
-    return (localStorage.getItem('preferred-theme') as TTheme) || 'light';
-  }
+ 
 }

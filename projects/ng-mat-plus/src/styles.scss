@@ -3,16 +3,18 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  src: local('Poppins'), url('/fonts/Poppins/Poppins-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  src: local('Poppins'), url('/fonts/Poppins/Poppins-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 html,
@@ -65,4 +67,22 @@ html.dark {
         regular-weight: 300,
       ),
       density: 0));
+}
+
+*:focus{
+  outline: none;
+}
+
+.lib-mat-row:hover .lib-mat-cell {
+  background-color: var(--mat-sys-surface-bright) !important;
+  color: var(--mat-sys-on-surface) !important;
+}
+
+.mat-mdc-paginator, html.dark .lib-mat-header-row, html.dark .lib-mat-header-row .lib-mat-header-cell{
+  background-color: var(--mat-sys-surface-bright) !important;
+  color: var(--mat-sys-on-surface) !important;
+}
+
+.to-green-50 , .to-indigo-50, .to-pink-50{
+  color: #000 !important;
 }

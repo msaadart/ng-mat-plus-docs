@@ -30,15 +30,16 @@
               }
             ],
             "styles": [
-              "projects/ng-mat-plus/src/styles.scss",
               "node_modules/material-design-icons-iconfont/dist/material-design-icons.css",
-              "node_modules/ng-mat-plus/ng-mat-plus.css"
+              "node_modules/ng-mat-plus/ng-mat-plus.css",
+              "projects/ng-mat-plus/src/styles.scss"
                         ]
           },
           "configurations": {
             "production": {
               "optimization": true,
               "sourceMap": false,
+              "extractLicenses": true,
               "namedChunks": false,
               "budgets": [
                 {

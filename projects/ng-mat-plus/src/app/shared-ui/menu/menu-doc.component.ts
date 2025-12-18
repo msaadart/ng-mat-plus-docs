@@ -35,8 +35,8 @@ import { MenuComponent } from './menu.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Multiple animation options (fade, scale, bounce, etc.)</li>
                   <li>Flexible content projection with header, body and footer sections</li>
@@ -65,8 +65,8 @@ import { MenuComponent } from './menu.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Menu</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Menu</h3>
+            <p class="mt-2 text-on-surface">
               Standard menu with default settings and simple content.
             </p>
           </div>
@@ -77,8 +77,8 @@ import { MenuComponent } from './menu.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Menu with Sections</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Menu with Sections</h3>
+            <p class="mt-2 text-on-surface">
               Menu with header, body and footer sections for organized content.
             </p>
           </div>
@@ -89,8 +89,8 @@ import { MenuComponent } from './menu.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Animation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Animation</h3>
+            <p class="mt-2 text-on-surface">
               Menu with custom animation type and arrow position.
             </p>
           </div>
@@ -155,12 +155,12 @@ import { MenuComponent } from './menu.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Programmatic Control</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Programmatic Control</h3>
+            <p class="mt-2 text-on-surface">
               Controlling the menu programmatically with component methods.
             </p>
           </div>
@@ -171,8 +171,8 @@ import { MenuComponent } from './menu.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -180,21 +180,21 @@ import { MenuComponent } from './menu.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">animationType</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'fade' | 'scale' | 'bounce' | 'slide-down' | 'flip' | 'pull-down'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The animation type for menu appearance (default: 'pull-down')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">animationType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'fade' | 'scale' | 'bounce' | 'slide-down' | 'flip' | 'pull-down'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The animation type for menu appearance (default: 'pull-down')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">arrowPosition</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">'top-right' | 'top-left'</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Position of the menu arrow (default: 'top-left')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">arrowPosition</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">'top-right' | 'top-left'</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Position of the menu arrow (default: 'top-left')</td>
                 </tr>
               </tbody>
             </table>
@@ -203,8 +203,8 @@ import { MenuComponent } from './menu.component';
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Content Projection</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Content Projection</h3>
+            <p class="mt-2 text-on-surface">
               Available content projection slots.
             </p>
           </div>
@@ -212,22 +212,22 @@ import { MenuComponent } from './menu.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Selector</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Selector</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuHeader]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu header section</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">[menuHeader]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Content projected into the menu header section</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuBody]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu body section</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">[menuBody]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Content projected into the menu body section</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">[menuFooter]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Content projected into the menu footer section</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">[menuFooter]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Content projected into the menu footer section</td>
                 </tr>
               </tbody>
             </table>

@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 import {
   ChangeDetectionStrategy,
   Component,
@@ -43,7 +43,8 @@ interface MenuItem {
     RouterModule,
     MatSlideToggleModule,
     MatTooltipModule,
-    LibMatSlideToggleComponent
+    LibMatSlideToggleComponent,
+    NgOptimizedImage
   ],
   templateUrl: './side-bar.component.html',
   styles: [`

@@ -35,8 +35,8 @@ import { NotificationPreviewComponent } from './notification-card.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Avatar generation from sender initials</li>
                   <li>Formatted timestamp display</li>
@@ -65,15 +65,15 @@ import { NotificationPreviewComponent } from './notification-card.component';
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Notification Card</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Notification Card</h3>
+            <p class="mt-2 text-on-surface">
               Standard notification card with sender, timestamp and source.
             </p>
             <div class="mt-4">
               <lib-notification-card 
                 [sender]="'John Doe'" 
                 [createdDate]="demoDate">
-                <p class="text-sm text-gray-600 mt-2">Your account has been updated successfully.</p>
+                <p class="text-sm text-on-surface mt-2">Your account has been updated successfully.</p>
               </lib-notification-card>
             </div>
           </div>
@@ -84,8 +84,8 @@ import { NotificationPreviewComponent } from './notification-card.component';
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Interactive Card</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Interactive Card</h3>
+            <p class="mt-2 text-on-surface">
               Card with click handlers and additional content.
             </p>
             <div class="mt-4">
@@ -163,12 +163,12 @@ import { NotificationPreviewComponent } from './notification-card.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -176,26 +176,26 @@ import { NotificationPreviewComponent } from './notification-card.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">sender</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The name/identifier of the notification sender (default: '')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">sender</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The name/identifier of the notification sender (default: '')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">createdDate</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Date</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">When the notification was created (default: current date)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">createdDate</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Date</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">When the notification was created (default: current date)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">sourceType</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Notification source/type (default: '')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">sourceType</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Notification source/type (default: '')</td>
                 </tr>
               </tbody>
             </table>
@@ -204,8 +204,8 @@ import { NotificationPreviewComponent } from './notification-card.component';
 
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Output Events</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Output Events</h3>
+            <p class="mt-2 text-on-surface">
               Available event outputs.
             </p>
           </div>
@@ -213,18 +213,18 @@ import { NotificationPreviewComponent } from './notification-card.component';
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Event</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Event</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onClick</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emitted when card is clicked</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">onClick</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emitted when card is clicked</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">onDblClick</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emitted when card is double-clicked</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">onDblClick</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emitted when card is double-clicked</td>
                 </tr>
               </tbody>
             </table>

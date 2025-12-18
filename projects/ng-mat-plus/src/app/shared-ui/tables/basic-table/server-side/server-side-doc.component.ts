@@ -38,8 +38,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-blue-800">Key Differentiators</h3>
-          <div class="mt-2 text-sm text-blue-700">
+          <h3 class="text-sm font-medium text-on-primary-container">Key Differentiators</h3>
+          <div class="mt-2 text-sm text-on-primary-container">
             <p>
               This server-side implementation offers:
             </p>
@@ -70,8 +70,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">    
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Enterprise Data Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Enterprise Data Applications</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for applications dealing with large datasets where client-side processing would be inefficient.
         </p>
       </div>
@@ -82,8 +82,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Dashboard Interfaces</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Dashboard Interfaces</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for dashboards requiring both traditional pagination and infinite scroll views of the same data.
         </p>
       </div>
@@ -94,8 +94,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">API-Driven Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">API-Driven Applications</h3>
+        <p class="mt-2 text-on-surface">
           Suitable for applications where data filtering and sorting is handled server-side.
         </p>
       </div>
@@ -158,8 +158,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Component Structure</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Structure</h3>
+        <p class="mt-2 text-on-surface">
           The component demonstrates two table implementations with shared configuration.
         </p>
       </div>
@@ -170,8 +170,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Shared column configuration used by both table implementations.
         </p>
       </div>
@@ -182,8 +182,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Data Fetching</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Fetching</h3>
+        <p class="mt-2 text-on-surface">
           Server-side data fetching implementation for both pagination modes.
         </p>
       </div>
@@ -194,8 +194,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
     
     <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-600">Event Handling</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Event Handling</h3>
+        <p class="mt-2 text-on-surface">
           Handling pagination and sort events for both table types.
         </p>
       </div>
@@ -219,7 +219,7 @@ export class ServerSideDocComponent {
   publishedDate = '2025-11-08';
   title = 'Basic Table (Server Side)';
   htmlCode = `
-    <h2 class="text-gray-600 font-semibold mb-4">Paginator Base</h2>
+    <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-basic-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -229,7 +229,7 @@ export class ServerSideDocComponent {
         (pageChanged)="onPageChange($event)"
         (sortChanged)="onPageSortChange($event)">
       </lib-basic-server-table>
-    <h2 class="text-gray-600 font-semibold mb-4">Scroll Base</h2>
+    <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-basic-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"
@@ -370,7 +370,7 @@ export class ServerSideDocComponent {
               tooltip: (row) => (row.age < 20 ? '' : \`\Edit \${row.name}\`\),
               isVisible: (row) => row.age > 24,
               isDisabled: (row) => row.age === 25,
-              class: 'text-blue-500 hover:text-blue-700',
+              class: 'text-blue-500 hover:text-on-primary-container',
               onClick: (row) => this.openEditForm(row),
             },
             {

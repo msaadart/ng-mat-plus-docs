@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Month/year selection with dropdowns or text input</li>
                   <li>Built-in validation for past/future dates</li>
@@ -66,8 +66,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
       <div class="space-y-6">    
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Basic Month Picker</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Month Picker</h3>
+            <p class="mt-2 text-on-surface">
               Standard month picker with default settings.
             </p>
           </div>
@@ -78,8 +78,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">FormGroup Integration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">FormGroup Integration</h3>
+            <p class="mt-2 text-on-surface">
               Using the month picker within a larger form with validation.
             </p>
           </div>
@@ -90,8 +90,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Future Date Validation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Future Date Validation</h3>
+            <p class="mt-2 text-on-surface">
               Restricting selection to future months only.
             </p>
           </div>
@@ -157,12 +157,12 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Custom Date Range Validation</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Date Range Validation</h3>
+            <p class="mt-2 text-on-surface">
               Implementing custom month/year validation with specific requirements.
             </p>
           </div>
@@ -173,8 +173,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
         
         <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-600">Input Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Input Properties</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties.
             </p>
           </div>
@@ -182,46 +182,46 @@ import { DocumentationComponent } from "../documentation/documentation.component
             <table class="min-w-full divide-y divide-gray-200">
               <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
               <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">label</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The label text for the month picker (default: 'Select month')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">label</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The label text for the month picker (default: 'Select month')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">placeholder</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Placeholder text displayed when the input is empty (default: 'MM/YYYY')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">placeholder</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Placeholder text displayed when the input is empty (default: 'MM/YYYY')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">control</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">FormControl</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">The FormControl instance for this input</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">control</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">FormControl</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">The FormControl instance for this input</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">disabled</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Whether the input is disabled (default: false)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disabled</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Whether the input is disabled (default: false)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">minDate</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Date</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Minimum selectable date (inclusive)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">minDate</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Date</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Minimum selectable date (inclusive)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">maxDate</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Date</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Maximum selectable date (inclusive)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">maxDate</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Date</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Maximum selectable date (inclusive)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-600">format</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Display format (default: 'MM/YYYY')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">format</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Display format (default: 'MM/YYYY')</td>
                 </tr>
               </tbody>
             </table>

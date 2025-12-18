@@ -90,7 +90,7 @@ export class LibBreadcrumbService {
     <nav class="p-4 border rounded-md ">
       <div class="flex items-center flex-wrap gap-2">
         @for (bc of breadcrumbService.breadcrumbs(); track bc.url) {
-          <a class="px-2 py-1 rounded-md      text-blue-700 hover:bg-gray-200" [routerLink]="bc.url">{{ bc.label }}</a>
+          <a class="px-2 py-1 rounded-md      text-on-primary-container hover:bg-gray-200" [routerLink]="bc.url">{{ bc.label }}</a>
           <span class="text-gray-400">›</span>
         }
       </div>
