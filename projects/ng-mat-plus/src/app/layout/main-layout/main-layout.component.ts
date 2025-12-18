@@ -9,11 +9,12 @@ import { LibLoadingService } from 'ng-mat-plus/services';
 import { RouterModule } from '@angular/router';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { SideBarComponent } from '../side-bar/side-bar.component';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-main-layout',
   standalone: true,
-  imports: [RouterModule, MatSidenavModule, SideBarComponent],
+  imports: [RouterModule, MatSidenavModule, SideBarComponent,HeaderComponent],
   templateUrl: './main-layout.component.html',
   styles: [`
     .mat-drawer {

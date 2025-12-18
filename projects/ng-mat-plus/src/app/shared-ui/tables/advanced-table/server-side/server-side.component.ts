@@ -16,8 +16,8 @@ import { LibAdvancedServerTableComponent } from 'ng-mat-plus/lib-tables';
   standalone: true,
   imports: [LibAdvancedServerTableComponent],
   template: `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
-      <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>
+    <div class="rounded-xl shadow border border-gray-200  p-4">
+      <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-advanced-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -30,8 +30,8 @@ import { LibAdvancedServerTableComponent } from 'ng-mat-plus/lib-tables';
       >
       </lib-advanced-server-table>
     </div>
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4 mt-5">
-      <h2 class="text-gray-900 font-semibold mb-4">Scroll Base</h2>
+    <div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
+      <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-advanced-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"
@@ -136,7 +136,7 @@ export class ServerSideTableComponent {
   rowConfig: IAdvancedTableRowConfig<users> = {
     onClick: (row) => this.toastService.success(`Row clicked: ${row.name}`),
     onDblClick: (row) => this.toastService.info(`Row double-clicked: ${row.name}`),
-    class: 'cursor-pointer hover:bg-gray-50'
+    class: 'cursor-pointer hover:   '
   };
 
   // Data Operations

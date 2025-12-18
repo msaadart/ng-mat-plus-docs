@@ -13,7 +13,7 @@ import {
   LibWeekComponent,
   LibTextFieldComponent,
   LibCheckboxComponent,
-  LibRadioBtnComponent,
+  LibRadioGroupComponent,
   LibNumberComponent
 } from 'ng-mat-plus/lib-forms';
 import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons'; 
@@ -41,8 +41,8 @@ import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
       </lib-mat-button>
     </div>
 
-    <div *ngIf="showConfig" class="p-4 bg-gray-100 rounded shadow-md overflow-auto">
-      <pre class="text-sm text-gray-800">{{ formConfig | json }}</pre>
+    <div *ngIf="showConfig" class="p-4      rounded shadow-md overflow-auto">
+      <pre class="text-sm ">{{ formConfig | json }}</pre>
     </div>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -66,7 +66,7 @@ export class DynamicObjectFormComponent implements OnInit, AfterViewInit {
     week: LibWeekComponent,
     text: LibTextFieldComponent,
     checkbox: LibCheckboxComponent,
-    radio: LibRadioBtnComponent,
+    radio: LibRadioGroupComponent,
     number: LibNumberComponent
   };
 

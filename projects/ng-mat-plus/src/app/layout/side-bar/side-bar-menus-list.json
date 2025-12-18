@@ -37,9 +37,11 @@
     "subMenu": [
       { "label": "Data Transfer", "route": "services/data-transfer", "icon": "sync_alt" },
       { "label": "Encrypt & Decrypt", "route": "services/encrypt-decrypt", "icon": "vpn_key" },
-      { "label": "Toast Service", "route": "services/toast-service", "icon": "notifications" },
-      { "label": "Debounce Service", "route": "services/debouncing-service", "icon": "timer" },
-      { "label": "Throttling Service", "route": "services/throttling-service", "icon": "speed" }
+      { "label": "Toast", "route": "services/toast-service", "icon": "notifications" },
+      { "label": "Debounce", "route": "services/debouncing-service", "icon": "timer" },
+      { "label": "Throttling", "route": "services/throttling-service", "icon": "speed" },
+      { "label": "Breadcrumb", "route": "services/breadcrumb-service", "icon": "speed" },
+      { "label": "Theme Dark Light", "route": "services/theme-service", "icon": "speed" }
     ]
   },
   {
@@ -119,6 +121,7 @@
       { "label": "Card", "route": "components/list/card", "icon": "cards_star" }
     ]
   },
+  
   {
     "icon": "hourglass_top",
     "label": "Loader",

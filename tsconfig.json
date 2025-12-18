@@ -7,11 +7,6 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "paths": {
-      "ng-mat-plus/*": [
-        "C:/saad/project-saad/ihhn/ng-mat-plus-library/dist/ng-mat-plus/*"
-      ]
-    },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,

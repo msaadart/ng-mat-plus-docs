@@ -120,7 +120,6 @@ interface DummyUsersResponse {
       }
 
       .card {
-        background-color: #ffffff;
         border-radius: 0.5rem;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
         border: 1px solid #e5e7eb;
@@ -134,14 +133,14 @@ interface DummyUsersResponse {
     `,
   ],
   template: `
-    <div class="min-h-screen p-4 bg-gray-50">
+    <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <!-- Header -->
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 class="text-3xl font-semibold  mb-2">
             Crud Resource
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -149,19 +148,19 @@ interface DummyUsersResponse {
         <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
           <!-- Column 1: CRUD Operations -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               CRUD Operations
             </h2>
 
             <!-- Create User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Create User
               </h3>
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Username</label
                   >
                   <input
@@ -174,7 +173,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Email</label
                   >
                   <input
@@ -188,7 +187,7 @@ interface DummyUsersResponse {
 
                 <div class="grid grid-cols-2 gap-3">
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >First Name</label
                     >
                     <input
@@ -201,7 +200,7 @@ interface DummyUsersResponse {
                   </div>
 
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >Last Name</label
                     >
                     <input
@@ -215,7 +214,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Gender</label
                   >
                   <select
@@ -230,7 +229,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Profile Image URL</label
                   >
                   <input
@@ -254,13 +253,13 @@ interface DummyUsersResponse {
 
             <!-- Update User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Update User
               </h3>
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >ID</label
                   >
                   <input
@@ -274,7 +273,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Username</label
                   >
                   <input
@@ -287,7 +286,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Email</label
                   >
                   <input
@@ -301,7 +300,7 @@ interface DummyUsersResponse {
 
                 <div class="grid grid-cols-2 gap-3">
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >First Name</label
                     >
                     <input
@@ -314,7 +313,7 @@ interface DummyUsersResponse {
                   </div>
 
                   <div>
-                    <label class="block text-sm font-medium text-gray-700 mb-2"
+                    <label class="block text-sm font-medium  mb-2"
                       >Last Name</label
                     >
                     <input
@@ -328,7 +327,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Gender</label
                   >
                   <select
@@ -343,7 +342,7 @@ interface DummyUsersResponse {
                 </div>
 
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >Profile Image URL</label
                   >
                   <input
@@ -367,13 +366,13 @@ interface DummyUsersResponse {
 
             <!-- Delete User Card -->
             <div class="card p-5">
-              <h3 class="text-lg font-medium text-gray-800 mb-4">
+              <h3 class="text-lg font-medium  mb-4">
                 Delete User
               </h3>
 
               <div class="space-y-4">
                 <div>
-                  <label class="block text-sm font-medium text-gray-700 mb-2"
+                  <label class="block text-sm font-medium  mb-2"
                     >User ID</label
                   >
                   <input
@@ -409,13 +408,13 @@ interface DummyUsersResponse {
 
           <!-- Column 2: Data Resources -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               List Resource
             </h2>
 
             <div class="card p-5 max-h-full">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">Users</h3>
+                <h3 class="text-lg font-medium ">Users</h3>
                 <div class="flex items-center space-x-2">
                   <span
                     class="status-badge"
@@ -447,7 +446,7 @@ interface DummyUsersResponse {
                 @for(user of usersResource.list.data()?.users || [];
                 track user.id) {
                 <div
-                  class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer"
+                  class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow cursor-pointer"
                   (click)="prefillUpdateUser(user.id);">
                   <div class="flex items-center space-x-3">
                     <img
@@ -456,10 +455,10 @@ interface DummyUsersResponse {
                       class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                     />
                     <div class="flex-1 min-w-0">
-                      <p class="font-medium text-sm text-gray-800 truncate">
+                      <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>

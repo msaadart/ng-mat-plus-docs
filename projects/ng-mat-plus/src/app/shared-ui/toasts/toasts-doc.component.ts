@@ -24,10 +24,10 @@ import { ToastsComponent } from './toasts.component';
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibToastService</code> provides a simple way to display toast notifications with different severity levels. Toasts are non-modal, time-limited messages that appear at the bottom of the screen.
+          The <code class="     px-1 py-0.5 rounded ">LibToastService</code> provides a simple way to display toast notifications with different severity levels. Toasts are non-modal, time-limited messages that appear at the bottom of the screen.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -35,8 +35,8 @@ import { ToastsComponent } from './toasts.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Four severity levels: success, info, warning, and error</li>
                   <li>Auto-dismiss after configurable timeout</li>
@@ -63,38 +63,38 @@ import { ToastsComponent } from './toasts.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Usage</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Usage</h3>
+            <p class="mt-2 text-on-surface">
               Showing different types of toast notifications.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicUsageExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Duration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Duration</h3>
+            <p class="mt-2 text-on-surface">
               Controlling how long a toast remains visible.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customDurationExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Position Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Position Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Changing where toasts appear on screen.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="positionConfigExample"></app-code-viewer>
           </div>
         </div>
@@ -103,16 +103,16 @@ import { ToastsComponent } from './toasts.component';
 
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5  " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Usage Guidelines</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Usage Guidelines</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   When using toast notifications:
                 </p>
@@ -128,16 +128,16 @@ import { ToastsComponent } from './toasts.component';
           </div>
         </div>
         
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5 " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">UX Recommendations</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">UX Recommendations</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   For optimal user experience:
                 </p>
@@ -157,61 +157,61 @@ import { ToastsComponent } from './toasts.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Global Configuration</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Global Configuration</h3>
+            <p class="mt-2 text-on-surface">
               Setting default options for all toasts in your application.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="globalConfigExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Service Methods</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Service Methods</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available service methods.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Method</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Parameters</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Method</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Parameters</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">success</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a success toast (green)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">success</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a success toast (green)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">info</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an info toast (blue)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">info</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an info toast (blue)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">warning</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows a warning toast (orange)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">warning</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows a warning toast (orange)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">error</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">message: string, options?: ToastOptions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Shows an error toast (red)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">error</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">message: string, options?: ToastOptions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Shows an error toast (red)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">clearAll</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">none</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dismisses all currently visible toasts</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">clearAll</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">none</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dismisses all currently visible toasts</td>
                 </tr>
               </tbody>
             </table>
@@ -229,7 +229,7 @@ export class ToastsDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   toastsComponent = ToastsComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Toast Notifications Service';
 
   htmlCode = `

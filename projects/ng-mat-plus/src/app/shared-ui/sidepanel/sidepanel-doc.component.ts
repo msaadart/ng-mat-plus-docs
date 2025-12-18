@@ -26,14 +26,14 @@ import { SidePanelComponent } from './sidepanel.component';
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded "
             >LibSidePanelComponent</code
           >
           is a flexible overlay panel component that can be positioned on any side of the screen
           with smooth animations and customizable content.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -49,10 +49,10 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">
+              <h3 class="text-sm font-medium text-on-primary-container">
                 Side Panel Features
               </h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>This component includes several advanced features:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Multiple positioning options (left, right, top, bottom)</li>
@@ -97,58 +97,58 @@ import { SidePanelComponent } from './sidepanel.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Basic Side Panel
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Simple side panel with default position and animation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Right Positioned Panel
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Side panel positioned on the right side with custom animation.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="rightPanelExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Top/Bottom Panels
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Panels positioned at the top or bottom of the screen.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="topBottomPanelExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Programmatic Control
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Controlling the panel programmatically using ViewChild.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="programmaticControlExample"></app-code-viewer>
           </div>
         </div>
@@ -157,11 +157,11 @@ import { SidePanelComponent } from './sidepanel.component';
 
     <ng-template #noteContent>
       <div class="space-y-4">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-yellow-500"
+                class="h-5 w-5  "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -173,10 +173,10 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium ">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <p>When using this component:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -195,11 +195,11 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-purple-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -211,10 +211,10 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Accessibility Tips
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm">
                 <p>For accessibility compliance:</p>
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
@@ -233,11 +233,11 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-green-500"
+                class="h-5 w-5 "
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
@@ -249,8 +249,8 @@ import { SidePanelComponent } from './sidepanel.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">Best Practices</h3>
-              <div class="mt-2 text-sm text-green-700">
+              <h3 class="text-sm font-medium ">Best Practices</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Use appropriate panel position for your use case</li>
                   <li>Set reasonable animation durations (200-500ms)</li>
@@ -269,82 +269,82 @@ import { SidePanelComponent } from './sidepanel.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Configuration Options</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Configuration Options</h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Input Properties Reference
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Complete list of available input properties with descriptions.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Property
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Type
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Default
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Description
                     </th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       position
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'left' | 'right' | 'top' | 'bottom'
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       'left'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Position of the side panel on the screen
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       animationType
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       string
                     </td>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"
+                      class="px-6 py-4 whitespace-nowrap text-sm text-on-surface"
                     >
                       '200ms'
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Animation duration and easing (e.g., '300ms ease-out')
                     </td>
                   </tr>
@@ -354,75 +354,75 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Public Methods Reference
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Methods exposed by <code>LibSidePanelComponent</code> that
               can be called programmatically using <code>ViewChild</code>.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <div class="overflow-x-auto">
               <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
+                <thead class="   ">
                   <tr>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Method
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Parameters
                     </th>
                     <th
-                      class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider"
                     >
                       Description
                     </th>
                   </tr>
                 </thead>
-                <tbody class="bg-white divide-y divide-gray-200">
+                <tbody class=" divide-y divide-gray-200">
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       open
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">
                       None
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Opens the side panel with animation
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       close
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">
                       None
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Closes the side panel with animation
                     </td>
                   </tr>
                   <tr>
                     <td
-                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                      class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface"
                     >
                       closeImmediate
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">
                       None
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-500">
+                    <td class="px-6 py-4 text-sm text-on-surface">
                       Closes the side panel immediately without animation
                     </td>
                   </tr>
@@ -432,16 +432,16 @@ import { SidePanelComponent } from './sidepanel.component';
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden mt-6">
+        <div class=" shadow rounded-lg overflow-hidden mt-6">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               CSS Customization
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Customize the appearance of the side panel using CSS.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="cssCustomizationExample"></app-code-viewer>
           </div>
         </div>
@@ -459,7 +459,7 @@ export class SidePanelDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   sidePanelComponent = SidePanelComponent;
-  publishedDate = '2025-05-21';
+ publishedDate = '2025-11-08';
   title = 'Side Panel Component';
 
   htmlCode = `

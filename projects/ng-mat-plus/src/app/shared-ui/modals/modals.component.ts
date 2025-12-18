@@ -18,7 +18,7 @@ interface ModalParam {
   imports: [CommonModule, LibMatButtonComponent],
   template: `
     <div
-      class="w-full mx-auto bg-white rounded-xl shadow-md p-6 space-y-6"
+      class="w-full mx-auto  rounded-xl shadow-md p-6 space-y-6"
     >
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
       <lib-mat-button
@@ -71,12 +71,12 @@ interface ModalParam {
       </div>
 
       @if (lastResult() !== undefined) {
-      <div class="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200" >
-        <h3 class="text-lg font-medium text-gray-800 mb-2">
+      <div class="mt-6 p-4   rounded-lg border border-gray-200" >
+        <h3 class="text-lg font-medium  mb-2">
           Last Modal Result
         </h3>
         <p
-          class="bg-white p-3 rounded text-sm overflow-x-auto border border-gray-200"
+          class=" p-3 rounded text-sm overflow-x-auto border border-gray-200"
         >
           {{ lastResult() | json }}
         </p>
@@ -84,9 +84,9 @@ interface ModalParam {
       }
 
       <div
-        class="mt-10 p-6 bg-white rounded-lg shadow-md border border-gray-300"
+        class="mt-10 p-6  rounded-lg shadow-md border border-gray-300"
       >
-        <h2 class="text-xl font-semibold text-gray-900 mb-4">
+        <h2 class="text-xl font-semibold text-on-surface mb-4">
           How to Use Modal Service
         </h2>
         <p class="text-on-surface">
@@ -97,7 +97,7 @@ interface ModalParam {
           class="w-full mt-4 border-collapse border border-gray-200 text-left text-sm"
         >
           <thead>
-            <tr class="bg-gray-100">
+            <tr class="    ">
               <th class="border border-gray-300 px-4 py-2">Parameter</th>
               <th class="border border-gray-300 px-4 py-2">Description</th>
               <th class="border border-gray-300 px-4 py-2">Default</th>
@@ -124,7 +124,7 @@ interface ModalParam {
           </tbody>
         </table>
 
-        <div class="mt-4 text-sm text-gray-600">
+        <div class="mt-4 text-sm text-on-surface">
           * Conditional: Either <code>component</code>, <code>message</code>,
           or <code>icon</code> must be provided for the modal to have content.
         </div>

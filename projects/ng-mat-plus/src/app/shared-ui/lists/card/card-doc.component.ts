@@ -23,13 +23,13 @@ import { CardComponent } from './card.component';
     <ng-template #overviewContent>
       <div class="space-y-4 text-on-surface">
         <p>
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-card&gt;</code>
+          The <code class="     px-1 py-0.5 rounded ">&lt;lib-card&gt;</code>
           component is a lightweight, reusable container that provides a consistent structure 
           for displaying content in a card layout.
         </p>
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
-          <h3 class="text-sm font-medium text-blue-800">Structure</h3>
-          <ul class="list-disc pl-5 mt-2 text-sm text-blue-700 space-y-1">
+        <div class="   border-blue-500 p-4 my-4">
+          <h3 class="text-sm font-medium text-on-primary-container">Structure</h3>
+          <ul class="list-disc pl-5 mt-2 text-sm text-on-primary-container space-y-1">
             <li><strong>Header</strong> – Place titles, actions, or metadata.</li>
             <li><strong>Body</strong> – Main content area (text, forms, media, etc.).</li>
             <li><strong>Footer</strong> – Secondary actions such as buttons or links.</li>
@@ -41,23 +41,23 @@ import { CardComponent } from './card.component';
     <!-- Use Cases -->
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Common Scenarios</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Common Scenarios</h3>
+            <p class="mt-2 text-on-surface">
               Examples where <code>&lt;lib-card&gt;</code> is useful:
             </p>
-            <ul class="list-disc pl-5 mt-3 space-y-1 text-gray-700 text-sm">
+            <ul class="list-disc pl-5 mt-3 space-y-1  text-sm">
               <li>Notification previews</li>
               <li>Profile or user info cards</li>
               <li>Dashboard widgets</li>
               <li>Product or content previews</li>
             </ul>
-            <p class="mt-4 text-sm text-gray-600">
+            <p class="mt-4 text-sm text-on-surface">
               It also emits 
-              <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">(cardClick)</code> 
+              <code class="     px-1 py-0.5 rounded ">(cardClick)</code> 
               and 
-              <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">(cardDblClick)</code> 
+              <code class="     px-1 py-0.5 rounded ">(cardDblClick)</code> 
               events for interactive use.
             </p>
           </div>
@@ -68,9 +68,9 @@ import { CardComponent } from './card.component';
     <!-- Notes -->
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
-          <h3 class="text-sm font-medium text-yellow-800">Important Notes</h3>
-          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm text-yellow-700">
+        <div class="          p-4">
+          <h3 class="text-sm font-medium  ">Important Notes</h3>
+          <ul class="list-disc pl-5 mt-2 space-y-1 text-sm ">
             <li>Responsive by default with max width <code>400px</code>.</li>
             <li>Header and footer are optional; you can use only the body.</li>
             <li>Default styling is minimal – extend with Tailwind or CSS variables.</li>
@@ -82,12 +82,12 @@ import { CardComponent } from './card.component';
     <!-- Other -->
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Theming & Extensibility</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Theming & Extensibility</h3>
+            <p class="mt-2 text-on-surface">
               You can extend <code>&lt;lib-card&gt;</code> to include media sections 
               (images/videos) or theme it with CSS variables for colors, spacing, 
               and shadows.
@@ -106,7 +106,7 @@ export class CardDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   cardComponent = CardComponent;
-  publishedDate = '2023-11-20';
+ publishedDate = '2025-11-08';
   title = 'Card Component';
 
   htmlCode = `
@@ -116,17 +116,17 @@ export class CardDocComponent {
     >
       <!-- Header -->
       <div card-header class="flex justify-between items-center pb-1 mb-2 border-b">
-        <span class="font-medium text-blue-700">John Doe</span>
-        <time class="text-xs text-gray-500">2025-09-08 10:30 AM</time>
+        <span class="font-medium text-on-primary-container">John Doe</span>
+        <time class="text-xs text-on-surface">2025-09-08 10:30 AM</time>
       </div>
 
       <!-- Body -->
       <div class="relative">
-        <small #small class="relative text-gray-800 transition-all duration-300 line-clamp-4">
+        <small #small class="relative  transition-all duration-300 line-clamp-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec justo ac 
           sapien consequat fermentum. Pellentesque habitant morbi tristique senectus 
           et netus et malesuada fames ac turpis egestas.
-          <span class="absolute bg-white pl-1 text-[10px] text-blue-600 hover:underline"
+          <span class="absolute  pl-1 text-[10px] text-blue-600 hover:underline"
             (click)="toggleExpand(small)">
             See More
           </span>

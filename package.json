@@ -1,6 +1,6 @@
 {
   "name": "ng-mat-plus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "release": "standard-version",
-    "postbump": "node scripts/postbump.js"
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
   },
   "standard-version": {
     "scripts": {
@@ -41,6 +43,7 @@
     "@tailwindcss/postcss": "^4.1.14",
     "highlight.js": "^11.11.1",
     "material-design-icons-iconfont": "^6.7.0",
+    "ng-mat-plus": "^1.0.0",
     "postcss": "^8.5.6",
     "rxjs": "~7.8.0",
     "standard-version": "^9.5.0",

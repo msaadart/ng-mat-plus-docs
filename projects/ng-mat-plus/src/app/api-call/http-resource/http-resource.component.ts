@@ -65,13 +65,13 @@ interface SingleUserResponse {
   imports: [LibMatFlatButtonComponent, FormsModule, CommonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="min-h-screen p-4 bg-gray-50">
+    <div class="min-h-screen p-4    ">
       <div class="container mx-auto">
         <div class="text-center mb-8">
-          <h1 class="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 class="text-3xl font-semibold  mb-2">
             Resource API Demo
           </h1>
-          <p class="text-gray-600">
+          <p class="text-on-surface">
             Professional API Data Management Interface
           </p>
         </div>
@@ -79,13 +79,13 @@ interface SingleUserResponse {
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <!-- Column 1: Standard getResource -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Standard getResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">Users List</h3>
+                <h3 class="text-lg font-medium ">Users List</h3>
                 <div class="flow items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(status())">
                     {{ status() }}
@@ -117,7 +117,7 @@ interface SingleUserResponse {
               <div class="max-h-[400px] overflow-y-auto space-y-3">
                 @for(user of users.data()?.users || []; track user.id) {
                 <div
-                  class="bg-gray-50 p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
+                  class="  p-3 rounded-md border border-gray-200 hover:shadow-md transition-shadow"
                 >
                   <div class="flex items-center space-x-3">
                     <img
@@ -126,16 +126,16 @@ interface SingleUserResponse {
                       class="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
                     />
                     <div class="flex-1 min-w-0">
-                      <p class="font-medium text-sm text-gray-800 truncate">
+                      <p class="font-medium text-sm  truncate">
                         {{ user.firstName }} {{ user.lastName }}
                       </p>
-                      <p class="text-gray-500 text-xs truncate">
+                      <p class="text-on-surface text-xs truncate">
                         {{ user.email }}
                       </p>
                     </div>
                     <button
                       (click)="selectUser(user.id)"
-                      class="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded hover:bg-blue-200 cursor-pointer"
+                      class="px-2 py-1 bg-blue-100 text-on-primary-container text-xs rounded hover:bg-blue-200 cursor-pointer"
                     >
                       View
                     </button>
@@ -149,13 +149,13 @@ interface SingleUserResponse {
 
           <!-- Column 2: httpResource with dynamic URL -->
           <div class="space-y-6">
-            <h2 class="text-xl font-semibold text-gray-800 mb-4 border-b pb-2">
+            <h2 class="text-xl font-semibold  mb-4 border-b pb-2">
               Dynamic httpResource
             </h2>
 
             <div class="card p-5">
               <div class="flex items-center justify-between mb-4">
-                <h3 class="text-lg font-medium text-gray-800">User Details</h3>
+                <h3 class="text-lg font-medium ">User Details</h3>
                 <div class="flow items-center space-x-2">
                   <span [ngClass]="getStatusBadgeClass(singleUserStatus())">
                     {{ singleUserStatus() }}
@@ -173,7 +173,7 @@ interface SingleUserResponse {
 
               <!-- User selection -->
               <div class="mb-4">
-                <label class="block text-sm font-medium text-gray-700 mb-2">
+                <label class="block text-sm font-medium  mb-2">
                   Select User ID:
                 </label>
                 <input
@@ -203,7 +203,7 @@ interface SingleUserResponse {
 
               <!-- Data state -->
               @if(singleUserResource.value()) {
-              <div class="bg-white p-4 rounded-lg border border-gray-200">
+              <div class=" p-4 rounded-lg border border-gray-200">
                 <div class="flex items-center space-x-4 mb-4">
                   <img
                     [src]="singleUserResource.value()?.image"
@@ -211,14 +211,14 @@ interface SingleUserResponse {
                     class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm"
                   />
                   <div>
-                    <h4 class="font-semibold text-gray-800">
+                    <h4 class="font-semibold ">
                       {{ singleUserResource.value()?.firstName }}
                       {{ singleUserResource.value()?.lastName }}
                     </h4>
-                    <p class="text-gray-600 text-sm">
+                    <p class="text-on-surface text-sm">
                       {{ singleUserResource.value()?.email }}
                     </p>
-                    <p class="text-gray-500 text-xs">
+                    <p class="text-on-surface text-xs">
                       {{ singleUserResource.value()?.username }}
                     </p>
                   </div>
@@ -226,22 +226,22 @@ interface SingleUserResponse {
 
                 <div class="grid grid-cols-2 gap-4 text-sm">
                   <div>
-                    <span class="font-medium text-gray-700">Gender:</span>
-                    <span class="text-gray-600 capitalize">
+                    <span class="font-medium ">Gender:</span>
+                    <span class="text-on-surface capitalize">
                       {{ singleUserResource.value()?.gender }}</span
                     >
                   </div>
                   <div>
-                    <span class="font-medium text-gray-700">ID:</span>
-                    <span class="text-gray-600">
+                    <span class="font-medium ">ID:</span>
+                    <span class="text-on-surface">
                       {{ singleUserResource.value()?.id }}</span
                     >
                   </div>
                 </div>
                 @if (singleUserResource.value()?.address) {
-                <div class="mt-4 p-3 bg-gray-50 rounded-md">
-                  <h5 class="font-medium text-gray-700 mb-2">Address:</h5>
-                  <p class="text-gray-600 text-sm">
+                <div class="mt-4 p-3   rounded-md">
+                  <h5 class="font-medium  mb-2">Address:</h5>
+                  <p class="text-on-surface text-sm">
                     {{ singleUserResource.value()?.address?.address }},<br />
                     {{ singleUserResource.value()?.address?.city }},<br />
                     {{ singleUserResource.value()?.address?.state }},
@@ -255,7 +255,7 @@ interface SingleUserResponse {
               <!-- No selection message -->
                @if (!selectedUserId()) {
                  <div
-                   class="text-center text-gray-500 py-8"
+                   class="text-center text-on-surface py-8"
                  >
                    <p>Select a user ID to view details</p>
                  </div>

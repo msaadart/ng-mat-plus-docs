@@ -3,7 +3,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { LibMatButtonComponent } from 'ng-mat-plus/lib-buttons';
-import { LibRadioBtnComponent } from 'ng-mat-plus/lib-forms';
+import { LibRadioGroupComponent } from 'ng-mat-plus/lib-forms';
 
 @Component({
   selector: 'app-radio-btn',
@@ -12,9 +12,10 @@ import { LibRadioBtnComponent } from 'ng-mat-plus/lib-forms';
     MatCardModule,
     MatDividerModule,
     ReactiveFormsModule,
-    LibRadioBtnComponent,
+    LibRadioGroupComponent,
     LibMatButtonComponent,
-  ],
+    LibRadioGroupComponent
+],
   template: `
     <div class="summary-container">
       <div class="header">
@@ -25,19 +26,19 @@ import { LibRadioBtnComponent } from 'ng-mat-plus/lib-forms';
                 <ul class="list">
                   <pre><code><br />Tag:<br/>&lt;lib-radio-btn&gt; &lt;/lib-radio-btn&gt; <br />imports: <br />LibRadioBtnComponent</code></pre>
                   <li>
-                    <lib-radio-btn
+                    <lib-radio-group
                       [control]="radioForm.controls['selection']"
                       [value]="'1'"
                       [label]="labelOne()"
-                    ></lib-radio-btn>
+                    ></lib-radio-group>
                   </li>
 
                   <li>
-                    <lib-radio-btn
+                    <lib-radio-group
                       [control]="radioForm.controls['selection']"
                       [value]="'2'"
                       [label]="labelTwo()"
-                    ></lib-radio-btn>
+                    ></lib-radio-group>
                   </li>
                 </ul>
 

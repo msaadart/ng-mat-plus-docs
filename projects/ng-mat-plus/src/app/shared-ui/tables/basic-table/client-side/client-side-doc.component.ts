@@ -14,7 +14,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   imports: [DocumentationComponent, CodeViewerComponent],
   template: `
   <app-documentation 
-  [publishedDate]="'2025-05-21'" 
+  [publishedDate]="'2025-11-08'" 
   [title]="title"
   [htmlCode]="htmlCode"
   [component]="clientSideTableComponent" 
@@ -28,12 +28,12 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-basic-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component designed to handle large datasets (up to 50,000 records) 
+      The <code class="     px-1 py-0.5 rounded ">&lt;lib-basic-client-table&gt;</code> component, part of the <strong>ng-mat-plus</strong> is a high-performance Angular component designed to handle large datasets (up to 50,000 records) 
       with smooth client-side operations. It provides a rich set of features including sorting, pagination, custom rendering, 
       and row interactions while maintaining optimal performance.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="   border-blue-500 p-4 my-4">
         <div class="flex">
             <div class="flex-shrink-0">
                 <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -43,8 +43,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
                 </svg>
             </div>
             <div class="ml-3">
-                <h3 class="text-sm font-medium text-blue-800">Performance Note</h3>
-                <div class="mt-2 text-sm text-blue-700">
+                <h3 class="text-sm font-medium text-on-primary-container">Performance Note</h3>
+                <div class="mt-2 text-sm text-on-primary-container">
                     <p>
                         This component efficiently handles up to 50,000 records client-side when using pagination.
                         For optimal performance:
@@ -75,38 +75,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management Applications</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for admin dashboards where users need to view, sort, and edit large datasets without server roundtrips.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Reporting Interfaces</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Reporting Interfaces</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for displaying report data with client-side sorting and custom formatting capabilities.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="reportingExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">CRUD Operations</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">CRUD Operations</h3>
+        <p class="mt-2 text-on-surface">
           Supports full CRUD operations with inline editing and row deletion capabilities.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="crudExample"></app-code-viewer>
       </div>
     </div>
@@ -115,16 +115,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #noteContent>
   <div class="space-y-4">    
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+    <div class="          p-4">
       <div class="flex">
         <div class="flex-shrink-0">
-          <svg class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+          <svg class="h-5 w-5  " fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-yellow-800">Performance Considerations</h3>
-          <div class="mt-2 text-sm text-yellow-700">
+          <h3 class="text-sm font-medium  ">Performance Considerations</h3>
+          <div class="mt-2 text-sm ">
             <p>
               For optimal performance with large datasets, ensure you:
             </p>
@@ -139,16 +139,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       </div>
     </div>
     
-    <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+    <div class="  p-4">
       <div class="flex">
         <div class="flex-shrink-0">
-          <svg class="h-5 w-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+          <svg class="h-5 w-5 " fill="currentColor" viewBox="0 0 20 20">
             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-purple-800">Customization Tips</h3>
-          <div class="mt-2 text-sm text-purple-700">
+          <h3 class="text-sm font-medium ">Customization Tips</h3>
+          <div class="mt-2 text-sm ">
             <p>
               The table is highly customizable through:
             </p>
@@ -167,52 +167,52 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #otherContent>
   <div class="space-y-6">
-    <h2 class="text-2xl font-bold">Implementation Details</h2>
+    <h2 class="text-2xl font-bold text-on-surface">Implementation Details</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Setup</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Setup</h3>
+        <p class="mt-2 text-on-surface">
           Basic implementation requires importing the table component and configuring the columns and data.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="basicSetupExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Columns are defined with type-specific configurations for formatting and behavior.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="columnConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Row Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Row Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Row-level behaviors and styling can be customized through the row configuration object.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="rowConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Management</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Management</h3>
+        <p class="mt-2 text-on-surface">
           The component works with signals for reactive data updates and provides edit/delete examples.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataManagementExample"></app-code-viewer>
       </div>
     </div>
@@ -229,7 +229,7 @@ export class ClientSideDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   clientSideTableComponent = ClientSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Basic Table (Client-Side)';
 
   htmlCode = `
@@ -361,7 +361,7 @@ export class ClientSideDocComponent {
             },
             isVisible: (row) => row.age > 24,
             isDisabled: (row) => row.age == 25,
-            class: 'text-blue-500 hover:text-blue-700',
+            class: 'text-blue-500 hover:text-on-primary-container',
             onClick: (row) => this.openEditForm(row),
           },
           {
@@ -564,7 +564,7 @@ export class ClientSideDocComponent {
     rowConfig: IBasicTableRowConfig<any> = {
       onClick: (row) => this.selectRow(row),
       onDblClick: (row) => this.openDetail(row),
-      getClass: (row) => row.isActive ? 'bg-blue-50' : '',
+      getClass: (row) => row.isActive ? ' ' : '',
       isSerialNo: true,
       serialNoLabel: '#'
   };`;

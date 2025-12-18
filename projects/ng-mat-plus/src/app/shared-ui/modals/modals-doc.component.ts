@@ -23,10 +23,10 @@ import { ModalsComponent } from './modals.component';
     <ng-template #overviewContent>
       <div class="space-y-6">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibDialogService</code> is a robust Angular service designed to manage Material Design dialogs with extensive customization options. It supports dynamic components, predefined modal types (warning, confirmation, delete, success, info), and flexible styling using Tailwind CSS.
+          The <code class="     px-1 py-0.5 rounded ">LibDialogService</code> is a robust Angular service designed to manage Material Design dialogs with extensive customization options. It supports dynamic components, predefined modal types (warning, confirmation, delete, success, info), and flexible styling using Tailwind CSS.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -34,8 +34,8 @@ import { ModalsComponent } from './modals.component';
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Dynamic component rendering within dialogs</li>
                   <li>Predefined modal types for common scenarios (warning, confirmation, delete, success, info)</li>
@@ -64,62 +64,62 @@ import { ModalsComponent } from './modals.component';
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Predefined Warning Modal</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Predefined Warning Modal</h3>
+            <p class="mt-2 text-on-surface">
               Displays a warning modal with a single customizable "Ok" button for irreversible actions.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="warningModalExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Confirmation Modal with Custom Buttons</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Confirmation Modal with Custom Buttons</h3>
+            <p class="mt-2 text-on-surface">
               Opens a confirmation dialog with customizable "Cancel" and "Proceed" button titles.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="confirmationModalExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dynamic Component Modal</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dynamic Component Modal</h3>
+            <p class="mt-2 text-on-surface">
               Renders a custom Angular component inside the dialog with data injection.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dynamicComponentExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Delete Confirmation Modal</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Delete Confirmation Modal</h3>
+            <p class="mt-2 text-on-surface">
               Prompts the user to confirm deletion with a customizable item name and button titles.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="deleteModalExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Success and Info Modals</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Success and Info Modals</h3>
+            <p class="mt-2 text-on-surface">
               Displays success or informational messages with customizable button titles.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="successInfoModalExample"></app-code-viewer>
           </div>
         </div>
@@ -128,16 +128,16 @@ import { ModalsComponent } from './modals.component';
 
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5  " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Important Notes</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Important Notes</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Always unsubscribe from the dialog's <code>afterClosed()</code> Observable to prevent memory leaks.</li>
                   <li>Ensure dynamic components are properly declared in the module or are standalone.</li>
@@ -150,16 +150,16 @@ import { ModalsComponent } from './modals.component';
           </div>
         </div>
         
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5 " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">Performance Tips</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">Performance Tips</h3>
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>Lazy-load complex dynamic components to improve initial load time.</li>
                   <li>Reuse modal configurations for similar dialogs to reduce code duplication.</li>
@@ -176,201 +176,201 @@ import { ModalsComponent } from './modals.component';
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Configuration Reference</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Configuration Reference</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">IDialogConfig Properties</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">IDialogConfig Properties</h3>
+            <p class="mt-2 text-on-surface">
               Comprehensive list of configuration options for the <code>openDialog</code> method.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Default</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Default</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">title</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dialog title displayed in the header</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">title</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dialog title displayed in the header</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">titleClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the title</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">titleClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the title</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">message</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Message content below the header</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">message</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Message content below the header</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">messageClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the message</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">messageClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the message</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerContainerClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the header container</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerContainerClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the header container</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerButtons</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">IDialogHeaderButton[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of header buttons for additional actions</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">[]</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerButtons</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">IDialogHeaderButton[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of header buttons for additional actions</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">[]</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerIcon</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Material icon name for the header</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerIcon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Material icon name for the header</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerIconClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the header icon</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerIconClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the header icon</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">showCloseIcon</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Show a close icon in the header</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">false</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">showCloseIcon</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Show a close icon in the header</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">false</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">closeIconClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the close icon</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">closeIconClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the close icon</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerMiddleContent</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">any | () => any</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Custom content for the header's middle section</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">null</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerMiddleContent</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">any | () => any</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Custom content for the header's middle section</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">null</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">headerMiddleContentClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the header middle content</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">headerMiddleContentClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the header middle content</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">buttonsContainerClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string | () => string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the action buttons container</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">buttonsContainerClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string | () => string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the action buttons container</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">component</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Type&lt;any&gt;</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dynamic component to render inside the dialog</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">null</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">component</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">Type&lt;any&gt;</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dynamic component to render inside the dialog</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">null</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">componentData</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">any</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Data to pass to the dynamic component</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">componentData</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">any</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Data to pass to the dynamic component</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">actionsButtons</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">IDialogActionButton[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Array of action buttons for the dialog footer</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">[]</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">actionsButtons</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">IDialogActionButton[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Array of action buttons for the dialog footer</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">[]</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">width</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dialog width (e.g., '500px')</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">'400px'</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">width</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dialog width (e.g., '500px')</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">'400px'</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">maxWidth</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Maximum dialog width</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">'400px'</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">maxWidth</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Maximum dialog width</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">'400px'</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">minWidth</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Minimum dialog width</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">undefined</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">minWidth</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Minimum dialog width</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">undefined</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">height</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dialog height (e.g., 'auto')</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">'auto'</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">height</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dialog height (e.g., 'auto')</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">'auto'</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disableClose</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Prevent closing via backdrop or ESC</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">false</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disableClose</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Prevent closing via backdrop or ESC</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">false</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">disableBackdropClick</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Prevent closing via backdrop click</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">false</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">disableBackdropClick</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Prevent closing via backdrop click</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">false</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">autoFocus</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Enable auto-focus on dialog open</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">false</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">autoFocus</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Enable auto-focus on dialog open</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">false</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">backdropClass</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">CSS class for the backdrop</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">''</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">backdropClass</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">CSS class for the backdrop</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">''</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">position</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">object</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dialog position eg: top, bottom</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Dialog position eg: middle</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">position</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">object</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dialog position eg: top, bottom</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Dialog position eg: middle</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">closeOnNavigation</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Close dialog on navigation</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">true</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">closeOnNavigation</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Close dialog on navigation</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">true</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">hasBackdrop</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">boolean</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Show dialog backdrop</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">true</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">hasBackdrop</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">boolean</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Show dialog backdrop</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">true</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
   
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Dialog Stack Management</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Dialog Stack Management</h3>
+            <p class="mt-2 text-on-surface">
               Manage multiple open dialogs using the internal dialog stack.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="dialogStackExample"></app-code-viewer>
           </div>
         </div>
@@ -386,7 +386,7 @@ export class ModalsDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   modalsComponent = ModalsComponent;
-  publishedDate = '2025-07-24';
+  publishedDate = '2025-11-08';
   title = 'Lib Dialog Service Documentation';
 
   tsCode = `

@@ -25,7 +25,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
   standalone: true,
   imports: [LibAdvancedClientTableComponent, DatePipe],
   template: `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
+    <div class="rounded-xl shadow border border-gray-200  p-4">
       <lib-advanced-client-table
         [tableData]="allData()"
         [columns]="columnsConfig()"
@@ -36,7 +36,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
     </div>
     
     <ng-template #nameTemplate let-row>
-      <span (click)="openEditForm(row)" class="text-blue-600 hover:text-blue-800 cursor-pointer">
+      <span (click)="openEditForm(row)" class="text-blue-600 hover:text-on-primary-container cursor-pointer">
         {{ row?.firstName }} {{ row?.lastName }}
       </span>
     </ng-template>
@@ -44,7 +44,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
     <ng-template #statusTemplate let-row>
       <span class="px-2 py-1 rounded text-xs font-medium" 
             [class.bg-green-100]="row.active" 
-            [class.text-green-800]="row.active"
+            [class.]="row.active"
             [class.bg-red-100]="!row.active"
             [class.text-red-800]="!row.active">
         {{ row.active ? 'Active' : 'Inactive' }}
@@ -52,7 +52,7 @@ import { DateFormat } from 'ng-mat-plus/enums';
     </ng-template>
 
     <ng-template #expandedTemplate let-row>
-      <div class="user-details p-4 bg-gray-50 border-t">
+      <div class="user-details p-4   border-t">
         <h3 class="font-semibold text-lg mb-2">Details for {{ row.firstName }} {{ row.lastName }}</h3>
         <div class="grid grid-cols-2 gap-2">
           <p><span class="font-medium">Age:</span> {{ row.age }}</p>
@@ -79,10 +79,10 @@ export class ClientSideTableComponent implements AfterViewInit {
   rowConfig = signal<IAdvancedTableRowConfig<User>>({
     onClick: (row) => this.toastService.success(`Row clicked: ${row.firstName} ${row.lastName}`),
     getClass: (row) => {
-      return row.age > 18 ? '!bg-blue-500' : '';
+      return row.age > 18 ? '! 0' : '';
     },
     onDblClick: (row) => this.toastService.info(`Row double-clicked: ${row.firstName} ${row.lastName}`),
-    class: 'cursor-pointer hover:bg-gray-50',
+    class: 'cursor-pointer hover:   ',
     isSerialNo: true,
     serialNoCommonClass: 'max-w-[8%] border-r border-gray-200',
     collapsible: {

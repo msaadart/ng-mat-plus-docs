@@ -32,8 +32,8 @@ import { Sort } from '@angular/material/sort';
   standalone: true,
   imports: [LibBasicServerTableComponent],
   template: `
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4">
-      <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>
+    <div class="rounded-xl shadow border border-gray-200  p-4">
+      <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-basic-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -46,8 +46,8 @@ import { Sort } from '@angular/material/sort';
       >
       </lib-basic-server-table>
     </div>
-    <div class="rounded-xl shadow border border-gray-200 bg-white p-4 mt-5">
-      <h2 class="text-gray-900 font-semibold mb-4">Scroll Base</h2>
+    <div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
+      <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-basic-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"
@@ -196,7 +196,7 @@ export class ServerSideTableComponent {
           },
           isVisible: (row) => row.age > 24,
           isDisabled: (row) => row.age == 25,
-          class: 'text-blue-500 hover:text-blue-700',
+          class: 'text-blue-500 hover:text-on-primary-container',
           onClick: (row) => this.openEditForm(row),
         },
         {
@@ -221,7 +221,7 @@ export class ServerSideTableComponent {
     onClick: (row) => this.toastService.success(`Row clicked: ${row.firstName} ${row.lastName}`),
     onDblClick: (row) =>
       this.toastService.info(`Row double-clicked: ${row.firstName} ${row.lastName}`),
-    class: 'cursor-pointer hover:bg-gray-50'
+    class: 'cursor-pointer hover:   '
   };
 
   /**

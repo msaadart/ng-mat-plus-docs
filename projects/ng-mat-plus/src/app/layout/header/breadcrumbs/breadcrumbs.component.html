@@ -1,0 +1,44 @@
+<nav
+  aria-label="breadcrumb"
+  class="flex items-center gap-2 text-sm transition-colors"
+  [ngClass]="{
+    'text-gray-400': $themeService.isDarkTheme(),
+    'text-on-surface': !$themeService.isDarkTheme()
+  }"
+>
+  @if (breadcrumbs().length > 0) {
+    @for (bc of breadcrumbs(); track bc.url; let last = $last) {
+      @if (!last) {
+        <a
+          [routerLink]="bc.url"
+          class="transition-colors rounded-md px-1"
+          [ngClass]="{
+            'text-blue-400 hover:text-blue-300 hover:bg-gray-800': $themeService.isDarkTheme(),
+            'text-blue-600 hover:text-on-primary-container hover:bg-gray-100': !$themeService.isDarkTheme()
+          }"
+        >
+          {{ bc.label }}
+        </a>
+        <span
+          class="select-none"
+          [ngClass]="{
+            'text-on-surface': $themeService.isDarkTheme(),
+            'text-gray-400': !$themeService.isDarkTheme()
+          }"
+        >
+          ›
+        </span>
+      } @else {
+        <span
+          class="font-medium px-1 rounded-md transition-colors"
+          [ngClass]="{
+            'text-gray-100': $themeService.isDarkTheme(),
+            'text-gray-900': !$themeService.isDarkTheme()
+          }"
+        >
+          {{ bc.label }}
+        </span>
+      }
+    }
+  }
+</nav>

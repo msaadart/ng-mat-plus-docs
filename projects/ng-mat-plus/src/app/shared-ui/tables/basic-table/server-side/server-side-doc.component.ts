@@ -13,7 +13,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   imports: [DocumentationComponent, CodeViewerComponent],
   template:`
   <app-documentation 
-  [publishedDate]="'2025-05-21'" 
+  [publishedDate]="'2025-11-08'" 
   [title]="'Basic Table (Server-Side)'"
   [htmlCode]="htmlCode"
   [component]="serverSideTableComponent" 
@@ -27,10 +27,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 <ng-template #overviewContent>
   <div class="space-y-4">
     <p class="text-on-surface">
-      The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">&lt;lib-basic-server-table&gt;</code> component provides efficient server-side data handling for large datasets. It supports two pagination modes (traditional and infinite scroll) and integrates seamlessly with backend APIs while maintaining optimal performance.
+      The <code class="     px-1 py-0.5 rounded ">&lt;lib-basic-server-table&gt;</code> component provides efficient server-side data handling for large datasets. It supports two pagination modes (traditional and infinite scroll) and integrates seamlessly with backend APIs while maintaining optimal performance.
     </p>
     
-    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+    <div class="   border-blue-500 p-4 my-4">
       <div class="flex">
         <div class="flex-shrink-0">
           <svg class="h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -38,8 +38,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-blue-800">Key Differentiators</h3>
-          <div class="mt-2 text-sm text-blue-700">
+          <h3 class="text-sm font-medium text-on-primary-container">Key Differentiators</h3>
+          <div class="mt-2 text-sm text-on-primary-container">
             <p>
               This server-side implementation offers:
             </p>
@@ -68,38 +68,38 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #useCasesContent>
   <div class="space-y-6">    
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Enterprise Data Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Enterprise Data Applications</h3>
+        <p class="mt-2 text-on-surface">
           Ideal for applications dealing with large datasets where client-side processing would be inefficient.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="enterpriseExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Dashboard Interfaces</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Dashboard Interfaces</h3>
+        <p class="mt-2 text-on-surface">
           Perfect for dashboards requiring both traditional pagination and infinite scroll views of the same data.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dashboardExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">API-Driven Applications</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">API-Driven Applications</h3>
+        <p class="mt-2 text-on-surface">
           Suitable for applications where data filtering and sorting is handled server-side.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="apiDrivenExample"></app-code-viewer>
       </div>
     </div>
@@ -108,16 +108,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
 <ng-template #noteContent>
   <div class="space-y-4">    
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+    <div class="          p-4">
       <div class="flex">
         <div class="flex-shrink-0">
-          <svg class="h-5 w-5 text-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="h-5 w-5  " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-yellow-800">API Integration</h3>
-          <div class="mt-2 text-sm text-yellow-700">
+          <h3 class="text-sm font-medium  ">API Integration</h3>
+          <div class="mt-2 text-sm ">
             <ul class="list-disc pl-5 space-y-1">
               <li>Ensure your API supports skip/take pagination</li>
               <li>Implement proper sorting parameters</li>
@@ -129,16 +129,16 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       </div>
     </div>
     
-    <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+    <div class="  p-4">
       <div class="flex">
         <div class="flex-shrink-0">
-          <svg class="h-5 w-5 text-purple-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+          <svg class="h-5 w-5 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd" />
           </svg>
         </div>
         <div class="ml-3">
-          <h3 class="text-sm font-medium text-purple-800">State Management</h3>
-          <div class="mt-2 text-sm text-purple-700">
+          <h3 class="text-sm font-medium ">State Management</h3>
+          <div class="mt-2 text-sm ">
             <ul class="list-disc pl-5 space-y-1">
               <li>Separate state for each table mode</li>
               <li>Use signals for reactive updates</li>
@@ -156,50 +156,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
   <div class="space-y-6">
     <h2 class="text-2xl font-bold text-on-surface">Implementation Guide</h2>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Component Structure</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Component Structure</h3>
+        <p class="mt-2 text-on-surface">
           The component demonstrates two table implementations with shared configuration.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="structureExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Column Configuration</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Column Configuration</h3>
+        <p class="mt-2 text-on-surface">
           Shared column configuration used by both table implementations.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="columnConfigExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Data Fetching</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Data Fetching</h3>
+        <p class="mt-2 text-on-surface">
           Server-side data fetching implementation for both pagination modes.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="dataFetchingExample"></app-code-viewer>
       </div>
     </div>
     
-    <div class="bg-white shadow rounded-lg overflow-hidden">
+    <div class=" shadow rounded-lg overflow-hidden">
       <div class="p-5">
-        <h3 class="text-lg font-medium text-gray-900">Event Handling</h3>
-        <p class="mt-2 text-gray-600">
+        <h3 class="text-lg font-medium text-on-surface">Event Handling</h3>
+        <p class="mt-2 text-on-surface">
           Handling pagination and sort events for both table types.
         </p>
       </div>
-      <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+      <div class="  px-5 py-3 border-t border-gray-200">
         <app-code-viewer [code]="eventHandlingExample"></app-code-viewer>
       </div>
     </div>
@@ -216,10 +216,10 @@ export class ServerSideDocComponent {
   useCasesContent!: TemplateRef<any>;
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   serverSideTableComponent = ServerSideTableComponent;
-  publishedDate = '2025-05-21';
+  publishedDate = '2025-11-08';
   title = 'Basic Table (Server Side)';
   htmlCode = `
-    <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>
+    <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
       <lib-basic-server-table
         [tableData]="pageData()"
         [columns]="columnsConfig"
@@ -229,7 +229,7 @@ export class ServerSideDocComponent {
         (pageChanged)="onPageChange($event)"
         (sortChanged)="onPageSortChange($event)">
       </lib-basic-server-table>
-    <h2 class="text-gray-900 font-semibold mb-4">Scroll Base</h2>
+    <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
       <lib-basic-server-table
         [tableData]="scrollData()"
         [columns]="columnsConfig"
@@ -370,7 +370,7 @@ export class ServerSideDocComponent {
               tooltip: (row) => (row.age < 20 ? '' : \`\Edit \${row.name}\`\),
               isVisible: (row) => row.age > 24,
               isDisabled: (row) => row.age === 25,
-              class: 'text-blue-500 hover:text-blue-700',
+              class: 'text-blue-500 hover:text-on-primary-container',
               onClick: (row) => this.openEditForm(row),
             },
             {
@@ -396,7 +396,7 @@ export class ServerSideDocComponent {
         onDblClick: (row) =>
           this.toastService.info(\`\Row double-clicked: \${row.name}\`\),
         getClass: (row) => (row.age > 30 ? '!bg-yellow-100' : ''),
-        class: 'cursor-pointer hover:bg-gray-50',
+        class: 'cursor-pointer hover:   ',
         isSerialNo: true,
         serialNoLabel: 'Serial No',
       };

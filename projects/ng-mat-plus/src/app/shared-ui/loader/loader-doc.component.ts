@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
+          The <code class="     px-1 py-0.5 rounded ">LibLoaderComponent</code> provides flexible loading indicators with support for both spinner and image-based loaders. It's designed to enhance user experience during asynchronous operations.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Loader Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Loader Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several loading indicator options:
                 </p>
@@ -67,38 +67,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Spinner Loader</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Spinner Loader</h3>
+            <p class="mt-2 text-on-surface">
               Simple implementation of a spinner loader with default settings.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicSpinnerExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Image Loader</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Image Loader</h3>
+            <p class="mt-2 text-on-surface">
               Using a custom image as a loading indicator.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="imageLoaderExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Determinate Loader</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Determinate Loader</h3>
+            <p class="mt-2 text-on-surface">
               Showing progress with a determinate spinner.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="determinateExample"></app-code-viewer>
           </div>
         </div>
@@ -107,16 +107,16 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5  " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Performance Notes</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Performance Notes</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   When using loaders:
                 </p>
@@ -131,16 +131,16 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5 " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">UX Tips</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">UX Tips</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   For better user experience:
                 </p>
@@ -159,61 +159,61 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Full Page Loader</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Full Page Loader</h3>
+            <p class="mt-2 text-on-surface">
               Implementing a full-page loading overlay.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="fullPageLoaderExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Component API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available properties.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">imageSrc</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">URL of an image to use as loader (optional)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">imageSrc</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">URL of an image to use as loader (optional)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">color</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Color theme ('primary', 'accent', 'warn')</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">color</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Color theme ('primary', 'accent', 'warn')</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">diameter</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Size of the spinner in pixels</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">diameter</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Size of the spinner in pixels</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">mode</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">string</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">'determinate' or 'indeterminate'</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">mode</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">string</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">'determinate' or 'indeterminate'</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">value</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Progress value (0-100) for determinate mode</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">value</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Progress value (0-100) for determinate mode</td>
                 </tr>
               </tbody>
             </table>
@@ -231,7 +231,7 @@ export class LoaderDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   loaderComponent = LoaderComponent;
-  publishedDate = '2025-06-03';
+publishedDate = '2025-11-08';
   title = 'Loader Component';
 
   htmlCode = `

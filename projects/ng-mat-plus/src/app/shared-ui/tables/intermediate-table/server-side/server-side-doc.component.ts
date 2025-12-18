@@ -29,7 +29,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
       <div class="space-y-4">
         <p class="text-on-surface">
           The
-          <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800"
+          <code class="     px-1 py-0.5 rounded "
             >&lt;lib-intermediate-server-table&gt;</code
           >
           component is designed for server-side data management using the
@@ -38,7 +38,7 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           datasets.
         </p>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
@@ -55,8 +55,8 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Key Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Key Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     Dual pagination modes: traditional paginator and infinite
@@ -93,13 +93,13 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           <li>Comprehensive error handling for API failures</li>
         </ul>
 
-        <div class="bg-green-50 border-l-4 border-green-400 p-4 mt-4">
+        <div class="  p-4 mt-4">
           <div class="flex">
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-green-800">
+              <h3 class="text-sm font-medium ">
                 DummyJSON API Integration
               </h3>
-              <div class="mt-2 text-sm text-green-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 mt-1 space-y-1">
                   <li>
                     <strong>Endpoint:</strong> https://dummyjson.com/users
@@ -124,50 +124,50 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
     <ng-template #useCasesContent>
       <div class="space-y-6">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Real User Data Management
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Ideal for applications that need to display realistic user
               information with complete profiles including contact details and
               demographic information.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="realUserDataExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               API-Driven Infinite Scroll
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Perfect for modern UIs requiring infinite scroll functionality
               with real API data loading and proper pagination.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer
               [code]="apiInfiniteScrollExample"
             ></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Production-Ready User Interfaces
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Suitable for production applications requiring real user data with
               complete CRUD operations and professional UI components.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="productionReadyExample"></app-code-viewer>
           </div>
         </div>
@@ -176,11 +176,11 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
 
     <ng-template #noteContent>
       <div class="space-y-4">
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-yellow-500"
+                class="h-5 w-5  "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -193,10 +193,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">
+              <h3 class="text-sm font-medium  ">
                 API Integration Notes
               </h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 space-y-1">
                   <li>
                     DummyJSON API provides read-only data - edits are local to
@@ -217,11 +217,11 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           </div>
         </div>
 
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg
-                class="h-5 w-5 text-purple-500"
+                class="h-5 w-5 "
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -234,10 +234,10 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">
+              <h3 class="text-sm font-medium ">
                 Performance Considerations
               </h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <div class="mt-2 text-sm ">
                 <ul class="list-disc pl-5 space-y-1">
                   <li>
                     Network latency affects loading times - implement proper
@@ -260,62 +260,62 @@ import { CodeViewerComponent } from '../../../documentation/code-viewer/code-vie
           DummyJSON API Implementation
         </h2>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               API Integration Setup
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               The component now uses DummyJSON API instead of a local server,
               requiring GET requests with query parameters.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="apiIntegrationExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Data Transformation
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               API responses are transformed to match the component's User
               interface, including type conversions.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer
               [code]="dataTransformationExample"
             ></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">
+            <h3 class="text-lg font-medium text-on-surface">
               Pagination Implementation
             </h3>
-            <p class="mt-2 text-gray-600">
+            <p class="mt-2 text-on-surface">
               Both paginator and infinite scroll modes use DummyJSON's
               skip/limit parameters for efficient data loading.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="paginationExample"></app-code-viewer>
           </div>
         </div>
 
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Error Handling</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Error Handling</h3>
+            <p class="mt-2 text-on-surface">
               Comprehensive error handling for API failures with user feedback
               and proper state management.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="errorHandlingExample"></app-code-viewer>
           </div>
         </div>
@@ -332,12 +332,12 @@ export class ServerSideDocComponent {
   useCasesContent!: TemplateRef<any>;
   @ViewChild('noteContent', { static: true }) noteContent!: TemplateRef<any>;
   serverSideTableComponent = ServerSideTableComponent;
-  publishedDate = '2025-05-21';
+ publishedDate = '2025-11-08';
   title = 'Intermediate Table (Server Side with DummyJSON API)';
 
   htmlCode = `
-<div class="rounded-xl shadow border border-gray-200 bg-white p-4">
-  <h2 class="text-gray-900 font-semibold mb-4">Paginator Base</h2>
+<div class="rounded-xl shadow border border-gray-200  p-4">
+  <h2 class="text-on-surface font-semibold mb-4">Paginator Base</h2>
   <lib-intermediate-server-table
     [tableData]="pageData()"
     [columns]="columnsConfig()"
@@ -350,8 +350,8 @@ export class ServerSideDocComponent {
   >
   </lib-intermediate-server-table>
 </div>
-<div class="rounded-xl shadow border border-gray-200 bg-white p-4 mt-5">
-  <h2 class="text-gray-900 font-semibold mb-4">Scroll Base</h2>
+<div class="rounded-xl shadow border border-gray-200  p-4 mt-5">
+  <h2 class="text-on-surface font-semibold mb-4">Scroll Base</h2>
   <lib-intermediate-server-table
     [tableData]="scrollData()"
     [columns]="columnsConfig()"

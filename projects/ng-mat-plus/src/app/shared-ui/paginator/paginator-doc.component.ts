@@ -24,10 +24,10 @@ import { DocumentationComponent } from "../documentation/documentation.component
     <ng-template #overviewContent>
       <div class="space-y-4">
         <p class="text-on-surface">
-          The <code class="bg-gray-100 px-1 py-0.5 rounded text-gray-800">LibPaginatorComponent</code> provides navigation for paged information, typically used with tables or lists. It allows users to browse through multiple pages of content.
+          The <code class="     px-1 py-0.5 rounded ">LibPaginatorComponent</code> provides navigation for paged information, typically used with tables or lists. It allows users to browse through multiple pages of content.
         </p>
         
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
+        <div class="   border-blue-500 p-4 my-4">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg class="h-5 w-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
@@ -35,8 +35,8 @@ import { DocumentationComponent } from "../documentation/documentation.component
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-blue-800">Paginator Features</h3>
-              <div class="mt-2 text-sm text-blue-700">
+              <h3 class="text-sm font-medium text-on-primary-container">Paginator Features</h3>
+              <div class="mt-2 text-sm text-on-primary-container">
                 <p>
                   This component includes several pagination options:
                 </p>
@@ -67,38 +67,38 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #useCasesContent>
       <div class="space-y-6">    
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Basic Pagination</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Basic Pagination</h3>
+            <p class="mt-2 text-on-surface">
               Simple pagination with default settings.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="basicExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Custom Page Size Options</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Custom Page Size Options</h3>
+            <p class="mt-2 text-on-surface">
               Customizing the available page size options.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="customSizeOptionsExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Handling Page Events</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Handling Page Events</h3>
+            <p class="mt-2 text-on-surface">
               Responding to page change events.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="eventHandlingExample"></app-code-viewer>
           </div>
         </div>
@@ -107,16 +107,16 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #noteContent>
       <div class="space-y-4">    
-        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div class="          p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5  " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-yellow-800">Usage Notes</h3>
-              <div class="mt-2 text-sm text-yellow-700">
+              <h3 class="text-sm font-medium  ">Usage Notes</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   When using paginators:
                 </p>
@@ -132,16 +132,16 @@ import { DocumentationComponent } from "../documentation/documentation.component
           </div>
         </div>
         
-        <div class="bg-purple-50 border-l-4 border-purple-400 p-4">
+        <div class="  p-4">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg class="h-5 w-5 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
+              <svg class="h-5 w-5 " fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2h-1V9z" clip-rule="evenodd"/>
               </svg>
             </div>
             <div class="ml-3">
-              <h3 class="text-sm font-medium text-purple-800">UX Tips</h3>
-              <div class="mt-2 text-sm text-purple-700">
+              <h3 class="text-sm font-medium ">UX Tips</h3>
+              <div class="mt-2 text-sm ">
                 <p>
                   For better user experience:
                 </p>
@@ -161,61 +161,61 @@ import { DocumentationComponent } from "../documentation/documentation.component
 
     <ng-template #otherContent>
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold">Advanced Usage</h2>
+        <h2 class="text-2xl font-bold text-on-surface">Advanced Usage</h2>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Server-Side Pagination</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Server-Side Pagination</h3>
+            <p class="mt-2 text-on-surface">
               Implementing pagination with server-side data.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <app-code-viewer [code]="serverSideExample"></app-code-viewer>
           </div>
         </div>
         
-        <div class="bg-white shadow rounded-lg overflow-hidden">
+        <div class=" shadow rounded-lg overflow-hidden">
           <div class="p-5">
-            <h3 class="text-lg font-medium text-gray-900">Component API</h3>
-            <p class="mt-2 text-gray-600">
+            <h3 class="text-lg font-medium text-on-surface">Component API</h3>
+            <p class="mt-2 text-on-surface">
               Complete list of available properties and events.
             </p>
           </div>
-          <div class="bg-gray-50 px-5 py-3 border-t border-gray-200">
+          <div class="  px-5 py-3 border-t border-gray-200">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
+              <thead class="   ">
                 <tr>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Property</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
-                  <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Property</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Type</th>
+                  <th class="px-6 py-3 text-left text-xs font-medium text-on-surface uppercase tracking-wider">Description</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class=" divide-y divide-gray-200">
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">length</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Total number of items</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">length</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Total number of items</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">pageSize</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Number of items per page</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">pageSize</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Number of items per page</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">pageSizeOptions</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number[]</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Available page size options</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">pageSizeOptions</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number[]</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Available page size options</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">pageIndex</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">number</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Current page index (0-based)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">pageIndex</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">number</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Current page index (0-based)</td>
                 </tr>
                 <tr>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">(page)</td>
-                  <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">EventEmitter&lt;PageEvent&gt;</td>
-                  <td class="px-6 py-4 text-sm text-gray-500">Emits when pagination properties change</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-on-surface">(page)</td>
+                  <td class="px-6 py-4 whitespace-nowrap text-sm text-on-surface">EventEmitter&lt;PageEvent&gt;</td>
+                  <td class="px-6 py-4 text-sm text-on-surface">Emits when pagination properties change</td>
                 </tr>
               </tbody>
             </table>
@@ -233,7 +233,7 @@ export class PaginatorDocComponent {
   @ViewChild('otherContent', { static: true }) otherContent!: TemplateRef<any>;
 
   paginatorComponent = PaginatorComponent;
-  publishedDate = '2025-06-03';
+  publishedDate = '2025-11-08';
   title = 'Paginator Component';
 
   htmlCode = `
