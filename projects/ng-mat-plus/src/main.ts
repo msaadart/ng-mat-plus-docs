@@ -4,9 +4,11 @@ import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
 import { routes } from './app/app.routes'; // ✅ Import the routes from a separate file
 import { provideHttpClient, withInterceptors } from '@angular/common/http';
+import { provideZoneChangeDetection } from '@angular/core';
 
 bootstrapApplication(AppComponent, {
   providers: [
+    provideZoneChangeDetection({ eventCoalescing: true }),
     provideAnimations(),
     provideRouter(routes), // ✅ Use the imported routes
     provideHttpClient(),

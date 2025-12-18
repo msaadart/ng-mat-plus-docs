@@ -22,12 +22,17 @@
       ></a>
 
       <!-- Logo -->
-      <img
-        src="/images/ng-mat-plus.png"
-        alt="ng-mat-plus Logo"
-        class="w-[40px] max-w-[60px] data-[collapsed=true]:w-[30px] data-[collapsed=true]:max-w-[40px] select-none transition-all duration-300 relative z-10"
-        [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
-      />
+     <img
+      ngSrc="/images/ng-mat-plus.svg"
+      alt="ng-mat-plus Logo"
+      width="40"
+      height="40"
+      class="w-[40px] max-w-[60px] 
+            data-[collapsed=true]:w-[30px] 
+            data-[collapsed=true]:max-w-[40px] 
+            select-none transition-all duration-300 relative z-10"
+      [attr.data-collapsed]="!isSidebarOpen && !isMobileScreen"
+    />
 
       <!-- Text -->
       @if (isSidebarOpen || isMobileScreen) {
