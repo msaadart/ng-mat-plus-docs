@@ -1,6 +1,6 @@
 {
   "name": "ng-mat-plus",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "release": "standard-version",
-    "postbump": "node scripts/postbump.js"
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
   },
   "standard-version": {
     "scripts": {
