@@ -1,5 +1,7 @@
 <header
   class="sticky top-0 z-50 w-full px-4 h-[51px] flex items-center justify-between gap-4 text-on-surface border-gray-100"
+  [ngClass]="{'bg-black text-slate-100': $themeService.isDarkTheme(), 
+  'bg-white': !$themeService.isDarkTheme()}"
   >
 
   <!-- Left Section (Menu + Breadcrumbs) -->

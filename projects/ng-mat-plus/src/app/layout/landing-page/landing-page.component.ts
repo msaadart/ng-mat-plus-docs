@@ -499,9 +499,9 @@ import { LibThemeDarkLightService } from 'ng-mat-plus/services';
                       Add Styles
                       <mat-icon class="text-base text-gray-400">integration_instructions</mat-icon>
                     </h3>
-                    <p class="text-sm text-on-surface mb-3">Include styles.scss in your angular.json</p>
+                    <p class="text-sm text-on-surface mb-3">Include ng-mat-plus.scss in your angular.json</p>
                     <div class="bg-gray-900 rounded-xl p-4 font-mono text-xs text-blue-300 shadow-inner overflow-x-auto">
-                      <code class="whitespace-pre">projects/ng-mat-plus/src/styles.scss</code>
+                      <code class="whitespace-pre">"node_modules/ng-mat-plus/ng-mat-plus.css"</code>
                     </div>
                   </div>
                 </div>
