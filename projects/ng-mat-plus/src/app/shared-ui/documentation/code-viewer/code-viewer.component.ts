@@ -46,9 +46,10 @@ hljs.registerLanguage('css', css);
           (keyup.enter)="copyCode()"
           aria-label="Copy code"
           [source]="'content_copy'"
-          class="opacity-0 group-hover:opacity-100 transition-all duration-300 hover:scale-110"
+          class="opacity-40 group-hover:opacity-100 transition-all duration-300 hover:scale-110"
           [color]="'dark'"
           [matTooltip]="'Copy Source Code'"
+          [ariaLabel]="'Copy Source Code'"
         >
         </lib-mat-icon-button>
       </div>
